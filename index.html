@@ -3257,10 +3257,27 @@ function render(){const o=SONGS_ORDER[idx];const src=document.getElementById(o.i
   document.getElementById('spos').textContent=o.label;
   if(!wrap)wrap=stage.querySelector('.scardwrap');wrap.scrollTop=0;
   requestAnimationFrame(()=>requestAnimationFrame(applyFit));}
+// ----- manter a tela acesa durante o Modo Palco (Screen Wake Lock API) -----
+let wakeLock=null;
+async function requestWakeLock(){
+  if(wakeLock || !('wakeLock' in navigator))return;
+  try{wakeLock=await navigator.wakeLock.request('screen');
+    wakeLock.addEventListener('release',()=>{wakeLock=null;});
+  }catch(e){/* negado/sem suporte: tela apaga normal */}
+}
+async function releaseWakeLock(){
+  try{if(wakeLock)await wakeLock.release();}catch(e){}
+  wakeLock=null;
+}
+// o lock cai sozinho ao trocar de app/bloquear; re-adquire ao voltar pro palco
+document.addEventListener('visibilitychange',()=>{
+  if(document.visibilityState==='visible' && stage.classList.contains('open') && !wakeLock){requestWakeLock();}
+});
+
 function openStage(){let best=0,bestd=1e9;SONGS_ORDER.forEach((o,i)=>{const el=document.getElementById(o.id);
     if(el){const r=el.getBoundingClientRect();const d=Math.abs(r.top);if(r.top<window.innerHeight*0.6 && d<bestd){bestd=d;best=i;}}});
-  idx=best;stage.classList.add('open');stage.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';render();}
-function closeStage(){stage.classList.remove('open');stage.setAttribute('aria-hidden','true');document.body.style.overflow='';closeJump();const f=document.getElementById('sfab');if(f)f.classList.remove('open');}
+  idx=best;stage.classList.add('open');stage.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';render();requestWakeLock();}
+function closeStage(){stage.classList.remove('open');stage.setAttribute('aria-hidden','true');document.body.style.overflow='';closeJump();const f=document.getElementById('sfab');if(f)f.classList.remove('open');releaseWakeLock();}
 function toggleFab(){document.getElementById('sfab').classList.toggle('open');}
 function currentDark(){var h=document.documentElement;
   if(h.classList.contains('theme-dark'))return true;
