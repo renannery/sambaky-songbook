@@ -1,5 +1,6 @@
 // SambaKY Songbook - service worker (offline cache)
-const CACHE = 'sambaky-songbook-v2';
+// manter em sincronia com APP_VERSION no index.html
+const CACHE = 'sambaky-songbook-2026.06.03';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './logo-src.svg',
                 './icon-180.png', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
