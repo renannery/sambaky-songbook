@@ -214,12 +214,11 @@ footer {
 #stage .spos{position:absolute;top:8px;right:12px;z-index:4;
   font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--garnet);font-size:.85rem;
   background:var(--glass);border:1px solid var(--line);border-radius:20px;padding:3px 12px;}
-#stage .wakeind{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);z-index:5;
-  display:inline-flex;align-items:center;gap:7px;opacity:0;visibility:hidden;transition:opacity .45s ease;
-  font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:.72rem;
-  color:#3fae5a;background:var(--glass);border:1px solid #3fae5a;border-radius:20px;padding:4px 13px;
-  backdrop-filter:blur(4px);box-shadow:0 3px 12px rgba(0,0,0,.3);pointer-events:none;}
-#stage .wakeind.on{opacity:1;visibility:visible;}
+#stage .wakeind{position:absolute;top:40px;right:12px;z-index:4;display:none;align-items:center;gap:6px;
+  font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:.66rem;
+  color:#3fae5a;background:var(--glass);border:1px solid #3fae5a;border-radius:20px;padding:3px 11px;
+  box-shadow:0 2px 8px rgba(0,0,0,.22);pointer-events:none;}
+#stage .wakeind.on{display:inline-flex;}
 #stage .wakeind .wdot{width:8px;height:8px;border-radius:50%;background:#3fae5a;box-shadow:0 0 6px #3fae5a;}
 .appver{margin-top:30px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:.7rem;
   letter-spacing:.04em;color:var(--muted);opacity:.75;}
@@ -3257,7 +3256,7 @@ footer {
 <script>
 const SONGS_ORDER = [{"id": "b1-1", "label": "Bloco 1 · 1/20", "title": "Alguém Me Avisou"}, {"id": "b1-2", "label": "Bloco 1 · 2/20", "title": "A Batucada dos Nossos Tantãs"}, {"id": "b1-3", "label": "Bloco 1 · 3/20", "title": "O Show Tem Que Continuar"}, {"id": "b1-4", "label": "Bloco 1 · 4/20", "title": "Sina"}, {"id": "b1-5", "label": "Bloco 1 · 5/20", "title": "Não Deixe o Samba Morrer"}, {"id": "b1-6", "label": "Bloco 1 · 6/20", "title": "Mel na Boca"}, {"id": "b1-7", "label": "Bloco 1 · 7/20", "title": "Flor de Lis"}, {"id": "b1-8", "label": "Bloco 1 · 8/20", "title": "Depois do Prazer"}, {"id": "b1-9", "label": "Bloco 1 · 9/20", "title": "Brilho no Olhar"}, {"id": "b1-10", "label": "Bloco 1 · 10/20", "title": "Coisa de Pele"}, {"id": "b1-11", "label": "Bloco 1 · 11/20", "title": "Coração Partido"}, {"id": "b1-12", "label": "Bloco 1 · 12/20", "title": "Se"}, {"id": "b1-13", "label": "Bloco 1 · 13/20", "title": "Já É"}, {"id": "b1-14", "label": "Bloco 1 · 14/20", "title": "Pot-Pourri 1"}, {"id": "b1-15", "label": "Bloco 1 · 15/20", "title": "Gamei"}, {"id": "b1-16", "label": "Bloco 1 · 16/20", "title": "Morango do Nordeste"}, {"id": "b1-17", "label": "Bloco 1 · 17/20", "title": "Retrato Cantado de Um Amor"}, {"id": "b1-18", "label": "Bloco 1 · 18/20", "title": "Domingo"}, {"id": "b1-19", "label": "Bloco 1 · 19/20", "title": "Deixa Acontecer"}, {"id": "b1-20", "label": "Bloco 1 · 20/20", "title": "O Mar Serenou / Faixa Amarela / Deixa a Vida Me Levar"}, {"id": "b2-1", "label": "Bloco 2 · 1/20", "title": "Pot-Pourri Tim Maia"}, {"id": "b2-2", "label": "Bloco 2 · 2/20", "title": "Mas Que Nada"}, {"id": "b2-3", "label": "Bloco 2 · 3/20", "title": "Cheia de Manias"}, {"id": "b2-4", "label": "Bloco 2 · 4/20", "title": "Eu e Ela"}, {"id": "b2-5", "label": "Bloco 2 · 5/20", "title": "Cilada"}, {"id": "b2-6", "label": "Bloco 2 · 6/20", "title": "Parabéns pra Você"}, {"id": "b2-7", "label": "Bloco 2 · 7/20", "title": "Dança do Bole-Bole"}, {"id": "b2-8", "label": "Bloco 2 · 8/20", "title": "Pé na Areia"}, {"id": "b2-9", "label": "Bloco 2 · 9/20", "title": "Água de Chuva no Mar"}, {"id": "b2-10", "label": "Bloco 2 · 10/20", "title": "Reinventar"}, {"id": "b2-11", "label": "Bloco 2 · 11/20", "title": "Nem de Graça"}, {"id": "b2-12", "label": "Bloco 2 · 12/20", "title": "Lancinho"}, {"id": "b2-13", "label": "Bloco 2 · 13/20", "title": "Falta Você"}, {"id": "b2-14", "label": "Bloco 2 · 14/20", "title": "Compasso do Amor"}, {"id": "b2-15", "label": "Bloco 2 · 15/20", "title": "Jogo de Sedução"}, {"id": "b2-16", "label": "Bloco 2 · 16/20", "title": "Tá Escrito"}, {"id": "b2-17", "label": "Bloco 2 · 17/20", "title": "Curtindo a Vida"}, {"id": "b2-18", "label": "Bloco 2 · 18/20", "title": "Conselho"}, {"id": "b2-19", "label": "Bloco 2 · 19/20", "title": "Hoje Eu Vou Pagodear"}, {"id": "b2-20", "label": "Bloco 2 · 20/20", "title": "Pot-Pourri Final"}];
 
-const APP_VERSION='2026.06.03';
+const APP_VERSION='2026-06-03 · 17:29 EST';
 const stage=document.getElementById('stage');
 const scard=document.getElementById('scard');
 let wrap, idx=0, boost=1, swiped=false, tx=0;
@@ -3272,20 +3271,18 @@ function render(){const o=SONGS_ORDER[idx];const src=document.getElementById(o.i
   if(!wrap)wrap=stage.querySelector('.scardwrap');wrap.scrollTop=0;
   requestAnimationFrame(()=>requestAnimationFrame(applyFit));}
 // ----- manter a tela acesa durante o Modo Palco (Screen Wake Lock API) -----
-let wakeLock=null, wakeToastT=null;
-function showWakeToast(){const el=document.getElementById('wakeind');if(!el)return;
-  el.classList.add('on');clearTimeout(wakeToastT);wakeToastT=setTimeout(()=>el.classList.remove('on'),3500);}
-function hideWakeToast(){const el=document.getElementById('wakeind');if(el)el.classList.remove('on');clearTimeout(wakeToastT);}
+let wakeLock=null;
+function updateWakeUI(){const el=document.getElementById('wakeind');if(el)el.classList.toggle('on',!!wakeLock);}
 async function requestWakeLock(){
   if(wakeLock || !('wakeLock' in navigator))return;
   try{wakeLock=await navigator.wakeLock.request('screen');
-    wakeLock.addEventListener('release',()=>{wakeLock=null;});
-    showWakeToast();
+    wakeLock.addEventListener('release',()=>{wakeLock=null;updateWakeUI();});
+    updateWakeUI();
   }catch(e){/* negado/sem suporte: tela apaga normal */}
 }
 async function releaseWakeLock(){
   try{if(wakeLock)await wakeLock.release();}catch(e){}
-  wakeLock=null;hideWakeToast();
+  wakeLock=null;updateWakeUI();
 }
 // o lock cai sozinho ao trocar de app/bloquear; re-adquire ao voltar pro palco
 document.addEventListener('visibilitychange',()=>{
