@@ -76,6 +76,14 @@ body {
     repeating-linear-gradient(135deg, transparent 0 28px, rgba(32,22,15,.018) 28px 29px);
   pointer-events: none;
 }
+.coverlogo {
+  width: clamp(120px, 30vw, 168px); aspect-ratio: 1; border-radius: 50%;
+  background: #161310; margin: 0 auto 22px;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 6px 22px rgba(0,0,0,.28); border: 2px solid var(--line);
+  position: relative; z-index: 1;
+}
+.coverlogo img { width: 84%; height: 84%; display: block; }
 .cover .kicker {
   font-family: 'Oswald', sans-serif; letter-spacing: .42em; text-transform: uppercase;
   font-size: .72rem; color: var(--garnet); font-weight: 600; margin-bottom: 10px;
@@ -203,7 +211,7 @@ footer {
   padding:13px 20px;font-size:1rem;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.25);}
 #stage{position:fixed;inset:0;z-index:1000;background:var(--paper);display:none;}
 #stage.open{display:block;}
-#stage .spos{position:absolute;top:8px;left:50%;transform:translateX(-50%);z-index:4;
+#stage .spos{position:absolute;top:8px;right:12px;z-index:4;
   font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--garnet);font-size:.85rem;
   background:var(--glass);border:1px solid var(--line);border-radius:20px;padding:3px 12px;}
 #stage .sarrow{position:absolute;top:50%;transform:translateY(-50%);z-index:4;
@@ -259,6 +267,7 @@ footer {
 <div class="wrap">
 
   <div class="cover">
+    <div class="coverlogo"><img src="logo-src.svg" alt="SambaKY" width="512" height="512"></div>
     <div class="kicker">SambaKY · Set List</div>
     <h1>Songbook<span class="red">do Cavaco</span></h1>
     <div class="sub">BonnyMoon 2 · 2 Blocos · 40 números</div>
