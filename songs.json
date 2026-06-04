@@ -300,40 +300,35 @@
           ]
         },
         {
-          "label": "Verso",
+          "label": "1ª Parte",
           "lines": [
             {
-              "cue": "Pai e mãe… ouro de mina",
+              "cue": "Pai e mãe…",
               "chords": "A → D"
             },
             {
-              "cue": "Coração… desejo e sina",
+              "cue": "Coração…",
               "chords": "A → G#m7(5-) → C#7"
             },
             {
-              "cue": "Tudo mais, pura rotina, jazz",
-              "chords": "F#m7 → C#m → D  /  D#° → A"
-            }
-          ]
-        },
-        {
-          "label": "Parte",
-          "lines": [
+              "cue": "Tudo mais, pura rotina…",
+              "chords": "F#m7 → C#m → D"
+            },
             {
               "cue": "Tocarei seu nome…",
+              "chords": "D#° → A"
+            },
+            {
+              "cue": "Minha princesa…",
               "chords": "D → A"
             },
             {
-              "cue": "Minha princesa, art-nouveau",
-              "chords": "A → G#m7(5-)"
-            },
-            {
-              "cue": "Da natureza, tudo o mais",
-              "chords": "C#7 → F#m7"
+              "cue": "Da natureza…",
+              "chords": "G#m7(5-) → C#7 → F#m7"
             },
             {
               "cue": "Pura beleza, jazz",
-              "chords": "C#m → D  /  D#° → E7(9)"
+              "chords": "C#m → D → D#° → E7(9)"
             }
           ]
         },
@@ -341,28 +336,28 @@
           "label": "Ponte",
           "lines": [
             {
-              "cue": "A luz de um grande prazer… Ô Ô Ô",
+              "cue": "A luz de um grande prazer… (Ô Ô Ô)",
               "chords": "E7 → G#m7(5-) → C#7 → F#m"
             },
             {
-              "cue": "Quando o grito do prazer… reveillon",
+              "cue": "Quando o grito do prazer… (reveillon)",
               "chords": "E7 → D → E7 → A"
             }
           ]
         },
         {
-          "label": "Parte",
+          "label": "2ª Parte",
           "lines": [
             {
-              "cue": "O luar, estrela do mar",
+              "cue": "O luar…",
               "chords": "A → D"
             },
             {
-              "cue": "O sol e o dom, quiçá…",
+              "cue": "O sol e o dom…",
               "chords": "A → G#m7(5-)"
             },
             {
-              "cue": "Desse front virá lapidar",
+              "cue": "Desse front…",
               "chords": "C#7 → F#m7"
             },
             {
@@ -379,7 +374,7 @@
           "label": "Final",
           "lines": [
             {
-              "chords": "( F → G → A )  (2x)"
+              "chords": "(F → G → A)  (2x)"
             }
           ]
         }
