@@ -392,10 +392,11 @@ footer {
 <script>
 let SONGS = [], SONGS_ORDER = [];
 
-const APP_VERSION='2026-06-04 · 17:59 EST';
+const APP_VERSION='2026-06-04 · 18:09 EST';
 const stage=document.getElementById('stage');
 const scard=document.getElementById('scard');
 let wrap, idx=0, boost=1, swiped=false, tx=0, slideDir=0;
+try{var _sb=parseFloat(localStorage.getItem('sb_boost'));if(_sb>=0.6&&_sb<=2.4)boost=_sb;}catch(e){} // lembra o tamanho da fonte do Palco
 function setK(k){scard.style.setProperty('--k',k);}
 function fits(){return scard.scrollHeight<=wrap.clientHeight-2 && scard.scrollWidth<=wrap.clientWidth-2;}
 function bestFit(){let lo=0.45,hi=3.4;setK(hi);if(fits())return hi;for(let i=0;i<16;i++){let m=(lo+hi)/2;setK(m);if(fits())lo=m;else hi=m;}return lo;}
@@ -472,7 +473,7 @@ function wrapChords(){document.querySelectorAll('.chords').forEach(function(el){
 function nextSong(){if(idx<SONGS_ORDER.length-1){idx++;slideDir=1;render();}}
 function prevSong(){if(idx>0){idx--;slideDir=-1;render();}}
 function zoneClick(d){if(swiped)return;d<0?prevSong():nextSong();}
-function bumpFont(d){boost=Math.min(2.4,Math.max(0.6,boost+d*0.12));applyFit();}
+function bumpFont(d){boost=Math.min(2.4,Math.max(0.6,boost+d*0.12));try{localStorage.setItem('sb_boost',boost);}catch(e){}applyFit();}
 function toggleJump(){const p=document.getElementById('sjump');document.getElementById('sfab').classList.remove('open');if(p.classList.contains('open')){closeJump();return;}
   let h='<div class="jver">versão '+APP_VERSION+'</div>';let lastBloco=null;SONGS_ORDER.forEach((o,i)=>{if(o.bloco!==lastBloco){h+='<h4>Bloco '+o.bloco+'</h4>';lastBloco=o.bloco;}
     const num=(o.label.split('· ')[1]||'').split('/')[0];
