@@ -135,7 +135,7 @@
     (s.sections || []).forEach(function (sec) {
       L.push(''); L.push('## ' + (sec.label || ''));
       (sec.lines || []).forEach(function (ln) {
-        var ch = (ln.chords || '').trim(), cu = (ln.cue || '').trim();
+        var ch = (ln.chords || '').replace(/\s+$/, ''), cu = (ln.cue || '').trim();
         if (ch && cu) L.push('[' + ch + '] ' + cu);
         else if (ch) L.push('[' + ch + ']');
         else if (cu) L.push(cu);
@@ -171,7 +171,7 @@
       if (ln === '') continue;
       if (!cur) { cur = { label: '', lines: [] }; s.sections.push(cur); }
       var mb = ln.match(/^\[(.*?)\]\s*(.*)$/);
-      if (mb) { var o = {}; var ch = mb[1].trim(), cu = mb[2].trim(); if (ch) o.chords = ch; if (cu) o.cue = cu; cur.lines.push(o); }
+      if (mb) { var o = {}; var ch = mb[1].replace(/\s+$/, ''), cu = mb[2].trim(); if (ch.trim()) o.chords = ch; if (cu) o.cue = cu; cur.lines.push(o); }
       else cur.lines.push({ cue: ln });
     }
     return clean([s])[0];
