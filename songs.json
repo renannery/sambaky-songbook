@@ -3858,7 +3858,7 @@
         }
       ],
       "note": null,
-      "cols2": false,
+      "cols2": true,
       "chordsTop": true,
       "sections": [
         {
@@ -3870,27 +3870,65 @@
           ]
         },
         {
-          "label": "Verso",
+          "label": "1ª Parte",
           "lines": [
             {
-              "cue": "A lua ilumina o terreiro",
-              "chords": "F → Bb → C7 → F → C7/6 → C7"
+              "cue": "A lua ilumina o terreiro…",
+              "chords": "F"
             },
             {
-              "cue": "Ao som do cavaquinho",
-              "chords": "F → Bb → C7 → F → Cm → F7"
+              "cue": "Pagodeando até o sol raiar",
+              "chords": "Bb → C7 → F → C7/6 → C7"
             },
             {
-              "cue": "Beber uma cerveja bem gelada",
-              "chords": "Bb → Am → C/D → D7"
+              "cue": "Ao som do cavaquinho…",
+              "chords": "F"
+            },
+            {
+              "cue": "No samba hoje eu vou me acabar",
+              "chords": "Bb → C7 → F → Cm → F7"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte (2x)",
+          "lines": [
+            {
+              "cue": "Beber uma cerveja bem gelada…",
+              "chords": "Bb"
+            },
+            {
+              "cue": "Na loira, na pretinha…",
+              "chords": "Am → C/D → D7"
             },
             {
               "cue": "Pode até chover e relampejar",
-              "chords": "Gm7 → Am → Gm7 → C7 → F → C → Cm → F7"
+              "chords": "Gm7 → Am"
             },
             {
-              "cue": "Como é gostoso cair no samba",
-              "chords": "Bb → F → F7 → Eb7 → D7 → G7 → Gm7 → C7 → F → C → Cm → F7"
+              "cue": "Hoje eu vou pagodear…",
+              "chords": "Gm7 → C7 → F → C → Cm → F7   (2ª vez: → F → F7)"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão (2x)",
+          "lines": [
+            {
+              "cue": "Como é gostoso cair no samba…",
+              "chords": "Bb"
+            },
+            {
+              "cue": "Você também pode ir pro samba…",
+              "chords": "F → F7 → Eb7 → D7"
+            },
+            {
+              "cue": "Bom é na palma da mão…",
+              "chords": "G7 → Gm7"
+            },
+            {
+              "cue": "Venha comigo sambar…",
+              "chords": "C7 → F → C → Cm → F7   (2ª vez: → C7)"
             }
           ]
         },
@@ -3898,12 +3936,20 @@
           "label": "Refrão",
           "lines": [
             {
-              "cue": "Abra a roda que o pagode agora vai ferver",
-              "chords": "F → D7 → Gm7 → C7 → F"
+              "cue": "Abra a roda que o pagode…",
+              "chords": "F → D7 → Gm7"
             },
             {
-              "cue": "Vem sambar o miudinho que você vai ver",
-              "chords": "F → D7 → Gm7 → C7 → F"
+              "cue": "Se você me escutar…",
+              "chords": "C7 → F"
+            },
+            {
+              "cue": "Vem sambar o miudinho…",
+              "chords": "D7 → Gm7"
+            },
+            {
+              "cue": "Que o samba tem feitiço…",
+              "chords": "C7 → F"
             }
           ]
         }
