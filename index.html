@@ -255,7 +255,7 @@ footer {
 #stage.scroll .scardwrap{overflow-y:auto;align-items:flex-start;}
 #stage .szone{position:absolute;top:0;bottom:0;width:24%;z-index:2;cursor:pointer;}
 #stage .szone.left{left:0;} #stage .szone.right{right:0;}
-#stage .scard{width:min(900px,93vw);margin:0 auto;pointer-events:none;font-size:calc(16px * var(--k,1));}
+#stage .scard{width:min(900px,93vw);margin:0 auto;pointer-events:none;font-size:calc(16px * var(--k,1));transition:opacity .16s ease;}
 #stage .scard .song{border:none;margin:0;padding:0;}
 #stage .scard .songhead{gap:.7em;}
 #stage .scard .songnum{font-size:1.7em;min-width:1.7em;height:1.7em;box-shadow:.12em .12em 0 var(--gold);}
@@ -349,7 +349,7 @@ footer {
 <script>
 let SONGS = [], SONGS_ORDER = [];
 
-const APP_VERSION='2026-06-04 · 15:44 EST';
+const APP_VERSION='2026-06-04 · 16:02 EST';
 const stage=document.getElementById('stage');
 const scard=document.getElementById('scard');
 let wrap, idx=0, boost=1, swiped=false, tx=0;
@@ -359,10 +359,13 @@ function bestFit(){let lo=0.45,hi=3.4;setK(hi);if(fits())return hi;for(let i=0;i
 function applyFit(){if(!wrap)wrap=stage.querySelector('.scardwrap');const kf=bestFit();const k=Math.max(0.3,kf*boost);setK(k);
   if(boost>1.001 && k>kf+0.0001){stage.classList.add('scroll');}else{stage.classList.remove('scroll');}}
 function render(){const o=SONGS_ORDER[idx];const src=document.getElementById(o.id);if(!src)return;
+  scard.style.opacity='0';                       // esconde durante a troca (evita piscada)
   scard.innerHTML='';const c=src.cloneNode(true);c.removeAttribute('id');scard.appendChild(c);
   document.getElementById('spos').textContent=o.label;
   if(!wrap)wrap=stage.querySelector('.scardwrap');wrap.scrollTop=0;
-  requestAnimationFrame(()=>requestAnimationFrame(applyFit));}
+  applyFit();                                    // ajusta a escala ANTES de exibir
+  requestAnimationFrame(()=>{scard.style.opacity='1';}); // fade suave já no tamanho certo
+}
 // ----- manter a tela acesa durante o Modo Palco (Screen Wake Lock API) -----
 let wakeLock=null;
 function updateWakeUI(){const el=document.getElementById('wakeind');if(el)el.classList.toggle('on',!!wakeLock);}
