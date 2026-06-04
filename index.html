@@ -349,6 +349,7 @@ body.editmode .wrap{padding-top:56px;}
   <input id="edfile" type="file" accept="application/json,.json" style="display:none" onchange="edImportFile(this)">
   <button class="ed-btn" type="button" onclick="document.getElementById('edfile').click()">Importar</button>
   <button class="ed-btn pri" type="button" onclick="edExport()">Exportar JSON</button>
+  <button class="ed-btn" type="button" onclick="edExportDocs()">Exportar p/ Docs</button>
   <span class="sp"></span>
   <button class="ed-btn" type="button" onclick="toggleEditMode()">✓ Sair</button>
 </div>
@@ -513,6 +514,22 @@ function moveSongById(id,d){var i=songIdx(id),j=i+d;if(i<0||j<0||j>=SONGS.length
 function deleteSongById(id){var i=songIdx(id);if(i<0||SONGS.length<=1)return;if(confirm('Apagar a música "'+(SONGS[i].title||'')+'"?')){SONGS.splice(i,1);editingId=null;renderAll();}}
 function addSong(){var last=SONGS[SONGS.length-1],bloco=last?last.bloco:1;var nums=SONGS.filter(function(s){return s.bloco===bloco;}).map(function(s){return s.num||0;});var num=(nums.length?Math.max.apply(null,nums):0)+1;var id='b'+bloco+'-n'+num+'-'+(SONGS.length+1);SONGS.push({id:id,num:num,bloco:bloco,title:'Nova música',artist:'',tom:'',levada:'',singers:[],note:null,cols2:true,chordsTop:true,sections:[{label:'Parte',lines:[{cue:'',chords:''}]}]});editingId=id;renderAll();var el=document.getElementById(id);if(el)el.scrollIntoView({block:'start'});}
 function edExport(){var data=JSON.stringify({version:1,songs:SB.clean(SONGS)},null,2)+'\n';var blob=new Blob([data],{type:'application/json'});var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='songs.json';document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href);},2000);}
+function edExportDocs(){
+  var songs=SB.clean(SONGS);
+  var blocks=songs.map(function(s){return SB.song2text(s).replace('\n','\nid: '+s.id+'\n');});
+  var sep='\n\n────────────────────────────────────────\n\n';
+  var intro='SAMBAKY — Caderno de Músicas (para editar no Google Docs)\n'
+    +'Edite as letras e cifras à vontade e devolva o texto para gerar o deploy.\n'
+    +'• Cada música começa com uma linha "# Título".\n'
+    +'• Não altere as linhas "id:" — elas casam a edição na volta.\n'
+    +'• A cifra vai entre colchetes no começo da linha: [C  G] Letra da música...\n'
+    +'• Use "## Nome da parte" para Intro, Verso, Refrão etc.\n';
+  var data=intro+sep+blocks.join(sep)+'\n';
+  var blob=new Blob([data],{type:'text/plain;charset=utf-8'});
+  var a=document.createElement('a');a.href=URL.createObjectURL(blob);
+  a.download='sambaky-musicas.txt';document.body.appendChild(a);a.click();a.remove();
+  setTimeout(function(){URL.revokeObjectURL(a.href);},2000);
+}
 function edImportFile(input){var f=input.files&&input.files[0];if(!f)return;var r=new FileReader();r.onload=function(){try{var d=JSON.parse(r.result);if(d&&Array.isArray(d.songs)){SONGS=SB.clean(d.songs);editingId=null;renderAll();alert('Importado: '+SONGS.length+' músicas.');}else alert('JSON inválido (esperado {"songs":[...]}).');}catch(e){alert('Erro ao ler JSON: '+e.message);}};r.readAsText(f);}
 
 // ---- render a partir do songs.json ----
