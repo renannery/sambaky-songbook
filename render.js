@@ -17,11 +17,12 @@
     var h = '<section class="' + cls + '" id="' + s.id + '">';
     h += '<header class="songhead"><div class="songnum">' + esc(s.num) + '</div>';
     h += '<div class="songtitlewrap"><h2 class="songtitle">' + esc(s.title) + '</h2>';
-    h += '<div class="songartist">' + esc(s.artist || '') + '</div></div></header>';
+    h += '<div class="songartist">' + esc(s.artist || '') + '</div></div>';
+    if (s.singers && s.singers.length) h += '<div class="songsingers"><span class="mic">🎤</span> ' + singersHTML(s.singers) + '</div>';
+    h += '</header>';
     var meta = '';
     if (s.tom) meta += '<span class="meta"><b>Tom</b> ' + esc(s.tom) + '</span>';
     if (s.levada) meta += '<span class="meta"><b>Levada</b> ' + esc(s.levada) + '</span>';
-    if (s.singers && s.singers.length) meta += '<span class="meta sing">🎤 ' + singersHTML(s.singers) + '</span>';
     if (meta) h += '<div class="metabar">' + meta + '</div>';
     if (s.note) h += '<div class="songnote">' + esc(s.note) + '</div>';
     h += '<div class="sections' + (s.cols2 ? ' cols2' : ' ') + '">';
