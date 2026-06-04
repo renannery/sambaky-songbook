@@ -3586,27 +3586,118 @@
         }
       ],
       "note": "⚑ Entrada: “Quem cultiva…”.",
-      "cols2": false,
+      "cols2": true,
       "chordsTop": true,
       "sections": [
         {
-          "label": "Verso",
+          "label": "Intro",
           "lines": [
             {
-              "cue": "Quem cultiva a semente do amor",
-              "chords": "F → C → Bb  /  F → Dm  /  Gm → C7 → F7"
+              "chords": "F"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte (2x)",
+          "lines": [
+            {
+              "cue": "Quem cultiva a semente…",
+              "chords": "F"
             },
             {
-              "cue": "Às vezes a felicidade demora a chegar",
-              "chords": "Bb → F → C → Am7  /  Gm → C7  /  F → Am7 → Cm → F7"
+              "cue": "Segue em frente…",
+              "chords": "C → Bb"
             },
             {
-              "cue": "É dia de sol, mas o tempo pode fechar",
-              "chords": "Bb → F → C → Am → D7  /  Gm → C7  /  F → D7  /  Gm → C7 → F → F7"
+              "cue": "Se na vida encontrar dissabor",
+              "chords": "F → Dm"
             },
             {
-              "cue": "Ergue essa cabeça, mete o pé e vai na fé",
-              "chords": "Bb → F  /  Dm → C → Bb  /  C → F → F7"
+              "cue": "Vai saber esperar sua hora",
+              "chords": "Gm → C7   (2ª vez: → F → F7)"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "cue": "Às vezes a felicidade demora…",
+              "chords": "Bb"
+            },
+            {
+              "cue": "Aí é que a gente",
+              "chords": "F"
+            },
+            {
+              "cue": "Não pode deixar de sonhar",
+              "chords": "F/C → Am"
+            },
+            {
+              "cue": "Guerreiro não foge da luta",
+              "chords": "Gm"
+            },
+            {
+              "cue": "Não pode correr",
+              "chords": "C7"
+            },
+            {
+              "cue": "Ninguém vai poder atrasar",
+              "chords": "F → F7M"
+            },
+            {
+              "cue": "Quem nasceu pra vencer",
+              "chords": "Cm → F7"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão",
+          "lines": [
+            {
+              "cue": "É dia de sol…",
+              "chords": "Bb"
+            },
+            {
+              "cue": "A chuva só vem…",
+              "chords": "F → F/C → Am → D7(9-)"
+            },
+            {
+              "cue": "Na vida é preciso aprender",
+              "chords": "Gm → C7"
+            },
+            {
+              "cue": "Se colhe o bem que plantar",
+              "chords": "F → D7"
+            },
+            {
+              "cue": "É Deus quem aponta a estrela",
+              "chords": "Gm → C7"
+            },
+            {
+              "cue": "Que tem que brilhar",
+              "chords": "F → F7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão (2x)",
+          "lines": [
+            {
+              "cue": "Ergue essa cabeça, mete o pé…",
+              "chords": "Bb"
+            },
+            {
+              "cue": "Manda essa tristeza embora",
+              "chords": "C7 → F → F7M → F6"
+            },
+            {
+              "cue": "Basta acreditar…",
+              "chords": "C → Bb"
+            },
+            {
+              "cue": "Sua hora vai chegar…",
+              "chords": "C → F → F7"
             }
           ]
         }
