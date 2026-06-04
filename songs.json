@@ -2412,7 +2412,12 @@
             {
               "cue": "Um verdadeiro encanto",
               "chords": "Bb → G7(4)"
-            },
+            }
+          ]
+        },
+        {
+          "label": "Desenvolvimento (2)",
+          "lines": [
             {
               "cue": "Pode parecer vulgar",
               "chords": "G7 → Cm"
