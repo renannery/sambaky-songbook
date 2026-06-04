@@ -2623,7 +2623,7 @@
       "id": "b2-7",
       "num": 7,
       "bloco": 2,
-      "title": "Dança do Bole-Bole",
+      "title": "Dança do Bole-Bole / Onda",
       "artist": "Exaltasamba",
       "tom": "G",
       "levada": "Animação",
@@ -2633,7 +2633,7 @@
           "name": "Nery"
         }
       ],
-      "note": null,
+      "note": "⚑ Medley: emenda direto na Onda (Tchakabum) — também em Sol. A Onda repete o ciclo e fecha no refrão.",
       "cols2": false,
       "chordsTop": true,
       "sections": [
@@ -2651,6 +2651,150 @@
             {
               "cue": "Mulherada que dança é essa, que o corpo fica todo mole",
               "chords": "G → E7 → Am  /  D7 → G   (repetir)"
+            }
+          ]
+        },
+        {
+          "label": "Onda · Intro",
+          "lines": [
+            {
+              "chords": "G → Em → Am → D7"
+            }
+          ]
+        },
+        {
+          "label": "Onda · 1ª Parte",
+          "lines": [
+            {
+              "cue": "Vou te pegar…",
+              "chords": "G → Em → Am → D7 → G"
+            },
+            {
+              "cue": "Se ligue agora…",
+              "chords": "Em → Am → D7 → G"
+            },
+            {
+              "cue": "Somos piratas…",
+              "chords": "Em → Am → D7 → G"
+            },
+            {
+              "cue": "Ô, ô, ô",
+              "chords": "Em → Am → D7"
+            },
+            {
+              "cue": "Vou navegar…",
+              "chords": "G → Em → Am → D7 → G → Em"
+            },
+            {
+              "cue": "As ordens do meu capitão",
+              "chords": "Am → D7 → G"
+            },
+            {
+              "cue": "Capitão Tchaka…",
+              "chords": "Em → Am → D7 → G"
+            },
+            {
+              "cue": "Nessa aventura…",
+              "chords": "Em → Am → D7 → G"
+            },
+            {
+              "cue": "Olha a onda!",
+              "chords": "Em → Am → D7"
+            }
+          ]
+        },
+        {
+          "label": "Onda · Refrão (4x)",
+          "lines": [
+            {
+              "cue": "Onda, onda, olha a onda",
+              "chords": "G → Em → Am → D7"
+            }
+          ]
+        },
+        {
+          "label": "Onda · 2ª Parte (2x)",
+          "lines": [
+            {
+              "cue": "Vai te molhar, vai te banhar",
+              "chords": "G → Em"
+            },
+            {
+              "cue": "Vai sacudir, vai abalar",
+              "chords": "Am → D7"
+            }
+          ]
+        },
+        {
+          "label": "Onda · 3ª Parte",
+          "lines": [
+            {
+              "cue": "Molhou o seu rostinho…",
+              "chords": "G → Em → Am → D7"
+            },
+            {
+              "cue": "Molhou a barriguinha…",
+              "chords": "G → Em → Am → D7"
+            },
+            {
+              "cue": "Molhou o seu pézinho…",
+              "chords": "G → Em → Am → D7"
+            },
+            {
+              "cue": "Molhou todo corpinho",
+              "chords": "Am"
+            },
+            {
+              "cue": "Deixa que eu vou te enxugar",
+              "chords": "D7"
+            }
+          ]
+        },
+        {
+          "label": "Onda · 4ª Parte (2x)",
+          "lines": [
+            {
+              "cue": "Balança pra lá, balança pra cá",
+              "chords": "G → Em → Am → D7"
+            },
+            {
+              "cue": "Sacudiu, tremeu, treme sem parar",
+              "chords": "G → Em → Am → D7"
+            }
+          ]
+        },
+        {
+          "label": "Onda · Chamada (3x)",
+          "lines": [
+            {
+              "cue": "E o Capitão mandou",
+              "chords": "G → Em"
+            },
+            {
+              "cue": "O marujo: \"Sim, senhor!\"",
+              "chords": "Am → D7 → G"
+            }
+          ]
+        },
+        {
+          "label": "Onda · 5ª Parte (4x)",
+          "lines": [
+            {
+              "cue": "Andou na prancha, cuidado",
+              "chords": "G → Em → Am"
+            },
+            {
+              "cue": "O tubarão vai te pegar",
+              "chords": "D7 → G"
+            }
+          ]
+        },
+        {
+          "label": "Onda · Final",
+          "lines": [
+            {
+              "cue": "Onda, onda, olha a onda",
+              "chords": "G → Em → Am → D7 → G"
             }
           ]
         }
