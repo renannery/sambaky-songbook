@@ -3027,7 +3027,12 @@
             {
               "cue": "Eu sei que o sonho ainda pode acontecer",
               "chords": "C7 → F7M"
-            },
+            }
+          ]
+        },
+        {
+          "label": "Passagem (volta ao Verso)",
+          "lines": [
             {
               "cue": "Pode acontecer",
               "chords": "G7 → C7M"
