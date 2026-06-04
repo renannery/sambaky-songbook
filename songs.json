@@ -3120,7 +3120,7 @@
           "label": "Intro",
           "lines": [
             {
-              "chords": "Eb9 · F11 · Gm11 · Bb/D"
+              "chords": "Eb9 → F11 → Gm11 → Bb/D"
             }
           ]
         },
@@ -3132,8 +3132,12 @@
               "chords": "Eb9 → F/A"
             },
             {
-              "cue": "Minha saudade só cabe no teu abraço…",
-              "chords": "Dm → Gm"
+              "cue": "Minha saudade só cabe no teu abraço",
+              "chords": "Dm"
+            },
+            {
+              "cue": "no de mais ninguém",
+              "chords": "Gm"
             },
             {
               "cue": "Tenho dó de quem me conhecer agora",
@@ -3149,7 +3153,7 @@
             },
             {
               "cue": "Não passa nem… dá… por… ta",
-              "chords": "Eb9"
+              "chords": "Eb9 → F"
             }
           ]
         },
@@ -3158,7 +3162,7 @@
           "lines": [
             {
               "cue": "Se essa boca não beijasse tão bem",
-              "chords": "F · Fm7 · Bb7(4/9) · Eb9"
+              "chords": "Fm7 → Bb7(4/9) → Eb9"
             },
             {
               "cue": "Se esse abraço não fosse tão massa",
@@ -3186,7 +3190,7 @@
           "label": "Solo",
           "lines": [
             {
-              "chords": "Eb9 · F11"
+              "chords": "Eb9 → F11"
             }
           ]
         }
