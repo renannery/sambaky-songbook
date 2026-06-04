@@ -846,69 +846,105 @@
       "chordsTop": true,
       "sections": [
         {
-          "label": "Intro",
+          "label": "1ª Parte",
           "lines": [
             {
-              "chords": "F7M → Gm7 → Am7 → D7(9-) → Gm6  /  A#m6 → Am7 → D7 → Gm7 → C7"
-            }
-          ]
-        },
-        {
-          "label": "Verso",
-          "lines": [
-            {
-              "cue": "Podemos sorrir / Nada mais nos impede",
-              "chords": "F7M → Em7(5-) → A7(9-)  /  Dm7"
+              "cue": "Podemos sorrir",
+              "chords": "F7M"
             },
             {
-              "cue": "Não dá pra fugir dessa coisa de pele",
+              "cue": "Nada mais nos impede",
+              "chords": "Em7(5-) → A7(9-)"
+            },
+            {
+              "cue": "Não dá pra fugir",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Dessa coisa de pele",
               "chords": "Cm7 → F7"
             },
             {
-              "cue": "Sentida por nós / Desatando os nós",
-              "chords": "Bb → B°  /  F → D7"
+              "cue": "Sentida por nós",
+              "chords": "Bb → B°"
             },
             {
-              "cue": "Sabemos agora…",
-              "chords": "G7(13) → G7(13-)  /  Gm7 → C7(13-)"
+              "cue": "Desatando os nós",
+              "chords": "F → D7"
+            },
+            {
+              "cue": "Sabemos agora",
+              "chords": "G7(13) → G7(13-)"
+            },
+            {
+              "cue": "Nem tudo que é bom…",
+              "chords": "Gm7 → C7(13-)"
             }
           ]
         },
         {
-          "label": "Parte",
+          "label": "2ª Parte",
           "lines": [
             {
-              "cue": "E a nossa canção pelas ruas…",
-              "chords": "F7M → Em7(5-) → A7(9-)  /  Dm7 → Cm7 → F7"
+              "cue": "E a nossa canção…",
+              "chords": "F7M → Em7(5-) → A7(9-)"
             },
             {
-              "cue": "Relembrando Palmares…",
-              "chords": "Bb → B°  /  F → D7"
+              "cue": "Nos traz a razão",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Relembrando Palmares",
+              "chords": "Cm7 → F7"
+            },
+            {
+              "cue": "Foi bom insistir",
+              "chords": "Bb → B°"
+            },
+            {
+              "cue": "Compôr e ouvir",
+              "chords": "F → D7"
             },
             {
               "cue": "Resiste quem pode…",
-              "chords": "G7(13) → G7(13-)  /  Gm7 → C7(13-)"
+              "chords": "G7(13) → G7(13-) → Gm7 → C7(13-)"
             }
           ]
         },
         {
-          "label": "Parte",
+          "label": "3ª Parte",
           "lines": [
             {
-              "cue": "E o samba se faz prisioneiro…",
-              "chords": "Fm → C/E"
+              "cue": "E o samba se faz",
+              "chords": "Fm"
             },
             {
-              "cue": "O banjo liberta…",
-              "chords": "Ebm6 → F7 → Bbm"
+              "cue": "Prisioneiro pacato…",
+              "chords": "C/E"
             },
             {
-              "cue": "Alimentando muito mais…",
-              "chords": "Eb → Ab"
+              "cue": "O banjo liberta",
+              "chords": "Ebm6 → F7"
             },
             {
-              "cue": "Eterno reduto de paz…",
-              "chords": "G#°  /  Gm7 → C7 → F"
+              "cue": "Da garganta do povo…",
+              "chords": "Bbm"
+            },
+            {
+              "cue": "Alimentando muito mais",
+              "chords": "Eb"
+            },
+            {
+              "cue": "A cabeça de um compositor",
+              "chords": "Ab"
+            },
+            {
+              "cue": "Eterno reduto de paz",
+              "chords": "G#°"
+            },
+            {
+              "cue": "Nascente das várias feições…",
+              "chords": "Gm7 → C7 → F"
             }
           ]
         },
@@ -2091,14 +2127,6 @@
       "chordsTop": true,
       "sections": [
         {
-          "label": "Intro",
-          "lines": [
-            {
-              "chords": "Gm7 · D7 · Gm7 · D7  /  Gm7 · D7 · Gm7 · F7  /  Gm7 · D7  /  Gm7 · Cm7 · F7 · Gm7"
-            }
-          ]
-        },
-        {
           "label": "Refrão",
           "lines": [
             {
@@ -2203,6 +2231,9 @@
           "lines": [
             {
               "chords": "Gm → Eb → Cm → C#° → D7"
+            },
+            {
+              "chords": "F → Gm → F → Gm"
             }
           ]
         },
