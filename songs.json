@@ -2888,14 +2888,6 @@
       "chordsTop": true,
       "sections": [
         {
-          "label": "Intro",
-          "lines": [
-            {
-              "chords": "C · B7 · C · B7  /  Dm7 · Dm7M · Dm7 · G7  /  C · C° · C"
-            }
-          ]
-        },
-        {
           "label": "Verso",
           "lines": [
             {
@@ -3007,66 +2999,100 @@
           "label": "Verso",
           "lines": [
             {
-              "cue": "Diz que já é tarde, que não tem mais jeito",
-              "chords": "C7+ · Dm → Em"
+              "cue": "Diz que já é tarde",
+              "chords": "C7M → Dm"
             },
             {
-              "cue": "Mas eu não aceito a decisão do teu coração",
-              "chords": "E7 → Am7 → G → F7M"
-            },
-            {
-              "cue": "Sem tua metade sou tão imperfeito…",
-              "chords": "Dm → Em"
-            },
-            {
-              "cue": "Sei que a gente pode sorrir",
-              "chords": "E7 → Am7  /  G → F7M"
-            }
-          ]
-        },
-        {
-          "label": "Parte",
-          "lines": [
-            {
-              "cue": "Juro que vou me conter / nunca mais errar",
-              "chords": "Dm → Em → E7(4)"
-            },
-            {
-              "cue": "Como eu quero te mostrar o milagre do amor",
-              "chords": "Am → C4"
-            },
-            {
-              "cue": "Você me fez mudar / Tão bom te amar",
-              "chords": "F7M → G7 → C7"
-            }
-          ]
-        },
-        {
-          "label": "Refrão",
-          "lines": [
-            {
-              "cue": "Te amar, recomeçar sem me esconder",
-              "chords": "F7M → G/F → Em"
-            },
-            {
-              "cue": "Eu sempre fui apaixonado por você",
-              "chords": "Gm7 → C7 → F7M"
-            },
-            {
-              "cue": "Reinventar, resplandecer",
-              "chords": "G/F"
-            },
-            {
-              "cue": "O que não apagou…",
+              "cue": "Que não tem mais jeito",
               "chords": "Em"
             },
             {
-              "cue": "Eu sei que o sonho ainda pode acontecer",
+              "cue": "Mas eu não aceito a decisão",
+              "chords": "E7 → Am7"
+            },
+            {
+              "cue": "Do teu coração em partir",
+              "chords": "G → F7M"
+            },
+            {
+              "cue": "Sem tua metade sou tão imperfeito",
+              "chords": "Dm → Em"
+            },
+            {
+              "cue": "Tudo tem um jeito, coração",
+              "chords": "E7 → Am7"
+            },
+            {
+              "cue": "Sei que a gente pode sorrir",
+              "chords": "G → F7M"
+            }
+          ]
+        },
+        {
+          "label": "Ponte",
+          "lines": [
+            {
+              "cue": "Juro que vou me conter",
+              "chords": "Dm"
+            },
+            {
+              "cue": "Juro nunca mais errar",
+              "chords": "Em"
+            },
+            {
+              "cue": "Como eu quero te mostrar",
+              "chords": "E7(4)"
+            },
+            {
+              "cue": "O milagre do amor",
+              "chords": "Am → C4"
+            },
+            {
+              "cue": "Você me fez mudar",
+              "chords": "F7M"
+            },
+            {
+              "cue": "Tão bom te amar… Te amar",
+              "chords": "G7 → C7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão (2x)",
+          "lines": [
+            {
+              "cue": "Recomeçar, sem me esconder",
+              "chords": "F7M → G/F → Em"
+            },
+            {
+              "cue": "Atrás de um ditador"
+            },
+            {
+              "cue": "Existe um grande amor",
               "chords": "Gm7"
             },
             {
+              "cue": "Eu sempre fui apaixonado por você",
+              "chords": "C7 → F7M"
+            },
+            {
+              "cue": "Reinventar, resplandecer",
+              "chords": "G/F → Em"
+            },
+            {
+              "cue": "O que não apagou"
+            },
+            {
+              "cue": "Em mim nada mudou",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Eu sei que o sonho ainda pode acontecer",
+              "chords": "C7 → F7M"
+            },
+            {
               "cue": "Pode acontecer",
-              "chords": "C7 → F7M  /  G7 → C7+"
+              "chords": "G7 → C7M"
             }
           ]
         }
