@@ -137,14 +137,20 @@
       ],
       "note": null,
       "cols2": true,
-      "chordsTop": false,
+      "chordsTop": true,
       "sections": [
         {
-          "label": "Lalaiás",
+          "label": "Intro · Lalaiás",
           "lines": [
             {
+              "chords": "C → C7"
+            },
+            {
               "cue": "Lalaia lalaia laia…",
-              "chords": "C7M → F#m7(5-)  /  Fm6 → Em7  /  Eb° → Dm7(9) → G7(13) → Gm7 → C7(9)  (final em C6(9))"
+              "chords": "F#m7(5-) → Fm6 → Em7 → Eb° → Dm7(9) → G7(13) → Gm7 → C7(9)"
+            },
+            {
+              "chords": "(repete — C6(9) no fim)"
             }
           ]
         },
@@ -152,11 +158,24 @@
           "label": "1ª Parte",
           "lines": [
             {
-              "cue": "O teu choro já não toca…",
-              "chords": "Dm7(9) → G7(13) → C6(9) → Eb°  /  Dm7(9) → G7(13) → Gm7 → C7(9)"
+              "cue": "O teu choro já não toca meu bandolim…",
+              "chords": "Dm7(9) → G7(13) → C6(9) → Eb°"
             },
             {
-              "chords": "F#m7(5-) → Fm6 → Em7 → Eb°  /  Dm7(9) → G7(13) → C6(9) → Eb°"
+              "chords": "Dm7(9) → G7(13) → Gm7 → C7(9)"
+            },
+            {
+              "chords": "F#m7(5-) → Fm6 → Em7 → Eb°"
+            },
+            {
+              "chords": "Dm7(9) → G7(13) → Gm7 → C7(9)"
+            },
+            {
+              "chords": "F#m7(5-) → Fm6 → Em7 → Eb°"
+            },
+            {
+              "cue": "Hoje somos folha morta…",
+              "chords": "Dm7(9) → G7(13) → C6(9) → Eb°"
             }
           ]
         },
@@ -164,25 +183,55 @@
           "label": "Pré-Refrão",
           "lines": [
             {
-              "cue": "Se os duetos não se encontram…",
-              "chords": "Dm7(9) → G7(13) → Em7 → Eb°  /  Dm7(9) → G7(13) → C6(9)"
+              "cue": "Se os duetos não se encontram mais…",
+              "chords": "Dm7(9) → G7(13) → Em7 → Eb°"
+            },
+            {
+              "chords": "Dm7(9) → G7(13) → C6(9)"
             }
           ]
         },
         {
-          "label": "Refrão",
+          "label": "Refrão (1)",
           "lines": [
             {
               "cue": "Se a gente nota que uma só nota…",
-              "chords": "Bm7(5-) → E7 → Am → Am7M  /  Dm7(9) → G7(13) → Gm7 → C7(9)"
+              "chords": "Bm7(5-) → E7 → Am → Am7M"
             },
+            {
+              "chords": "Dm7(9) → G7(13) → Gm7 → C7(9)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão (2)",
+          "lines": [
             {
               "cue": "Nós iremos achar o tom…",
-              "chords": "F#m7(5-) → Fm6 → Em7 → A7(13-)  /  Dm7(9) → G7(13) → Gm7 → C7(9)"
+              "chords": "F#m7(5-) → Fm6 → Em7 → A7(13-)"
             },
             {
+              "chords": "Dm7(9) → G7(13) → Gm7 → C7(9)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão (3)",
+          "lines": [
+            {
               "cue": "E a gente vai ser feliz…",
-              "chords": "F#m7(5-) → Fm6 → Em7 → A7(13-)  /  Dm7(9) → G7(13) → Gm7 → C7(9)"
+              "chords": "F#m7(5-) → Fm6 → Em7 → A7(13-)"
+            },
+            {
+              "chords": "Dm7(9) → G7(13) → Gm7 → C7(9)"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão (repete)",
+          "lines": [
+            {
+              "cue": "Se os duetos não se encontram mais…"
             }
           ]
         },
@@ -191,11 +240,22 @@
           "lines": [
             {
               "cue": "Nós iremos até Paris…",
-              "chords": "F#m7(5-) → Fm6 → Em7 → A7(13-)  /  D7(9) → G7 → Gm7 → C7(9)"
+              "chords": "F#m7(5-) → Fm6 → Em7 → A7(13-)"
             },
             {
+              "chords": "D7(9) → G7 → Gm7 → C7(9)"
+            }
+          ]
+        },
+        {
+          "label": "Ponte 2",
+          "lines": [
+            {
               "cue": "Olha o povo pedindo bis…",
-              "chords": "F#m7(5-) → Fm6 → Em7 → A7(13-)  /  Dm7(9) → G7(13) → Gm7 → C7(9)"
+              "chords": "F#m7(5-) → Fm6 → Em7 → A7(13-)"
+            },
+            {
+              "chords": "Dm7(9) → G7(13) → Gm7 → C7(9)"
             }
           ]
         },
@@ -204,7 +264,10 @@
           "lines": [
             {
               "cue": "Nosso amor vai continuar…",
-              "chords": "F#m7(5-) → Fm6 → Em7 → Eb°  /  Dm7(9) → G7(13) → C6(9)"
+              "chords": "F#m7(5-) → Fm6 → Em7 → Eb°"
+            },
+            {
+              "chords": "Dm7(9) → G7(13) → C6(9)"
             }
           ]
         }
