@@ -1,6 +1,6 @@
 // SambaKY Songbook - service worker (offline cache)
 // manter em sincronia com APP_VERSION no index.html
-const CACHE = 'sambaky-songbook-2026.06.03-2304';
+const CACHE = 'sambaky-songbook-2026.06.03-2309';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './render.js', './songs.json', './logo-src.svg',
                 './icon-180.png', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
@@ -24,10 +24,10 @@ self.addEventListener('fetch', e => {
   const url = new URL(req.url);
   const isHTML = req.mode === 'navigate' ||
                  (req.headers.get('accept') || '').includes('text/html');
-  // songs.json é o conteúdo: network-first pra atualização chegar na hora
-  const isContent = url.pathname.endsWith('/songs.json') || url.pathname.endsWith('songs.json');
+  // conteúdo (songs.json) e código (render.js): network-first pra atualização chegar na hora
+  const isCore = url.pathname.endsWith('songs.json') || url.pathname.endsWith('render.js');
 
-  if (isHTML || isContent) {
+  if (isHTML || isCore) {
     // network-first: always try the fresh version, fall back to cache offline
     e.respondWith(
       fetch(req).then(resp => {
