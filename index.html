@@ -187,6 +187,8 @@ body {
   color: var(--garnet); font-size: 1.3rem; margin-top: 3px; letter-spacing: 0; line-height: 1.4;
 }
 .line .cue + .chords { padding-left: 6px; border-left: 2px solid var(--paper2); }
+/* cada acorde é uma unidade: nunca quebra no meio (ex.: G7(13-)) */
+.chords .cht { white-space: nowrap; }
 /* cifra ACIMA da letra (chords-top): mostra o acorde e a sílaba logo abaixo */
 .song.chords-top .line { display: flex; flex-direction: column; }
 .song.chords-top .line .chords { order: -1; margin-top: 0; margin-bottom: 2px; border-left: none; padding-left: 0; }
@@ -3266,7 +3268,7 @@ footer {
 <script>
 const SONGS_ORDER = [{"id": "b1-1", "label": "Bloco 1 · 1/20", "title": "Alguém Me Avisou"}, {"id": "b1-2", "label": "Bloco 1 · 2/20", "title": "A Batucada dos Nossos Tantãs"}, {"id": "b1-3", "label": "Bloco 1 · 3/20", "title": "O Show Tem Que Continuar"}, {"id": "b1-4", "label": "Bloco 1 · 4/20", "title": "Sina"}, {"id": "b1-5", "label": "Bloco 1 · 5/20", "title": "Não Deixe o Samba Morrer"}, {"id": "b1-6", "label": "Bloco 1 · 6/20", "title": "Mel na Boca"}, {"id": "b1-7", "label": "Bloco 1 · 7/20", "title": "Flor de Lis"}, {"id": "b1-8", "label": "Bloco 1 · 8/20", "title": "Depois do Prazer"}, {"id": "b1-9", "label": "Bloco 1 · 9/20", "title": "Brilho no Olhar"}, {"id": "b1-10", "label": "Bloco 1 · 10/20", "title": "Coisa de Pele"}, {"id": "b1-11", "label": "Bloco 1 · 11/20", "title": "Coração Partido"}, {"id": "b1-12", "label": "Bloco 1 · 12/20", "title": "Se"}, {"id": "b1-13", "label": "Bloco 1 · 13/20", "title": "Já É"}, {"id": "b1-14", "label": "Bloco 1 · 14/20", "title": "Pot-Pourri 1"}, {"id": "b1-15", "label": "Bloco 1 · 15/20", "title": "Gamei"}, {"id": "b1-16", "label": "Bloco 1 · 16/20", "title": "Morango do Nordeste"}, {"id": "b1-17", "label": "Bloco 1 · 17/20", "title": "Retrato Cantado de Um Amor"}, {"id": "b1-18", "label": "Bloco 1 · 18/20", "title": "Domingo"}, {"id": "b1-19", "label": "Bloco 1 · 19/20", "title": "Deixa Acontecer"}, {"id": "b1-20", "label": "Bloco 1 · 20/20", "title": "O Mar Serenou / Faixa Amarela / Deixa a Vida Me Levar"}, {"id": "b2-1", "label": "Bloco 2 · 1/20", "title": "Pot-Pourri Tim Maia"}, {"id": "b2-2", "label": "Bloco 2 · 2/20", "title": "Mas Que Nada"}, {"id": "b2-3", "label": "Bloco 2 · 3/20", "title": "Cheia de Manias"}, {"id": "b2-4", "label": "Bloco 2 · 4/20", "title": "Eu e Ela"}, {"id": "b2-5", "label": "Bloco 2 · 5/20", "title": "Cilada"}, {"id": "b2-6", "label": "Bloco 2 · 6/20", "title": "Parabéns pra Você"}, {"id": "b2-7", "label": "Bloco 2 · 7/20", "title": "Dança do Bole-Bole"}, {"id": "b2-8", "label": "Bloco 2 · 8/20", "title": "Pé na Areia"}, {"id": "b2-9", "label": "Bloco 2 · 9/20", "title": "Água de Chuva no Mar"}, {"id": "b2-10", "label": "Bloco 2 · 10/20", "title": "Reinventar"}, {"id": "b2-11", "label": "Bloco 2 · 11/20", "title": "Nem de Graça"}, {"id": "b2-12", "label": "Bloco 2 · 12/20", "title": "Lancinho"}, {"id": "b2-13", "label": "Bloco 2 · 13/20", "title": "Falta Você"}, {"id": "b2-14", "label": "Bloco 2 · 14/20", "title": "Compasso do Amor"}, {"id": "b2-15", "label": "Bloco 2 · 15/20", "title": "Jogo de Sedução"}, {"id": "b2-16", "label": "Bloco 2 · 16/20", "title": "Tá Escrito"}, {"id": "b2-17", "label": "Bloco 2 · 17/20", "title": "Curtindo a Vida"}, {"id": "b2-18", "label": "Bloco 2 · 18/20", "title": "Conselho"}, {"id": "b2-19", "label": "Bloco 2 · 19/20", "title": "Hoje Eu Vou Pagodear"}, {"id": "b2-20", "label": "Bloco 2 · 20/20", "title": "Pot-Pourri Final"}];
 
-const APP_VERSION='2026-06-03 · 21:37 EST';
+const APP_VERSION='2026-06-03 · 21:57 EST';
 const stage=document.getElementById('stage');
 const scard=document.getElementById('scard');
 let wrap, idx=0, boost=1, swiped=false, tx=0;
@@ -3323,6 +3325,16 @@ function toggleTheme(){var d=!currentDark();var h=document.documentElement;
   h.classList.remove('theme-dark','theme-light');h.classList.add(d?'theme-dark':'theme-light');updateThemeIcons();}
 updateThemeIcons();
 (function(){var av=document.getElementById('appver');if(av)av.textContent='versão '+APP_VERSION;})();
+// envolve cada acorde num span nowrap pra nunca quebrar no meio (ex.: G7(13-))
+(function(){document.querySelectorAll('.chords').forEach(function(el){
+  var parts=el.textContent.split(/(\s+)/), frag=document.createDocumentFragment();
+  parts.forEach(function(t){
+    if(t==='')return;
+    if(/^\s+$/.test(t)){frag.appendChild(document.createTextNode(t));}
+    else{var s=document.createElement('span');s.className='cht';s.textContent=t;frag.appendChild(s);}
+  });
+  el.textContent='';el.appendChild(frag);
+});})();
 function nextSong(){if(idx<SONGS_ORDER.length-1){idx++;render();}}
 function prevSong(){if(idx>0){idx--;render();}}
 function zoneClick(d){if(swiped)return;d<0?prevSong():nextSong();}
