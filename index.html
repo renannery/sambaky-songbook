@@ -185,6 +185,7 @@ body {
 .chords {
   font-family: 'JetBrains Mono', monospace; font-weight: 700;
   color: var(--garnet); font-size: 1.3rem; margin-top: 3px; letter-spacing: 0; line-height: 1.4;
+  white-space: pre-wrap; /* preserva múltiplos espaços digitados entre os acordes */
 }
 .line .cue + .chords { padding-left: 6px; border-left: 2px solid var(--paper2); }
 /* cada acorde é uma unidade: nunca quebra no meio (ex.: G7(13-)) */
@@ -381,7 +382,7 @@ body.editmode .wrap{padding-top:56px;}
 <script>
 let SONGS = [], SONGS_ORDER = [];
 
-const APP_VERSION='2026-06-03 · 22:48 EST';
+const APP_VERSION='2026-06-03 · 22:59 EST';
 const stage=document.getElementById('stage');
 const scard=document.getElementById('scard');
 let wrap, idx=0, boost=1, swiped=false, tx=0;
