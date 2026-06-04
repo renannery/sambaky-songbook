@@ -86,11 +86,106 @@
     });
   }
 
+  // ---- modelo <-> texto (markdown simples) ----
+  var SINGERS = [['nery', 'Nery'], ['mosquitao', 'Mosquitão'], ['mari', 'Mari'], ['gabriel', 'Gabriel']];
+  var NAME2KEY = {}; SINGERS.forEach(function (d) { NAME2KEY[d[1].toLowerCase()] = d[0]; });
+
+  function clean(songs) {
+    return songs.map(function (s) {
+      return {
+        id: s.id, num: Number(s.num) || 0, bloco: Number(s.bloco) || 1,
+        title: s.title || '', artist: s.artist || '',
+        tom: s.tom || null, levada: s.levada || null,
+        singers: (s.singers || []).map(function (g) { return { key: g.key, name: g.name }; }),
+        note: (s.note && String(s.note).trim()) ? s.note : null,
+        cols2: !!s.cols2, chordsTop: !!s.chordsTop,
+        sections: (s.sections || []).map(function (sec) {
+          return {
+            label: sec.label || '',
+            lines: (sec.lines || []).map(function (ln) {
+              var o = {};
+              if (ln.cue && String(ln.cue).trim() !== '') o.cue = ln.cue;
+              if (ln.chords && String(ln.chords).trim() !== '') o.chords = ln.chords;
+              return o;
+            }).filter(function (ln) { return ln.cue || ln.chords; })
+          };
+        })
+      };
+    });
+  }
+
+  function parseSingers(val) {
+    return val.split(/[,;]/).map(function (x) { return x.trim(); }).filter(Boolean).map(function (name) {
+      return { key: NAME2KEY[name.toLowerCase()] || 'outro', name: name };
+    });
+  }
+
+  function song2text(s) {
+    var L = [];
+    L.push('# ' + (s.title || ''));
+    L.push('artista: ' + (s.artist || ''));
+    L.push('tom: ' + (s.tom || ''));
+    L.push('levada: ' + (s.levada || ''));
+    L.push('canta: ' + (s.singers || []).map(function (g) { return g.name; }).join(', '));
+    L.push('bloco: ' + (s.bloco || 1));
+    L.push('nº: ' + (s.num || ''));
+    var opt = []; if (s.chordsTop) opt.push('cifra-acima'); if (s.cols2) opt.push('2-colunas');
+    L.push('opções: ' + opt.join(', '));
+    if (s.note) L.push('nota: ' + s.note);
+    (s.sections || []).forEach(function (sec) {
+      L.push(''); L.push('## ' + (sec.label || ''));
+      (sec.lines || []).forEach(function (ln) {
+        var ch = (ln.chords || '').trim(), cu = (ln.cue || '').trim();
+        if (ch && cu) L.push('[' + ch + '] ' + cu);
+        else if (ch) L.push('[' + ch + ']');
+        else if (cu) L.push(cu);
+      });
+    });
+    return L.join('\n');
+  }
+
+  function text2song(text, base) {
+    var s = Object.assign({}, base || {});
+    s.singers = []; s.sections = []; s.note = null;
+    var lines = String(text).replace(/\r/g, '').split('\n');
+    var i = 0, cur = null;
+    for (; i < lines.length; i++) {
+      var line = lines[i].trim();
+      if (/^##(\s|$)/.test(line)) break;
+      if (/^#\s/.test(line)) { s.title = line.replace(/^#\s+/, '').trim(); continue; }
+      var ci = line.indexOf(':'); if (ci <= 0) continue;
+      var key = line.slice(0, ci).trim().toLowerCase(), val = line.slice(ci + 1).trim();
+      if (key === 'título' || key === 'titulo') s.title = val;
+      else if (key === 'artista') s.artist = val;
+      else if (key === 'tom') s.tom = val || null;
+      else if (key === 'levada') s.levada = val || null;
+      else if (key === 'bloco') s.bloco = Number(val) || s.bloco;
+      else if (key === 'nº' || key === 'n°' || key === 'no' || key === 'num' || key === 'numero' || key === 'número') s.num = Number(val) || s.num;
+      else if (key === 'canta' || key === 'cantam' || key === 'quem canta') s.singers = parseSingers(val);
+      else if (key === 'opções' || key === 'opcoes') { s.chordsTop = /cifra[\s-]?acima/i.test(val); s.cols2 = /colunas/i.test(val); }
+      else if (key === 'nota') s.note = val || null;
+    }
+    for (; i < lines.length; i++) {
+      var ln = lines[i].trim();
+      if (/^##(\s|$)/.test(ln)) { cur = { label: ln.replace(/^##\s*/, '').trim(), lines: [] }; s.sections.push(cur); continue; }
+      if (ln === '') continue;
+      if (!cur) { cur = { label: '', lines: [] }; s.sections.push(cur); }
+      var mb = ln.match(/^\[(.*?)\]\s*(.*)$/);
+      if (mb) { var o = {}; var ch = mb[1].trim(), cu = mb[2].trim(); if (ch) o.chords = ch; if (cu) o.cue = cu; cur.lines.push(o); }
+      else cur.lines.push({ cue: ln });
+    }
+    return clean([s])[0];
+  }
+
   g.SB = {
     esc: esc,
     renderSongSection: renderSongSection,
     renderIndexBlocks: renderIndexBlocks,
     renderSongsArea: renderSongsArea,
-    buildOrder: buildOrder
+    buildOrder: buildOrder,
+    clean: clean,
+    SINGERS: SINGERS,
+    song2text: song2text,
+    text2song: text2song
   };
 })(typeof globalThis !== 'undefined' ? globalThis : this);
