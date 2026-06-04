@@ -3416,7 +3416,7 @@
           "name": "Mosquitão"
         }
       ],
-      "note": null,
+      "note": "⚑ Ordem: Verso · Refrão (2x) · 2ª Parte · Verso · Refrão (2x).",
       "cols2": false,
       "chordsTop": true,
       "sections": [
@@ -3424,7 +3424,7 @@
           "label": "Intro",
           "lines": [
             {
-              "chords": "C → C7 → F → G7 → Em  /  Am → Dm → G7 → C → G7"
+              "chords": "C"
             }
           ]
         },
@@ -3432,42 +3432,62 @@
           "label": "Verso",
           "lines": [
             {
-              "cue": "Quero sentir teu abraço, teu calor…",
-              "chords": "C → G → E7 → Am  /  Dm → G7 → C"
+              "cue": "Luz que meu céu ilumina… (lalaiá)",
+              "chords": "C → F7M → G7"
             },
             {
-              "cue": "Viajar pelo teu corpo sedutor…",
-              "chords": "C → G → E7 → Am  /  Dm → G7 → C"
-            }
-          ]
-        },
-        {
-          "label": "Parte",
-          "lines": [
-            {
-              "cue": "Luz que meu céu ilumina…",
-              "chords": "C7 → F7M → G7  /  Em7 → Am7 → G#m7 → Gm7"
+              "cue": "Você é minha metade",
+              "chords": "Em → Abm7 → Gm7"
             },
             {
-              "cue": "Essa paixão me fascina…",
-              "chords": "C7 → F7M → G7 → C"
+              "cue": "Essa paixão me fascina… (lalaiá)",
+              "chords": "C7(13) → F7M → G7"
+            },
+            {
+              "cue": "Tem gosto de felicidade",
+              "chords": "C"
             }
           ]
         },
         {
-          "label": "Refrão",
+          "label": "Refrão (2x)",
           "lines": [
             {
-              "cue": "Quando a gente ama não tem pra ninguém…  (cada frase)",
-              "chords": "C7 → F7M  /  G7 → C"
+              "cue": "Quando a gente ama…",
+              "chords": "C7 → F7M"
+            },
+            {
+              "cue": "Chego a me arrepiar…",
+              "chords": "G7 → C"
+            },
+            {
+              "cue": "Viajo no balanço…",
+              "chords": "C7 → F7M"
+            },
+            {
+              "cue": "Na arte de amar…",
+              "chords": "G7 → C"
             }
           ]
         },
         {
-          "label": "Final",
+          "label": "2ª Parte",
           "lines": [
             {
-              "chords": "C → C7 → G7"
+              "cue": "Quero sentir teu abraço…",
+              "chords": "C → G → E7 → Am"
+            },
+            {
+              "cue": "Dançar no mesmo compasso…",
+              "chords": "Am/G → F7M → G7(13) → C"
+            },
+            {
+              "cue": "Viajar pelo teu corpo…",
+              "chords": "G → E7 → Am"
+            },
+            {
+              "cue": "Deliciar do seu beijo…",
+              "chords": "Am/G → F7M → G7 → C"
             }
           ]
         }
