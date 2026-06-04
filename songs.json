@@ -171,10 +171,10 @@
               "chords": "Dm7(9) → G7(13) → Gm7 → C7(9)"
             },
             {
-              "chords": "F#m7(5-) → Fm6 → Em7 → Eb°"
+              "chords": "F#m7(5-) → Fm6 → Em7 → Eb°",
+              "cue": "Hoje somos folha morta…"
             },
             {
-              "cue": "Hoje somos folha morta…",
               "chords": "Dm7(9) → G7(13) → C6(9) → Eb°"
             }
           ]
