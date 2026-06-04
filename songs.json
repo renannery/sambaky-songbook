@@ -1,0 +1,3539 @@
+{
+  "version": 1,
+  "songs": [
+    {
+      "id": "b1-1",
+      "num": 1,
+      "bloco": 1,
+      "title": "Alguém Me Avisou",
+      "artist": "Dona Ivone Lara",
+      "tom": "F",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mari",
+          "name": "Mari"
+        }
+      ],
+      "note": null,
+      "cols2": false,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "F → C7 → F → C7"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Foram me chamar…",
+              "chords": "F → C7  /  F → C7  (repetir)"
+            },
+            {
+              "cue": "Eu vim de lá pequenininho",
+              "chords": "F → A# → Am → Gm  /  F → A# → Am"
+            },
+            {
+              "cue": "Alguém me avisou pra pisar…",
+              "chords": "D7 → G7 → C7 → F  (repetir)"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "Sempre fui obediente…",
+              "chords": "D7 → Gm  /  C7 → F"
+            },
+            {
+              "cue": "Foi numa roda de samba…",
+              "chords": "D7 → Gm  /  C7 → F"
+            },
+            {
+              "cue": "Quando eu voltar pra Bahia…",
+              "chords": "D7 → Gm  /  C7 → F"
+            },
+            {
+              "cue": "Óh padrinho não se zangue…",
+              "chords": "D7 → Gm  /  C7 → F → C7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-2",
+      "num": 2,
+      "bloco": 1,
+      "title": "A Batucada dos Nossos Tantãs",
+      "artist": "Fundo de Quintal",
+      "tom": "F",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Bb7M → Bbm6 → Am7 → D7(9) → G7(9) → C7 → F → C7"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Samba, a gente não perde…",
+              "chords": "F → Am7 → Cm → F7 → Bb7M → Bbm6 → Am7 → D7(9) → G7(9) → Gm7 → C7"
+            },
+            {
+              "cue": "(2ª vez termina em F)",
+              "chords": "F → Am7 → Cm → F7 → Bb7M → Bbm6 → Am7 → D7(9) → G7(9) → C7 → F"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Este samba é pra você…",
+              "chords": "D7 → Gm7 → C7 → F6 → D7 → Gm7 → C7 → F"
+            },
+            {
+              "cue": "(última vez)",
+              "chords": "D7 → Gm6 → C7 → F6 → D7 → Gm7 → C7 → F → C7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-3",
+      "num": 3,
+      "bloco": 1,
+      "title": "O Show Tem Que Continuar",
+      "artist": "Fundo de Quintal",
+      "tom": "C",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": false,
+      "sections": [
+        {
+          "label": "Lalaiás",
+          "lines": [
+            {
+              "cue": "Lalaia lalaia laia…",
+              "chords": "C7M → F#m7(5-)  /  Fm6 → Em7  /  Eb° → Dm7(9) → G7(13) → Gm7 → C7(9)  (final em C6(9))"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "O teu choro já não toca…",
+              "chords": "Dm7(9) → G7(13) → C6(9) → Eb°  /  Dm7(9) → G7(13) → Gm7 → C7(9)"
+            },
+            {
+              "chords": "F#m7(5-) → Fm6 → Em7 → Eb°  /  Dm7(9) → G7(13) → C6(9) → Eb°"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão",
+          "lines": [
+            {
+              "cue": "Se os duetos não se encontram…",
+              "chords": "Dm7(9) → G7(13) → Em7 → Eb°  /  Dm7(9) → G7(13) → C6(9)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Se a gente nota que uma só nota…",
+              "chords": "Bm7(5-) → E7 → Am → Am7M  /  Dm7(9) → G7(13) → Gm7 → C7(9)"
+            },
+            {
+              "cue": "Nós iremos achar o tom…",
+              "chords": "F#m7(5-) → Fm6 → Em7 → A7(13-)  /  Dm7(9) → G7(13) → Gm7 → C7(9)"
+            },
+            {
+              "cue": "E a gente vai ser feliz…",
+              "chords": "F#m7(5-) → Fm6 → Em7 → A7(13-)  /  Dm7(9) → G7(13) → Gm7 → C7(9)"
+            }
+          ]
+        },
+        {
+          "label": "Ponte",
+          "lines": [
+            {
+              "cue": "Nós iremos até Paris…",
+              "chords": "F#m7(5-) → Fm6 → Em7 → A7(13-)  /  D7(9) → G7 → Gm7 → C7(9)"
+            },
+            {
+              "cue": "Olha o povo pedindo bis…",
+              "chords": "F#m7(5-) → Fm6 → Em7 → A7(13-)  /  Dm7(9) → G7(13) → Gm7 → C7(9)"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "cue": "Nosso amor vai continuar…",
+              "chords": "F#m7(5-) → Fm6 → Em7 → Eb°  /  Dm7(9) → G7(13) → C6(9)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-4",
+      "num": 4,
+      "bloco": 1,
+      "title": "Sina",
+      "artist": "Djavan (vers. Grupo Revelação)",
+      "tom": "A",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": "⚑ Crédito: composição de Djavan.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "A"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Pai e mãe… ouro de mina",
+              "chords": "A → D"
+            },
+            {
+              "cue": "Coração… desejo e sina",
+              "chords": "A → G#m7(5-) → C#7"
+            },
+            {
+              "cue": "Tudo mais, pura rotina, jazz",
+              "chords": "F#m7 → C#m → D  /  D#° → A"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "Tocarei seu nome…",
+              "chords": "D → A"
+            },
+            {
+              "cue": "Minha princesa, art-nouveau",
+              "chords": "A → G#m7(5-)"
+            },
+            {
+              "cue": "Da natureza, tudo o mais",
+              "chords": "C#7 → F#m7"
+            },
+            {
+              "cue": "Pura beleza, jazz",
+              "chords": "C#m → D  /  D#° → E7(9)"
+            }
+          ]
+        },
+        {
+          "label": "Ponte",
+          "lines": [
+            {
+              "cue": "A luz de um grande prazer… Ô Ô Ô",
+              "chords": "E7 → G#m7(5-) → C#7 → F#m"
+            },
+            {
+              "cue": "Quando o grito do prazer… reveillon",
+              "chords": "E7 → D → E7 → A"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "O luar, estrela do mar",
+              "chords": "A → D"
+            },
+            {
+              "cue": "O sol e o dom, quiçá…",
+              "chords": "A → G#m7(5-)"
+            },
+            {
+              "cue": "Desse front virá lapidar",
+              "chords": "C#7 → F#m7"
+            },
+            {
+              "cue": "O sonho até gerar o som",
+              "chords": "C#m → D"
+            },
+            {
+              "cue": "Como querer caetanear…",
+              "chords": "D#° → E7 → A"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "chords": "( F → G → A )  (2x)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-5",
+      "num": 5,
+      "bloco": 1,
+      "title": "Não Deixe o Samba Morrer",
+      "artist": "Alcione",
+      "tom": "Bm",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mari",
+          "name": "Mari"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Em7 → F#7  /  Bm7 → Em7 → F#7"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Quando eu não puder pisar…",
+              "chords": "Bm7 → Em7 → Em/D"
+            },
+            {
+              "cue": "Quando as minhas pernas…",
+              "chords": "C#m7(5-) → F#7 → Bm7"
+            },
+            {
+              "cue": "Levar meu corpo junto…",
+              "chords": "Em7 → A7 → D7M → D7"
+            },
+            {
+              "cue": "O meu anel de bamba…",
+              "chords": "G7M → F#7 → Bm7"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "Eu vou ficar no meio do povo…",
+              "chords": "Em → A7 → D7M"
+            },
+            {
+              "cue": "Minha escola perdendo…",
+              "chords": "F#m7 → B7(9-) → Em"
+            },
+            {
+              "cue": "Mais um carnaval",
+              "chords": "A7 → D7M → F#m7(5-) → B7"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão",
+          "lines": [
+            {
+              "cue": "Antes de me despedir…",
+              "chords": "Em7 → A/C# → D7M → Bm7"
+            },
+            {
+              "cue": "O meu pedido final",
+              "chords": "G7 → F#7 → Bm7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Não deixe o samba morrer…",
+              "chords": "Bm7 → Em  /  C#m7(5-) → F#7 → Bm7"
+            },
+            {
+              "cue": "O morro foi feito de samba…",
+              "chords": "C#m7(5-) → F#7 → Bm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-6",
+      "num": 6,
+      "bloco": 1,
+      "title": "Mel na Boca",
+      "artist": "Almir Guineto",
+      "tom": "Am",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Verso 1",
+          "lines": [
+            {
+              "cue": "Oh, quanta mentira suportei",
+              "chords": "Am7 → A7 → Dm7"
+            },
+            {
+              "cue": "Neste teu cinismo de doçura",
+              "chords": "Bm7(5-) → E7 → Am7 → A7"
+            },
+            {
+              "cue": "Pode parar",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Com essa ideia de re-pre-sen-ta-ção",
+              "chords": "Eb° → Am → G#m → Gm → C7(9)"
+            },
+            {
+              "cue": "Os bastidores se fecharam…",
+              "chords": "F7M → Bm7(5-) → E7 → Am7 → A7"
+            },
+            {
+              "cue": "…pra desilusão — é mentira!",
+              "chords": "F7M → E7 → A7M → E7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão (2x)",
+          "lines": [
+            {
+              "cue": "É… mentira…",
+              "chords": "A7M → F#m7 → C#m7 → Bm7"
+            },
+            {
+              "cue": "Cadê toda promessa…",
+              "chords": "A7M → F#7 → Bm7 → F#7"
+            },
+            {
+              "cue": "Bota mel em minha boca",
+              "chords": "Bm7 → E7"
+            },
+            {
+              "cue": "Me ama, depois deixa a saudade, será?",
+              "chords": "Bm7 → E7 → A7M → F#7 → Bm → E7"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "Será que o amor é isso?",
+              "chords": "A7M → Bm7 → C#m7 → Bm7"
+            },
+            {
+              "cue": "Se é feitiço, vou jogar flores no mar",
+              "chords": "A7M → F#7 → Bm7"
+            },
+            {
+              "cue": "Um raio de luz do sol…",
+              "chords": "D6(9) → G7(13-) → C#m7 → F#7"
+            },
+            {
+              "cue": "Que se apagou…",
+              "chords": "Bm7 → E7 → Em7 → F#7"
+            },
+            {
+              "cue": "Um raio de luz do sol…",
+              "chords": "D6(9) → G7(13-) → C#m → F#7"
+            },
+            {
+              "cue": "Que se apagou…",
+              "chords": "Bm7 → E7 → Am  /  (E7)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-7",
+      "num": 7,
+      "bloco": 1,
+      "title": "Flor de Lis",
+      "artist": "Djavan  ·  simplificado",
+      "tom": "C",
+      "levada": "Samba-canção",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": false,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "C7M(9) · Fm6  /  C7M(9) · Fm6"
+            }
+          ]
+        },
+        {
+          "label": "Parte A",
+          "lines": [
+            {
+              "cue": "Valei-me, Deus! É o fim do nosso amor",
+              "chords": "C7M(9) · Bm7(5-) · E7(13-)  /  Am7(9) · D7(13)"
+            },
+            {
+              "chords": "Gm7 · C7(9)  /  F#m7(5-) · B7(9-)  /  Bb7M · A7(13-)"
+            },
+            {
+              "chords": "F#m7(5-) · B7(9-)  /  Em7(9) · A7(13-)  /  D7(9) · G7(4/9) · G7(9-)"
+            }
+          ]
+        },
+        {
+          "label": "Parte B",
+          "lines": [
+            {
+              "cue": "Será talvez, que minha ilusão…",
+              "chords": "C7M(9) · Bm7(5-) · E7(13-)  /  Am7(9) · D7(13)"
+            },
+            {
+              "chords": "Gm7 · C7(9) · F#m7(5-) · B7(9-)  /  Bb7M · A7(13-)"
+            },
+            {
+              "chords": "F#m7(5-) · B7(9-)  /  Em7(9) · A7(13-)"
+            }
+          ]
+        },
+        {
+          "label": "Ponte",
+          "lines": [
+            {
+              "cue": "E foi assim que eu vi…",
+              "chords": "Am6 · Fm6 · C7M(9) · E7(9+)  /  Am7(9) · E/G# · Gm7"
+            },
+            {
+              "cue": "E o meu jardim da vida…",
+              "chords": "C7(9) · F7M  /  Bb7(9) · Em7(9)  /  A7(13-) · D7(9)  /  G7(4/9) · G7(9-) · Gm7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "chords": "C7(9) · F7M  /  Bb7(9) · Em7(9)  /  A7(13-) · D7(9)  /  G7(4/9) · G7(9-) · C6(9) · G7(13-)"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "chords": "C7M(9) · Fm6  /  C7M(9) · Fm6 · C6(9)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-8",
+      "num": 8,
+      "bloco": 1,
+      "title": "Depois do Prazer",
+      "artist": "Só Pra Contrariar",
+      "tom": "G",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "gabriel",
+          "name": "Gabriel"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Am7 → G → Am7 → G"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Tô fazendo amor com outra pessoa…",
+              "chords": "G → Em  /  Am → D7"
+            },
+            {
+              "cue": "O que o corpo faz a alma perdoa…",
+              "chords": "G → Em  /  Am → D7"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão",
+          "lines": [
+            {
+              "cue": "Vou falar que é amor…",
+              "chords": "G → D  /  Dm → E"
+            },
+            {
+              "cue": "A verdade é que eu minto…",
+              "chords": "Am → Am7+ → C → D7"
+            },
+            {
+              "cue": "E depois acabou…",
+              "chords": "G → D  /  Dm → E"
+            },
+            {
+              "cue": "Já não sei quem me amou…",
+              "chords": "Am → Am7+ → C → D7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Fica dentro do meu peito…",
+              "chords": "G → Em → Am → C → D7"
+            },
+            {
+              "cue": "Só pensando no teu jeito…",
+              "chords": "G → Em → Am → C → D7"
+            },
+            {
+              "cue": "E quando o desejo vem…",
+              "chords": "G → Em → Am → C → D7"
+            },
+            {
+              "cue": "Posso até gostar de alguém…",
+              "chords": "G → Em → Am → C → D7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-9",
+      "num": 9,
+      "bloco": 1,
+      "title": "Brilho no Olhar",
+      "artist": "Reinaldo",
+      "tom": "D",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "D6(9) → F#m7 → Fm7 → Em7 → A7(13) → D6(9)  (repetir)"
+            },
+            {
+              "cue": "Ilaia… ilaia… laiala…",
+              "chords": "D6(9) → A7(13) → D6(9)  (repetir)"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "O que aconteceu com aquele sentimento…",
+              "chords": "D6(9)  /  G7M → F#m7 → Em7  /  A7(13) → D6(9) → A7(13)"
+            },
+            {
+              "cue": "Não deixe o tempo apagar…",
+              "chords": "D6(9) → D7  /  G7M → F#m7 → Em7  /  A7(13) → Am7 → D7(13)"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "Eu só sei dizer que te amo…",
+              "chords": "G7M → F#7 → Bm → D7(13)  /  G7M → F#7 → Bm → Am → D7"
+            },
+            {
+              "chords": "G7M → F#7 → Bm → D7(13)  /  G7M → F#7 → B7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Vem que eu não quero esse jogo louco…",
+              "chords": "G7M → A7 → F#m7  /  F° → Em7"
+            },
+            {
+              "cue": "Senta aqui pra gente conversar",
+              "chords": "A7(13) → Am7 → D7(13)"
+            },
+            {
+              "cue": "Vem duas vidas numa só estrada…",
+              "chords": "G7M → A7 → F#m7  /  F° → Em7"
+            },
+            {
+              "cue": "Eu nasci pra te amar",
+              "chords": "F#m7 → G7M → A7(13) → D6(9)  (Am7 → D7(13)) → Intro"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-10",
+      "num": 10,
+      "bloco": 1,
+      "title": "Coisa de Pele",
+      "artist": "Jorge Aragão",
+      "tom": "F",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "F7M → Gm7 → Am7 → D7(9-) → Gm6  /  A#m6 → Am7 → D7 → Gm7 → C7"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Podemos sorrir / Nada mais nos impede",
+              "chords": "F7M → Em7(5-) → A7(9-)  /  Dm7"
+            },
+            {
+              "cue": "Não dá pra fugir dessa coisa de pele",
+              "chords": "Cm7 → F7"
+            },
+            {
+              "cue": "Sentida por nós / Desatando os nós",
+              "chords": "Bb → B°  /  F → D7"
+            },
+            {
+              "cue": "Sabemos agora…",
+              "chords": "G7(13) → G7(13-)  /  Gm7 → C7(13-)"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "E a nossa canção pelas ruas…",
+              "chords": "F7M → Em7(5-) → A7(9-)  /  Dm7 → Cm7 → F7"
+            },
+            {
+              "cue": "Relembrando Palmares…",
+              "chords": "Bb → B°  /  F → D7"
+            },
+            {
+              "cue": "Resiste quem pode…",
+              "chords": "G7(13) → G7(13-)  /  Gm7 → C7(13-)"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "E o samba se faz prisioneiro…",
+              "chords": "Fm → C/E"
+            },
+            {
+              "cue": "O banjo liberta…",
+              "chords": "Ebm6 → F7 → Bbm"
+            },
+            {
+              "cue": "Alimentando muito mais…",
+              "chords": "Eb → Ab"
+            },
+            {
+              "cue": "Eterno reduto de paz…",
+              "chords": "G#°  /  Gm7 → C7 → F"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Art popular do nosso chão",
+              "chords": "C/E → A7 → Dm → D7"
+            },
+            {
+              "cue": "É o povo quem produz o show",
+              "chords": "Gm → C7"
+            },
+            {
+              "cue": "E assina a direção",
+              "chords": "F"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-11",
+      "num": 11,
+      "bloco": 1,
+      "title": "Coração Partido",
+      "artist": "Menos é Mais  ·  simplificado",
+      "tom": "F#",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": false,
+      "sections": [
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Eu tentei ficar com você…",
+              "chords": "F# · F#5+ · F#6 · Cm7(5-) · A#m"
+            },
+            {
+              "chords": "G#m7 · C#7 · F#7M · F#7M(5+) · F#7M(6) · Cm7(5-) · F7(13-) · A#m"
+            }
+          ]
+        },
+        {
+          "label": "Ponte",
+          "lines": [
+            {
+              "cue": "Se você me amava…",
+              "chords": "G#m7 · C#7  /  A#m7 · E7 · D#7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão (2x)",
+          "lines": [
+            {
+              "cue": "Eu não vou negar que ainda te amo…",
+              "chords": "G#m7 · B/C# · C#/B  /  A#m7 · D#7(4) · D#7"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "chords": "F# · F#5+ · F#6 · Cm7(5-)  /  F7(13-) · A#m"
+            },
+            {
+              "chords": "G#m7 · B/C# · F#  /  F#5+ · F#6 · Cm7(5-) · F7(13-) · A#m"
+            },
+            {
+              "chords": "G#m7 · B/C# · C#/B  /  A#m7 · E7 · D#7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão (3x)",
+          "lines": [
+            {
+              "chords": "G#m7 · B/C# · C#/B  /  A#m7 · D#7(4) · D#7"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "cue": "Tiritas…",
+              "chords": "F# · G#m7 · B/C# · F#7M"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-12",
+      "num": 12,
+      "bloco": 1,
+      "title": "Se",
+      "artist": "Djavan",
+      "tom": "A",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "A → D → F#m7(11) → E   (repetir 4x)"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Você disse que não sabe se não…",
+              "chords": "A → D → F#m7  /  A → D → C#m7"
+            },
+            {
+              "cue": "Quer saber? Quando é assim…",
+              "chords": "D7M(9) → G#m7 → F#m7 → B7  /  D → C#m7 → Bm7 → E → G7+"
+            },
+            {
+              "cue": "Você sabe que eu só penso em você…",
+              "chords": "A → D → F#m7  /  A → D → C#m7"
+            },
+            {
+              "cue": "Pode ser, se é assim",
+              "chords": "D7M(9) → G#m7  /  F#m7 → B7"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão",
+          "lines": [
+            {
+              "cue": "Você tem que largar a mão do não",
+              "chords": "D → C#m7"
+            },
+            {
+              "cue": "Soltar essa louca…",
+              "chords": "D → C#m7"
+            },
+            {
+              "cue": "Não há como doer…",
+              "chords": "D → C#m7  /  Bm7"
+            },
+            {
+              "cue": "Mas você adora um se",
+              "chords": "D → C#m7 → Bm7 → E → A  /  D → F#m7(11) → E"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Eu levo a sério mas você disfarça…  (cada frase)",
+              "chords": "A → D → F#m7(11) → E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-13",
+      "num": 13,
+      "bloco": 1,
+      "title": "Já É",
+      "artist": "Jorge Aragão  ·  simplificado",
+      "tom": "D",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": "⚑ “Não sei como aconteceu…”",
+      "cols2": true,
+      "chordsTop": false,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "D7"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Não sei como aconteceu…",
+              "chords": "G7+ · A7  /  F#m  /  Am · D7"
+            },
+            {
+              "chords": "G · A  /  F#m  /  Am · D7 · G"
+            },
+            {
+              "chords": "A  /  F#m · Am · D7  /  G · A  /  F#m · Am · D7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Pra onde você for…",
+              "chords": "G7+ · A7  /  F#m · B7  /  Em"
+            },
+            {
+              "chords": "F#m · G  /  A · Am · D7  /  G · A  /  F#m · B7  /  Em  /  F#m · G  /  A · D"
+            }
+          ]
+        },
+        {
+          "label": "Ponte (instr.)",
+          "lines": [
+            {
+              "chords": "D7"
+            }
+          ]
+        },
+        {
+          "label": "Repetição 1ª Parte",
+          "lines": [
+            {
+              "chords": "G · A  /  F#m  /  Am · D7  /  G · A  /  F#m  /  Am · D7 · G  /  A  /  F#m · Am · D7  /  G · A  /  F#m · Am · D7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão (repete)",
+          "lines": [
+            {
+              "chords": "G · A  /  F#m · B7  /  Em  /  F#m · G  /  A · Am · D7  /  G · A  /  F#m · B7  /  Em  /  F#m · G  /  A · D"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "chords": "D7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-14",
+      "num": 14,
+      "bloco": 1,
+      "title": "Pot-Pourri 1",
+      "artist": "Exalta · SPC · Os Morenos",
+      "tom": "D → E",
+      "levada": "Medley",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": "⚑ Me Apaixonei: 1 vez direto · final em D vai pro solo · terminar em tom E.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "a) Me Apaixonei Pela Pessoa Errada · Tom D",
+          "lines": [
+            {
+              "cue": "Eu não tenho culpa de estar te amando",
+              "chords": "D7M"
+            },
+            {
+              "cue": "De ficar pensando em você…",
+              "chords": "F#m7"
+            },
+            {
+              "cue": "Não entendo por que deixei acontecer",
+              "chords": "Em7 → Em/D"
+            },
+            {
+              "cue": "Isso tudo me apavora",
+              "chords": "A/C# → G/B → A7"
+            },
+            {
+              "cue": "Você não tem culpa…",
+              "chords": "D7M"
+            },
+            {
+              "cue": "Se fantasiei de verde…",
+              "chords": "F#m7"
+            },
+            {
+              "cue": "Você tem namorado…",
+              "chords": "Em7 → Em/D"
+            },
+            {
+              "cue": "Mas tenho que ganhar você",
+              "chords": "C#m7(5-) → F#4 → F#7"
+            },
+            {
+              "cue": "É mais do que desejo…",
+              "chords": "Bm7 → F#m7"
+            },
+            {
+              "cue": "Eu te vejo nos meus sonhos",
+              "chords": "Em → Em/D"
+            },
+            {
+              "cue": "E isso aumenta mais a minha dor",
+              "chords": "G7M → A7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Eu me apaixonei pela pessoa errada",
+              "chords": "D"
+            },
+            {
+              "cue": "Ninguém sabe o quanto…",
+              "chords": "Bm7 → Bm/A"
+            },
+            {
+              "cue": "Sempre que eu vejo ele do seu lado",
+              "chords": "G7M → Em"
+            },
+            {
+              "cue": "Morro de ciúme…",
+              "chords": "A7 → A4 → A7"
+            }
+          ]
+        },
+        {
+          "label": "b) Essa Tal Liberdade",
+          "lines": [
+            {
+              "cue": "O que é que eu vou fazer…",
+              "chords": "D → F#m7 → G → A7  (letra-guia)"
+            },
+            {
+              "cue": "Quero te abraçar",
+              "chords": "D · F#m7 · G · A7"
+            }
+          ]
+        },
+        {
+          "label": "c) Que Se Chama Amor",
+          "lines": [
+            {
+              "cue": "Como é que uma coisa assim machuca tanto…",
+              "chords": "E → G#m7 → A → B7  (base do verso)"
+            }
+          ]
+        },
+        {
+          "label": "d) Marrom Bombom · tom E",
+          "lines": [
+            {
+              "cue": "A gente tem tudo pra dar certo…",
+              "chords": "E7M → G#m7 → F#m7 → B7  (verso 4x)"
+            },
+            {
+              "cue": "Tira a calça jeans",
+              "chords": "E7M → G#m7 → F#m7 → B7 → C°"
+            },
+            {
+              "cue": "Na areia nosso amor",
+              "chords": "C#m → G#m7 → F#m7 → B7 → C°"
+            },
+            {
+              "cue": "Tem magia nossa cor",
+              "chords": "C#m → G#m7 → F#m7 → B7"
+            },
+            {
+              "cue": "Marrom bombom, marrom bombom",
+              "chords": "E → G#m7 → F#m7 → B7  →  TERMINAR COM SOLO EM E"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-15",
+      "num": 15,
+      "bloco": 1,
+      "title": "Gamei",
+      "artist": "Exaltasamba",
+      "tom": "Cm",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": "⚑ Devagar, respira.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Quando eu vi",
+              "chords": "Cm7 → F7(9)"
+            },
+            {
+              "cue": "Me amarrei",
+              "chords": "Bb7(9) → Bb7(9-)"
+            },
+            {
+              "cue": "No teu sorriso sonhei",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Eu sonhava que o sol",
+              "chords": "Dm7(5-) → G7(13-)"
+            },
+            {
+              "cue": "Namorava o luar",
+              "chords": "Cm7 → Cm7/Bb"
+            },
+            {
+              "cue": "Que as nuvens do céu",
+              "chords": "A°"
+            },
+            {
+              "cue": "Beijavam o azul do mar",
+              "chords": "Dm7(5-) → G7(13-)"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Meu amor",
+              "chords": "Cm7 → F7(9)"
+            },
+            {
+              "cue": "Meu prazer",
+              "chords": "Bb7(9) → Bb7(9-)"
+            },
+            {
+              "cue": "Minha paixão é você",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Deusa linda do amor",
+              "chords": "Dm7(5-) → G7(13-)"
+            },
+            {
+              "cue": "Toma conta de mim",
+              "chords": "Cm7 → Cm7/Bb"
+            },
+            {
+              "cue": "O destino traçou",
+              "chords": "A°"
+            },
+            {
+              "cue": "Pra nunca mais ter fim",
+              "chords": "Dm7(5-) → G7(13-)"
+            }
+          ]
+        },
+        {
+          "label": "Ponte",
+          "lines": [
+            {
+              "cue": "Te amo e não tem jeito",
+              "chords": "Fm7(9) → Bb7(9)"
+            },
+            {
+              "cue": "Você é minha sina",
+              "chords": "Fm7(9) → Bb7(9)"
+            },
+            {
+              "cue": "Te amo meu amor, menina",
+              "chords": "Fm7(9) → Bb7(9) → Cm7 → C7"
+            },
+            {
+              "cue": "Você me alucina",
+              "chords": "Fm7(9) → Bb7(9)"
+            },
+            {
+              "cue": "Te amar é bom demais, menina",
+              "chords": "Fm7(9) → Bb7(9) → Cm7 → C7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Gamei, no corpo bronzeado",
+              "chords": "F7M → F6"
+            },
+            {
+              "cue": "Ganhei, um beijo assanhado",
+              "chords": "Bbm7"
+            },
+            {
+              "cue": "Fiquei, todinho arrepiado",
+              "chords": "Am7 → D7(9-)"
+            },
+            {
+              "cue": "Parei, surpreso e acanhado",
+              "chords": "Gm7 → C7(9)"
+            },
+            {
+              "cue": "Dancei, de rostinho colado",
+              "chords": "F7M → F6"
+            },
+            {
+              "cue": "Olhei, bumbum arrebitado",
+              "chords": "Bbm7"
+            },
+            {
+              "cue": "Gostei, perfume importado",
+              "chords": "Am7 → D7(9-)"
+            },
+            {
+              "cue": "Amei, já sou teu namorado",
+              "chords": "Gm7 → C7(9)"
+            },
+            {
+              "cue": "Gamei",
+              "chords": "F7M → Dm7(5-) → G7(13-) → Cm7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-16",
+      "num": 16,
+      "bloco": 1,
+      "title": "Morango do Nordeste",
+      "artist": "Karametade",
+      "tom": "C",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": null,
+      "cols2": false,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "C → G → Dm → Am → G"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Estava tão tristonho…",
+              "chords": "C → G  /  Dm → Am → F → G"
+            },
+            {
+              "cue": "Os meus amigos falam…",
+              "chords": "C → G  /  Dm → Am → F → G"
+            },
+            {
+              "cue": "É somente ela que me satisfaz",
+              "chords": "C → G  /  Dm → Am → F → G"
+            },
+            {
+              "cue": "Você só colheu o que plantou",
+              "chords": "C → G  /  Dm → Am → F → G"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Ela é um morango aqui do Nordeste",
+              "chords": "C → G  /  C → G  /  C → G  /  Dm → Am → F → G"
+            }
+          ]
+        },
+        {
+          "label": "Ponte / Final",
+          "lines": [
+            {
+              "cue": "Ai, é amor, ai é amor…",
+              "chords": "C → G  /  Dm  /  Am → F → G"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-17",
+      "num": 17,
+      "bloco": 1,
+      "title": "Retrato Cantado de Um Amor",
+      "artist": "Reinaldo",
+      "tom": "Dm",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Dm → Gm7 → C7 → F → A7 → Dm → Bb7 → A7"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Veja bem, nosso amor é perfeito…",
+              "chords": "Dm → Gm  /  A7 → D → A7"
+            },
+            {
+              "cue": "Lembro sim, maus momentos…",
+              "chords": "Dm → Gm  /  A7 → D7"
+            },
+            {
+              "cue": "Toda vez que converso…",
+              "chords": "Gm → C7  /  F → A7 → Dm"
+            },
+            {
+              "cue": "Me sinto como um pecador…",
+              "chords": "Dm → Bb7  /  A7 → D7"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "Este amor frutifica…",
+              "chords": "Gm7 → C7  /  F → A7 → Dm"
+            },
+            {
+              "cue": "Me dando a certeza…",
+              "chords": "Dm → Bb7  /  A7 → D → A7"
+            },
+            {
+              "cue": "É que o teu calor…",
+              "chords": "D → F#m7 → Am7  /  D7 → G"
+            },
+            {
+              "cue": "Tem lampejos de inspiração…",
+              "chords": "Gm → C7 → Dm  /  Bb7 → A7"
+            },
+            {
+              "cue": "E além do mais me julgo incapaz…",
+              "chords": "D → F#m7 → Am7  /  D7 → G"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "cue": "Pra finalizar, resumindo…",
+              "chords": "Gm6 → G#° → D → C7 → B7"
+            },
+            {
+              "cue": "Este é o retrato cantado…",
+              "chords": "E7(9) → Gm6 → A7 → D → D5+ → D6 → D7  (repetição)"
+            },
+            {
+              "chords": "Gm6 → G#° → D → C7 → B7  /  E7(9) → Gm6 → A7 → D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-18",
+      "num": 18,
+      "bloco": 1,
+      "title": "Domingo",
+      "artist": "Só Pra Contrariar",
+      "tom": "F",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Domingo",
+              "chords": "F7M"
+            },
+            {
+              "cue": "Quero te encontrar",
+              "chords": "Am7"
+            },
+            {
+              "cue": "E desabafar todo o meu sofrer",
+              "chords": "Cm → F7(5+) → Bb7M"
+            },
+            {
+              "cue": "Estar a seu lado",
+              "chords": "Bbm6 → Eb7(9)"
+            },
+            {
+              "cue": "E esquecer de tudo",
+              "chords": "Am7 → D7(9-)"
+            },
+            {
+              "cue": "Tudo o que o amor",
+              "chords": "G7(9)"
+            },
+            {
+              "cue": "Até hoje nos fez sofrer",
+              "chords": "Db7 → C7"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "Esquecer a briga",
+              "chords": "F7M"
+            },
+            {
+              "cue": "Que deixou ferida",
+              "chords": "Am7"
+            },
+            {
+              "cue": "E que até hoje não cicatrizou",
+              "chords": "Cm → F7(5+) → Bb7M"
+            },
+            {
+              "cue": "Te amar de novo faz parte da vida",
+              "chords": "Bbm6 → Eb7(9) → Am7 → D7(9-)"
+            },
+            {
+              "cue": "Abre o coração",
+              "chords": "G7(9)"
+            },
+            {
+              "cue": "Tudo tem sentido e tem razão",
+              "chords": "Gm7 → C7(9-)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão (2x)",
+          "lines": [
+            {
+              "cue": "Cola teu rosto no meu",
+              "chords": "F7M"
+            },
+            {
+              "cue": "Chega mais perto de mim",
+              "chords": "Am7"
+            },
+            {
+              "cue": "Faça de conta que eu sou teu namorado",
+              "chords": "Cm → F7(5+) → Bb7M"
+            },
+            {
+              "cue": "Amar você é bom demais",
+              "chords": "Bbm6 → Eb7(9)"
+            },
+            {
+              "cue": "É tudo que eu posso querer",
+              "chords": "Am7 → D7(9-)"
+            },
+            {
+              "cue": "Se tudo você tem melhor",
+              "chords": "G7(9)"
+            },
+            {
+              "cue": "Pior é te perder",
+              "chords": "Gm7 → C7(9-)"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "cue": "Amor",
+              "chords": "F7M → Am7"
+            },
+            {
+              "cue": "Pior é te perder",
+              "chords": "Gm7 → C7(9-)"
+            },
+            {
+              "cue": "Amor amor amor",
+              "chords": "Am7 → D7(9-)  /  Gm7 → C7(9-)"
+            },
+            {
+              "cue": "Amor Amor",
+              "chords": "F#7M → Eb7M"
+            },
+            {
+              "cue": "Domingo",
+              "chords": "F7M"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-19",
+      "num": 19,
+      "bloco": 1,
+      "title": "Deixa Acontecer",
+      "artist": "Grupo Revelação",
+      "tom": "D / Bm",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": "⚑ Começa só cavaco e chocalho.",
+      "cols2": false,
+      "chordsTop": false,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "G7M → F#7 → Bm7 → D7(13)  /  G7M → F#7 → Bm7 → D7(4/9)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Deixa acontecer naturalmente…",
+              "chords": "G7M → F#7 → Bm7 → D7(9)  /  G7M → F#7 → Bm7 → Bbm7"
+            },
+            {
+              "chords": "Am7 → D7(9) → G7M → F#7 → Bm7  /  D7(9) → C#m7(5-) → F#7(13-) → Bm7"
+            },
+            {
+              "chords": "(refrão repete; final → Bm7 → A7(4/9))"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Você já disse que me quer…",
+              "chords": "D7M → F#m7  /  Em7 → A7 → Em7 → F#m7 → G7M → A7(4/9)"
+            },
+            {
+              "chords": "D6 → F#m7 → Em7 → Em7/D → C#m7(5-) → F#7"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "cue": "Só que eu tenho muito medo…",
+              "chords": "Bm7 → F#m7  /  G7M → F#7 → Bm7"
+            },
+            {
+              "chords": "A7(4) → A7 → D7M  /  C#m7(5-) → F#7 → Bm7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-20",
+      "num": 20,
+      "bloco": 1,
+      "title": "O Mar Serenou / Faixa Amarela / Deixa a Vida Me Levar",
+      "artist": "Clara Nunes · Zeca Pagodinho",
+      "tom": "D",
+      "levada": "Medley · roda",
+      "singers": [
+        {
+          "key": "mari",
+          "name": "Mari"
+        },
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": "⚑ O Mar Serenou + Faixa Amarela: Mari · Deixa a Vida Me Levar: Nery. (“Amarela” veio em rosa no setlist — me diga se é o Gabriel nesse trecho.)",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "O Mar Serenou · Mari",
+          "lines": [
+            {
+              "cue": "O mar serenou, quando ela pisou",
+              "chords": "D → B7 → Em → A7  /  A7 → D"
+            },
+            {
+              "cue": "O pescador não tem medo / É segredo",
+              "chords": "B7"
+            },
+            {
+              "cue": "Ao ver a morena sambando",
+              "chords": "Em → A7"
+            },
+            {
+              "cue": "Deixa o mar serenar",
+              "chords": "D → A7   (2ª estrofe mesma base)"
+            }
+          ]
+        },
+        {
+          "label": "Faixa Amarela · Mari",
+          "lines": [
+            {
+              "cue": "Vou dá-lhe um gato angorá…",
+              "chords": "D → B7 → Em → A7 → D → A7   (base p/ toda a letra)"
+            }
+          ]
+        },
+        {
+          "label": "Deixa a Vida (Nery) — 1ª Parte",
+          "lines": [
+            {
+              "cue": "Eu já passei por quase tudo…",
+              "chords": "D → A7 → D"
+            },
+            {
+              "cue": "Em matéria de guarida",
+              "chords": "B7 → Em"
+            },
+            {
+              "cue": "Espero ainda a minha vez",
+              "chords": "A7 → D → A7"
+            },
+            {
+              "cue": "Confesso que sou de origem pobre",
+              "chords": "D → A7 → D"
+            },
+            {
+              "cue": "Mas meu coração é nobre",
+              "chords": "B7 → Em"
+            },
+            {
+              "cue": "Foi assim que Deus me fez",
+              "chords": "A7 → D"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Deixa a vida me levar…",
+              "chords": "A7 → D → F° → Em → A7 → D"
+            },
+            {
+              "cue": "Deixa a vida me levar…",
+              "chords": "A7 → D → D7 → G"
+            },
+            {
+              "cue": "Sou feliz e agradeço…",
+              "chords": "G#° → D → B7 → Em → A7 → D → A7"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "cue": "Só posso levantar as mãos…",
+              "chords": "D → A7 → D → A7 → D"
+            },
+            {
+              "cue": "Ao destino que Deus me deu",
+              "chords": "F#m → F° → Em7 → A7"
+            },
+            {
+              "cue": "Se não tenho tudo que preciso…",
+              "chords": "Em → Em7M → Em7 → Em6 → A7 → A7(13-) → D → A7"
+            }
+          ]
+        },
+        {
+          "label": "3ª Parte",
+          "lines": [
+            {
+              "cue": "Se a coisa não sai do jeito…",
+              "chords": "D → A7 → D → A7 → D"
+            },
+            {
+              "cue": "O negócio é deixar rolar",
+              "chords": "D7 → G → B7/F#"
+            },
+            {
+              "cue": "E aos trancos e barrancos…",
+              "chords": "Em7 → C7(9) → F#m7 → B7 → Em7 → A7 → D"
+            }
+          ]
+        },
+        {
+          "label": "Refrão Final (4x)",
+          "lines": [
+            {
+              "chords": "(repete o refrão até o fim)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-1",
+      "num": 1,
+      "bloco": 2,
+      "title": "Pot-Pourri Tim Maia",
+      "artist": "Tim Maia · Seu Jorge",
+      "tom": "A",
+      "levada": "Medley",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        },
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": "⚑ Gostava Tanto → Você → Burguesinha.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "a) Gostava Tanto de Você · Mosquitão",
+          "lines": [
+            {
+              "cue": "Não sei por que você se foi…",
+              "chords": "A7M → Bm7 → C#m7 → Bm7  (base do verso)"
+            },
+            {
+              "cue": "Gostava tanto de você  (2x)",
+              "chords": "A7M → Bm7"
+            }
+          ]
+        },
+        {
+          "label": "b) Você · Mosquitão",
+          "lines": [
+            {
+              "cue": "Você é mais do que sei",
+              "chords": "A → Bm7"
+            },
+            {
+              "cue": "É mais que pensei, baby",
+              "chords": "C#m7 → Bm7 → E7(4)"
+            },
+            {
+              "cue": "Você é algo assim…",
+              "chords": "(mesma base)"
+            },
+            {
+              "cue": "Sou feliz agora",
+              "chords": "A → D"
+            },
+            {
+              "cue": "Não, não vá embora não",
+              "chords": "A → D → C#m7"
+            },
+            {
+              "cue": "Não, não, não…",
+              "chords": "Bm7 → C#m7 → Bm7 → E7"
+            }
+          ]
+        },
+        {
+          "label": "c) Burguesinha · Nery",
+          "lines": [
+            {
+              "cue": "Vai no cabelereiro…",
+              "chords": "A7M → D7M  (2x)"
+            },
+            {
+              "cue": "Saca dinheiro, vai de motorista",
+              "chords": "C#m7"
+            },
+            {
+              "cue": "Com seu carro esporte…",
+              "chords": "Bm7 → E7(9)"
+            },
+            {
+              "cue": "Final de semana, na casa de praia",
+              "chords": "A7M → D7M"
+            },
+            {
+              "cue": "Vai pra balada…",
+              "chords": "C#m7"
+            },
+            {
+              "cue": "Com a sua tribo…",
+              "chords": "Bm7 → E7(9)"
+            },
+            {
+              "cue": "Burguesinha, burguesinha…  (refrão)",
+              "chords": "A7M → D7M"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-2",
+      "num": 2,
+      "bloco": 2,
+      "title": "Mas Que Nada",
+      "artist": "Jorge Ben Jor",
+      "tom": "Gm",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Gm7 · D7 · Gm7 · D7  /  Gm7 · D7 · Gm7 · F7  /  Gm7 · D7  /  Gm7 · Cm7 · F7 · Gm7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Ô Ariá raiou",
+              "chords": "Gm7 · Cm7 · F7 · Gm7"
+            },
+            {
+              "cue": "Obá obá obá  (2x)",
+              "chords": "D7 · Gm7 · D7"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Mas que nada sai da minha frente",
+              "chords": "Gm7 · D7"
+            },
+            {
+              "cue": "Que eu quero passar",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Pois o samba está animado",
+              "chords": "D7 · Gm7"
+            },
+            {
+              "cue": "O que eu quero é sambar",
+              "chords": "D7 · Gm7"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "Este samba",
+              "chords": "Cm7"
+            },
+            {
+              "cue": "Que é misto de maracatu",
+              "chords": "F7 · Gm7"
+            },
+            {
+              "cue": "É samba de preto velho / preto tu",
+              "chords": "Cm7  /  F7 · Gm7"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "Mas que nada",
+              "chords": "D7 · Gm7"
+            },
+            {
+              "cue": "Um samba como este tão legal",
+              "chords": "D7 · Gm7"
+            },
+            {
+              "cue": "Você não vai querer",
+              "chords": "D7 · Gm7"
+            },
+            {
+              "cue": "Que eu chegue no final",
+              "chords": "D7 · Gm7"
+            }
+          ]
+        },
+        {
+          "label": "Solo",
+          "lines": [
+            {
+              "chords": "Gm7 · Cm7 · F7  /  Gm7 · D7 · Gm7 · D7   (2x)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-3",
+      "num": 3,
+      "bloco": 2,
+      "title": "Cheia de Manias",
+      "artist": "Raça Negra",
+      "tom": "Gm",
+      "levada": "Romântico",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": "⚑ 1 vez direto.",
+      "cols2": true,
+      "chordsTop": false,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Gm → Eb → Cm → C#° → D7"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Cheia de manias…",
+              "chords": "Gm → F  /  Gm → F"
+            },
+            {
+              "cue": "Com esse seu jeito…",
+              "chords": "Gm → F → Gm"
+            },
+            {
+              "cue": "Eu fico sem saber…",
+              "chords": "F → Gm → F"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Então me ajude a segurar…",
+              "chords": "Gm → F  /  Gm → F"
+            },
+            {
+              "cue": "Hiê! Didididi…",
+              "chords": "Gm → F → Gm → F"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "cue": "Estou na sua casa…",
+              "chords": "Gm → F  /  Gm → F"
+            }
+          ]
+        },
+        {
+          "label": "Refrão (repete)",
+          "lines": [
+            {
+              "chords": "Gm → F  /  Gm → F  /  (Hiê!) Gm → F → Gm → F"
+            }
+          ]
+        },
+        {
+          "label": "Solo",
+          "lines": [
+            {
+              "chords": "Gm → F → Eb → F   (2x)"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "chords": "Gm → F → Eb → F  /  Gm → F → Eb → F → Gm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-4",
+      "num": 4,
+      "bloco": 2,
+      "title": "Eu e Ela",
+      "artist": "Grupo Raça",
+      "tom": "Gm",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": "⚑ 1 vez inteira.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "cue": "Pararará! Parará!",
+              "chords": "Gm · G7 · Cm  /  F7 · Bb  /  Gm · Cm  /  D7"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Lua linda, noite bela",
+              "chords": "Gm · Cm"
+            },
+            {
+              "cue": "Saímos pela madrugada",
+              "chords": "D7"
+            },
+            {
+              "cue": "Ela e o namorado dela",
+              "chords": "Gm · Bb/G# · Cm"
+            },
+            {
+              "cue": "Eu e minha namorada",
+              "chords": "D7 · G7(4)"
+            },
+            {
+              "cue": "Não pude nem me defender",
+              "chords": "G7 · Cm"
+            },
+            {
+              "cue": "Levei um golpe da paixão",
+              "chords": "F7 · Bb"
+            },
+            {
+              "cue": "Lutei, não consegui conter",
+              "chords": "Gm · Cm"
+            },
+            {
+              "cue": "A fúria do meu coração",
+              "chords": "D7 · Gm"
+            }
+          ]
+        },
+        {
+          "label": "Desenvolvimento",
+          "lines": [
+            {
+              "cue": "Ela no meu / E eu no seu olhar",
+              "chords": "Gm · Cm  /  F · Bb · D7"
+            },
+            {
+              "cue": "Ela me provocando",
+              "chords": "Gm"
+            },
+            {
+              "cue": "Aconteceu, não deu pra segurar",
+              "chords": "Cm · F"
+            },
+            {
+              "cue": "Não se pode negar",
+              "chords": "Bb · G7(4)"
+            },
+            {
+              "cue": "Um verdadeiro encanto",
+              "chords": "G7 · Cm"
+            },
+            {
+              "cue": "Mas rolava um clima de amor",
+              "chords": "F7 · Bb"
+            },
+            {
+              "cue": "A gente falava no olhar",
+              "chords": "Gm · Cm"
+            },
+            {
+              "cue": "Sorria e zombava da dor",
+              "chords": "D7 · G7(4)"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão",
+          "lines": [
+            {
+              "cue": "Uma cena de novela",
+              "chords": "G7 · Cm"
+            },
+            {
+              "cue": "Uma paixão inesperada",
+              "chords": "F7 · Bb · D7"
+            },
+            {
+              "cue": "Ela e o namorado dela",
+              "chords": "Gm · Cm"
+            },
+            {
+              "cue": "Eu e minha namorada  (repete)",
+              "chords": "D7 · G7(4)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Ela! Ela e o namorado dela",
+              "chords": "Gm"
+            },
+            {
+              "cue": "Eu e minha namorada  (repete)",
+              "chords": "Cm · D7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-5",
+      "num": 5,
+      "bloco": 2,
+      "title": "Cilada",
+      "artist": "Molejo",
+      "tom": "Am",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": "⚑ 1 vez direto.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Am → G7 → C  /  Am → Bm7(5-) → E7"
+            }
+          ]
+        },
+        {
+          "label": "Parte 1",
+          "lines": [
+            {
+              "cue": "Quase morri do coração…",
+              "chords": "Am → G7(4) → G7  /  C → Am → Bm7(5-) → E7"
+            },
+            {
+              "cue": "Ela me usou o tempo inteiro…",
+              "chords": "Am → G7  /  C → Am → Bm7(5-) → E7"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão",
+          "lines": [
+            {
+              "cue": "Inocente, apaixonado…",
+              "chords": "A → A5+ → A6 → A7  /  D → Bm → E7"
+            },
+            {
+              "cue": "Que cilada, desilusão…",
+              "chords": "A → A5+ → A6 → A7  /  D → Bm → E7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Não era amor, ôh ôh / Não era",
+              "chords": "Am → F7 → E7"
+            },
+            {
+              "cue": "Não era amor, era cilada",
+              "chords": "Am → F7 → E7"
+            },
+            {
+              "cue": "Cilada, cilada",
+              "chords": "Am → F7 → E7"
+            }
+          ]
+        },
+        {
+          "label": "Parte 2",
+          "lines": [
+            {
+              "cue": "Quase morrendo de cansaço…",
+              "chords": "Am → G7(4) → G7  /  C → Am → Bm7(5-) → E7"
+            },
+            {
+              "cue": "Aquele clima envolvente…",
+              "chords": "Am → G7  /  C → Am → Bm7(5-) → E7"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "chords": "(refrão até o fim) Am → F7 → E7 → Am"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-6",
+      "num": 6,
+      "bloco": 2,
+      "title": "Parabéns pra Você",
+      "artist": "—",
+      "tom": "G",
+      "levada": null,
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": null,
+      "cols2": false,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Refrão (2x)",
+          "lines": [
+            {
+              "cue": "Parabéns pra você",
+              "chords": "G → D"
+            },
+            {
+              "cue": "Nesta data querida",
+              "chords": "G"
+            },
+            {
+              "cue": "Muitas felicidades",
+              "chords": "G7 → C"
+            },
+            {
+              "cue": "Muitos anos de vida",
+              "chords": "D → G"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-7",
+      "num": 7,
+      "bloco": 2,
+      "title": "Dança do Bole-Bole",
+      "artist": "Exaltasamba",
+      "tom": "G",
+      "levada": "Animação",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": null,
+      "cols2": false,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "G"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Mulherada que dança é essa, que o corpo fica todo mole",
+              "chords": "G → E7 → Am  /  D7 → G   (repetir)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-8",
+      "num": 8,
+      "bloco": 2,
+      "title": "Pé na Areia",
+      "artist": "Diogo Nogueira",
+      "tom": "G",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": null,
+      "cols2": false,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "G7M → D7M(2) → G7M"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Vamos amor, vamos curtir…",
+              "chords": "D7M(2) → Am7 → D7(9) → G7M  /  G6 → Gm7"
+            },
+            {
+              "chords": "D7M(2) → Am7 → D7(9) → G7M → G6 → Eb7M"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão",
+          "lines": [
+            {
+              "cue": "Nada pode ser melhor…",
+              "chords": "Em7(9) → D7M(2) → Em7(9)  /  D7M(2) → Em7(9) → D7M(2)  /  Em7(9) → F#7(4)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Pé na areia, a caipirinha…",
+              "chords": "Em7(9) → G7M → D7M(2) → B7"
+            },
+            {
+              "chords": "Em7(9) → G7M → D7M(2) → B7   (4x no final, passagem por A6/B)"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "chords": "G7M → D7M(2) → G7M → D7M(2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-9",
+      "num": 9,
+      "bloco": 2,
+      "title": "Água de Chuva no Mar",
+      "artist": "Beth Carvalho",
+      "tom": "C",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mari",
+          "name": "Mari"
+        }
+      ],
+      "note": "⚑ Dar paradona no meio da música.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "C · B7 · C · B7  /  Dm7 · Dm7M · Dm7 · G7  /  C · C° · C"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "O meu coração hoje tem paz",
+              "chords": "C · C° · C"
+            },
+            {
+              "cue": "Decepção ficou pra trás",
+              "chords": "C° · Dm7"
+            },
+            {
+              "cue": "Eu encontrei um grande amor",
+              "chords": "Dm7M · Dm7"
+            },
+            {
+              "cue": "Felicidade enfim chegou",
+              "chords": "G7 · C"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Como o brilho do luar",
+              "chords": "C° · C"
+            },
+            {
+              "cue": "Em sintonia com o mar",
+              "chords": "C° · Dm7"
+            },
+            {
+              "cue": "Nessa viagem de esplendor",
+              "chords": "Dm7M · Dm7"
+            },
+            {
+              "cue": "Meu sonho se realizou",
+              "chords": "G7 · Em7(5-) · C7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "A gente se fala no olhar, no olhar",
+              "chords": "F7M · F6 · Fm7"
+            },
+            {
+              "cue": "É água de chuva no mar, no mar",
+              "chords": "C · A7"
+            },
+            {
+              "cue": "Caminha no mesmo lugar",
+              "chords": "Dm7 · Em7"
+            },
+            {
+              "cue": "Sem pressa, sem medo de errar",
+              "chords": "F7M · G7(13)"
+            },
+            {
+              "cue": "É tão bonito o nosso amor",
+              "chords": "C7M · C6 · Gm7 · C7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "A gente tem tanto querer, querer",
+              "chords": "F7M · F6 · Fm7"
+            },
+            {
+              "cue": "Faz até a terra tremer, tremer",
+              "chords": "C · A7"
+            },
+            {
+              "cue": "A luz que reluz meu viver",
+              "chords": "Dm7 · Em7"
+            },
+            {
+              "cue": "O sol do meu amanhecer é você",
+              "chords": "F7M · G7(13) · C   ( Gm7 · C7 )"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-10",
+      "num": 10,
+      "bloco": 2,
+      "title": "Reinventar",
+      "artist": "Belo",
+      "tom": "Am",
+      "levada": "Romântico",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Diz que já é tarde, que não tem mais jeito",
+              "chords": "C7+ · Dm → Em"
+            },
+            {
+              "cue": "Mas eu não aceito a decisão do teu coração",
+              "chords": "E7 → Am7 → G → F7M"
+            },
+            {
+              "cue": "Sem tua metade sou tão imperfeito…",
+              "chords": "Dm → Em"
+            },
+            {
+              "cue": "Sei que a gente pode sorrir",
+              "chords": "E7 → Am7  /  G → F7M"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "Juro que vou me conter / nunca mais errar",
+              "chords": "Dm → Em → E7(4)"
+            },
+            {
+              "cue": "Como eu quero te mostrar o milagre do amor",
+              "chords": "Am → C4"
+            },
+            {
+              "cue": "Você me fez mudar / Tão bom te amar",
+              "chords": "F7M → G7 → C7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Te amar, recomeçar sem me esconder",
+              "chords": "F7M → G/F → Em"
+            },
+            {
+              "cue": "Eu sempre fui apaixonado por você",
+              "chords": "Gm7 → C7 → F7M"
+            },
+            {
+              "cue": "Reinventar, resplandecer",
+              "chords": "G/F"
+            },
+            {
+              "cue": "O que não apagou…",
+              "chords": "Em"
+            },
+            {
+              "cue": "Eu sei que o sonho ainda pode acontecer",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Pode acontecer",
+              "chords": "C7 → F7M  /  G7 → C7+"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-11",
+      "num": 11,
+      "bloco": 2,
+      "title": "Nem de Graça",
+      "artist": "Pixote",
+      "tom": "Gm",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": "⚑ 4x o último refrão no final.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Eb9 · F11 · Gm11 · Bb/D"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "É que não sobrou espaço pra outro alguém",
+              "chords": "Eb9 → F/A"
+            },
+            {
+              "cue": "Minha saudade só cabe no teu abraço…",
+              "chords": "Dm → Gm"
+            },
+            {
+              "cue": "Tenho dó de quem me conhecer agora",
+              "chords": "Eb9 → F/A"
+            },
+            {
+              "cue": "Que todo amor eu tô jogando fora",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "E qualquer um que bate aqui…",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Não passa nem… dá… por… ta",
+              "chords": "Eb9"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Se essa boca não beijasse tão bem",
+              "chords": "F · Fm7 · Bb7(4/9) · Eb9"
+            },
+            {
+              "cue": "Se esse abraço não fosse tão massa",
+              "chords": "F"
+            },
+            {
+              "cue": "Se quer saber se eu quero outro alguém",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Nem de graça, nem de graça",
+              "chords": "Gm7 → Gm7/F"
+            },
+            {
+              "cue": "Leva mal não",
+              "chords": "C7(9)"
+            },
+            {
+              "cue": "Só tem espaço pra você no coração",
+              "chords": "Eb9 → Ebm6"
+            }
+          ]
+        },
+        {
+          "label": "Solo",
+          "lines": [
+            {
+              "chords": "Eb9 · F11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-12",
+      "num": 12,
+      "bloco": 2,
+      "title": "Lancinho",
+      "artist": "Turma do Pagode",
+      "tom": "Gm",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro (2x)",
+          "lines": [
+            {
+              "chords": "Bb/C → C/D → Bb/C → C/D → D7(b9)"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Você sempre quis alguém…",
+              "chords": "Gm7/11 → Am7/11 → D7(b9)"
+            },
+            {
+              "cue": "Esse alguém sou eu / Precisa saber",
+              "chords": "Bb7M → Am7/11  /  Gm7/11 → Bb/C"
+            },
+            {
+              "cue": "Pra te completar, estar com você",
+              "chords": "Gm7/11 → Am7/11 → D7(b9)"
+            },
+            {
+              "cue": "Se ele não liga nem pra desejar…",
+              "chords": "Bb7M → Am7/11  /  Gm7/11 → D7(b9)"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão",
+          "lines": [
+            {
+              "cue": "Por isso me liga querendo me ver",
+              "chords": "Gm7/11 → Am7/11 → D7(b9)"
+            },
+            {
+              "cue": "E eu paro tudo pra estar com você",
+              "chords": "Gm7/11"
+            },
+            {
+              "cue": "Quero você",
+              "chords": "C7/9 → C/D → F#°"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Namora mas adora um proibido",
+              "chords": "Gm7/11 → Am7/11 → D7(b9)"
+            },
+            {
+              "cue": "E eu que sou culpado, eu que sou bandido",
+              "chords": "Gm7/11"
+            },
+            {
+              "cue": "Prefere um romance escondido",
+              "chords": "Am7/11 → D7(b9)"
+            },
+            {
+              "cue": "Sai na madrugada pra dar lancinho comigo",
+              "chords": "(repetir refrão)"
+            }
+          ]
+        },
+        {
+          "label": "Pós-Refrão",
+          "lines": [
+            {
+              "chords": "Bb/C → C/D → Bb/C → C/D → D7(b9)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-13",
+      "num": 13,
+      "bloco": 2,
+      "title": "Falta Você",
+      "artist": "Thiaguinho",
+      "tom": "E",
+      "levada": "Pagode romântico",
+      "singers": [
+        {
+          "key": "mari",
+          "name": "Mari"
+        }
+      ],
+      "note": "⚑ Paradinha no “tudo bem… como vai a sua vida”.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Juro que eu não sei mais",
+              "chords": "E7M(9)"
+            },
+            {
+              "cue": "O que eu vou falar",
+              "chords": "Bm7(9/11)"
+            },
+            {
+              "cue": "Quando você me perguntar",
+              "chords": "A7M"
+            },
+            {
+              "cue": "“Tudo bem, como vai a sua vida?”",
+              "chords": "D7(4/9) · E7M(9)"
+            },
+            {
+              "cue": "Como fosse uma questão já respondida",
+              "chords": "Bm7"
+            },
+            {
+              "cue": "Uma história que ficou mal resolvida",
+              "chords": "A7M"
+            },
+            {
+              "cue": "Feito uma mensagem que nunca foi lida",
+              "chords": "D7(13) · D7(4/9)"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão",
+          "lines": [
+            {
+              "cue": "Posso te responder",
+              "chords": "E7M(9)"
+            },
+            {
+              "cue": "O que você quiser ouvir",
+              "chords": "Bm7 · A7M"
+            },
+            {
+              "cue": "Mas a verdade é essa aqui",
+              "chords": "D7(4/9)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Falta de tudo, não sei de nada",
+              "chords": "E7M"
+            },
+            {
+              "cue": "É só trabalho, volto pra casa",
+              "chords": "E7(4/9)"
+            },
+            {
+              "cue": "Não tem você / Falta você!",
+              "chords": "A7M  /  D7(4/9)"
+            },
+            {
+              "cue": "Não tem seu cheiro no travesseiro",
+              "chords": "E7M"
+            },
+            {
+              "cue": "Quando me espalho na nossa cama",
+              "chords": "E7(4/9)"
+            },
+            {
+              "cue": "Não tem você / Falta você!",
+              "chords": "A7M  /  C7M · D7(4/9)"
+            },
+            {
+              "cue": "La laiá, laiá",
+              "chords": "E7M · E7(4/9) · A7M · C7M · D7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-14",
+      "num": 14,
+      "bloco": 2,
+      "title": "Compasso do Amor",
+      "artist": "Grupo Revelação",
+      "tom": "C",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": null,
+      "cols2": false,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "C → C7 → F → G7 → Em  /  Am → Dm → G7 → C → G7"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Quero sentir teu abraço, teu calor…",
+              "chords": "C → G → E7 → Am  /  Dm → G7 → C"
+            },
+            {
+              "cue": "Viajar pelo teu corpo sedutor…",
+              "chords": "C → G → E7 → Am  /  Dm → G7 → C"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "Luz que meu céu ilumina…",
+              "chords": "C7 → F7M → G7  /  Em7 → Am7 → G#m7 → Gm7"
+            },
+            {
+              "cue": "Essa paixão me fascina…",
+              "chords": "C7 → F7M → G7 → C"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Quando a gente ama não tem pra ninguém…  (cada frase)",
+              "chords": "C7 → F7M  /  G7 → C"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "chords": "C → C7 → G7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-15",
+      "num": 15,
+      "bloco": 2,
+      "title": "Jogo de Sedução",
+      "artist": "Exaltasamba",
+      "tom": "C",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": "⚑ Entrada: “Só você tem o meu…”. Segurar palma no final.",
+      "cols2": false,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "C → C7 → F → Fm"
+            }
+          ]
+        },
+        {
+          "label": "Lelelele",
+          "lines": [
+            {
+              "chords": "C → C7 → F → Fm  /  C → C7 → F → Fm → C"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Só você tem o meu amor…  (2x)",
+              "chords": "C7 → F → Fm → C"
+            },
+            {
+              "cue": "Tá pegando a rota do fim…  (2x)",
+              "chords": "C7 → F → Fm → C"
+            }
+          ]
+        },
+        {
+          "label": "Lelelele",
+          "lines": [
+            {
+              "chords": "C7 → F → Fm  /  C → C7 → F → Fm → C"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Eu não vou me deixar levar…  (2x)",
+              "chords": "C7 → F → Fm → C"
+            },
+            {
+              "cue": "É melhor você parar…  (2x)",
+              "chords": "C7 → F → Fm → C"
+            }
+          ]
+        },
+        {
+          "label": "Lelelele (final)",
+          "lines": [
+            {
+              "chords": "C7 → F → Fm  /  C → C7 → F → Fm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-16",
+      "num": 16,
+      "bloco": 2,
+      "title": "Tá Escrito",
+      "artist": "Grupo Revelação",
+      "tom": "F",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": "⚑ Entrada: “Quem cultiva…”.",
+      "cols2": false,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Quem cultiva a semente do amor",
+              "chords": "F → C → Bb  /  F → Dm  /  Gm → C7 → F7"
+            },
+            {
+              "cue": "Às vezes a felicidade demora a chegar",
+              "chords": "Bb → F → C → Am7  /  Gm → C7  /  F → Am7 → Cm → F7"
+            },
+            {
+              "cue": "É dia de sol, mas o tempo pode fechar",
+              "chords": "Bb → F → C → Am → D7  /  Gm → C7  /  F → D7  /  Gm → C7 → F → F7"
+            },
+            {
+              "cue": "Ergue essa cabeça, mete o pé e vai na fé",
+              "chords": "Bb → F  /  Dm → C → Bb  /  C → F → F7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-17",
+      "num": 17,
+      "bloco": 2,
+      "title": "Curtindo a Vida",
+      "artist": "Grupo Bom Gosto",
+      "tom": "Em",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "cue": "Guere guerê, guere guerê…",
+              "chords": "Em7(9) → B7(4/9) → F#m7(5-) → B7(9-)   (repetir)"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "Quer saber? Tudo tem um porquê…",
+              "chords": "A7(4/9) → B7(4/9)  /  A7(4/9) → B7(4/9)"
+            },
+            {
+              "cue": "Antes só do que ser infeliz",
+              "chords": "Bb7(4/9) → A7(4/9) → B7(4/9)"
+            },
+            {
+              "cue": "Sei que vou encontrar diretriz…",
+              "chords": "A7(4/9) → B7(4/9)  /  F#m7(5-) → B7(9-)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Enquanto eu não encontro eu vou curtindo a vida",
+              "chords": "Em7(9) → B7(4/9)"
+            },
+            {
+              "cue": "…eu vou beijando em boca",
+              "chords": "F#m7(5-) → B7(9-)"
+            },
+            {
+              "cue": "…vou badalando / pagodeando",
+              "chords": "Em7(9) → B7(4/9)"
+            },
+            {
+              "cue": "Eu sou da boemia, da Lua",
+              "chords": "F#m7(5-) → B7(9-)"
+            }
+          ]
+        },
+        {
+          "label": "Ponte",
+          "lines": [
+            {
+              "cue": "Guere guerê…",
+              "chords": "Em7(9) → B7(4/9) → F#m7(5-) → B7(9-)"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "chords": "Em7(9)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-18",
+      "num": 18,
+      "bloco": 2,
+      "title": "Conselho",
+      "artist": "Grupo Revelação",
+      "tom": "G",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": null,
+      "cols2": false,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Deixe de lado esse baixo astral…",
+              "chords": "G → Bm  /  Dm → G7 → C"
+            },
+            {
+              "chords": "Cm → Bm → F7 → E7  /  Am → A7 → D7 → D"
+            }
+          ]
+        },
+        {
+          "label": "Ponte",
+          "lines": [
+            {
+              "cue": "Pra que se lamentar…",
+              "chords": "G → Bm  /  Dm → G7 → C"
+            },
+            {
+              "chords": "Cm → Bm → E7  /  Am → D#7 → D7 → G → D7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Tem que lutar, não se abater…",
+              "chords": "G → Bm  /  Dm → G7 → C"
+            },
+            {
+              "chords": "Cm → Bm → F7 → E7  /  Am → D7 → G → D7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-19",
+      "num": 19,
+      "bloco": 2,
+      "title": "Hoje Eu Vou Pagodear",
+      "artist": "Dilsinho",
+      "tom": "F",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "gabriel",
+          "name": "Gabriel"
+        }
+      ],
+      "note": null,
+      "cols2": false,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "F → Gm7 → Am7 → D7 → G7 → Gm7 → C7"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "A lua ilumina o terreiro",
+              "chords": "F → Bb → C7 → F → C7/6 → C7"
+            },
+            {
+              "cue": "Ao som do cavaquinho",
+              "chords": "F → Bb → C7 → F → Cm → F7"
+            },
+            {
+              "cue": "Beber uma cerveja bem gelada",
+              "chords": "Bb → Am → C/D → D7"
+            },
+            {
+              "cue": "Pode até chover e relampejar",
+              "chords": "Gm7 → Am → Gm7 → C7 → F → C → Cm → F7"
+            },
+            {
+              "cue": "Como é gostoso cair no samba",
+              "chords": "Bb → F → F7 → Eb7 → D7 → G7 → Gm7 → C7 → F → C → Cm → F7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Abra a roda que o pagode agora vai ferver",
+              "chords": "F → D7 → Gm7 → C7 → F"
+            },
+            {
+              "cue": "Vem sambar o miudinho que você vai ver",
+              "chords": "F → D7 → Gm7 → C7 → F"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-20",
+      "num": 20,
+      "bloco": 2,
+      "title": "Pot-Pourri Final",
+      "artist": "Roda · de ouvido",
+      "tom": null,
+      "levada": "Medley · roda",
+      "singers": [],
+      "note": "⚑ Sem cifra fixa — puxar de ouvido na roda.",
+      "cols2": false,
+      "chordsTop": false,
+      "sections": [
+        {
+          "label": "a) Vai Lá, Vai Lá",
+          "lines": [
+            {
+              "cue": "Vai lá no Cacique sambar…",
+              "chords": "—"
+            },
+            {
+              "cue": "Um pudim sem coco não dá…",
+              "chords": "—"
+            },
+            {
+              "cue": "É, pois é / Estou procurando o José…",
+              "chords": "—"
+            }
+          ]
+        },
+        {
+          "label": "b) Este Samba É Pra Você",
+          "lines": [
+            {
+              "cue": "Este samba é pra você…",
+              "chords": "—"
+            }
+          ]
+        },
+        {
+          "label": "c) Obrigado do Fundo do Nosso Quintal",
+          "lines": [
+            {
+              "cue": "Obrigado do fundo do nosso quintal…",
+              "chords": "—"
+            }
+          ]
+        },
+        {
+          "label": "Extras de roda",
+          "lines": [
+            {
+              "cue": "Ai como dói a dor…",
+              "chords": "—"
+            },
+            {
+              "cue": "No morro o cavaco chora…",
+              "chords": "—"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
