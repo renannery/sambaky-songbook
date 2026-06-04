@@ -2325,19 +2325,11 @@
           "lines": [
             {
               "cue": "Pararará! Parará!",
-              "chords": "Gm → G7 → Cm"
+              "chords": "Gm → G7 → Cm  /  F7 → Bb"
             },
             {
-              "cue": "Pararará! Parará!",
-              "chords": "F7 → Bb"
-            },
-            {
-              "cue": "Pararará! Parará!",
-              "chords": "Gm → Cm"
-            },
-            {
-              "cue": "Pararararará!",
-              "chords": "D7"
+              "cue": "Pararará! / Pararararará!",
+              "chords": "Gm → Cm  /  D7"
             }
           ]
         },
@@ -2345,36 +2337,20 @@
           "label": "1ª Parte",
           "lines": [
             {
-              "cue": "Lua linda, noite bela",
-              "chords": "Gm → Cm"
+              "cue": "Lua linda, noite bela / Saímos pela madrugada",
+              "chords": "Gm → Cm  /  D7"
             },
             {
-              "cue": "Saímos pela madrugada",
-              "chords": "D7"
+              "cue": "Ela e o namorado dela / Eu e minha namorada",
+              "chords": "Gm → Bb/G# → Cm  /  D7 → G7(4)"
             },
             {
-              "cue": "Ela e o namorado dela",
-              "chords": "Gm → Bb/G# → Cm"
+              "cue": "Não pude nem me defender / Levei um golpe da paixão",
+              "chords": "G7 → Cm  /  F7 → Bb"
             },
             {
-              "cue": "Eu e minha namorada",
-              "chords": "D7 → G7(4)"
-            },
-            {
-              "cue": "Não pude nem me defender",
-              "chords": "G7 → Cm"
-            },
-            {
-              "cue": "Levei um golpe da paixão",
-              "chords": "F7 → Bb"
-            },
-            {
-              "cue": "Lutei, não consegui conter",
-              "chords": "Gm → Cm"
-            },
-            {
-              "cue": "A fúria do meu coração",
-              "chords": "D7 → Gm"
+              "cue": "Lutei, não consegui conter / A fúria do meu coração",
+              "chords": "Gm → Cm  /  D7 → Gm"
             }
           ]
         },
@@ -2382,36 +2358,20 @@
           "label": "Desenvolvimento",
           "lines": [
             {
-              "cue": "Ela no meu",
-              "chords": "Gm"
+              "cue": "Ela no meu / E eu no seu olhar",
+              "chords": "Gm  /  Cm"
             },
             {
-              "cue": "E eu no seu olhar",
-              "chords": "Cm"
+              "cue": "Tentei disfarçar / Ela me provocando",
+              "chords": "F  /  Bb → D7"
             },
             {
-              "cue": "Tentei disfarçar",
-              "chords": "F"
+              "cue": "Aconteceu, não deu / Prá segurar",
+              "chords": "Gm  /  Cm"
             },
             {
-              "cue": "Ela me provocando",
-              "chords": "Bb → D7"
-            },
-            {
-              "cue": "Aconteceu, não deu",
-              "chords": "Gm"
-            },
-            {
-              "cue": "Prá segurar",
-              "chords": "Cm"
-            },
-            {
-              "cue": "Não se pode negar",
-              "chords": "F"
-            },
-            {
-              "cue": "Um verdadeiro encanto",
-              "chords": "Bb → G7(4)"
+              "cue": "Não se pode negar / Um verdadeiro encanto",
+              "chords": "F  /  Bb → G7(4)"
             }
           ]
         },
@@ -2419,20 +2379,12 @@
           "label": "Desenvolvimento (2)",
           "lines": [
             {
-              "cue": "Pode parecer vulgar",
-              "chords": "G7 → Cm"
+              "cue": "Pode parecer vulgar / Mas rolava um clima de amor",
+              "chords": "G7 → Cm  /  F7 → Bb"
             },
             {
-              "cue": "Mas rolava um clima de amor",
-              "chords": "F7 → Bb"
-            },
-            {
-              "cue": "A gente falava no olhar",
-              "chords": "Gm → Cm"
-            },
-            {
-              "cue": "Sorria e zombava da dor",
-              "chords": "D7 → G7(4)"
+              "cue": "A gente falava no olhar / Sorria e zombava da dor",
+              "chords": "Gm → Cm  /  D7 → G7(4)"
             }
           ]
         },
@@ -2440,36 +2392,20 @@
           "label": "Ponte / Pré-Refrão",
           "lines": [
             {
-              "cue": "Uma cena de novela",
-              "chords": "G7 → Cm"
+              "cue": "Uma cena de novela / Uma paixão inesperada",
+              "chords": "G7 → Cm  /  F7 → Bb → D7"
             },
             {
-              "cue": "Uma paixão inesperada",
-              "chords": "F7 → Bb → D7"
+              "cue": "Ela e o namorado dela / Eu e minha namorada",
+              "chords": "Gm → Cm  /  D7 → G7(4)"
             },
             {
-              "cue": "Ela e o namorado dela",
-              "chords": "Gm → Cm"
+              "cue": "Uma cena de novela / Uma paixão inesperada",
+              "chords": "G7 → Cm  /  F7 → Bb → D7"
             },
             {
-              "cue": "Eu e minha namorada",
-              "chords": "D7 → G7(4)"
-            },
-            {
-              "cue": "Uma cena de novela",
-              "chords": "G7 → Cm"
-            },
-            {
-              "cue": "Uma paixão inesperada",
-              "chords": "F7 → Bb → D7"
-            },
-            {
-              "cue": "Ela e o namorado dela",
-              "chords": "Gm → Cm"
-            },
-            {
-              "cue": "Eu e minha namorada",
-              "chords": "D7 → Gm"
+              "cue": "Ela e o namorado dela / Eu e minha namorada",
+              "chords": "Gm → Cm  /  D7 → Gm"
             }
           ]
         },
@@ -2477,11 +2413,8 @@
           "label": "Refrão (2x)",
           "lines": [
             {
-              "cue": "Ela!",
+              "cue": "Ela! / Ela e o namorado dela",
               "chords": "Gm"
-            },
-            {
-              "cue": "Ela e o namorado dela"
             },
             {
               "cue": "Eu e minha namorada",
