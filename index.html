@@ -292,7 +292,37 @@ footer {
 #stage .sjump a b{color:var(--garnet);min-width:2.4em;}
 @media print{#stagebtn,#stage{display:none !important;}}
 
-
+/* ===== IMPRESSÃO / PDF (1 música por página, estilo Modo Palco) ===== */
+#printbtn{position:fixed;left:74px;bottom:16px;z-index:600;height:48px;padding:0 16px;border-radius:24px;
+  border:1px solid var(--line);background:var(--paper2);color:var(--ink);font-family:'Oswald',sans-serif;
+  font-weight:700;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,.2);}
+#printroot{position:fixed;left:-10000px;top:0;width:733px;}
+.printpage{box-sizing:border-box;overflow:hidden;background:var(--paper);color:var(--ink);}
+.pcard{width:100%;font-size:calc(16px * var(--pk,1));}
+.pcard .song{border:none;margin:0;padding:0;}
+.pcard .songhead{gap:.7em;}
+.pcard .songnum{font-size:1.7em;min-width:1.7em;height:1.7em;box-shadow:.1em .1em 0 var(--gold);}
+.pcard .songtitle{font-size:1.35em;}
+.pcard .songartist{font-size:.95em;}
+.pcard .songsingers{font-size:.95em;padding:.35em .7em;gap:.5em;}
+.pcard .songsingers .sgdot{width:.6em;height:.6em;}
+.pcard .metabar{margin:.5em 0 .3em;gap:.45em;}
+.pcard .meta{font-size:.82em;}
+.pcard .sgchip{font-size:.98em;}
+.pcard .songnote{font-size:.95em;}
+.pcard .sections{margin-top:.6em;}
+.pcard .section{margin-bottom:.55em;}
+.pcard .seclabel{font-size:.95em;margin-bottom:.25em;}
+.pcard .line{margin:0 0 .5em;}
+.pcard .cue{font-size:1.3em;line-height:1.28;}
+.pcard .chords{font-size:1.5em;line-height:1.3;margin-top:.1em;}
+@media print{
+  body > *{display:none !important;}
+  body > #printroot{display:block !important;position:static !important;left:auto !important;width:auto !important;}
+  .printpage{break-after:page;page-break-after:always;break-inside:avoid;overflow:visible;}
+  .printpage:last-child{break-after:auto;}
+  @page{size:A4 portrait;margin:8mm;}
+}
 
 </style>
 </head>
@@ -330,6 +360,7 @@ footer {
 
 <button id="stagebtn" onclick="openStage()">▶ Modo Palco</button>
 <button id="themebtn" onclick="toggleTheme()" aria-label="alternar tema"><span class="themeicon">☾</span></button>
+<button id="printbtn" onclick="printSongs()" aria-label="imprimir / PDF">🖨 Imprimir</button>
 <div id="stage" aria-hidden="true">
   <div class="scardwrap">
     <div class="szone left" onclick="zoneClick(-1)"></div>
@@ -360,7 +391,7 @@ footer {
 <script>
 let SONGS = [], SONGS_ORDER = [];
 
-const APP_VERSION='2026-06-04 · 16:28 EST';
+const APP_VERSION='2026-06-04 · 16:37 EST';
 const stage=document.getElementById('stage');
 const scard=document.getElementById('scard');
 let wrap, idx=0, boost=1, swiped=false, tx=0, slideDir=0;
@@ -457,6 +488,33 @@ stage.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-tx;
   if(Math.abs(dx)>50){swiped=true;dx<0?nextSong():prevSong();setTimeout(()=>{swiped=false;},350);}},{passive:true});
 window.addEventListener('resize',()=>{if(stage.classList.contains('open'))applyFit();});
 if(document.fonts&&document.fonts.ready){document.fonts.ready.then(()=>{if(stage.classList.contains('open'))applyFit();});}
+// ---- imprimir / PDF: 1 música por página, escalada pra caber (estilo Modo Palco) ----
+function printSongs(){
+  if(!SONGS_ORDER.length){return;}
+  var root=document.getElementById('printroot');
+  if(!root){root=document.createElement('div');root.id='printroot';document.body.appendChild(root);}
+  root.innerHTML='';
+  var PAGE_W=733, PAGE_H=1056, MIN=0.7, MAX=3.0;
+  SONGS_ORDER.forEach(function(o){
+    var src=document.getElementById(o.id); if(!src)return;
+    var page=document.createElement('div'); page.className='printpage';
+    page.style.width=PAGE_W+'px'; page.style.height=PAGE_H+'px';
+    var card=document.createElement('div'); card.className='pcard';
+    var clone=src.cloneNode(true); clone.removeAttribute('id');
+    card.appendChild(clone); page.appendChild(card); root.appendChild(page);
+    var ok=function(){return card.scrollHeight<=PAGE_H && card.scrollWidth<=PAGE_W;};
+    var set=function(k){card.style.setProperty('--pk',k);};
+    set(MAX);
+    if(!ok()){
+      var lo=MIN,hi=MAX;
+      for(var i=0;i<18;i++){var m=(lo+hi)/2;set(m);if(ok())lo=m;else hi=m;}
+      set(lo);
+      if(card.scrollHeight>PAGE_H+2){page.style.height='auto';} // muito longa: deixa fluir p/ próxima página
+    }
+  });
+  requestAnimationFrame(function(){window.print();});
+}
+
 // ---- render a partir do songs.json ----
 function renderAll(){
   document.getElementById('songindex').innerHTML = SB.renderIndexBlocks(SONGS);
