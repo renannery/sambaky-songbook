@@ -399,14 +399,6 @@
       "chordsTop": true,
       "sections": [
         {
-          "label": "Intro",
-          "lines": [
-            {
-              "chords": "Em7 → F#7  /  Bm7 → Em7 → F#7"
-            }
-          ]
-        },
-        {
           "label": "Verso",
           "lines": [
             {
@@ -491,6 +483,14 @@
       "chordsTop": true,
       "sections": [
         {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Am → E7"
+            }
+          ]
+        },
+        {
           "label": "Verso 1",
           "lines": [
             {
@@ -512,6 +512,14 @@
             {
               "cue": "Os bastidores se fecharam…",
               "chords": "F7M → Bm7(5-) → E7 → Am7 → A7"
+            },
+            {
+              "cue": "Pode parar",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Com essa ideia de re-pre-sen-ta-ção",
+              "chords": "Eb° → Am → G#m → Gm → C7(9)"
             },
             {
               "cue": "…pra desilusão — é mentira!",
