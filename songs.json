@@ -2325,7 +2325,19 @@
           "lines": [
             {
               "cue": "Pararará! Parará!",
-              "chords": "Gm · G7 · Cm  /  F7 · Bb  /  Gm · Cm  /  D7"
+              "chords": "Gm → G7 → Cm"
+            },
+            {
+              "cue": "Pararará! Parará!",
+              "chords": "F7 → Bb"
+            },
+            {
+              "cue": "Pararará! Parará!",
+              "chords": "Gm → Cm"
+            },
+            {
+              "cue": "Pararararará!",
+              "chords": "D7"
             }
           ]
         },
@@ -2334,7 +2346,7 @@
           "lines": [
             {
               "cue": "Lua linda, noite bela",
-              "chords": "Gm · Cm"
+              "chords": "Gm → Cm"
             },
             {
               "cue": "Saímos pela madrugada",
@@ -2342,27 +2354,27 @@
             },
             {
               "cue": "Ela e o namorado dela",
-              "chords": "Gm · Bb/G# · Cm"
+              "chords": "Gm → Bb/G# → Cm"
             },
             {
               "cue": "Eu e minha namorada",
-              "chords": "D7 · G7(4)"
+              "chords": "D7 → G7(4)"
             },
             {
               "cue": "Não pude nem me defender",
-              "chords": "G7 · Cm"
+              "chords": "G7 → Cm"
             },
             {
               "cue": "Levei um golpe da paixão",
-              "chords": "F7 · Bb"
+              "chords": "F7 → Bb"
             },
             {
               "cue": "Lutei, não consegui conter",
-              "chords": "Gm · Cm"
+              "chords": "Gm → Cm"
             },
             {
               "cue": "A fúria do meu coração",
-              "chords": "D7 · Gm"
+              "chords": "D7 → Gm"
             }
           ]
         },
@@ -2370,70 +2382,105 @@
           "label": "Desenvolvimento",
           "lines": [
             {
-              "cue": "Ela no meu / E eu no seu olhar",
-              "chords": "Gm · Cm  /  F · Bb · D7"
+              "cue": "Ela no meu",
+              "chords": "Gm"
+            },
+            {
+              "cue": "E eu no seu olhar",
+              "chords": "Cm"
+            },
+            {
+              "cue": "Tentei disfarçar",
+              "chords": "F"
             },
             {
               "cue": "Ela me provocando",
+              "chords": "Bb → D7"
+            },
+            {
+              "cue": "Aconteceu, não deu",
               "chords": "Gm"
             },
             {
-              "cue": "Aconteceu, não deu pra segurar",
-              "chords": "Cm · F"
+              "cue": "Prá segurar",
+              "chords": "Cm"
             },
             {
               "cue": "Não se pode negar",
-              "chords": "Bb · G7(4)"
+              "chords": "F"
             },
             {
               "cue": "Um verdadeiro encanto",
-              "chords": "G7 · Cm"
+              "chords": "Bb → G7(4)"
+            },
+            {
+              "cue": "Pode parecer vulgar",
+              "chords": "G7 → Cm"
             },
             {
               "cue": "Mas rolava um clima de amor",
-              "chords": "F7 · Bb"
+              "chords": "F7 → Bb"
             },
             {
               "cue": "A gente falava no olhar",
-              "chords": "Gm · Cm"
+              "chords": "Gm → Cm"
             },
             {
               "cue": "Sorria e zombava da dor",
-              "chords": "D7 · G7(4)"
+              "chords": "D7 → G7(4)"
             }
           ]
         },
         {
-          "label": "Pré-Refrão",
+          "label": "Ponte / Pré-Refrão",
           "lines": [
             {
               "cue": "Uma cena de novela",
-              "chords": "G7 · Cm"
+              "chords": "G7 → Cm"
             },
             {
               "cue": "Uma paixão inesperada",
-              "chords": "F7 · Bb · D7"
+              "chords": "F7 → Bb → D7"
             },
             {
               "cue": "Ela e o namorado dela",
-              "chords": "Gm · Cm"
+              "chords": "Gm → Cm"
             },
             {
-              "cue": "Eu e minha namorada  (repete)",
-              "chords": "D7 · G7(4)"
+              "cue": "Eu e minha namorada",
+              "chords": "D7 → G7(4)"
+            },
+            {
+              "cue": "Uma cena de novela",
+              "chords": "G7 → Cm"
+            },
+            {
+              "cue": "Uma paixão inesperada",
+              "chords": "F7 → Bb → D7"
+            },
+            {
+              "cue": "Ela e o namorado dela",
+              "chords": "Gm → Cm"
+            },
+            {
+              "cue": "Eu e minha namorada",
+              "chords": "D7 → Gm"
             }
           ]
         },
         {
-          "label": "Refrão",
+          "label": "Refrão (2x)",
           "lines": [
             {
-              "cue": "Ela! Ela e o namorado dela",
+              "cue": "Ela!",
               "chords": "Gm"
             },
             {
-              "cue": "Eu e minha namorada  (repete)",
-              "chords": "Cm · D7"
+              "cue": "Ela e o namorado dela"
+            },
+            {
+              "cue": "Eu e minha namorada",
+              "chords": "Cm → D7"
             }
           ]
         }
