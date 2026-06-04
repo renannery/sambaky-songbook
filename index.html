@@ -265,7 +265,8 @@ footer {
 #stage.scroll .scardwrap{overflow-y:auto;align-items:flex-start;}
 #stage .szone{position:absolute;top:0;bottom:0;width:24%;z-index:2;cursor:pointer;}
 #stage .szone.left{left:0;} #stage .szone.right{right:0;}
-#stage .scard{width:min(900px,93vw);margin:0 auto;pointer-events:none;font-size:calc(16px * var(--k,1));transition:opacity .16s ease;}
+#stage .scard{width:min(900px,93vw);margin:0 auto;pointer-events:none;font-size:calc(16px * var(--k,1));transition:opacity .18s ease, transform .24s cubic-bezier(.22,.61,.36,1);}
+#stage .scardwrap{overflow-x:hidden;}
 #stage .scard .song{border:none;margin:0;padding:0;}
 #stage .scard .songhead{gap:.7em;}
 #stage .scard .songnum{font-size:1.7em;min-width:1.7em;height:1.7em;box-shadow:.12em .12em 0 var(--gold);}
@@ -359,22 +360,28 @@ footer {
 <script>
 let SONGS = [], SONGS_ORDER = [];
 
-const APP_VERSION='2026-06-04 · 16:19 EST';
+const APP_VERSION='2026-06-04 · 16:28 EST';
 const stage=document.getElementById('stage');
 const scard=document.getElementById('scard');
-let wrap, idx=0, boost=1, swiped=false, tx=0;
+let wrap, idx=0, boost=1, swiped=false, tx=0, slideDir=0;
 function setK(k){scard.style.setProperty('--k',k);}
 function fits(){return scard.scrollHeight<=wrap.clientHeight-2 && scard.scrollWidth<=wrap.clientWidth-2;}
 function bestFit(){let lo=0.45,hi=3.4;setK(hi);if(fits())return hi;for(let i=0;i<16;i++){let m=(lo+hi)/2;setK(m);if(fits())lo=m;else hi=m;}return lo;}
 function applyFit(){if(!wrap)wrap=stage.querySelector('.scardwrap');const kf=bestFit();const k=Math.max(0.3,kf*boost);setK(k);
   if(boost>1.001 && k>kf+0.0001){stage.classList.add('scroll');}else{stage.classList.remove('scroll');}}
 function render(){const o=SONGS_ORDER[idx];const src=document.getElementById(o.id);if(!src)return;
-  scard.style.opacity='0';                       // esconde durante a troca (evita piscada)
+  var dx = slideDir*30;                          // entra deslizando no sentido da navegação
+  scard.style.transition='none';                 // posiciona instantâneo (sem animar a entrada)
+  scard.style.opacity='0'; scard.style.transform='translateX('+dx+'px)';
   scard.innerHTML='';const c=src.cloneNode(true);c.removeAttribute('id');scard.appendChild(c);
   document.getElementById('spos').textContent=o.label;
   if(!wrap)wrap=stage.querySelector('.scardwrap');wrap.scrollTop=0;
   applyFit();                                    // ajusta a escala ANTES de exibir
-  requestAnimationFrame(()=>{scard.style.opacity='1';}); // fade suave já no tamanho certo
+  requestAnimationFrame(()=>{                    // anima: desliza ao centro + fade
+    scard.style.transition='';                   // volta pra transição do CSS
+    scard.style.opacity='1'; scard.style.transform='translateX(0)';
+    slideDir=0;
+  });
 }
 // ----- manter a tela acesa durante o Modo Palco (Screen Wake Lock API) -----
 let wakeLock=null;
@@ -430,8 +437,8 @@ function wrapChords(){document.querySelectorAll('.chords').forEach(function(el){
   });
   el.textContent='';el.appendChild(frag);
 });}
-function nextSong(){if(idx<SONGS_ORDER.length-1){idx++;render();}}
-function prevSong(){if(idx>0){idx--;render();}}
+function nextSong(){if(idx<SONGS_ORDER.length-1){idx++;slideDir=1;render();}}
+function prevSong(){if(idx>0){idx--;slideDir=-1;render();}}
 function zoneClick(d){if(swiped)return;d<0?prevSong():nextSong();}
 function bumpFont(d){boost=Math.min(2.4,Math.max(0.6,boost+d*0.12));applyFit();}
 function toggleJump(){const p=document.getElementById('sjump');document.getElementById('sfab').classList.remove('open');if(p.classList.contains('open')){closeJump();return;}
@@ -440,7 +447,7 @@ function toggleJump(){const p=document.getElementById('sjump');document.getEleme
     h+='<a href="#" onclick="jumpTo('+i+');return false;"><b>'+num+'</b>'+o.title+'</a>';});
   p.innerHTML=h;p.classList.add('open');}
 function closeJump(){document.getElementById('sjump').classList.remove('open');}
-function jumpTo(i){idx=i;closeJump();render();}
+function jumpTo(i){slideDir=(i>idx?1:(i<idx?-1:0));idx=i;closeJump();render();}
 document.addEventListener('keydown',e=>{if(!stage.classList.contains('open'))return;
   if(e.key==='ArrowRight'||e.key===' '){e.preventDefault();nextSong();}
   else if(e.key==='ArrowLeft'){prevSong();}
