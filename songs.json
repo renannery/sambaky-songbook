@@ -1589,7 +1589,7 @@
           "label": "Intro",
           "lines": [
             {
-              "chords": "Dm → Gm7 → C7 → F → A7 → Dm → Bb7 → A7"
+              "chords": "Dm  Gm7  C7  F  A7  Dm  Bb7  A7"
             }
           ]
         },
@@ -1598,19 +1598,19 @@
           "lines": [
             {
               "cue": "Veja bem, nosso amor é perfeito…",
-              "chords": "Dm → Gm  /  A7 → D → A7"
+              "chords": "Dm  Gm  A#/F  /  Em7(5-)  A7  /  D  A7"
             },
             {
               "cue": "Lembro sim, maus momentos…",
-              "chords": "Dm → Gm  /  A7 → D7"
+              "chords": "Dm  Dm/C  Gm  A#/F  /  Em7(5-)  A7  D  D7"
             },
             {
               "cue": "Toda vez que converso…",
-              "chords": "Gm → C7  /  F → A7 → Dm"
+              "chords": "Gm  C7  C#°  /  Dm  A7"
             },
             {
               "cue": "Me sinto como um pecador…",
-              "chords": "Dm → Bb7  /  A7 → D7"
+              "chords": "Dm  D#  /  A7  D7"
             }
           ]
         },
@@ -1619,23 +1619,23 @@
           "lines": [
             {
               "cue": "Este amor frutifica…",
-              "chords": "Gm7 → C7  /  F → A7 → Dm"
+              "chords": "Gm  C7  C#°  /  Dm  A7"
             },
             {
               "cue": "Me dando a certeza…",
-              "chords": "Dm → Bb7  /  A7 → D → A7"
+              "chords": "Dm  D#  /  A7  D  A7"
             },
             {
               "cue": "É que o teu calor…",
-              "chords": "D → F#m7 → Am7  /  D7 → G"
+              "chords": "D  F#m  Am  /  D7  G"
             },
             {
               "cue": "Tem lampejos de inspiração…",
-              "chords": "Gm → C7 → Dm  /  Bb7 → A7"
+              "chords": "Gm  C7  C#°  Dm  /  A#  A7"
             },
             {
-              "cue": "E além do mais me julgo incapaz…",
-              "chords": "D → F#m7 → Am7  /  D7 → G"
+              "cue": "E além do mais, me julgo incapaz…",
+              "chords": "D  F#m  Am  /  D7  G"
             }
           ]
         },
@@ -1644,14 +1644,15 @@
           "lines": [
             {
               "cue": "Pra finalizar, resumindo…",
-              "chords": "Gm6 → G#° → D → C7 → B7"
+              "chords": "Gm  A7  D  C7  B7"
             },
             {
               "cue": "Este é o retrato cantado…",
-              "chords": "E7(9) → Gm6 → A7 → D → D5+ → D6 → D7  (repetição)"
+              "chords": "A#6  /  A7  D  D5+  D6  /  D7"
             },
             {
-              "chords": "Gm6 → G#° → D → C7 → B7  /  E7(9) → Gm6 → A7 → D"
+              "cue": "Pra finalizar (2ª vez)…",
+              "chords": "G  G#°  D/A  B7  /  A#6  /  A7  D  A7(13-)"
             }
           ]
         }
