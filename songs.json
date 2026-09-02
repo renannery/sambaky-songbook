@@ -4596,6 +4596,125 @@
           ]
         }
       ]
+    },
+    {
+      "id": "b3-6",
+      "num": 6,
+      "bloco": 3,
+      "title": "Vou Festejar",
+      "artist": "Beth Carvalho",
+      "tom": "Bm",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": "⚑ Forma: 1ª parte (2x) · 2ª · refrão (2x) → tudo de novo · passagem · só o fim da 2ª (“Vou festejar”) · refrão (2x) · final em Bm7. Nas últimas voltas o G7 do refrão vira G7M.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Bm7"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Chora! Não vou ligar",
+              "chords": "Bm7 → Em7"
+            },
+            {
+              "cue": "Chegou a hora",
+              "chords": "A7"
+            },
+            {
+              "cue": "Vais me pagar",
+              "chords": "Bb° → Bm7"
+            },
+            {
+              "cue": "Pode chorar, pode chorar",
+              "chords": "C#7 → F#7 → Bm7"
+            },
+            {
+              "cue": "Mas chora…",
+              "chords": "F#7   (2ª vez: Bm7 → F#7, vai pra 2ª parte)"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "cue": "É, o teu castigo",
+              "chords": "B → D#m7"
+            },
+            {
+              "cue": "Brigou comigo",
+              "chords": "F#m7 → G#7"
+            },
+            {
+              "cue": "Sem ter porquê",
+              "chords": "C#m7"
+            },
+            {
+              "cue": "Eu vou festejar",
+              "chords": "Em7 → B"
+            },
+            {
+              "cue": "Vou festejar",
+              "chords": "G#7"
+            },
+            {
+              "cue": "O teu sofrer",
+              "chords": "G7"
+            },
+            {
+              "cue": "O teu penar",
+              "chords": "F#7 → Bm7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Você pagou com traição",
+              "chords": "B7 → Em7 → A7 → D7M"
+            },
+            {
+              "cue": "A quem sempre lhe deu a mão",
+              "chords": "G7 → C#m7(5-) → F#7 → Bm7   (2x)"
+            },
+            {
+              "cue": "Mas chora…",
+              "chords": "F#7   (emenda de volta na 1ª parte)"
+            }
+          ]
+        },
+        {
+          "label": "Passagem",
+          "lines": [
+            {
+              "chords": "B → D#m7 → F#m7  /  G#7 → C#m7 → Em7"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "chords": "Bm7"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
