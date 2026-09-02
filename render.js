@@ -41,6 +41,15 @@
     return h;
   }
 
+  // Blocos do repertório. O último ("Extras") é a lista de bis / pedidos.
+  var BLOCOS = { 1: 'Bloco 1', 2: 'Bloco 2', 3: 'Extras' };
+  function blocoLabel(n) { return BLOCOS[n] || ('Bloco ' + n); }
+  function blocoList(songs) {
+    var seen = [];
+    (songs || []).forEach(function (s) { if (seen.indexOf(s.bloco) < 0) seen.push(s.bloco); });
+    return seen.sort(function (a, b) { return a - b; });
+  }
+
   function ixTitle(s) { return esc(s.title) + (s.tom ? ' · ' + esc(s.tom) : ''); }
   function ixArtist(s) {
     var a = esc(s.artist || '');
@@ -50,10 +59,10 @@
 
   function renderIndexBlocks(songs) {
     var h = '';
-    [1, 2].forEach(function (bloco) {
+    blocoList(songs).forEach(function (bloco) {
       var list = songs.filter(function (s) { return s.bloco === bloco; });
       if (!list.length) return;
-      h += '<h3 class="bloco-head">Bloco ' + bloco + '</h3>';
+      h += '<h3 class="bloco-head">' + esc(blocoLabel(bloco)) + '</h3>';
       h += '<ol class="indexlist">';
       list.forEach(function (s) {
         h += '<li><a href="#' + s.id + '"><span class="ix-num">' + esc(s.num) + '</span>'
@@ -68,10 +77,10 @@
   // <h3>Bloco N</h3> + sections, para a área principal
   function renderSongsArea(songs) {
     var h = '';
-    [1, 2].forEach(function (bloco) {
+    blocoList(songs).forEach(function (bloco) {
       var list = songs.filter(function (s) { return s.bloco === bloco; });
       if (!list.length) return;
-      h += '<h3 class="bloco-head">Bloco ' + bloco + '</h3>';
+      h += '<h3 class="bloco-head">' + esc(blocoLabel(bloco)) + '</h3>';
       list.forEach(function (s) { h += renderSongSection(s); });
     });
     return h;
@@ -83,7 +92,7 @@
     var seen = {};
     return songs.map(function (s) {
       seen[s.bloco] = (seen[s.bloco] || 0) + 1;
-      return { id: s.id, bloco: s.bloco, label: 'Bloco ' + s.bloco + ' · ' + seen[s.bloco] + '/' + counts[s.bloco], title: s.title };
+      return { id: s.id, bloco: s.bloco, label: blocoLabel(s.bloco) + ' · ' + seen[s.bloco] + '/' + counts[s.bloco], title: s.title };
     });
   }
 
@@ -182,6 +191,7 @@
     esc: esc,
     renderSongSection: renderSongSection,
     renderIndexBlocks: renderIndexBlocks,
+    blocoLabel: blocoLabel,
     renderSongsArea: renderSongsArea,
     buildOrder: buildOrder,
     clean: clean,

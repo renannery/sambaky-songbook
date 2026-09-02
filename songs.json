@@ -828,146 +828,6 @@
       "id": "b1-10",
       "num": 10,
       "bloco": 1,
-      "title": "Coisa de Pele",
-      "artist": "Jorge Aragão",
-      "tom": "F",
-      "levada": "Samba",
-      "singers": [
-        {
-          "key": "nery",
-          "name": "Nery"
-        }
-      ],
-      "note": null,
-      "cols2": true,
-      "chordsTop": true,
-      "sections": [
-        {
-          "label": "1ª Parte",
-          "lines": [
-            {
-              "cue": "Podemos sorrir",
-              "chords": "F7M"
-            },
-            {
-              "cue": "Nada mais nos impede",
-              "chords": "Em7(5-) → A7(9-)"
-            },
-            {
-              "cue": "Não dá pra fugir",
-              "chords": "Dm7"
-            },
-            {
-              "cue": "Dessa coisa de pele",
-              "chords": "Cm7 → F7"
-            },
-            {
-              "cue": "Sentida por nós",
-              "chords": "Bb → B°"
-            },
-            {
-              "cue": "Desatando os nós",
-              "chords": "F → D7"
-            },
-            {
-              "cue": "Sabemos agora",
-              "chords": "G7(13) → G7(13-)"
-            },
-            {
-              "cue": "Nem tudo que é bom…",
-              "chords": "Gm7 → C7(13-)"
-            }
-          ]
-        },
-        {
-          "label": "2ª Parte",
-          "lines": [
-            {
-              "cue": "E a nossa canção…",
-              "chords": "F7M → Em7(5-) → A7(9-)"
-            },
-            {
-              "cue": "Nos traz a razão",
-              "chords": "Dm7"
-            },
-            {
-              "cue": "Relembrando Palmares",
-              "chords": "Cm7 → F7"
-            },
-            {
-              "cue": "Foi bom insistir",
-              "chords": "Bb → B°"
-            },
-            {
-              "cue": "Compôr e ouvir",
-              "chords": "F → D7"
-            },
-            {
-              "cue": "Resiste quem pode…",
-              "chords": "G7(13) → G7(13-) → Gm7 → C7(13-)"
-            }
-          ]
-        },
-        {
-          "label": "3ª Parte",
-          "lines": [
-            {
-              "cue": "E o samba se faz",
-              "chords": "Fm"
-            },
-            {
-              "cue": "Prisioneiro pacato…",
-              "chords": "C/E"
-            },
-            {
-              "cue": "O banjo liberta",
-              "chords": "Ebm6 → F7"
-            },
-            {
-              "cue": "Da garganta do povo…",
-              "chords": "Bbm"
-            },
-            {
-              "cue": "Alimentando muito mais",
-              "chords": "Eb"
-            },
-            {
-              "cue": "A cabeça de um compositor",
-              "chords": "Ab"
-            },
-            {
-              "cue": "Eterno reduto de paz",
-              "chords": "G#°"
-            },
-            {
-              "cue": "Nascente das várias feições…",
-              "chords": "Gm7 → C7 → F"
-            }
-          ]
-        },
-        {
-          "label": "Refrão",
-          "lines": [
-            {
-              "cue": "Art popular do nosso chão",
-              "chords": "C/E → A7 → Dm → D7"
-            },
-            {
-              "cue": "É o povo quem produz o show",
-              "chords": "Gm → C7"
-            },
-            {
-              "cue": "E assina a direção",
-              "chords": "F"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b1-11",
-      "num": 11,
-      "bloco": 1,
       "title": "Coração Partido",
       "artist": "Menos é Mais  ·  simplificado",
       "tom": "F#",
@@ -1046,8 +906,8 @@
       ]
     },
     {
-      "id": "b1-12",
-      "num": 12,
+      "id": "b1-11",
+      "num": 11,
       "bloco": 1,
       "title": "Se",
       "artist": "Djavan",
@@ -1125,8 +985,8 @@
       ]
     },
     {
-      "id": "b1-13",
-      "num": 13,
+      "id": "b1-12",
+      "num": 12,
       "bloco": 1,
       "title": "Já É",
       "artist": "Jorge Aragão  ·  simplificado",
@@ -1212,8 +1072,8 @@
       ]
     },
     {
-      "id": "b1-14",
-      "num": 14,
+      "id": "b1-13",
+      "num": 13,
       "bloco": 1,
       "title": "Pot-Pourri 1",
       "artist": "Exalta · SPC · Os Morenos",
@@ -1349,8 +1209,8 @@
       ]
     },
     {
-      "id": "b1-15",
-      "num": 15,
+      "id": "b1-14",
+      "num": 14,
       "bloco": 1,
       "title": "Gamei",
       "artist": "Exaltasamba",
@@ -1501,8 +1361,8 @@
       ]
     },
     {
-      "id": "b1-16",
-      "num": 16,
+      "id": "b1-15",
+      "num": 15,
       "bloco": 1,
       "title": "Morango do Nordeste",
       "artist": "Karametade",
@@ -1568,8 +1428,8 @@
       ]
     },
     {
-      "id": "b1-17",
-      "num": 17,
+      "id": "b1-16",
+      "num": 16,
       "bloco": 1,
       "title": "Retrato Cantado de Um Amor",
       "artist": "Reinaldo",
@@ -1658,8 +1518,8 @@
       ]
     },
     {
-      "id": "b1-18",
-      "num": 18,
+      "id": "b1-17",
+      "num": 17,
       "bloco": 1,
       "title": "Domingo",
       "artist": "Só Pra Contrariar",
@@ -1798,8 +1658,8 @@
       ]
     },
     {
-      "id": "b1-19",
-      "num": 19,
+      "id": "b1-18",
+      "num": 18,
       "bloco": 1,
       "title": "Deixa Acontecer",
       "artist": "Grupo Revelação",
@@ -1865,8 +1725,8 @@
       ]
     },
     {
-      "id": "b1-20",
-      "num": 20,
+      "id": "b1-19",
+      "num": 19,
       "bloco": 1,
       "title": "O Mar Serenou / Faixa Amarela / Deixa a Vida Me Levar",
       "artist": "Clara Nunes · Zeca Pagodinho",
@@ -4001,6 +3861,146 @@
             },
             {
               "cue": "Meu amor é demais, faz ficar tudo azul…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3-1",
+      "num": 1,
+      "bloco": 3,
+      "title": "Coisa de Pele",
+      "artist": "Jorge Aragão",
+      "tom": "F",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Podemos sorrir",
+              "chords": "F7M"
+            },
+            {
+              "cue": "Nada mais nos impede",
+              "chords": "Em7(5-) → A7(9-)"
+            },
+            {
+              "cue": "Não dá pra fugir",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Dessa coisa de pele",
+              "chords": "Cm7 → F7"
+            },
+            {
+              "cue": "Sentida por nós",
+              "chords": "Bb → B°"
+            },
+            {
+              "cue": "Desatando os nós",
+              "chords": "F → D7"
+            },
+            {
+              "cue": "Sabemos agora",
+              "chords": "G7(13) → G7(13-)"
+            },
+            {
+              "cue": "Nem tudo que é bom…",
+              "chords": "Gm7 → C7(13-)"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "cue": "E a nossa canção…",
+              "chords": "F7M → Em7(5-) → A7(9-)"
+            },
+            {
+              "cue": "Nos traz a razão",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Relembrando Palmares",
+              "chords": "Cm7 → F7"
+            },
+            {
+              "cue": "Foi bom insistir",
+              "chords": "Bb → B°"
+            },
+            {
+              "cue": "Compôr e ouvir",
+              "chords": "F → D7"
+            },
+            {
+              "cue": "Resiste quem pode…",
+              "chords": "G7(13) → G7(13-) → Gm7 → C7(13-)"
+            }
+          ]
+        },
+        {
+          "label": "3ª Parte",
+          "lines": [
+            {
+              "cue": "E o samba se faz",
+              "chords": "Fm"
+            },
+            {
+              "cue": "Prisioneiro pacato…",
+              "chords": "C/E"
+            },
+            {
+              "cue": "O banjo liberta",
+              "chords": "Ebm6 → F7"
+            },
+            {
+              "cue": "Da garganta do povo…",
+              "chords": "Bbm"
+            },
+            {
+              "cue": "Alimentando muito mais",
+              "chords": "Eb"
+            },
+            {
+              "cue": "A cabeça de um compositor",
+              "chords": "Ab"
+            },
+            {
+              "cue": "Eterno reduto de paz",
+              "chords": "G#°"
+            },
+            {
+              "cue": "Nascente das várias feições…",
+              "chords": "Gm7 → C7 → F"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Art popular do nosso chão",
+              "chords": "C/E → A7 → Dm → D7"
+            },
+            {
+              "cue": "É o povo quem produz o show",
+              "chords": "Gm → C7"
+            },
+            {
+              "cue": "E assina a direção",
+              "chords": "F"
             }
           ]
         }

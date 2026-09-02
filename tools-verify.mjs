@@ -8,7 +8,7 @@ const { songs } = JSON.parse(fs.readFileSync('songs.json', 'utf8'));
 function pick(re, s){ const r = re.exec(s); return r ? r[1].trim() : null; }
 function parseSection(block, classExtra, id){
   const classes = ('song ' + classExtra).split(/\s+/);
-  const bloco = classes.includes('b2') ? 2 : 1;
+  const bloco = Number((classes.find(c => /^b\d+$/.test(c)) || 'b1').slice(1));
   const chordsTop = classes.includes('chords-top');
   const num = pick(/<div class="songnum">(\d+)<\/div>/, block);
   const title = pick(/<h2 class="songtitle">([\s\S]*?)<\/h2>/, block);
@@ -57,7 +57,7 @@ while ((m = secRe.exec(rendered))){
   const a = JSON.stringify(want), b = JSON.stringify(got);
   if (a !== b){ diffs++; if (diffs<=5){ console.log('DIFF', m[2]); console.log(' want', a.slice(0,200)); console.log('  got', b.slice(0,200)); } }
 }
-console.log(diffs === 0 ? '✓ round-trip dados: IDÊNTICO (40 músicas)' : ('✗ '+diffs+' músicas diferem'));
+console.log(diffs === 0 ? ('✓ round-trip dados: IDÊNTICO (' + songs.length + ' músicas)') : ('✗ '+diffs+' músicas diferem'));
 
 // índice regenerado vs original
 const html = fs.readFileSync('index.html', 'utf8');
