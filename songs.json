@@ -1212,6 +1212,155 @@
       "id": "b1-14",
       "num": 14,
       "bloco": 1,
+      "title": "Clareou",
+      "artist": "Diogo Nogueira",
+      "tom": "D",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mari",
+          "name": "Mari"
+        }
+      ],
+      "note": "⚑ Forma: intro · 1ª e 2ª partes · refrão (2x) · “Chega de chorar” · Clareou (2x) · refrão (2x) · “Chega de chorar” · Clareou (1x).",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "D → Am → G → D"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "A vida é pra quem sabe viver",
+              "chords": "D → Am"
+            },
+            {
+              "cue": "Procure aprender a arte",
+              "chords": "G → D"
+            },
+            {
+              "cue": "Pra quando apanhar…",
+              "chords": "Am"
+            },
+            {
+              "cue": "Ganhar e perder faz parte",
+              "chords": "G → D"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "cue": "Levante a cabeça, amigo…",
+              "chords": "D"
+            },
+            {
+              "cue": "Um dia a gente perde…",
+              "chords": "Am"
+            },
+            {
+              "cue": "Pra tudo tem um jeito",
+              "chords": "G"
+            },
+            {
+              "cue": "E se não teve jeito…",
+              "chords": "D"
+            },
+            {
+              "cue": "Mantenha a fé na crença…",
+              "chords": "D"
+            },
+            {
+              "cue": "Pois se não tem remédio…",
+              "chords": "Am"
+            },
+            {
+              "cue": "Já é um vencedor",
+              "chords": "G"
+            },
+            {
+              "cue": "Quem sabe a dor de uma derrota…",
+              "chords": "D"
+            },
+            {
+              "cue": "E a quem Deus prometeu…",
+              "chords": "G"
+            },
+            {
+              "cue": "Na hora certa o bom Deus dará",
+              "chords": "D → D7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Deus é maior",
+              "chords": "G"
+            },
+            {
+              "cue": "Maior é Deus…",
+              "chords": "D"
+            },
+            {
+              "cue": "O que seria do mundo sem Ele",
+              "chords": "D   (o refrão inteiro 2x)"
+            }
+          ]
+        },
+        {
+          "label": "Chega de Chorar",
+          "lines": [
+            {
+              "cue": "Chega de chorar",
+              "chords": "Am"
+            },
+            {
+              "cue": "Você já sofreu demais…",
+              "chords": "C → G"
+            },
+            {
+              "cue": "Chega de achar que tudo se acabou",
+              "chords": "D"
+            },
+            {
+              "cue": "Pode a dor uma noite durar",
+              "chords": "Am7"
+            },
+            {
+              "cue": "Mas um novo dia sempre vai raiar",
+              "chords": "C → G"
+            },
+            {
+              "cue": "E quando menos esperar, clareou",
+              "chords": "D"
+            }
+          ]
+        },
+        {
+          "label": "Clareou",
+          "lines": [
+            {
+              "cue": "Clareou, ôôô…",
+              "chords": "D → C → G → D   (2x)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-15",
+      "num": 15,
+      "bloco": 1,
       "title": "Gamei",
       "artist": "Exaltasamba",
       "tom": "Cm",
@@ -1361,8 +1510,8 @@
       ]
     },
     {
-      "id": "b1-15",
-      "num": 15,
+      "id": "b1-16",
+      "num": 16,
       "bloco": 1,
       "title": "Morango do Nordeste",
       "artist": "Karametade",
@@ -1428,8 +1577,8 @@
       ]
     },
     {
-      "id": "b1-16",
-      "num": 16,
+      "id": "b1-17",
+      "num": 17,
       "bloco": 1,
       "title": "Retrato Cantado de Um Amor",
       "artist": "Reinaldo",
@@ -1518,8 +1667,8 @@
       ]
     },
     {
-      "id": "b1-17",
-      "num": 17,
+      "id": "b1-18",
+      "num": 18,
       "bloco": 1,
       "title": "Domingo",
       "artist": "Só Pra Contrariar",
@@ -1658,8 +1807,8 @@
       ]
     },
     {
-      "id": "b1-18",
-      "num": 18,
+      "id": "b1-19",
+      "num": 19,
       "bloco": 1,
       "title": "Deixa Acontecer",
       "artist": "Grupo Revelação",
@@ -1725,8 +1874,8 @@
       ]
     },
     {
-      "id": "b1-19",
-      "num": 19,
+      "id": "b1-20",
+      "num": 20,
       "bloco": 1,
       "title": "O Mar Serenou / Faixa Amarela / Deixa a Vida Me Levar",
       "artist": "Clara Nunes · Zeca Pagodinho",
