@@ -335,7 +335,7 @@ footer {
     <div class="coverlogo"><img src="logo-src.svg" alt="SambaKY" width="512" height="512"></div>
     <div class="kicker">SambaKY · Set List</div>
     <h1>Songbook<span class="red">do Cavaco</span></h1>
-    <div class="sub">BonnyMoon 2 · 2 Blocos + Extras · 40 números</div>
+    <div class="sub" id="coversub">BonnyMoon 2 · 2 Blocos + Extras · 40 números</div>
     <div class="rule"></div>
     <p class="inst">Trecho-gatilho entre aspas, acordes logo abaixo. Você já sabe a letra —
     aqui é só pra lembrar a virada e qual acorde vem. Notação padronizada (7M, (5-), °).</p>
@@ -393,7 +393,7 @@ footer {
 <script>
 let SONGS = [], SONGS_ORDER = [];
 
-const APP_VERSION='2026-09-01 · 20:47 EST';
+const APP_VERSION='2026-09-02 · 15:27 EST';
 const stage=document.getElementById('stage');
 const scard=document.getElementById('scard');
 let wrap, idx=0, swiped=false, tx=0, slideDir=0;
@@ -527,6 +527,8 @@ function renderAll(){
   document.getElementById('songindex').innerHTML = SB.renderIndexBlocks(SONGS);
   document.getElementById('songsarea').innerHTML = SB.renderSongsArea(SONGS);
   SONGS_ORDER = SB.buildOrder(SONGS);
+  var sub=document.getElementById('coversub');
+  if(sub) sub.textContent='BonnyMoon 2 · 2 Blocos + Extras · '+SONGS.length+' números';
   wrapChords();
 }
 async function boot(){

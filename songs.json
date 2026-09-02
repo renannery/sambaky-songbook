@@ -4005,6 +4005,314 @@
           ]
         }
       ]
+    },
+    {
+      "id": "b3-2",
+      "num": 2,
+      "bloco": 3,
+      "title": "Trem das Onze",
+      "artist": "Adoniran Barbosa",
+      "tom": "Am",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": "⚑ Forma: intro · 1ª parte (2x) · 2ª parte · 1ª parte · 2ª parte · final (= intro).",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Dm → Bm7(5-) → Am/E → Am → Am/G → F#°  /  F7 → E7 → E7/B → Am → A7"
+            },
+            {
+              "chords": "Dm → Bm7(5-) → Am/E → Am → Am/G → F#°  /  F7 → E7 → E7/B → Am → E7"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Não posso ficar…",
+              "chords": "Am   (na volta: E7)"
+            },
+            {
+              "cue": "Nem mais um minuto…",
+              "chords": "Am/C → Am"
+            },
+            {
+              "cue": "Sinto muito amor…",
+              "chords": "Am/C"
+            },
+            {
+              "cue": "Mas não pode ser",
+              "chords": "E7 → A7"
+            },
+            {
+              "cue": "Moro em Jaçanã",
+              "chords": "Dm → Bm7(5-) → Am"
+            },
+            {
+              "cue": "Se eu perder esse trem…",
+              "chords": "F7"
+            },
+            {
+              "cue": "Que sai agora às onze horas",
+              "chords": "E7 → E7/D   (última vez: D°)"
+            },
+            {
+              "cue": "Só amanhã de manhã",
+              "chords": "E7/G# → Am"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "cue": "Além disso, mulher…",
+              "chords": "A/C# → A7"
+            },
+            {
+              "cue": "Tem outra coisa",
+              "chords": "Dm"
+            },
+            {
+              "cue": "Minha mãe não dorme…",
+              "chords": "D#°"
+            },
+            {
+              "cue": "Enquanto eu não chegar",
+              "chords": "A° → E7"
+            },
+            {
+              "cue": "Sou filho único",
+              "chords": "Dm → Bm7(5-) → Am/E → Am → Am/G"
+            },
+            {
+              "cue": "Tenho minha casa pra olhar",
+              "chords": "F#° → F7 → E7 → E7/B → Am"
+            },
+            {
+              "cue": "(emenda na 1ª parte)",
+              "chords": "E7   (na última vez: A7)"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "chords": "igual à intro, terminando em E7 → Am"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3-3",
+      "num": 3,
+      "bloco": 3,
+      "title": "Mal Acostumado",
+      "artist": "Ara Ketu",
+      "tom": "Cm",
+      "levada": "Pagode romântico",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": "⚑ Forma: intro · 1ª parte · pré · refrão (2x) · passagem (= intro) · 1ª parte · pré · refrão (3x) · final.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Cm → Fm → Bb → Eb7M → Dm7(5-) → G7"
+            },
+            {
+              "chords": "Cm → Fm → Bb → G7(4) → G7"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Amor de verdade eu só senti…",
+              "chords": "Cm → Fm → Bb"
+            },
+            {
+              "cue": "Foi com você meu bem",
+              "chords": "Eb7M → Dm7(5-) → G7"
+            },
+            {
+              "cue": "E todas as loucuras…",
+              "chords": "Cm → Fm → Bb"
+            },
+            {
+              "cue": "Você me deu também",
+              "chords": "Eb7M → Dm7(5-) → G7"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão",
+          "lines": [
+            {
+              "cue": "Você já faz parte da minha vida",
+              "chords": "Cm → Fm"
+            },
+            {
+              "cue": "E fica tão difícil…",
+              "chords": "Bb → Eb7M → G7"
+            },
+            {
+              "cue": "E quando faz carinho me abraça",
+              "chords": "Cm → Fm"
+            },
+            {
+              "cue": "Aí eu fico de graça",
+              "chords": "Ab"
+            },
+            {
+              "cue": "Te chamando pra me amar",
+              "chords": "G7 → G7(4) → G7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Mal acostumado…",
+              "chords": "Fm → Bb"
+            },
+            {
+              "cue": "Mal acostumado, com o seu amor",
+              "chords": "Eb7M → Cm"
+            },
+            {
+              "cue": "Então volta…",
+              "chords": "Ab"
+            },
+            {
+              "cue": "Traz de volta o meu sorriso",
+              "chords": "Fm"
+            },
+            {
+              "cue": "Sem você não posso ser feliz",
+              "chords": "G7(4) → G7   (na saída: → Cm)"
+            }
+          ]
+        },
+        {
+          "label": "Passagem",
+          "lines": [
+            {
+              "chords": "Fm → Bb → Eb7M → Dm7(5-) → G7  /  Cm → Fm → Bb → G7(4) → G7"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "chords": "Cm → Fm → Bb → Eb7M → Dm7(5-) → G7"
+            },
+            {
+              "chords": "Cm → Fm → Bb → G7(4) → G7 → Cm7(9)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3-4",
+      "num": 4,
+      "bloco": 3,
+      "title": "Deus Me Livre",
+      "artist": "Raça Negra",
+      "tom": "C",
+      "levada": "Pagode romântico",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": "⚑ Forma: intro · 1ª parte · refrão · solo · 1ª parte · refrão (2x).",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "C → G → Am → Dm → G7 → C → G7"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Te amo, mas não quero…",
+              "chords": "C → G → Am → Em"
+            },
+            {
+              "cue": "Por isso, Deus me livre…",
+              "chords": "F → G7 → C → G7"
+            },
+            {
+              "cue": "Me fez sofrer demais…",
+              "chords": "C → G → Am → Em"
+            },
+            {
+              "cue": "Deus me livre de encarar…",
+              "chords": "F → G7 → C"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Te amo, mas vivo a fugir…",
+              "chords": "C → G → Am"
+            },
+            {
+              "cue": "Eu quero esquecer…",
+              "chords": "F → G7 → C"
+            },
+            {
+              "cue": "Por isso, não quero te ouvir…",
+              "chords": "C → G → Am"
+            },
+            {
+              "cue": "Não posso voltar…",
+              "chords": "F → G7 → C"
+            }
+          ]
+        },
+        {
+          "label": "Solo",
+          "lines": [
+            {
+              "chords": "C → G → Am → Dm → G7 → C"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
