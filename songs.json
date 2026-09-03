@@ -86,14 +86,6 @@
       "chordsTop": true,
       "sections": [
         {
-          "label": "Intro",
-          "lines": [
-            {
-              "chords": "Bb7M → Bbm6 → Am7 → D7(9) → G7(9) → C7 → F → C7"
-            }
-          ]
-        },
-        {
           "label": "Verso",
           "lines": [
             {
@@ -2567,8 +2559,8 @@
       "id": "b2-7",
       "num": 7,
       "bloco": 2,
-      "title": "Dança do Bole-Bole / Onda",
-      "artist": "Exaltasamba",
+      "title": "Dança do Bole-Bole / Desafio / Onda",
+      "artist": "Exaltasamba · Harmonia do Samba · Tchakabum",
       "tom": "G",
       "levada": "Animação",
       "singers": [
@@ -2577,7 +2569,7 @@
           "name": "Nery"
         }
       ],
-      "note": "⚑ Medley: emenda direto na Onda (Tchakabum) — também em Sol. A Onda repete o ciclo e fecha no refrão.",
+      "note": "⚑ Medley em Sol: Bole-Bole → Desafio (Harmonia do Samba) → Onda (Tchakabum) — tudo no mesmo ciclo G → Em → Am → D7. A Onda repete o ciclo e fecha no refrão.",
       "cols2": true,
       "chordsTop": true,
       "sections": [
@@ -2595,6 +2587,19 @@
             {
               "cue": "Mulherada que dança é essa, que o corpo fica todo mole",
               "chords": "G → E7 → Am  /  D7 → G   (repetir)"
+            }
+          ]
+        },
+        {
+          "label": "Desafio",
+          "lines": [
+            {
+              "cue": "Se você aceitar o desafio",
+              "chords": "G → Em → Am"
+            },
+            {
+              "cue": "Eu vou cantar um samba…",
+              "chords": "D7 → G"
             }
           ]
         },
