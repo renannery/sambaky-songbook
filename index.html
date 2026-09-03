@@ -393,17 +393,23 @@ footer {
 <script>
 let SONGS = [], SONGS_ORDER = [];
 
-const APP_VERSION='2026-09-02 · 16:58 EST';
+const APP_VERSION='2026-09-03 · 16:25 EST';
 const stage=document.getElementById('stage');
 const scard=document.getElementById('scard');
 let wrap, idx=0, swiped=false, tx=0, slideDir=0;
-let boostMap={};   // tamanho da fonte por música (id -> fator), lembrado entre sessões
-try{boostMap=JSON.parse(localStorage.getItem('sb_boost_map'))||{};}catch(e){boostMap={};}
-function curId(){return (SONGS_ORDER[idx]||{}).id;}
-function curBoost(){var b=boostMap[curId()];return (b>=0.6&&b<=2.4)?b:1;}
-function saveBoostMap(){try{localStorage.setItem('sb_boost_map',JSON.stringify(boostMap));}catch(e){}}
+let boostMap={};   // tamanho da fonte por música (título -> fator), lembrado entre sessões
+// chaveado pelo título: o id muda quando o bloco é renumerado e o ajuste ia parar na música errada
+try{boostMap=JSON.parse(localStorage.getItem('sb_boost_v2'))||{};}catch(e){boostMap={};}
+try{localStorage.removeItem('sb_boost_map');}catch(e){}
+function curKey(){var o=SONGS_ORDER[idx]||{};return o.title||o.id;}
+function curBoost(){var b=boostMap[curKey()];return (b>=0.6&&b<=2.4)?b:1;}
+function saveBoostMap(){try{localStorage.setItem('sb_boost_v2',JSON.stringify(boostMap));}catch(e){}}
 function setK(k){scard.style.setProperty('--k',k);}
-function fits(){return scard.scrollHeight<=wrap.clientHeight-2 && scard.scrollWidth<=wrap.clientWidth-2;}
+// área realmente visível: clientHeight/Width incluem o padding do .scardwrap
+function fitBox(){var cs=getComputedStyle(wrap);
+  return {h: wrap.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom),
+          w: wrap.clientWidth  - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight)};}
+function fits(){var f=fitBox();return scard.scrollHeight<=f.h-2 && scard.scrollWidth<=f.w-2;}
 function bestFit(){let lo=0.45,hi=3.4;setK(hi);if(fits())return hi;for(let i=0;i<16;i++){let m=(lo+hi)/2;setK(m);if(fits())lo=m;else hi=m;}return lo;}
 function applyFit(){if(!wrap)wrap=stage.querySelector('.scardwrap');const kf=bestFit();const b=curBoost();const k=Math.max(0.3,kf*b);setK(k);
   if(b>1.001 && k>kf+0.0001){stage.classList.add('scroll');}else{stage.classList.remove('scroll');}}
@@ -478,7 +484,7 @@ function wrapChords(){document.querySelectorAll('.chords').forEach(function(el){
 function nextSong(){if(idx<SONGS_ORDER.length-1){idx++;slideDir=1;render();}}
 function prevSong(){if(idx>0){idx--;slideDir=-1;render();}}
 function zoneClick(d){if(swiped)return;d<0?prevSong():nextSong();}
-function bumpFont(d){var id=curId();if(!id)return;var b=Math.min(2.4,Math.max(0.6,curBoost()+d*0.12));boostMap[id]=b;saveBoostMap();applyFit();}
+function bumpFont(d){var k=curKey();if(!k)return;var b=Math.min(2.4,Math.max(0.6,curBoost()+d*0.12));boostMap[k]=b;saveBoostMap();applyFit();}
 function toggleJump(){const p=document.getElementById('sjump');document.getElementById('sfab').classList.remove('open');if(p.classList.contains('open')){closeJump();return;}
   let h='<div class="jver">versão '+APP_VERSION+'</div>';let lastBloco=null;SONGS_ORDER.forEach((o,i)=>{if(o.bloco!==lastBloco){h+='<h4>'+SB.blocoLabel(o.bloco)+'</h4>';lastBloco=o.bloco;}
     const num=(o.label.split('· ')[1]||'').split('/')[0];
