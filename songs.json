@@ -4174,18 +4174,18 @@
           "name": "Mosquitão"
         }
       ],
-      "note": "⚑ Forma: intro · 1ª parte (2x) · 2ª parte · 1ª parte · 2ª parte · final (= intro).",
+      "note": "⚑ Forma: intro · 1ª parte (2x) · 2ª · 1ª · 2ª · final.",
       "cols2": true,
       "chordsTop": true,
       "sections": [
         {
-          "label": "Intro",
+          "label": "Intro (instrumental)",
           "lines": [
             {
-              "chords": "Dm → Bm7(5-) → Am/E → Am → Am/G → F#°  /  F7 → E7 → E7/B → Am → A7"
+              "chords": "Dm → Bm7(5-) → Am  /  F7 → E7 → Am → A7"
             },
             {
-              "chords": "Dm → Bm7(5-) → Am/E → Am → Am/G → F#°  /  F7 → E7 → E7/B → Am → E7"
+              "chords": "Dm → Bm7(5-) → Am  /  F7 → E7 → Am → E7"
             }
           ]
         },
@@ -4193,36 +4193,11 @@
           "label": "1ª Parte",
           "lines": [
             {
-              "cue": "Não posso ficar…",
-              "chords": "Am   (na volta: E7)"
+              "cue": "Não posso ficar nem mais um minuto…",
+              "chords": "Am → E7 → A7"
             },
             {
-              "cue": "Nem mais um minuto…",
-              "chords": "Am/C → Am"
-            },
-            {
-              "cue": "Sinto muito amor…",
-              "chords": "Am/C"
-            },
-            {
-              "cue": "Mas não pode ser",
-              "chords": "E7 → A7"
-            },
-            {
-              "cue": "Moro em Jaçanã",
-              "chords": "Dm → Bm7(5-) → Am"
-            },
-            {
-              "cue": "Se eu perder esse trem…",
-              "chords": "F7"
-            },
-            {
-              "cue": "Que sai agora às onze horas",
-              "chords": "E7 → E7/D   (última vez: D°)"
-            },
-            {
-              "cue": "Só amanhã de manhã",
-              "chords": "E7/G# → Am"
+              "chords": "Dm → Bm7(5-) → Am → F7 → E7 → Am"
             }
           ]
         },
@@ -4230,40 +4205,22 @@
           "label": "2ª Parte",
           "lines": [
             {
-              "cue": "Além disso, mulher…",
-              "chords": "A/C# → A7"
+              "cue": "Além disso, mulher, tem outra coisa…",
+              "chords": "A7 → Dm → D#° → E7"
             },
             {
-              "cue": "Tem outra coisa",
-              "chords": "Dm"
-            },
-            {
-              "cue": "Minha mãe não dorme…",
-              "chords": "D#°"
-            },
-            {
-              "cue": "Enquanto eu não chegar",
-              "chords": "A° → E7"
-            },
-            {
-              "cue": "Sou filho único",
-              "chords": "Dm → Bm7(5-) → Am/E → Am → Am/G"
-            },
-            {
-              "cue": "Tenho minha casa pra olhar",
-              "chords": "F#° → F7 → E7 → E7/B → Am"
-            },
-            {
-              "cue": "(emenda na 1ª parte)",
-              "chords": "E7   (na última vez: A7)"
+              "chords": "Dm → Bm7(5-) → Am → F7 → E7 → Am"
             }
           ]
         },
         {
-          "label": "Final",
+          "label": "Final (instrumental)",
           "lines": [
             {
-              "chords": "igual à intro, terminando em E7 → Am"
+              "chords": "Dm → Bm7(5-) → Am  /  F7 → E7 → Am → A7"
+            },
+            {
+              "chords": "Dm → Bm7(5-) → Am  /  F7 → E7 → Am → E7"
             }
           ]
         }
@@ -4490,27 +4447,43 @@
           "label": "1ª Parte",
           "lines": [
             {
-              "cue": "Um dia, você diz pra mim…",
-              "chords": "Am → Dm"
+              "cue": "Um dia, você diz pra mim que ama",
+              "chords": "Am"
             },
             {
-              "cue": "Que não se interessa…",
-              "chords": "G7 → C7M"
-            },
-            {
-              "cue": "Pura armação, pressão…",
-              "chords": "F7M → Bm7(5-) → E7 → Am"
-            },
-            {
-              "cue": "Bagdá chorando…",
+              "cue": "Me adora",
               "chords": "Dm"
             },
             {
-              "cue": "Eu no meu orgulho…",
+              "cue": "Que não se interessa",
+              "chords": "G7"
+            },
+            {
+              "cue": "Por ninguém lá fora",
+              "chords": "C7M"
+            },
+            {
+              "cue": "Pura armação",
+              "chords": "F7M"
+            },
+            {
+              "cue": "Pressão da cabeça",
+              "chords": "Bm7(5-)"
+            },
+            {
+              "cue": "De quem um dia",
+              "chords": "E7 → Am"
+            },
+            {
+              "cue": "Bagdá chorando e você na calçada",
+              "chords": "Dm   (na “calçada”)"
+            },
+            {
+              "cue": "Eu no meu orgulho e você não diz nada",
               "chords": "G7 → C7M → F7M"
             },
             {
-              "cue": "Tanta gente no veneno…",
+              "cue": "Tanta gente no veneno e eu sem você",
               "chords": "Bm7(5-) → E7"
             }
           ]
@@ -4519,15 +4492,23 @@
           "label": "Pré-Refrão",
           "lines": [
             {
-              "cue": "Senta aqui, pensa bem…",
-              "chords": "Am → Am/G# → Gm"
+              "cue": "Senta aqui",
+              "chords": "Am"
+            },
+            {
+              "cue": "Pensa bem",
+              "chords": "Am/G#"
+            },
+            {
+              "cue": "Pode crê",
+              "chords": "Gm"
             },
             {
               "cue": "Que o amor é maior que tudo",
               "chords": "C7 → F7M   (2ª vez: F7M → F6)"
             },
             {
-              "cue": "Do que eu e você…",
+              "cue": "Do que eu e você, você e eu",
               "chords": "Bm7(5-) → E7"
             }
           ]
@@ -4536,11 +4517,15 @@
           "label": "Refrão (Am)",
           "lines": [
             {
-              "cue": "Sem abuso, sem abuso…",
-              "chords": "Am → Gm → C7"
+              "cue": "Sem abuso, sem abuso",
+              "chords": "Am"
             },
             {
-              "cue": "Se eu tô com você…",
+              "cue": "Sem abuso",
+              "chords": "Gm → C7"
+            },
+            {
+              "cue": "Se eu tô com você, não sou de ninguém",
               "chords": "F7M → Bm7(5-)"
             },
             {
@@ -4553,11 +4538,19 @@
           "label": "Refrão (Bm) — modulação",
           "lines": [
             {
-              "cue": "Sem abuso, sem abuso…",
-              "chords": "Bm → Bbm → Am → D7"
+              "cue": "Sem abuso, sem",
+              "chords": "Bm"
             },
             {
-              "cue": "Se eu tô com você…",
+              "cue": "Abuso",
+              "chords": "Bbm"
+            },
+            {
+              "cue": "Sem abuso",
+              "chords": "Am → D7"
+            },
+            {
+              "cue": "Se eu tô com você, não sou de ninguém",
               "chords": "G7M → G6 → C#m7(5-)"
             },
             {
@@ -4570,11 +4563,19 @@
           "label": "Parte (Bm)",
           "lines": [
             {
-              "cue": "Tanta gente no veneno do mundo",
-              "chords": "Em → F#7 → Bm"
+              "cue": "Tanta gente no",
+              "chords": "Em7"
             },
             {
-              "cue": "Quem a gente escolhe…",
+              "cue": "Veneno do",
+              "chords": "F#m7"
+            },
+            {
+              "cue": "Mundo",
+              "chords": "G7M → G6"
+            },
+            {
+              "cue": "Quem a gente escolhe",
               "chords": "C#m7(5-)"
             },
             {
@@ -4587,15 +4588,23 @@
           "label": "Pré-Refrão (Bm)",
           "lines": [
             {
-              "cue": "Senta aqui, pensa bem…",
-              "chords": "Bm → Bm/Bb → Am"
+              "cue": "Senta aqui",
+              "chords": "Bm"
             },
             {
-              "cue": "Que o amor é maior que tudo",
-              "chords": "D7 → G7M"
+              "cue": "Pensa bem, pode crê",
+              "chords": "Bm7M → Am7"
             },
             {
-              "cue": "Do que eu e você…",
+              "cue": "Que o amor é maior",
+              "chords": "D7"
+            },
+            {
+              "cue": "Que tudo",
+              "chords": "G7M"
+            },
+            {
+              "cue": "Do que eu e você, você e eu",
               "chords": "C#m7(5-) → F#7   (volta pro refrão em Bm, 5x)"
             }
           ]
@@ -4716,6 +4725,648 @@
           "lines": [
             {
               "chords": "Bm7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3-7",
+      "num": 7,
+      "bloco": 3,
+      "title": "Berimbau / Canto de Ossanha",
+      "artist": "Vinicius de Moraes · Baden Powell",
+      "tom": "Dm",
+      "levada": "Medley · afro-samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": "⚑ Medley: Berimbau emenda direto no Canto de Ossanha (as duas em Dm). Ossanha: 1ª parte · refrão · 2ª parte · refrão · passagem · “Vai… viver”.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Berimbau · Intro",
+          "lines": [
+            {
+              "chords": "Dm7 → G/D  /  Dm → Am7"
+            }
+          ]
+        },
+        {
+          "label": "Berimbau · Verso",
+          "lines": [
+            {
+              "cue": "Quem é homem de bem não trai…",
+              "chords": "Dm → Am7"
+            },
+            {
+              "cue": "(cada dístico alterna Am7 → Dm — são 5)",
+              "chords": "Am7 → Dm"
+            },
+            {
+              "cue": "E se um dia ele cai, cai bem",
+              "chords": "Dm7 → G/D"
+            }
+          ]
+        },
+        {
+          "label": "Berimbau · Refrão (2x)",
+          "lines": [
+            {
+              "cue": "Capoeira me mandou dizer…",
+              "chords": "Gm7 → C7(9) → F7M → Bb7(9) → Em7(5-)"
+            },
+            {
+              "cue": "Chegou para lutar",
+              "chords": "A7(13-) → Dm7 → D7(9)"
+            },
+            {
+              "cue": "Berimbau me confirmou…",
+              "chords": "Gm7 → C7(9) → F7M → Bb7(9) → Em7(5-)"
+            },
+            {
+              "cue": "Tristeza, camará",
+              "chords": "A7(13-) → Dm7"
+            }
+          ]
+        },
+        {
+          "label": "Ossanha · Intro",
+          "lines": [
+            {
+              "chords": "Dm → Dm/F → E7 → Eb7M   (4x)"
+            }
+          ]
+        },
+        {
+          "label": "Ossanha · 1ª Parte",
+          "lines": [
+            {
+              "cue": "O homem que diz “dou” não dá…",
+              "chords": "Dm → Dm/F → E7 → Eb7M → Dm"
+            },
+            {
+              "cue": "(“vou”, “sou”, “tô” — mesma volta)",
+              "chords": "Dm/F → E7 → Eb7M → Dm"
+            },
+            {
+              "cue": "Coitado do homem que cai… (2 duplas)",
+              "chords": "Dm/F → E7 → Eb7M → Dm"
+            },
+            {
+              "cue": "Vai, vai, vai, vai, não vou   (3x)",
+              "chords": "Dm/F → E7 → Eb7M → Dm"
+            },
+            {
+              "cue": "Vai, vai, vai, vai, eu vou",
+              "chords": "Dm/F → E7 → Eb7M → D6(9)"
+            }
+          ]
+        },
+        {
+          "label": "Ossanha · Refrão",
+          "lines": [
+            {
+              "cue": "Que eu não sou ninguém de ir",
+              "chords": "Bm7/A"
+            },
+            {
+              "cue": "Em conversa de esquecer",
+              "chords": "G7M"
+            },
+            {
+              "cue": "A tristeza de um amor que passou",
+              "chords": "E7(9) → A7(9)"
+            },
+            {
+              "cue": "Não, eu só vou se for pra ver",
+              "chords": "D6(9) → Bm7"
+            },
+            {
+              "cue": "Uma estrela aparecer",
+              "chords": "G7M"
+            },
+            {
+              "cue": "Na manhã de um novo amor",
+              "chords": "Em7 → A7(9) → Dm"
+            }
+          ]
+        },
+        {
+          "label": "Ossanha · 2ª Parte",
+          "lines": [
+            {
+              "cue": "Amigo senhor, saravá…",
+              "chords": "Dm/F → E7 → Eb7M → Dm"
+            },
+            {
+              "cue": "Pergunte ao seu Orixá… (2x)",
+              "chords": "Dm/F → E7 → Eb7M → Dm"
+            },
+            {
+              "cue": "Vai, vai, vai, vai… amar / sofrer / chorar",
+              "chords": "Dm/F → E7 → Eb7M → Dm   (3x)"
+            },
+            {
+              "cue": "Vai, vai, vai, vai, dizer",
+              "chords": "Dm/F → E7 → Eb7M → D6(9)"
+            }
+          ]
+        },
+        {
+          "label": "Ossanha · Passagem",
+          "lines": [
+            {
+              "chords": "Dm → Dm/F → E7 → Eb7M   (2x)"
+            }
+          ]
+        },
+        {
+          "label": "Ossanha · Final",
+          "lines": [
+            {
+              "cue": "Vai, vai, vai, vai… amar / sofrer / chorar",
+              "chords": "Dm/F → E7 → Eb7M → Dm"
+            },
+            {
+              "cue": "Vai, vai, vai, vai, viver",
+              "chords": "Eb7M → D6(9)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3-8",
+      "num": 8,
+      "bloco": 3,
+      "title": "Preciso Me Encontrar",
+      "artist": "Cartola",
+      "tom": "Dm",
+      "levada": "Samba-canção",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": "⚑ Forma: intro (solo de fagote) · 1ª parte · 2ª parte (2x) · 1ª parte com “Se alguém por mim perguntar” · 2ª parte · final (3x). No final o G#° vira G° e entra o riff 2.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro (solo de fagote)",
+          "lines": [
+            {
+              "chords": "Dm → Dm/C → Gm6/Bb → A7(13-) → A7  /  Dm → Dm/C → Gm6/Bb → Gm → G#° → A7 → A7/G"
+            },
+            {
+              "chords": "Dm → Dm/C → B° → Gm6/Bb → A7 → A/C#  /  Dm → Dm/C → Gm6/Bb → Gm → G#° → A7 → A/C#"
+            },
+            {
+              "chords": "Dm → Eb° → D7 → D/C → Gm/Bb → Gm/A → Gm → Gm/Gb"
+            },
+            {
+              "chords": "Gm/F → Gm → Gm/F → C7/E → C7 → F → Gm6/Bb → A7"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Deixe-me ir",
+              "chords": "Dm → Dm/C   (2ª vez: Dm/F → Dm/C)"
+            },
+            {
+              "cue": "Preciso andar",
+              "chords": "Gm6/Bb"
+            },
+            {
+              "cue": "Vou por aí a procurar",
+              "chords": "Gm → G#°"
+            },
+            {
+              "cue": "Rir pra não chorar",
+              "chords": "A7 → riff 1   (2ª vez: A7 → Dm6(9))"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "cue": "Quero assistir",
+              "chords": "Eb° → D7"
+            },
+            {
+              "cue": "Ao sol nascer",
+              "chords": "D7/C → Gm/Bb → Gm/A → Gm"
+            },
+            {
+              "cue": "Ver as águas dos rios correr",
+              "chords": "Gm/Gb → Gm/F → Gm → Gm/F → C7/E"
+            },
+            {
+              "cue": "Ouvir os pássaros cantar",
+              "chords": "C/Bb → F"
+            },
+            {
+              "cue": "Eu quero nascer",
+              "chords": "Gm"
+            },
+            {
+              "cue": "Quero viver",
+              "chords": "A7 → Dm"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte (2ª letra)",
+          "lines": [
+            {
+              "cue": "Se alguém por mim perguntar",
+              "chords": "Dm/F → Dm/C → Gm6/Bb"
+            },
+            {
+              "cue": "Diga que eu só vou voltar",
+              "chords": "Gm → G#°"
+            },
+            {
+              "cue": "Depois que me encontrar",
+              "chords": "A7 → Dm6(9)"
+            }
+          ]
+        },
+        {
+          "label": "Final (3x)",
+          "lines": [
+            {
+              "cue": "Deixe-me ir, preciso andar",
+              "chords": "Dm → Dm/C → Gm/Bb"
+            },
+            {
+              "cue": "Vou por aí a procurar",
+              "chords": "Gm → G°"
+            },
+            {
+              "cue": "Rir pra não chorar",
+              "chords": "A7 → riff 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3-9",
+      "num": 9,
+      "bloco": 3,
+      "title": "Eu Nunca Amei Assim",
+      "artist": "Jeito Moleque",
+      "tom": "Gm",
+      "levada": "Pagode romântico",
+      "singers": [
+        {
+          "key": "mari",
+          "name": "Mari"
+        }
+      ],
+      "note": "⚑ Forma: intro · 1ª parte (2 letras) · ponte · refrão · 1ª parte (mais 2 letras) · ponte · refrão. As quatro letras da 1ª parte fazem a mesma volta.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Cm7 → Dm7 → Eb7M → Eb7M"
+            },
+            {
+              "chords": "Cm7 → Dm7 → Eb7M → Eb7M → F7(9/11)"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Melhor",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "A gente se",
+              "chords": "Gm7M"
+            },
+            {
+              "cue": "Entender, e o que tiver que",
+              "chords": "D/F#"
+            },
+            {
+              "cue": "Acontecer, que",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Dessa vez seja, pra",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Sempre",
+              "chords": "Cm7 → F7(9/11) → D7(9-)"
+            },
+            {
+              "cue": "(mesma volta: “Pra que brincar de se esconder…”, “Vem cá, me deixa te tocar…”, “Deixa o ciúme pra depois…” — sem o D7(9-) na última)"
+            }
+          ]
+        },
+        {
+          "label": "Ponte",
+          "lines": [
+            {
+              "cue": "Porque você não fica",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Comigo",
+              "chords": "Dm7 → Gm7 → Bb7(13)"
+            },
+            {
+              "cue": "E deixa o meu amor te",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Levar",
+              "chords": "Dm7 → D7"
+            },
+            {
+              "cue": "Solidão a dois é um",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Castigo",
+              "chords": "Dm7 → Gm7 → Bb7(13)"
+            },
+            {
+              "cue": "Sem essa de querer",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Complicar",
+              "chords": "F7(9/11)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Nosso amor é tão",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Lindo, e eu só",
+              "chords": "F/Eb"
+            },
+            {
+              "cue": "Penso em você",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Nossa paixão",
+              "chords": "Gm7 → Gm7/F"
+            },
+            {
+              "cue": "Mas o que eu tô",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Sentindo, você finge",
+              "chords": "F/Eb"
+            },
+            {
+              "cue": "Que não vê, a",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Solidão",
+              "chords": "Gm7 → Gm7/F"
+            },
+            {
+              "cue": "Nosso amor é tão",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Lindo",
+              "chords": "F/Eb"
+            },
+            {
+              "cue": "E você longe de",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Mim",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Eu nunca amei",
+              "chords": "Cm7 → Dm7"
+            },
+            {
+              "cue": "Assim",
+              "chords": "Eb7M   (2ª vez: → F7(9/11) · no fim: → Gm7)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3-10",
+      "num": 10,
+      "bloco": 3,
+      "title": "Insegurança",
+      "artist": "Pixote",
+      "tom": "Bb",
+      "levada": "Pagode romântico",
+      "singers": [
+        {
+          "key": "mari",
+          "name": "Mari"
+        }
+      ],
+      "note": "⚑ Forma: intro (riff) · 1ª parte · pré · refrão · passagem · 1ª parte · pré · refrão (2x). Fecha em Bb7M.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Bb7M → F4(7/9) → Bb7M → Ab7M"
+            },
+            {
+              "chords": "Db7M → Cm7 → Cm7(5-)   (riff no violão)"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Essa noite eu notei que",
+              "chords": "Bb7M"
+            },
+            {
+              "cue": "Você demorou pra",
+              "chords": "F/A"
+            },
+            {
+              "cue": "Dormir, caminhou pela casa",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Ligou a tv eu",
+              "chords": "Bb7"
+            },
+            {
+              "cue": "Ouvi",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Você sussurrando",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Chorando baixinho",
+              "chords": "Cm7"
+            },
+            {
+              "cue": "Pra não me acordar",
+              "chords": "F4(7/9)"
+            },
+            {
+              "cue": "Se tiver precisando de",
+              "chords": "Bb7M"
+            },
+            {
+              "cue": "Amigo pra",
+              "chords": "F/A"
+            },
+            {
+              "cue": "Desabafar, se for alguma coisa",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Comigo vamos",
+              "chords": "Bb4(7/9)"
+            },
+            {
+              "cue": "Conversar",
+              "chords": "Bb7 → Eb7M"
+            },
+            {
+              "cue": "Eu não quero correr o perigo",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "De um dia você me deixar",
+              "chords": "Cm7"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão",
+          "lines": [
+            {
+              "cue": "Escolhi você pra ser minha mulher",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "E sou tão fiel a nossa relação",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Pelo amor de Deus se for",
+              "chords": "Ab7M"
+            },
+            {
+              "cue": "Insegurança tira do teu",
+              "chords": "F4(7/9)"
+            },
+            {
+              "cue": "Coração",
+              "chords": "Bb7M → F4(7/9)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Já é tarde vamos nos",
+              "chords": "Bb7M"
+            },
+            {
+              "cue": "Deitar",
+              "chords": "Bb7"
+            },
+            {
+              "cue": "Se quiser conversar",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Na nossa cama",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Porque sei que tudo isso",
+              "chords": "Cm7"
+            },
+            {
+              "cue": "Passa",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Você me abraça e a gente se",
+              "chords": "Gb7M"
+            },
+            {
+              "cue": "Ama",
+              "chords": "F4(7/9)"
+            },
+            {
+              "cue": "Eu não vou te trair com",
+              "chords": "Bb7M"
+            },
+            {
+              "cue": "Ninguém",
+              "chords": "Bb7"
+            },
+            {
+              "cue": "Meu amor você tem minha palavra",
+              "chords": "Eb7M → Dm7"
+            },
+            {
+              "cue": "Porque tudo que um homem",
+              "chords": "Cm7"
+            },
+            {
+              "cue": "Precisa",
+              "chords": "F4(7/9)"
+            },
+            {
+              "cue": "Eu tenho em casa",
+              "chords": "Bb7M → F4(7/9)   (no fim: → Bb7M)"
+            }
+          ]
+        },
+        {
+          "label": "Passagem",
+          "lines": [
+            {
+              "chords": "Eb7M → Dm7 → Cm7 → F4(7/9)"
             }
           ]
         }
