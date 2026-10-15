@@ -97,7 +97,7 @@
   }
 
   // ---- modelo <-> texto (markdown simples) ----
-  var SINGERS = [['nery', 'Nery'], ['mosquitao', 'Mosquitão'], ['mari', 'Mari'], ['gabriel', 'Gabriel']];
+  var SINGERS = [['nery', 'Nery'], ['mosquitao', 'Mosquitão'], ['camila', 'Camila'], ['gabriel', 'Gabriel']];
   var NAME2KEY = {}; SINGERS.forEach(function (d) { NAME2KEY[d[1].toLowerCase()] = d[0]; });
 
   function clean(songs) {

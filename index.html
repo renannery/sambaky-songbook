@@ -32,7 +32,7 @@
   --line: #e2d4bc;
   --c-nery: #1d18de;
   --c-mosquitao: #357d28;
-  --c-mari: #cc1414;
+  --c-camila: #cc1414;
   --c-gabriel: #b07d2b;
   --c-outro: #6f5d4c;
   --cuecol: #4a3a2b;
@@ -41,9 +41,9 @@
   --glass: rgba(250,245,236,.82);
 }
 @media (prefers-color-scheme: dark){
-  :root:not(.theme-light){--paper:#161310;--paper2:#221d17;--ink:#efe6d6;--muted:#b39c84;--garnet:#ff6f68;--garnet2:#ff8a82;--gold:#e0a948;--line:#3a3026;--c-nery:#74a9ff;--c-mosquitao:#74d257;--c-mari:#ff7a72;--c-gabriel:#e6b257;--c-outro:#b39c84;--cuecol:#d9cab4;--singbg:rgba(255,111,104,.16);--singbd:#5a3b38;--glass:rgba(28,23,18,.82);}
+  :root:not(.theme-light){--paper:#161310;--paper2:#221d17;--ink:#efe6d6;--muted:#b39c84;--garnet:#ff6f68;--garnet2:#ff8a82;--gold:#e0a948;--line:#3a3026;--c-nery:#74a9ff;--c-mosquitao:#74d257;--c-camila:#ff7a72;--c-gabriel:#e6b257;--c-outro:#b39c84;--cuecol:#d9cab4;--singbg:rgba(255,111,104,.16);--singbd:#5a3b38;--glass:rgba(28,23,18,.82);}
 }
-html.theme-dark{--paper:#161310;--paper2:#221d17;--ink:#efe6d6;--muted:#b39c84;--garnet:#ff6f68;--garnet2:#ff8a82;--gold:#e0a948;--line:#3a3026;--c-nery:#74a9ff;--c-mosquitao:#74d257;--c-mari:#ff7a72;--c-gabriel:#e6b257;--c-outro:#b39c84;--cuecol:#d9cab4;--singbg:rgba(255,111,104,.16);--singbd:#5a3b38;--glass:rgba(28,23,18,.82);}
+html.theme-dark{--paper:#161310;--paper2:#221d17;--ink:#efe6d6;--muted:#b39c84;--garnet:#ff6f68;--garnet2:#ff8a82;--gold:#e0a948;--line:#3a3026;--c-nery:#74a9ff;--c-mosquitao:#74d257;--c-camila:#ff7a72;--c-gabriel:#e6b257;--c-outro:#b39c84;--cuecol:#d9cab4;--singbg:rgba(255,111,104,.16);--singbd:#5a3b38;--glass:rgba(28,23,18,.82);}
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -166,7 +166,7 @@ body {
 .sgdot { width:9px; height:9px; border-radius:50%; display:inline-block; }
 .sg-nery { color: var(--c-nery); }        .sg-nery .sgdot { background: var(--c-nery); }
 .sg-mosquitao { color: var(--c-mosquitao); } .sg-mosquitao .sgdot { background: var(--c-mosquitao); }
-.sg-mari { color: var(--c-mari); }        .sg-mari .sgdot { background: var(--c-mari); }
+.sg-camila { color: var(--c-camila); }    .sg-camila .sgdot { background: var(--c-camila); }
 .sg-gabriel { color: var(--c-gabriel); }  .sg-gabriel .sgdot { background: var(--c-gabriel); }
 .sg-outro { color: var(--c-outro); }      .sg-outro .sgdot { background: var(--c-outro); }
 
@@ -343,7 +343,7 @@ footer {
       <div class="lg-title">Quem canta</div>
       <span class="sgchip sg-nery"><span class="sgdot"></span>Nery</span>
       <span class="sgchip sg-mosquitao"><span class="sgdot"></span>Mosquitão</span>
-      <span class="sgchip sg-mari"><span class="sgdot"></span>Mari</span>
+      <span class="sgchip sg-camila"><span class="sgdot"></span>Camila</span>
       <span class="sgchip sg-gabriel"><span class="sgdot"></span>Gabriel</span>
     </div>
     <div class="appver" id="appver"></div>
@@ -393,7 +393,7 @@ footer {
 <script>
 let SONGS = [], SONGS_ORDER = [];
 
-const APP_VERSION='2026-10-08 · 16:21 EST';
+const APP_VERSION='2026-10-15 · 17:10 EST';
 const stage=document.getElementById('stage');
 const scard=document.getElementById('scard');
 let wrap, idx=0, swiped=false, tx=0, slideDir=0;

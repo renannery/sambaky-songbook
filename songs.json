@@ -11,8 +11,8 @@
       "levada": "Samba",
       "singers": [
         {
-          "key": "mari",
-          "name": "Mari"
+          "key": "camila",
+          "name": "Camila"
         }
       ],
       "note": null,
@@ -382,8 +382,8 @@
       "levada": "Samba",
       "singers": [
         {
-          "key": "mari",
-          "name": "Mari"
+          "key": "camila",
+          "name": "Camila"
         }
       ],
       "note": "⚑ Começar com “Não deixe o samba morrer!”",
@@ -1210,8 +1210,8 @@
       "levada": "Samba",
       "singers": [
         {
-          "key": "mari",
-          "name": "Mari"
+          "key": "camila",
+          "name": "Camila"
         }
       ],
       "note": "⚑ Forma: intro · 1ª e 2ª partes · refrão (2x) · “Chega de chorar” · Clareou (2x) · refrão (2x) · “Chega de chorar” · Clareou (1x).",
@@ -1875,20 +1875,20 @@
       "levada": "Medley · roda",
       "singers": [
         {
-          "key": "mari",
-          "name": "Mari"
+          "key": "camila",
+          "name": "Camila"
         },
         {
           "key": "nery",
           "name": "Nery"
         }
       ],
-      "note": "⚑ O Mar Serenou + Faixa Amarela: Mari · Deixa a Vida Me Levar: Nery. (“Amarela” veio em rosa no setlist — me diga se é o Gabriel nesse trecho.)",
+      "note": "⚑ O Mar Serenou + Faixa Amarela: Camila · Deixa a Vida Me Levar: Nery. (“Amarela” veio em rosa no setlist — me diga se é o Gabriel nesse trecho.)",
       "cols2": true,
       "chordsTop": true,
       "sections": [
         {
-          "label": "O Mar Serenou · Mari",
+          "label": "O Mar Serenou · Camila",
           "lines": [
             {
               "cue": "O mar serenou, quando ela pisou",
@@ -1909,7 +1909,7 @@
           ]
         },
         {
-          "label": "Faixa Amarela · Mari",
+          "label": "Faixa Amarela · Camila",
           "lines": [
             {
               "cue": "Vou dá-lhe um gato angorá…",
@@ -2828,8 +2828,8 @@
       "levada": "Samba",
       "singers": [
         {
-          "key": "mari",
-          "name": "Mari"
+          "key": "camila",
+          "name": "Camila"
         }
       ],
       "note": "⚑ Dar paradona no meio da música.",
@@ -3162,6 +3162,10 @@
         {
           "key": "nery",
           "name": "Nery"
+        },
+        {
+          "key": "camila",
+          "name": "Camila"
         }
       ],
       "note": null,
@@ -3255,8 +3259,8 @@
       "levada": "Pagode romântico",
       "singers": [
         {
-          "key": "mari",
-          "name": "Mari"
+          "key": "camila",
+          "name": "Camila"
         }
       ],
       "note": "⚑ Paradinha no “tudo bem… como vai a sua vida”.",
@@ -4174,7 +4178,7 @@
           "name": "Mosquitão"
         }
       ],
-      "note": "⚑ Forma: intro · 1ª parte (2x) · 2ª · 1ª · 2ª · final.",
+      "note": "⚑ Forma: intro · 1ª parte (2x) · 2ª · 1ª · 2ª · final. A troca cai quase sempre na última sílaba da frase.",
       "cols2": true,
       "chordsTop": true,
       "sections": [
@@ -4193,11 +4197,40 @@
           "label": "1ª Parte",
           "lines": [
             {
-              "cue": "Não posso ficar nem mais um minuto…",
-              "chords": "Am → E7 → A7"
+              "cue": "Não posso ficar, nem mais um minuto com você",
+              "chords": "Am"
             },
             {
-              "chords": "Dm → Bm7(5-) → Am → F7 → E7 → Am"
+              "cue": "Sinto muito amor, mas não pode",
+              "chords": "Am   (segura)"
+            },
+            {
+              "cue": "Ser",
+              "chords": "E7 → A7"
+            },
+            {
+              "cue": "Moro",
+              "chords": "Dm"
+            },
+            {
+              "cue": "Em Ja…",
+              "chords": "Bm7(5-)"
+            },
+            {
+              "cue": "…çanã, se eu perder esse tr…",
+              "chords": "Am"
+            },
+            {
+              "cue": "…em, que sai a…",
+              "chords": "F7"
+            },
+            {
+              "cue": "…gora às onze horas, só amanhã de man…",
+              "chords": "E7"
+            },
+            {
+              "cue": "…hã",
+              "chords": "Am"
             }
           ]
         },
@@ -4205,11 +4238,48 @@
           "label": "2ª Parte",
           "lines": [
             {
-              "cue": "Além disso, mulher, tem outra coisa…",
-              "chords": "A7 → Dm → D#° → E7"
+              "cue": "Além disso, mulher",
+              "chords": "A7"
             },
             {
-              "chords": "Dm → Bm7(5-) → Am → F7 → E7 → Am"
+              "cue": "Tem outra coisa",
+              "chords": "Dm"
+            },
+            {
+              "cue": "Minha mãe não dorme, enquanto eu não che…",
+              "chords": "D#°"
+            },
+            {
+              "cue": "…gar",
+              "chords": "E7"
+            },
+            {
+              "cue": "Sou",
+              "chords": "Dm"
+            },
+            {
+              "cue": "Filho",
+              "chords": "Bm7(5-)"
+            },
+            {
+              "cue": "Único",
+              "chords": "Am"
+            },
+            {
+              "cue": "Tenho minha",
+              "chords": "F7"
+            },
+            {
+              "cue": "Casa pra",
+              "chords": "E7"
+            },
+            {
+              "cue": "Olhar, não posso fi…",
+              "chords": "Am"
+            },
+            {
+              "cue": "…car",
+              "chords": "E7   (volta pra 1ª parte · na última vez: A7)"
             }
           ]
         },
@@ -4744,7 +4814,7 @@
           "name": "Mosquitão"
         }
       ],
-      "note": "⚑ Medley: Berimbau emenda direto no Canto de Ossanha (as duas em Dm). Ossanha: 1ª parte · refrão · 2ª parte · refrão · passagem · “Vai… viver”.",
+      "note": "⚑ Medley: Berimbau emenda direto no Canto de Ossanha (as duas em Dm). No Ossanha, 1ª e 2ª partes fazem a MESMA volta de 4 acordes. Ordem: parte · “vai, vai” · refrão · 2ª parte · “vai, vai” · refrão · passagem · final (“Vai… viver”).",
       "cols2": true,
       "chordsTop": true,
       "sections": [
@@ -4760,12 +4830,20 @@
           "label": "Berimbau · Verso",
           "lines": [
             {
-              "cue": "Quem é homem de bem não trai…",
-              "chords": "Dm → Am7"
+              "cue": "Quem é homem de bem não",
+              "chords": "Dm"
             },
             {
-              "cue": "(cada dístico alterna Am7 → Dm — são 5)",
-              "chords": "Am7 → Dm"
+              "cue": "Trai, o amor que lhe quer seu",
+              "chords": "Am7"
+            },
+            {
+              "cue": "Bem, quem diz muito que vai, não",
+              "chords": "Dm"
+            },
+            {
+              "cue": "(segue alternando — a troca cai sempre na última palavra: vai · vem · sai · ninguém · dá · tem · cai)",
+              "chords": "Am7 ↔ Dm"
             },
             {
               "cue": "E se um dia ele cai, cai bem",
@@ -4777,20 +4855,28 @@
           "label": "Berimbau · Refrão (2x)",
           "lines": [
             {
-              "cue": "Capoeira me mandou dizer…",
-              "chords": "Gm7 → C7(9) → F7M → Bb7(9) → Em7(5-)"
+              "cue": "Capoeira me",
+              "chords": "Gm7 → C7(9)"
             },
             {
-              "cue": "Chegou para lutar",
-              "chords": "A7(13-) → Dm7 → D7(9)"
+              "cue": "Mandou",
+              "chords": "F7M"
             },
             {
-              "cue": "Berimbau me confirmou…",
-              "chords": "Gm7 → C7(9) → F7M → Bb7(9) → Em7(5-)"
+              "cue": "Dizer que já",
+              "chords": "Bb7(9)"
             },
             {
-              "cue": "Tristeza, camará",
-              "chords": "A7(13-) → Dm7"
+              "cue": "Chegou",
+              "chords": "Em7(5-)"
+            },
+            {
+              "cue": "Chegou para",
+              "chords": "A7(13-)"
+            },
+            {
+              "cue": "Lutar",
+              "chords": "Dm7 → D7(9)   (2ª vez: “Berimbau me confirmou…” / “Tristeza, camará” — mesma volta, fecha em Dm7)"
             }
           ]
         },
@@ -4803,27 +4889,54 @@
           ]
         },
         {
-          "label": "Ossanha · 1ª Parte",
+          "label": "Ossanha · Volta (todas as partes)",
           "lines": [
             {
-              "cue": "O homem que diz “dou” não dá…",
-              "chords": "Dm → Dm/F → E7 → Eb7M → Dm"
+              "cue": "O homem que",
+              "chords": "Dm"
             },
             {
-              "cue": "(“vou”, “sou”, “tô” — mesma volta)",
-              "chords": "Dm/F → E7 → Eb7M → Dm"
+              "cue": "Diz “dou” não",
+              "chords": "Dm/F"
             },
             {
-              "cue": "Coitado do homem que cai… (2 duplas)",
-              "chords": "Dm/F → E7 → Eb7M → Dm"
+              "cue": "Dá, porque quem dá",
+              "chords": "E7"
             },
             {
-              "cue": "Vai, vai, vai, vai, não vou   (3x)",
-              "chords": "Dm/F → E7 → Eb7M → Dm"
+              "cue": "Mesmo não",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Diz",
+              "chords": "Dm"
+            },
+            {
+              "cue": "(mesma volta em todas: “vou/não vai” · “sou/não é” · “tô/não tá” · “Coitado do homem que cai…” · “…que vai…” · “Amigo senhor, saravá…” · “Se é canto de Ossanha…” · “Pergunte ao seu Orixá…” 2x)"
+            }
+          ]
+        },
+        {
+          "label": "Ossanha · “Vai, vai, vai”",
+          "lines": [
+            {
+              "cue": "Vai, vai, vai, vai, não vou",
+              "chords": "Dm/F → E7"
+            },
+            {
+              "cue": "Vai, vai, vai, vai, não vou",
+              "chords": "Eb7M → Dm"
+            },
+            {
+              "cue": "Vai, vai, vai, vai, não vou",
+              "chords": "Dm/F → E7"
             },
             {
               "cue": "Vai, vai, vai, vai, eu vou",
-              "chords": "Dm/F → E7 → Eb7M → D6(9)"
+              "chords": "Eb7M → D6(9)"
+            },
+            {
+              "cue": "(na 2ª parte: amar · sofrer · chorar · dizer)"
             }
           ]
         },
@@ -4831,49 +4944,48 @@
           "label": "Ossanha · Refrão",
           "lines": [
             {
-              "cue": "Que eu não sou ninguém de ir",
+              "cue": "Que eu não sou ninguém de…",
+              "chords": "D6(9)"
+            },
+            {
+              "cue": "…ir, em conversa de esque…",
               "chords": "Bm7/A"
             },
             {
-              "cue": "Em conversa de esquecer",
+              "cue": "…cer, a tristeza de um",
               "chords": "G7M"
             },
             {
-              "cue": "A tristeza de um amor que passou",
-              "chords": "E7(9) → A7(9)"
+              "cue": "Amor",
+              "chords": "E7(9)"
             },
             {
-              "cue": "Não, eu só vou se for pra ver",
-              "chords": "D6(9) → Bm7"
+              "cue": "Que passou",
+              "chords": "A7(9)"
             },
             {
-              "cue": "Uma estrela aparecer",
+              "cue": "Não, eu só vou se for pra…",
+              "chords": "D6(9)"
+            },
+            {
+              "cue": "…ver, uma estrela apare…",
+              "chords": "Bm7"
+            },
+            {
+              "cue": "…cer, na man…",
               "chords": "G7M"
             },
             {
-              "cue": "Na manhã de um novo amor",
-              "chords": "Em7 → A7(9) → Dm"
-            }
-          ]
-        },
-        {
-          "label": "Ossanha · 2ª Parte",
-          "lines": [
-            {
-              "cue": "Amigo senhor, saravá…",
-              "chords": "Dm/F → E7 → Eb7M → Dm"
+              "cue": "…hã de um",
+              "chords": "Em7"
             },
             {
-              "cue": "Pergunte ao seu Orixá… (2x)",
-              "chords": "Dm/F → E7 → Eb7M → Dm"
+              "cue": "Novo",
+              "chords": "A7(9)"
             },
             {
-              "cue": "Vai, vai, vai, vai… amar / sofrer / chorar",
-              "chords": "Dm/F → E7 → Eb7M → Dm   (3x)"
-            },
-            {
-              "cue": "Vai, vai, vai, vai, dizer",
-              "chords": "Dm/F → E7 → Eb7M → D6(9)"
+              "cue": "Amor",
+              "chords": "Dm"
             }
           ]
         },
@@ -4889,8 +5001,8 @@
           "label": "Ossanha · Final",
           "lines": [
             {
-              "cue": "Vai, vai, vai, vai… amar / sofrer / chorar",
-              "chords": "Dm/F → E7 → Eb7M → Dm"
+              "cue": "Vai, vai, vai, vai, amar / sofrer / chorar",
+              "chords": "Dm/F → E7  ·  Eb7M → Dm"
             },
             {
               "cue": "Vai, vai, vai, vai, viver",
@@ -5031,8 +5143,8 @@
       "levada": "Pagode romântico",
       "singers": [
         {
-          "key": "mari",
-          "name": "Mari"
+          "key": "camila",
+          "name": "Camila"
         }
       ],
       "note": "⚑ Forma: intro · 1ª parte (2 letras) · ponte · refrão · 1ª parte (mais 2 letras) · ponte · refrão. As quatro letras da 1ª parte fazem a mesma volta.",
@@ -5192,8 +5304,8 @@
       "levada": "Pagode romântico",
       "singers": [
         {
-          "key": "mari",
-          "name": "Mari"
+          "key": "camila",
+          "name": "Camila"
         }
       ],
       "note": "⚑ Forma: intro (riff) · 1ª parte · pré · refrão · passagem · 1ª parte · pré · refrão (2x). Fecha em Bb7M.",
