@@ -5483,6 +5483,307 @@
           ]
         }
       ]
+    },
+    {
+      "id": "b3-11",
+      "num": 11,
+      "bloco": 3,
+      "title": "Quem É Ela?",
+      "artist": "Zeca Pagodinho",
+      "tom": "G",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "gabriel",
+          "name": "Gabriel"
+        }
+      ],
+      "note": "⚑ Forma: intro · 1ª parte · 2ª parte (2 letras) · “ela vai…” · 2ª parte (mais 2 letras) · final “Quem é ela” no D7.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "G → D7"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Quem é ela que vai todo",
+              "chords": "G"
+            },
+            {
+              "cue": "Dia na Ca…",
+              "chords": "E7"
+            },
+            {
+              "cue": "…pela, fazer oração acender",
+              "chords": "Am"
+            },
+            {
+              "cue": "Vela, dizem que ela zela por",
+              "chords": "D7"
+            },
+            {
+              "cue": "Mim",
+              "chords": "G → D7"
+            },
+            {
+              "cue": "Me contaram que a menina",
+              "chords": "G"
+            },
+            {
+              "cue": "Moça é don…",
+              "chords": "E7"
+            },
+            {
+              "cue": "…zela, mas quando ela está na jan…",
+              "chords": "Am"
+            },
+            {
+              "cue": "…ela, sempre joga beijos pra",
+              "chords": "D7"
+            },
+            {
+              "cue": "Mim",
+              "chords": "G → G7"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "cue": "Me contaram que ela tem por",
+              "chords": "C#m7(5-)"
+            },
+            {
+              "cue": "Mim um cham…",
+              "chords": "F#7"
+            },
+            {
+              "cue": "…ego, que todo lu…",
+              "chords": "Bm7(5-)"
+            },
+            {
+              "cue": "…gar onde eu",
+              "chords": "E7"
+            },
+            {
+              "cue": "Chego, depois ela",
+              "chords": "Am"
+            },
+            {
+              "cue": "Chega tam…",
+              "chords": "D7"
+            },
+            {
+              "cue": "…bém",
+              "chords": "G → G7"
+            },
+            {
+              "cue": "(mesma volta: “E me olha com jeito de quem quer carinho…” · “Qualquer dia me invoco e tomo coragem…” · “Meu Senhor por favor vem ouvir minha prece…”)"
+            }
+          ]
+        },
+        {
+          "label": "3ª Parte · “ela vai…”",
+          "lines": [
+            {
+              "cue": "Se eu vou na",
+              "chords": "G"
+            },
+            {
+              "cue": "Mangueira",
+              "chords": "E7"
+            },
+            {
+              "cue": "Ela vai, se vou na",
+              "chords": "Am"
+            },
+            {
+              "cue": "Portela",
+              "chords": "D7"
+            },
+            {
+              "cue": "Ela está",
+              "chords": "G"
+            },
+            {
+              "cue": "(mesma volta: Cacique de Ramos / Estácio de Sá · pagode em Xerém / pagode em Irajá)"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "cue": "Quem é ela",
+              "chords": "D7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3-12",
+      "num": 12,
+      "bloco": 3,
+      "title": "Do Jeito Que a Vida Quer",
+      "artist": "Grupo Revelação",
+      "tom": "F",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": "⚑ Forma: intro · 1ª parte · 2ª parte · repete as duas (a 2ª fecha em D7) · 3ª parte (2 letras) · refrão (2x).",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Dm → A7 → Dm → A7"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Ninguém sabe a mágoa que trago no",
+              "chords": "Dm"
+            },
+            {
+              "cue": "Peito, quem me vê sorrindo desse jei…",
+              "chords": "Gm"
+            },
+            {
+              "cue": "…to, nem sequer",
+              "chords": "C7"
+            },
+            {
+              "cue": "Sabe a minha",
+              "chords": "C7(9)"
+            },
+            {
+              "cue": "Solidão",
+              "chords": "F → D7"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "cue": "É que o meu samba me",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Ajuda na",
+              "chords": "A7"
+            },
+            {
+              "cue": "Vida, minha dor vai passando",
+              "chords": "Dm"
+            },
+            {
+              "cue": "Esqueci…",
+              "chords": "C7"
+            },
+            {
+              "cue": "…da, vou vivendo essa",
+              "chords": "F"
+            },
+            {
+              "cue": "Vida do",
+              "chords": "Bb"
+            },
+            {
+              "cue": "Jeito que ela me levar",
+              "chords": "A7   (2ª vez: → D7)"
+            }
+          ]
+        },
+        {
+          "label": "3ª Parte",
+          "lines": [
+            {
+              "cue": "Vamos falar da",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Mulher, da morena e",
+              "chords": "C7"
+            },
+            {
+              "cue": "Dinheiro, do batuque do",
+              "chords": "F"
+            },
+            {
+              "cue": "Surdo e até do pandeiro",
+              "chords": "Bb"
+            },
+            {
+              "cue": "Mas não fale",
+              "chords": "Em7(5-)"
+            },
+            {
+              "cue": "Da vida, por que você não",
+              "chords": "A7"
+            },
+            {
+              "cue": "Sabe o que eu já",
+              "chords": "Am7(5-)"
+            },
+            {
+              "cue": "Passei",
+              "chords": "D7"
+            },
+            {
+              "cue": "(2ª letra: “Moço, aumente esse samba…” / “Batuque mais forte e tristeza se cala” / “Eu levo essa vida…” — mesma volta, com Bb7 no “vida do”)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão (2x)",
+          "lines": [
+            {
+              "cue": "Éeeee…",
+              "chords": "Gm7 → C7(9)"
+            },
+            {
+              "cue": "Do jeito que a vida",
+              "chords": "F"
+            },
+            {
+              "cue": "Quer",
+              "chords": "Dm"
+            },
+            {
+              "cue": "É…",
+              "chords": "Em7(5-) → A7"
+            },
+            {
+              "cue": "Desse jei…",
+              "chords": "Am7(5-)"
+            },
+            {
+              "cue": "…to",
+              "chords": "D7   (2ª vez: Dm → A7)"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
