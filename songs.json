@@ -5,72 +5,6 @@
       "id": "b1-1",
       "num": 1,
       "bloco": 1,
-      "title": "Alguém Me Avisou",
-      "artist": "Dona Ivone Lara",
-      "tom": "F",
-      "levada": "Samba",
-      "singers": [
-        {
-          "key": "camila",
-          "name": "Camila"
-        }
-      ],
-      "note": null,
-      "cols2": false,
-      "chordsTop": true,
-      "sections": [
-        {
-          "label": "Intro",
-          "lines": [
-            {
-              "chords": "F → C7 → F → C7"
-            }
-          ]
-        },
-        {
-          "label": "Verso",
-          "lines": [
-            {
-              "cue": "Foram me chamar…",
-              "chords": "F → C7  /  F → C7  (repetir)"
-            },
-            {
-              "cue": "Eu vim de lá pequenininho",
-              "chords": "F → A# → Am → Gm  /  F → A# → Am"
-            },
-            {
-              "cue": "Alguém me avisou pra pisar…",
-              "chords": "D7 → G7 → C7 → F  (repetir)"
-            }
-          ]
-        },
-        {
-          "label": "Parte",
-          "lines": [
-            {
-              "cue": "Sempre fui obediente…",
-              "chords": "D7 → Gm  /  C7 → F"
-            },
-            {
-              "cue": "Foi numa roda de samba…",
-              "chords": "D7 → Gm  /  C7 → F"
-            },
-            {
-              "cue": "Quando eu voltar pra Bahia…",
-              "chords": "D7 → Gm  /  C7 → F"
-            },
-            {
-              "cue": "Óh padrinho não se zangue…",
-              "chords": "D7 → Gm  /  C7 → F → C7"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b1-2",
-      "num": 2,
-      "bloco": 1,
       "title": "A Batucada dos Nossos Tantãs",
       "artist": "Fundo de Quintal",
       "tom": "F",
@@ -114,8 +48,8 @@
       ]
     },
     {
-      "id": "b1-3",
-      "num": 3,
+      "id": "b1-2",
+      "num": 2,
       "bloco": 1,
       "title": "O Show Tem Que Continuar",
       "artist": "Fundo de Quintal",
@@ -266,8 +200,8 @@
       ]
     },
     {
-      "id": "b1-4",
-      "num": 4,
+      "id": "b1-3",
+      "num": 3,
       "bloco": 1,
       "title": "Sina",
       "artist": "Djavan (vers. Grupo Revelação)",
@@ -373,8 +307,8 @@
       ]
     },
     {
-      "id": "b1-5",
-      "num": 5,
+      "id": "b1-4",
+      "num": 4,
       "bloco": 1,
       "title": "Não Deixe o Samba Morrer",
       "artist": "Alcione",
@@ -457,8 +391,8 @@
       ]
     },
     {
-      "id": "b1-6",
-      "num": 6,
+      "id": "b1-5",
+      "num": 5,
       "bloco": 1,
       "title": "Mel na Boca",
       "artist": "Almir Guineto",
@@ -572,8 +506,8 @@
       ]
     },
     {
-      "id": "b1-7",
-      "num": 7,
+      "id": "b1-6",
+      "num": 6,
       "bloco": 1,
       "title": "Flor de Lis",
       "artist": "Djavan  ·  simplificado",
@@ -659,8 +593,8 @@
       ]
     },
     {
-      "id": "b1-8",
-      "num": 8,
+      "id": "b1-7",
+      "num": 7,
       "bloco": 1,
       "title": "Depois do Prazer",
       "artist": "Só Pra Contrariar",
@@ -742,8 +676,8 @@
       ]
     },
     {
-      "id": "b1-9",
-      "num": 9,
+      "id": "b1-8",
+      "num": 8,
       "bloco": 1,
       "title": "Brilho no Olhar",
       "artist": "Reinaldo",
@@ -817,89 +751,8 @@
       ]
     },
     {
-      "id": "b1-10",
-      "num": 10,
-      "bloco": 1,
-      "title": "Coração Partido",
-      "artist": "Menos é Mais  ·  simplificado",
-      "tom": "F#",
-      "levada": "Pagode",
-      "singers": [
-        {
-          "key": "nery",
-          "name": "Nery"
-        }
-      ],
-      "note": null,
-      "cols2": true,
-      "chordsTop": false,
-      "sections": [
-        {
-          "label": "1ª Parte",
-          "lines": [
-            {
-              "cue": "Eu tentei ficar com você…",
-              "chords": "F# · F#5+ · F#6 · Cm7(5-) · A#m"
-            },
-            {
-              "chords": "G#m7 · C#7 · F#7M · F#7M(5+) · F#7M(6) · Cm7(5-) · F7(13-) · A#m"
-            }
-          ]
-        },
-        {
-          "label": "Ponte",
-          "lines": [
-            {
-              "cue": "Se você me amava…",
-              "chords": "G#m7 · C#7  /  A#m7 · E7 · D#7"
-            }
-          ]
-        },
-        {
-          "label": "Refrão (2x)",
-          "lines": [
-            {
-              "cue": "Eu não vou negar que ainda te amo…",
-              "chords": "G#m7 · B/C# · C#/B  /  A#m7 · D#7(4) · D#7"
-            }
-          ]
-        },
-        {
-          "label": "2ª Parte",
-          "lines": [
-            {
-              "chords": "F# · F#5+ · F#6 · Cm7(5-)  /  F7(13-) · A#m"
-            },
-            {
-              "chords": "G#m7 · B/C# · F#  /  F#5+ · F#6 · Cm7(5-) · F7(13-) · A#m"
-            },
-            {
-              "chords": "G#m7 · B/C# · C#/B  /  A#m7 · E7 · D#7"
-            }
-          ]
-        },
-        {
-          "label": "Refrão (3x)",
-          "lines": [
-            {
-              "chords": "G#m7 · B/C# · C#/B  /  A#m7 · D#7(4) · D#7"
-            }
-          ]
-        },
-        {
-          "label": "Final",
-          "lines": [
-            {
-              "cue": "Tiritas…",
-              "chords": "F# · G#m7 · B/C# · F#7M"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b1-11",
-      "num": 11,
+      "id": "b1-9",
+      "num": 9,
       "bloco": 1,
       "title": "Se",
       "artist": "Djavan",
@@ -977,8 +830,8 @@
       ]
     },
     {
-      "id": "b1-12",
-      "num": 12,
+      "id": "b1-10",
+      "num": 10,
       "bloco": 1,
       "title": "Já É",
       "artist": "Jorge Aragão  ·  simplificado",
@@ -1064,8 +917,8 @@
       ]
     },
     {
-      "id": "b1-13",
-      "num": 13,
+      "id": "b1-11",
+      "num": 11,
       "bloco": 1,
       "title": "Pot-Pourri 1",
       "artist": "Exalta · SPC · Os Morenos",
@@ -1201,157 +1054,8 @@
       ]
     },
     {
-      "id": "b1-14",
-      "num": 14,
-      "bloco": 1,
-      "title": "Clareou",
-      "artist": "Diogo Nogueira",
-      "tom": "D",
-      "levada": "Samba",
-      "singers": [
-        {
-          "key": "camila",
-          "name": "Camila"
-        }
-      ],
-      "note": "⚑ Forma: intro · 1ª e 2ª partes · refrão (2x) · “Chega de chorar” · Clareou (2x) · refrão (2x) · “Chega de chorar” · Clareou (1x).",
-      "cols2": true,
-      "chordsTop": true,
-      "sections": [
-        {
-          "label": "Intro",
-          "lines": [
-            {
-              "chords": "D → Am → G → D"
-            }
-          ]
-        },
-        {
-          "label": "1ª Parte",
-          "lines": [
-            {
-              "cue": "A vida é pra quem sabe viver",
-              "chords": "D → Am"
-            },
-            {
-              "cue": "Procure aprender a arte",
-              "chords": "G → D"
-            },
-            {
-              "cue": "Pra quando apanhar…",
-              "chords": "Am"
-            },
-            {
-              "cue": "Ganhar e perder faz parte",
-              "chords": "G → D"
-            }
-          ]
-        },
-        {
-          "label": "2ª Parte",
-          "lines": [
-            {
-              "cue": "Levante a cabeça, amigo…",
-              "chords": "D"
-            },
-            {
-              "cue": "Um dia a gente perde…",
-              "chords": "Am"
-            },
-            {
-              "cue": "Pra tudo tem um jeito",
-              "chords": "G"
-            },
-            {
-              "cue": "E se não teve jeito…",
-              "chords": "D"
-            },
-            {
-              "cue": "Mantenha a fé na crença…",
-              "chords": "D"
-            },
-            {
-              "cue": "Pois se não tem remédio…",
-              "chords": "Am"
-            },
-            {
-              "cue": "Já é um vencedor",
-              "chords": "G"
-            },
-            {
-              "cue": "Quem sabe a dor de uma derrota…",
-              "chords": "D"
-            },
-            {
-              "cue": "E a quem Deus prometeu…",
-              "chords": "G"
-            },
-            {
-              "cue": "Na hora certa o bom Deus dará",
-              "chords": "D → D7"
-            }
-          ]
-        },
-        {
-          "label": "Refrão",
-          "lines": [
-            {
-              "cue": "Deus é maior",
-              "chords": "G"
-            },
-            {
-              "cue": "Maior é Deus…",
-              "chords": "D"
-            },
-            {
-              "cue": "O que seria do mundo sem Ele",
-              "chords": "D   (o refrão inteiro 2x)"
-            }
-          ]
-        },
-        {
-          "label": "Chega de Chorar",
-          "lines": [
-            {
-              "cue": "Chega de chorar",
-              "chords": "Am"
-            },
-            {
-              "cue": "Você já sofreu demais…",
-              "chords": "C → G"
-            },
-            {
-              "cue": "Chega de achar que tudo se acabou",
-              "chords": "D"
-            },
-            {
-              "cue": "Pode a dor uma noite durar",
-              "chords": "Am7"
-            },
-            {
-              "cue": "Mas um novo dia sempre vai raiar",
-              "chords": "C → G"
-            },
-            {
-              "cue": "E quando menos esperar, clareou",
-              "chords": "D"
-            }
-          ]
-        },
-        {
-          "label": "Clareou",
-          "lines": [
-            {
-              "cue": "Clareou, ôôô…",
-              "chords": "D → C → G → D   (2x)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b1-15",
-      "num": 15,
+      "id": "b1-12",
+      "num": 12,
       "bloco": 1,
       "title": "Gamei",
       "artist": "Exaltasamba",
@@ -1502,8 +1206,8 @@
       ]
     },
     {
-      "id": "b1-16",
-      "num": 16,
+      "id": "b1-13",
+      "num": 13,
       "bloco": 1,
       "title": "Morango do Nordeste",
       "artist": "Karametade",
@@ -1569,8 +1273,8 @@
       ]
     },
     {
-      "id": "b1-17",
-      "num": 17,
+      "id": "b1-14",
+      "num": 14,
       "bloco": 1,
       "title": "Retrato Cantado de Um Amor",
       "artist": "Reinaldo",
@@ -1659,8 +1363,8 @@
       ]
     },
     {
-      "id": "b1-18",
-      "num": 18,
+      "id": "b1-15",
+      "num": 15,
       "bloco": 1,
       "title": "Domingo",
       "artist": "Só Pra Contrariar",
@@ -1799,8 +1503,8 @@
       ]
     },
     {
-      "id": "b1-19",
-      "num": 19,
+      "id": "b1-16",
+      "num": 16,
       "bloco": 1,
       "title": "Deixa Acontecer",
       "artist": "Grupo Revelação",
@@ -1866,8 +1570,8 @@
       ]
     },
     {
-      "id": "b1-20",
-      "num": 20,
+      "id": "b1-17",
+      "num": 17,
       "bloco": 1,
       "title": "O Mar Serenou / Faixa Amarela / Deixa a Vida Me Levar",
       "artist": "Clara Nunes · Zeca Pagodinho",
@@ -2559,269 +2263,6 @@
       "id": "b2-7",
       "num": 7,
       "bloco": 2,
-      "title": "Dança do Bole-Bole / Desafio / Onda",
-      "artist": "Exaltasamba · Harmonia do Samba · Tchakabum",
-      "tom": "G",
-      "levada": "Animação",
-      "singers": [
-        {
-          "key": "nery",
-          "name": "Nery"
-        }
-      ],
-      "note": "⚑ Medley em Sol: Bole-Bole → Desafio (Harmonia do Samba) → Onda (Tchakabum) — tudo no mesmo ciclo G → Em → Am → D7. A Onda repete o ciclo e fecha no refrão.",
-      "cols2": true,
-      "chordsTop": true,
-      "sections": [
-        {
-          "label": "Intro",
-          "lines": [
-            {
-              "chords": "G"
-            }
-          ]
-        },
-        {
-          "label": "Verso",
-          "lines": [
-            {
-              "cue": "Mulherada que dança é essa, que o corpo fica todo mole",
-              "chords": "G → E7 → Am  /  D7 → G   (repetir)"
-            }
-          ]
-        },
-        {
-          "label": "Desafio",
-          "lines": [
-            {
-              "cue": "Se você aceitar o desafio",
-              "chords": "G → Em → Am"
-            },
-            {
-              "cue": "Eu vou cantar um samba…",
-              "chords": "D7 → G"
-            }
-          ]
-        },
-        {
-          "label": "Onda · Intro",
-          "lines": [
-            {
-              "chords": "G → Em → Am → D7"
-            }
-          ]
-        },
-        {
-          "label": "Onda · 1ª Parte",
-          "lines": [
-            {
-              "cue": "Vou te pegar…",
-              "chords": "G → Em → Am → D7 → G"
-            },
-            {
-              "cue": "Se ligue agora…",
-              "chords": "Em → Am → D7 → G"
-            },
-            {
-              "cue": "Somos piratas…",
-              "chords": "Em → Am → D7 → G"
-            },
-            {
-              "cue": "Ô, ô, ô",
-              "chords": "Em → Am → D7"
-            },
-            {
-              "cue": "Vou navegar…",
-              "chords": "G → Em → Am → D7 → G → Em"
-            },
-            {
-              "cue": "As ordens do meu capitão",
-              "chords": "Am → D7 → G"
-            },
-            {
-              "cue": "Capitão Tchaka…",
-              "chords": "Em → Am → D7 → G"
-            },
-            {
-              "cue": "Nessa aventura…",
-              "chords": "Em → Am → D7 → G"
-            },
-            {
-              "cue": "Olha a onda!",
-              "chords": "Em → Am → D7"
-            }
-          ]
-        },
-        {
-          "label": "Onda · Refrão (4x)",
-          "lines": [
-            {
-              "cue": "Onda, onda, olha a onda",
-              "chords": "G → Em → Am → D7"
-            }
-          ]
-        },
-        {
-          "label": "Onda · 2ª Parte (2x)",
-          "lines": [
-            {
-              "cue": "Vai te molhar, vai te banhar",
-              "chords": "G → Em"
-            },
-            {
-              "cue": "Vai sacudir, vai abalar",
-              "chords": "Am → D7"
-            }
-          ]
-        },
-        {
-          "label": "Onda · 3ª Parte",
-          "lines": [
-            {
-              "cue": "Molhou o seu rostinho…",
-              "chords": "G → Em → Am → D7"
-            },
-            {
-              "cue": "Molhou a barriguinha…",
-              "chords": "G → Em → Am → D7"
-            },
-            {
-              "cue": "Molhou o seu pézinho…",
-              "chords": "G → Em → Am → D7"
-            },
-            {
-              "cue": "Molhou todo corpinho",
-              "chords": "Am"
-            },
-            {
-              "cue": "Deixa que eu vou te enxugar",
-              "chords": "D7"
-            }
-          ]
-        },
-        {
-          "label": "Onda · 4ª Parte (2x)",
-          "lines": [
-            {
-              "cue": "Balança pra lá, balança pra cá",
-              "chords": "G → Em → Am → D7"
-            },
-            {
-              "cue": "Sacudiu, tremeu, treme sem parar",
-              "chords": "G → Em → Am → D7"
-            }
-          ]
-        },
-        {
-          "label": "Onda · Chamada (3x)",
-          "lines": [
-            {
-              "cue": "E o Capitão mandou",
-              "chords": "G → Em"
-            },
-            {
-              "cue": "O marujo: \"Sim, senhor!\"",
-              "chords": "Am → D7 → G"
-            }
-          ]
-        },
-        {
-          "label": "Onda · 5ª Parte (4x)",
-          "lines": [
-            {
-              "cue": "Andou na prancha, cuidado",
-              "chords": "G → Em → Am"
-            },
-            {
-              "cue": "O tubarão vai te pegar",
-              "chords": "D7 → G"
-            }
-          ]
-        },
-        {
-          "label": "Onda · Final",
-          "lines": [
-            {
-              "cue": "Onda, onda, olha a onda",
-              "chords": "G → Em → Am → D7 → G"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b2-8",
-      "num": 8,
-      "bloco": 2,
-      "title": "Pé na Areia",
-      "artist": "Diogo Nogueira",
-      "tom": "G",
-      "levada": "Samba",
-      "singers": [
-        {
-          "key": "mosquitao",
-          "name": "Mosquitão"
-        }
-      ],
-      "note": null,
-      "cols2": false,
-      "chordsTop": true,
-      "sections": [
-        {
-          "label": "Intro",
-          "lines": [
-            {
-              "chords": "G7M → D7M(2) → G7M"
-            }
-          ]
-        },
-        {
-          "label": "1ª Parte",
-          "lines": [
-            {
-              "cue": "Vamos amor, vamos curtir…",
-              "chords": "D7M(2) → Am7 → D7(9) → G7M  /  G6 → Gm7"
-            },
-            {
-              "chords": "D7M(2) → Am7 → D7(9) → G7M → G6 → Eb7M"
-            }
-          ]
-        },
-        {
-          "label": "Pré-Refrão",
-          "lines": [
-            {
-              "cue": "Nada pode ser melhor…",
-              "chords": "Em7(9) → D7M(2) → Em7(9)  /  D7M(2) → Em7(9) → D7M(2)  /  Em7(9) → F#7(4)"
-            }
-          ]
-        },
-        {
-          "label": "Refrão",
-          "lines": [
-            {
-              "cue": "Pé na areia, a caipirinha…",
-              "chords": "Em7(9) → G7M → D7M(2) → B7"
-            },
-            {
-              "chords": "Em7(9) → G7M → D7M(2) → B7   (4x no final, passagem por A6/B)"
-            }
-          ]
-        },
-        {
-          "label": "Final",
-          "lines": [
-            {
-              "chords": "G7M → D7M(2) → G7M → D7M(2)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b2-9",
-      "num": 9,
-      "bloco": 2,
       "title": "Água de Chuva no Mar",
       "artist": "Beth Carvalho",
       "tom": "C",
@@ -2927,8 +2368,8 @@
       ]
     },
     {
-      "id": "b2-10",
-      "num": 10,
+      "id": "b2-8",
+      "num": 8,
       "bloco": 2,
       "title": "Reinventar",
       "artist": "Belo",
@@ -3053,8 +2494,8 @@
       ]
     },
     {
-      "id": "b2-11",
-      "num": 11,
+      "id": "b2-9",
+      "num": 9,
       "bloco": 2,
       "title": "Nem de Graça",
       "artist": "Pixote",
@@ -3151,8 +2592,8 @@
       ]
     },
     {
-      "id": "b2-12",
-      "num": 12,
+      "id": "b2-10",
+      "num": 10,
       "bloco": 2,
       "title": "Lancinho",
       "artist": "Turma do Pagode",
@@ -3250,8 +2691,8 @@
       ]
     },
     {
-      "id": "b2-13",
-      "num": 13,
+      "id": "b2-11",
+      "num": 11,
       "bloco": 2,
       "title": "Falta Você",
       "artist": "Thiaguinho",
@@ -3361,8 +2802,8 @@
       ]
     },
     {
-      "id": "b2-14",
-      "num": 14,
+      "id": "b2-12",
+      "num": 12,
       "bloco": 2,
       "title": "Compasso do Amor",
       "artist": "Grupo Revelação",
@@ -3452,8 +2893,8 @@
       ]
     },
     {
-      "id": "b2-15",
-      "num": 15,
+      "id": "b2-13",
+      "num": 13,
       "bloco": 2,
       "title": "Jogo de Sedução",
       "artist": "Exaltasamba",
@@ -3530,8 +2971,8 @@
       ]
     },
     {
-      "id": "b2-16",
-      "num": 16,
+      "id": "b2-14",
+      "num": 14,
       "bloco": 2,
       "title": "Tá Escrito",
       "artist": "Grupo Revelação",
@@ -3662,8 +3103,8 @@
       ]
     },
     {
-      "id": "b2-17",
-      "num": 17,
+      "id": "b2-15",
+      "num": 15,
       "bloco": 2,
       "title": "Curtindo a Vida",
       "artist": "Grupo Bom Gosto",
@@ -3746,8 +3187,8 @@
       ]
     },
     {
-      "id": "b2-18",
-      "num": 18,
+      "id": "b2-16",
+      "num": 16,
       "bloco": 2,
       "title": "Conselho",
       "artist": "Grupo Revelação",
@@ -3802,8 +3243,8 @@
       ]
     },
     {
-      "id": "b2-19",
-      "num": 19,
+      "id": "b2-17",
+      "num": 17,
       "bloco": 2,
       "title": "Hoje Eu Vou Pagodear",
       "artist": "Dilsinho",
@@ -3914,8 +3355,8 @@
       ]
     },
     {
-      "id": "b2-20",
-      "num": 20,
+      "id": "b2-18",
+      "num": 18,
       "bloco": 2,
       "title": "Pot-Pourri Final",
       "artist": "Roda · de ouvido",
@@ -5780,6 +5221,565 @@
             {
               "cue": "…to",
               "chords": "D7   (2ª vez: Dm → A7)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3-13",
+      "num": 13,
+      "bloco": 3,
+      "title": "Coração Partido",
+      "artist": "Menos é Mais  ·  simplificado",
+      "tom": "F#",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": false,
+      "sections": [
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Eu tentei ficar com você…",
+              "chords": "F# · F#5+ · F#6 · Cm7(5-) · A#m"
+            },
+            {
+              "chords": "G#m7 · C#7 · F#7M · F#7M(5+) · F#7M(6) · Cm7(5-) · F7(13-) · A#m"
+            }
+          ]
+        },
+        {
+          "label": "Ponte",
+          "lines": [
+            {
+              "cue": "Se você me amava…",
+              "chords": "G#m7 · C#7  /  A#m7 · E7 · D#7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão (2x)",
+          "lines": [
+            {
+              "cue": "Eu não vou negar que ainda te amo…",
+              "chords": "G#m7 · B/C# · C#/B  /  A#m7 · D#7(4) · D#7"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "chords": "F# · F#5+ · F#6 · Cm7(5-)  /  F7(13-) · A#m"
+            },
+            {
+              "chords": "G#m7 · B/C# · F#  /  F#5+ · F#6 · Cm7(5-) · F7(13-) · A#m"
+            },
+            {
+              "chords": "G#m7 · B/C# · C#/B  /  A#m7 · E7 · D#7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão (3x)",
+          "lines": [
+            {
+              "chords": "G#m7 · B/C# · C#/B  /  A#m7 · D#7(4) · D#7"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "cue": "Tiritas…",
+              "chords": "F# · G#m7 · B/C# · F#7M"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3-14",
+      "num": 14,
+      "bloco": 3,
+      "title": "Clareou",
+      "artist": "Diogo Nogueira",
+      "tom": "D",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "camila",
+          "name": "Camila"
+        }
+      ],
+      "note": "⚑ Forma: intro · 1ª e 2ª partes · refrão (2x) · “Chega de chorar” · Clareou (2x) · refrão (2x) · “Chega de chorar” · Clareou (1x).",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "D → Am → G → D"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "A vida é pra quem sabe viver",
+              "chords": "D → Am"
+            },
+            {
+              "cue": "Procure aprender a arte",
+              "chords": "G → D"
+            },
+            {
+              "cue": "Pra quando apanhar…",
+              "chords": "Am"
+            },
+            {
+              "cue": "Ganhar e perder faz parte",
+              "chords": "G → D"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "cue": "Levante a cabeça, amigo…",
+              "chords": "D"
+            },
+            {
+              "cue": "Um dia a gente perde…",
+              "chords": "Am"
+            },
+            {
+              "cue": "Pra tudo tem um jeito",
+              "chords": "G"
+            },
+            {
+              "cue": "E se não teve jeito…",
+              "chords": "D"
+            },
+            {
+              "cue": "Mantenha a fé na crença…",
+              "chords": "D"
+            },
+            {
+              "cue": "Pois se não tem remédio…",
+              "chords": "Am"
+            },
+            {
+              "cue": "Já é um vencedor",
+              "chords": "G"
+            },
+            {
+              "cue": "Quem sabe a dor de uma derrota…",
+              "chords": "D"
+            },
+            {
+              "cue": "E a quem Deus prometeu…",
+              "chords": "G"
+            },
+            {
+              "cue": "Na hora certa o bom Deus dará",
+              "chords": "D → D7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Deus é maior",
+              "chords": "G"
+            },
+            {
+              "cue": "Maior é Deus…",
+              "chords": "D"
+            },
+            {
+              "cue": "O que seria do mundo sem Ele",
+              "chords": "D   (o refrão inteiro 2x)"
+            }
+          ]
+        },
+        {
+          "label": "Chega de Chorar",
+          "lines": [
+            {
+              "cue": "Chega de chorar",
+              "chords": "Am"
+            },
+            {
+              "cue": "Você já sofreu demais…",
+              "chords": "C → G"
+            },
+            {
+              "cue": "Chega de achar que tudo se acabou",
+              "chords": "D"
+            },
+            {
+              "cue": "Pode a dor uma noite durar",
+              "chords": "Am7"
+            },
+            {
+              "cue": "Mas um novo dia sempre vai raiar",
+              "chords": "C → G"
+            },
+            {
+              "cue": "E quando menos esperar, clareou",
+              "chords": "D"
+            }
+          ]
+        },
+        {
+          "label": "Clareou",
+          "lines": [
+            {
+              "cue": "Clareou, ôôô…",
+              "chords": "D → C → G → D   (2x)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3-15",
+      "num": 15,
+      "bloco": 3,
+      "title": "Alguém Me Avisou",
+      "artist": "Dona Ivone Lara",
+      "tom": "F",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "camila",
+          "name": "Camila"
+        }
+      ],
+      "note": null,
+      "cols2": false,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "F → C7 → F → C7"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Foram me chamar…",
+              "chords": "F → C7  /  F → C7  (repetir)"
+            },
+            {
+              "cue": "Eu vim de lá pequenininho",
+              "chords": "F → A# → Am → Gm  /  F → A# → Am"
+            },
+            {
+              "cue": "Alguém me avisou pra pisar…",
+              "chords": "D7 → G7 → C7 → F  (repetir)"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "Sempre fui obediente…",
+              "chords": "D7 → Gm  /  C7 → F"
+            },
+            {
+              "cue": "Foi numa roda de samba…",
+              "chords": "D7 → Gm  /  C7 → F"
+            },
+            {
+              "cue": "Quando eu voltar pra Bahia…",
+              "chords": "D7 → Gm  /  C7 → F"
+            },
+            {
+              "cue": "Óh padrinho não se zangue…",
+              "chords": "D7 → Gm  /  C7 → F → C7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3-16",
+      "num": 16,
+      "bloco": 3,
+      "title": "Dança do Bole-Bole / Desafio / Onda",
+      "artist": "Exaltasamba · Harmonia do Samba · Tchakabum",
+      "tom": "G",
+      "levada": "Animação",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": "⚑ Medley em Sol: Bole-Bole → Desafio (Harmonia do Samba) → Onda (Tchakabum) — tudo no mesmo ciclo G → Em → Am → D7. A Onda repete o ciclo e fecha no refrão.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "G"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Mulherada que dança é essa, que o corpo fica todo mole",
+              "chords": "G → E7 → Am  /  D7 → G   (repetir)"
+            }
+          ]
+        },
+        {
+          "label": "Desafio",
+          "lines": [
+            {
+              "cue": "Se você aceitar o desafio",
+              "chords": "G → Em → Am"
+            },
+            {
+              "cue": "Eu vou cantar um samba…",
+              "chords": "D7 → G"
+            }
+          ]
+        },
+        {
+          "label": "Onda · Intro",
+          "lines": [
+            {
+              "chords": "G → Em → Am → D7"
+            }
+          ]
+        },
+        {
+          "label": "Onda · 1ª Parte",
+          "lines": [
+            {
+              "cue": "Vou te pegar…",
+              "chords": "G → Em → Am → D7 → G"
+            },
+            {
+              "cue": "Se ligue agora…",
+              "chords": "Em → Am → D7 → G"
+            },
+            {
+              "cue": "Somos piratas…",
+              "chords": "Em → Am → D7 → G"
+            },
+            {
+              "cue": "Ô, ô, ô",
+              "chords": "Em → Am → D7"
+            },
+            {
+              "cue": "Vou navegar…",
+              "chords": "G → Em → Am → D7 → G → Em"
+            },
+            {
+              "cue": "As ordens do meu capitão",
+              "chords": "Am → D7 → G"
+            },
+            {
+              "cue": "Capitão Tchaka…",
+              "chords": "Em → Am → D7 → G"
+            },
+            {
+              "cue": "Nessa aventura…",
+              "chords": "Em → Am → D7 → G"
+            },
+            {
+              "cue": "Olha a onda!",
+              "chords": "Em → Am → D7"
+            }
+          ]
+        },
+        {
+          "label": "Onda · Refrão (4x)",
+          "lines": [
+            {
+              "cue": "Onda, onda, olha a onda",
+              "chords": "G → Em → Am → D7"
+            }
+          ]
+        },
+        {
+          "label": "Onda · 2ª Parte (2x)",
+          "lines": [
+            {
+              "cue": "Vai te molhar, vai te banhar",
+              "chords": "G → Em"
+            },
+            {
+              "cue": "Vai sacudir, vai abalar",
+              "chords": "Am → D7"
+            }
+          ]
+        },
+        {
+          "label": "Onda · 3ª Parte",
+          "lines": [
+            {
+              "cue": "Molhou o seu rostinho…",
+              "chords": "G → Em → Am → D7"
+            },
+            {
+              "cue": "Molhou a barriguinha…",
+              "chords": "G → Em → Am → D7"
+            },
+            {
+              "cue": "Molhou o seu pézinho…",
+              "chords": "G → Em → Am → D7"
+            },
+            {
+              "cue": "Molhou todo corpinho",
+              "chords": "Am"
+            },
+            {
+              "cue": "Deixa que eu vou te enxugar",
+              "chords": "D7"
+            }
+          ]
+        },
+        {
+          "label": "Onda · 4ª Parte (2x)",
+          "lines": [
+            {
+              "cue": "Balança pra lá, balança pra cá",
+              "chords": "G → Em → Am → D7"
+            },
+            {
+              "cue": "Sacudiu, tremeu, treme sem parar",
+              "chords": "G → Em → Am → D7"
+            }
+          ]
+        },
+        {
+          "label": "Onda · Chamada (3x)",
+          "lines": [
+            {
+              "cue": "E o Capitão mandou",
+              "chords": "G → Em"
+            },
+            {
+              "cue": "O marujo: \"Sim, senhor!\"",
+              "chords": "Am → D7 → G"
+            }
+          ]
+        },
+        {
+          "label": "Onda · 5ª Parte (4x)",
+          "lines": [
+            {
+              "cue": "Andou na prancha, cuidado",
+              "chords": "G → Em → Am"
+            },
+            {
+              "cue": "O tubarão vai te pegar",
+              "chords": "D7 → G"
+            }
+          ]
+        },
+        {
+          "label": "Onda · Final",
+          "lines": [
+            {
+              "cue": "Onda, onda, olha a onda",
+              "chords": "G → Em → Am → D7 → G"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3-17",
+      "num": 17,
+      "bloco": 3,
+      "title": "Pé na Areia",
+      "artist": "Diogo Nogueira",
+      "tom": "G",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": null,
+      "cols2": false,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "G7M → D7M(2) → G7M"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Vamos amor, vamos curtir…",
+              "chords": "D7M(2) → Am7 → D7(9) → G7M  /  G6 → Gm7"
+            },
+            {
+              "chords": "D7M(2) → Am7 → D7(9) → G7M → G6 → Eb7M"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão",
+          "lines": [
+            {
+              "cue": "Nada pode ser melhor…",
+              "chords": "Em7(9) → D7M(2) → Em7(9)  /  D7M(2) → Em7(9) → D7M(2)  /  Em7(9) → F#7(4)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Pé na areia, a caipirinha…",
+              "chords": "Em7(9) → G7M → D7M(2) → B7"
+            },
+            {
+              "chords": "Em7(9) → G7M → D7M(2) → B7   (4x no final, passagem por A6/B)"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "chords": "G7M → D7M(2) → G7M → D7M(2)"
             }
           ]
         }
