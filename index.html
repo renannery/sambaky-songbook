@@ -566,7 +566,7 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
 <script>
 let SONGS = [], SONGS_ORDER = [];
 
-const APP_VERSION='2026-11-04 · 14:52 EST';
+const APP_VERSION='2026-11-04 · 15:06 EST';
 // ---- "tocando agora" em tempo real (opcional) ----
 // Cole aqui a URL do Realtime Database do Firebase + um caminho, por exemplo:
 //   'https://sambaky-ab12c-default-rtdb.firebaseio.com/live'
@@ -892,13 +892,17 @@ function paintNow(live){
       +(prox?'<div class="pbnext">a seguir: <b>'+SB.esc(prox.title)+'</b></div>':'')
       +((s&&s.lyrics)?'<div class="pblyrics">'+SB.lyricsHTML(s.lyrics)+'</div>':'');
   }
-  // destaca na lista e traz pra vista
+  // destaca na lista, sem puxar a tela pra ela
+  var mudou = (pbLast !== (titulo||null));
   var itens=document.querySelectorAll('.pbitems li');
   for(var k=0;k<itens.length;k++)itens[k].classList.remove('on');
   if(i>=0){var li=document.querySelector('.pbitems li[data-i="'+i+'"]');
-    if(li){li.classList.add('on');
-      if(pbLast!==titulo)li.scrollIntoView({block:'center',behavior:'smooth'});}}
+    if(li)li.classList.add('on');}
   pbLast=titulo||null;
+  // trocou de musica: volta pro topo, que e onde esta a letra nova.
+  // Instantaneo de proposito: com 53 musicas na lista, a rolagem suave
+  // demoraria demais pra quem ja tinha descido ate o fim.
+  if(mudou)window.scrollTo({top:0,left:0,behavior:'instant'});
 }
 
 function pbStatus(ok){var e=document.getElementById('pblive');if(!e)return;
