@@ -298,6 +298,62 @@ footer {
 #printbtn{position:fixed;left:74px;bottom:16px;z-index:600;height:48px;padding:0 16px;border-radius:24px;
   border:1px solid var(--line);background:var(--paper2);color:var(--ink);font-family:'Oswald',sans-serif;
   font-weight:700;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,.2);}
+/* ===== CADEADO DO MODO PALCO ===== */
+#lock{position:fixed;inset:0;z-index:1200;display:none;align-items:center;justify-content:center;
+  background:rgba(0,0,0,.55);padding:20px;}
+#lock.open{display:flex;}
+.lockbox{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:24px 22px;
+  width:min(340px,100%);box-shadow:0 18px 50px rgba(0,0,0,.4);text-align:center;}
+.lockbox h4{font-family:'Anton',sans-serif;text-transform:uppercase;color:var(--garnet);
+  font-size:1.3rem;margin:0 0 6px;letter-spacing:.02em;}
+.lockbox p{color:var(--muted);font-size:.9rem;margin:0 0 16px;}
+#lockinput{width:100%;box-sizing:border-box;text-align:center;letter-spacing:.4em;
+  font-family:'JetBrains Mono',monospace;font-size:1.5rem;padding:10px;border-radius:10px;
+  border:1px solid var(--line);background:var(--paper2);color:var(--ink);}
+.lockerr{color:var(--garnet);font-size:.85rem;height:1.2em;margin-top:8px;visibility:hidden;}
+.lockerr.on{visibility:visible;}
+.lockrow{display:flex;gap:10px;margin-top:14px;}
+.lockrow button{flex:1;height:44px;border-radius:22px;border:1px solid var(--line);
+  background:var(--paper2);color:var(--ink);font-family:'Oswald',sans-serif;font-weight:700;cursor:pointer;}
+.lockrow button.ok{background:var(--garnet);color:#fff;border-color:var(--garnet);}
+
+/* ===== TELA DO PÚBLICO (?publico) ===== */
+#publico{display:none;max-width:760px;margin:0 auto;padding:22px 18px 60px;}
+body.publico #publico{display:block;}
+body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #menubtn{display:none !important;}
+.pbtop{text-align:center;margin-bottom:22px;}
+.pbtop .kicker{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.22em;
+  color:var(--garnet);font-size:.72rem;}
+.pbtop h1{font-family:'Anton',sans-serif;text-transform:uppercase;font-size:2.1rem;margin:4px 0 0;}
+.pblabel{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.16em;
+  font-size:.72rem;color:var(--muted);margin-bottom:8px;text-align:center;}
+.pbcard{display:flex;align-items:center;gap:16px;background:var(--paper2);border:1px solid var(--line);
+  border-left:5px solid var(--garnet);border-radius:14px;padding:18px 20px;}
+.pbcnum{font-family:'Anton',sans-serif;font-size:2.1rem;line-height:.85;color:var(--paper);
+  background:var(--garnet);min-width:56px;height:56px;border-radius:8px;display:flex;align-items:center;
+  justify-content:center;flex:0 0 auto;box-shadow:3px 3px 0 var(--gold);}
+.pbctitle{font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;font-size:1.5rem;line-height:1.1;}
+.pbcartist{font-style:italic;color:var(--muted);margin-top:2px;}
+.pbcsing{margin-top:8px;font-size:1rem;}
+.pbnext{margin-top:12px;text-align:center;color:var(--muted);font-size:.92rem;}
+.pbnext b{color:var(--ink);font-style:normal;}
+.pbwait{text-align:center;color:var(--muted);font-style:italic;padding:18px 0;}
+.pblive{display:flex;align-items:center;justify-content:center;gap:7px;font-family:'Oswald',sans-serif;
+  text-transform:uppercase;letter-spacing:.1em;font-size:.68rem;color:var(--muted);margin-top:14px;}
+.pblive .dot{width:8px;height:8px;border-radius:50%;background:var(--muted);}
+.pblive.on{color:#3fae5a;} .pblive.on .dot{background:#3fae5a;box-shadow:0 0 6px #3fae5a;}
+#pblist{margin-top:30px;}
+.pbitems{list-style:none;margin:0;padding:0;}
+.pbitems li{display:grid;grid-template-columns:34px 1fr auto;align-items:baseline;gap:12px;
+  padding:9px 8px;border-bottom:1px dotted var(--line);border-radius:6px;}
+.pbitems li.on{background:var(--singbg);border-bottom-color:transparent;}
+.pbnum{font-family:'JetBrains Mono',monospace;color:var(--garnet);font-weight:700;font-size:.85rem;}
+.pbt{font-family:'Oswald',sans-serif;font-weight:500;}
+.pbitems li.on .pbt{color:var(--garnet);}
+.pba{font-size:.8rem;color:var(--muted);text-align:right;}
+.pblink{display:block;text-align:center;margin-top:18px;font-size:.84rem;color:var(--muted);}
+@media print{#lock,#publico{display:none !important;}}
+
 /* ===== BOTÃO MENU (volta ao sumário) ===== */
 #menubtn{position:fixed;right:16px;bottom:74px;z-index:600;height:44px;padding:0 16px;border-radius:22px;
   border:1px solid var(--line);background:var(--paper2);color:var(--ink);font-family:'Oswald',sans-serif;
@@ -364,9 +420,33 @@ footer {
 
   <footer>
     SambaKY — Songbook do Cavaco · BonnyMoon 2 · arranjo de leitura ao vivo.<br>
-    Cifras conferidas contra o setlist original. Toca bonito. 🪕
+    Cifras conferidas contra o setlist original. Toca bonito. 🪕<br>
+    <a class="pblink" href="?publico">📱 Tela do público</a>
   </footer>
 
+</div>
+
+<div id="publico" aria-hidden="true">
+  <div class="pbtop">
+    <div class="kicker">SambaKY · ao vivo</div>
+    <h1>Set List</h1>
+  </div>
+  <div id="pbnow"></div>
+  <div class="pblive" id="pblive"><span class="dot"></span><span id="pblivetxt">sem conexão ao vivo</span></div>
+  <div id="pblist"></div>
+</div>
+
+<div id="lock" aria-hidden="true">
+  <div class="lockbox">
+    <h4>Modo Palco</h4>
+    <p>Digite a senha para liberar neste aparelho.</p>
+    <input id="lockinput" type="password" inputmode="numeric" autocomplete="off" aria-label="senha">
+    <div class="lockerr" id="lockerr">Senha incorreta.</div>
+    <div class="lockrow">
+      <button onclick="closeLock()">Cancelar</button>
+      <button class="ok" onclick="tryUnlock()">Liberar</button>
+    </div>
+  </div>
 </div>
 
 <button id="menubtn" onclick="goToIndex()" aria-label="voltar ao sumário">☰ Menu</button>
@@ -403,7 +483,15 @@ footer {
 <script>
 let SONGS = [], SONGS_ORDER = [];
 
-const APP_VERSION='2026-11-04 · 11:49 EST';
+const APP_VERSION='2026-11-04 · 13:57 EST';
+// ---- "tocando agora" em tempo real (opcional) ----
+// Cole aqui a URL do Realtime Database do Firebase + um caminho, por exemplo:
+//   'https://sambaky-ab12c-default-rtdb.firebaseio.com/live'
+// Vazio = sync desligado: o app funciona como sempre e a tela do público
+// mostra só o sumário do show, sem "tocando agora".
+const SYNC_URL = 'https://sambaky-a0d21-default-rtdb.firebaseio.com/live';
+const PALCO_PIN = '1500';   // cadeado contra toque acidental (não é segurança: o código é público)
+
 const stage=document.getElementById('stage');
 const scard=document.getElementById('scard');
 let wrap, idx=0, swiped=false, tx=0, slideDir=0;
@@ -431,6 +519,7 @@ function render(){const o=SONGS_ORDER[idx];const src=document.getElementById(o.i
   document.getElementById('spos').textContent=o.label;
   if(!wrap)wrap=stage.querySelector('.scardwrap');wrap.scrollTop=0;
   applyFit();                                    // ajusta a escala ANTES de exibir
+  syncCurrent();                                 // avisa a tela do público
   requestAnimationFrame(()=>{                    // anima: desliza ao centro + fade
     scard.style.transition='';                   // volta pra transição do CSS
     scard.style.opacity='1'; scard.style.transform='translateX(0)';
@@ -464,10 +553,38 @@ function updateShowTimer(){const el=document.getElementById('stimer');if(el)el.t
 function startShowTimer(){showStart=Date.now();updateShowTimer();clearInterval(showTimerInt);showTimerInt=setInterval(updateShowTimer,1000);}
 function stopShowTimer(){clearInterval(showTimerInt);showTimerInt=null;}
 
-function openStage(){let best=0,bestd=1e9;SONGS_ORDER.forEach((o,i)=>{const el=document.getElementById(o.id);
+// ---- cadeado do Modo Palco (lembrado por aparelho) ----
+function isUnlocked(){try{return localStorage.getItem('sb_palco')==='1';}catch(e){return false;}}
+function openLock(){var l=document.getElementById('lock');l.classList.add('open');
+  l.setAttribute('aria-hidden','false');document.getElementById('lockerr').classList.remove('on');
+  var i=document.getElementById('lockinput');i.value='';setTimeout(function(){i.focus();},50);}
+function closeLock(){var l=document.getElementById('lock');l.classList.remove('open');
+  l.setAttribute('aria-hidden','true');}
+function tryUnlock(){var i=document.getElementById('lockinput');
+  if(i.value.trim()===PALCO_PIN){try{localStorage.setItem('sb_palco','1');}catch(e){}
+    closeLock();openStage();return;}
+  document.getElementById('lockerr').classList.add('on');i.value='';i.focus();}
+document.addEventListener('keydown',function(e){
+  var l=document.getElementById('lock');if(!l||!l.classList.contains('open'))return;
+  if(e.key==='Enter'){e.preventDefault();tryUnlock();}
+  else if(e.key==='Escape'){closeLock();}});
+
+// ---- avisa a tela do público em que música estamos ----
+// manda o título (e não o id), que não muda quando os blocos são renumerados
+function syncPush(song){
+  if(!SYNC_URL)return;
+  var body = song ? {title:song.title, bloco:song.bloco, num:song.num, at:Date.now()}
+                  : {title:null, at:Date.now()};
+  try{fetch(SYNC_URL+'.json',{method:'PUT',body:JSON.stringify(body)}).catch(function(){});}catch(e){}
+}
+function syncCurrent(){var o=SONGS_ORDER[idx];if(!o)return;
+  syncPush(SONGS.filter(function(s){return s.id===o.id;})[0]);}
+
+function openStage(){if(!isUnlocked()){openLock();return;}
+  let best=0,bestd=1e9;SONGS_ORDER.forEach((o,i)=>{const el=document.getElementById(o.id);
     if(el){const r=el.getBoundingClientRect();const d=Math.abs(r.top);if(r.top<window.innerHeight*0.6 && d<bestd){bestd=d;best=i;}}});
   idx=best;stage.classList.add('open');stage.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';render();requestWakeLock();startShowTimer();}
-function closeStage(){stage.classList.remove('open');stage.setAttribute('aria-hidden','true');document.body.style.overflow='';closeJump();const f=document.getElementById('sfab');if(f)f.classList.remove('open');releaseWakeLock();stopShowTimer();}
+function closeStage(){syncPush(null);stage.classList.remove('open');stage.setAttribute('aria-hidden','true');document.body.style.overflow='';closeJump();const f=document.getElementById('sfab');if(f)f.classList.remove('open');releaseWakeLock();stopShowTimer();}
 function toggleFab(){document.getElementById('sfab').classList.toggle('open');}
 function currentDark(){var h=document.documentElement;
   if(h.classList.contains('theme-dark'))return true;
@@ -548,6 +665,92 @@ function updateMenuBtn(){var b=document.getElementById('menubtn'),ix=document.qu
 window.addEventListener('scroll',updateMenuBtn,{passive:true});
 window.addEventListener('resize',updateMenuBtn);
 
+// ======== TELA DO PÚBLICO (?publico) ========
+var PB_ON = /[?&]publico\b/.test(location.search);
+var pbEs=null, pbTimer=null, pbLast=null;
+
+function renderPublicoList(){
+  var blocos=[];SONGS.forEach(function(s){if(blocos.indexOf(s.bloco)<0)blocos.push(s.bloco);});
+  var h='';
+  blocos.sort(function(a,b){return a-b;}).forEach(function(b){
+    h+='<h3 class="bloco-head">'+SB.esc(SB.blocoLabel(b))+'</h3><ol class="pbitems">';
+    SONGS.forEach(function(s,i){
+      if(s.bloco!==b)return;
+      h+='<li data-i="'+i+'"><span class="pbnum">'+SB.esc(s.num)+'</span>'
+        +'<span class="pbt">'+SB.esc(s.title)+'</span>'
+        +'<span class="pba">'+SB.esc(s.artist||'')+'</span></li>';
+    });
+    h+='</ol>';
+  });
+  document.getElementById('pblist').innerHTML=h;
+}
+
+function pbSingers(s){
+  if(!s||!s.singers||!s.singers.length)return '';
+  return '<div class="pbcsing">🎤 '+s.singers.map(function(g){
+    return '<span class="sgchip sg-'+g.key+'"><span class="sgdot"></span>'+SB.esc(g.name)+'</span>';}).join(' ')+'</div>';
+}
+
+function paintNow(live){
+  var el=document.getElementById('pbnow');
+  var titulo = live && live.title;
+  var i = titulo ? SONGS.map(function(s){return s.title;}).indexOf(titulo) : -1;
+  var s = i>=0 ? SONGS[i] : null;
+
+  if(!titulo){
+    el.innerHTML='<div class="pbwait">'+(SYNC_URL?'O show ainda não começou — segue o repertório:'
+                                                :'Repertório do show:')+'</div>';
+  }else{
+    var prox = (i>=0 && SONGS[i+1]) ? SONGS[i+1] : null;
+    el.innerHTML='<div class="pblabel">Tocando agora</div>'
+      +'<div class="pbcard"><div class="pbcnum">'+SB.esc(s?s.num:(live.num||'·'))+'</div><div>'
+      +'<div class="pbctitle">'+SB.esc(titulo)+'</div>'
+      +'<div class="pbcartist">'+SB.esc(s?(s.artist||''):'')+'</div>'
+      +pbSingers(s)+'</div></div>'
+      +(prox?'<div class="pbnext">a seguir: <b>'+SB.esc(prox.title)+'</b></div>':'');
+  }
+  // destaca na lista e traz pra vista
+  var itens=document.querySelectorAll('.pbitems li');
+  for(var k=0;k<itens.length;k++)itens[k].classList.remove('on');
+  if(i>=0){var li=document.querySelector('.pbitems li[data-i="'+i+'"]');
+    if(li){li.classList.add('on');
+      if(pbLast!==titulo)li.scrollIntoView({block:'center',behavior:'smooth'});}}
+  pbLast=titulo||null;
+}
+
+function pbStatus(ok){var e=document.getElementById('pblive');if(!e)return;
+  e.classList.toggle('on',!!ok);
+  document.getElementById('pblivetxt').textContent =
+    !SYNC_URL ? 'acompanhamento ao vivo desligado' : (ok?'ao vivo':'reconectando…');}
+
+function pbPoll(){
+  fetch(SYNC_URL+'.json?ts='+Date.now(),{cache:'no-store'})
+    .then(function(r){return r.json();})
+    .then(function(d){paintNow(d);pbStatus(true);})
+    .catch(function(){pbStatus(false);});
+}
+
+function pbSubscribe(){
+  if(!SYNC_URL){pbStatus(false);paintNow(null);return;}
+  try{
+    pbEs=new EventSource(SYNC_URL+'.json');
+    pbEs.addEventListener('put',function(ev){
+      try{var m=JSON.parse(ev.data);
+        if(m.path==='/')paintNow(m.data);else pbPoll();
+        pbStatus(true);
+        if(pbTimer){clearInterval(pbTimer);pbTimer=null;}  // stream voltou: dispensa o polling
+      }catch(e){}
+    });
+    pbEs.addEventListener('patch',function(){pbPoll();});
+    // o stream pode cair (sinal ruim, proxy): cai no polling e deixa o RESULTADO da leitura
+    // definir o status — senão o erro do stream apagaria o "ao vivo" de um poll que deu certo
+    pbEs.onerror=function(){
+      if(!pbTimer)pbTimer=setInterval(pbPoll,5000);
+      pbPoll();};
+  }catch(e){pbTimer=setInterval(pbPoll,5000);}
+  pbPoll();   // primeiro estado sem esperar o stream
+}
+
 // ---- render a partir do songs.json ----
 function renderAll(){
   document.getElementById('songindex').innerHTML = SB.renderIndexBlocks(SONGS);
@@ -564,6 +767,14 @@ async function boot(){
     const data = await res.json();
     SONGS = (data && data.songs) ? data.songs : [];
   }catch(e){ console.error('Falha ao carregar songs.json', e); SONGS = []; }
+  if(PB_ON){
+    document.body.classList.add('publico');
+    document.getElementById('publico').setAttribute('aria-hidden','false');
+    renderPublicoList();
+    paintNow(null);
+    pbSubscribe();
+    return;
+  }
   renderAll();
   if(location.hash){ try{ const el=document.querySelector(location.hash); if(el) el.scrollIntoView(); }catch(_){} }
 }
