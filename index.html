@@ -4,10 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Band Songbook">
+<meta name="description" content="Band Songbook - Realtime Sync">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#9b1d20">
-<title>SambaKY · Songbook do Cavaco — BonnyMoon 2</title>
+<title>Band Songbook - Realtime Sync</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon-180.png">
 <style>
@@ -129,17 +131,16 @@ body {
   border-radius:10px;font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;
   letter-spacing:.04em;font-size:.9rem;color:var(--ink);cursor:pointer;text-align:left;}
 .ixlive.on{display:flex;}
-.rolerow{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;margin:0 0 14px;}
-.rolelbl{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.1em;
-  font-size:.68rem;color:var(--muted);}
-.rolebtns{display:flex;gap:6px;}
-.rolebtn{font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.05em;
-  font-size:.72rem;padding:5px 12px;border-radius:14px;cursor:pointer;
-  border:1px solid var(--line);background:var(--paper2);color:var(--muted);}
-.rolebtn:hover{color:var(--garnet);border-color:var(--garnet);}
+.roleopts{display:flex;flex-direction:column;gap:8px;margin-top:4px;}
+.rolebtn{display:block;width:100%;text-align:left;padding:11px 14px;border-radius:12px;cursor:pointer;
+  border:1px solid var(--line);background:var(--paper2);color:var(--ink);}
+.rolebtn b{display:block;font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;
+  letter-spacing:.05em;font-size:.86rem;}
+.rolebtn .roledesc{display:block;font-size:.78rem;color:var(--muted);margin-top:2px;line-height:1.3;}
+.rolebtn:hover{border-color:var(--garnet);}
 .rolebtn.on{background:var(--garnet);border-color:var(--garnet);color:#fff;}
-.rolehint{font-size:.78rem;color:var(--muted);font-style:italic;flex:1 1 100%;}
-@media print{.rolerow{display:none !important;}}
+.rolebtn.on .roledesc{color:rgba(255,255,255,.82);}
+.roleatual{font-size:.74rem;color:var(--muted);margin-top:12px;font-style:italic;}
 .ixlive.off{opacity:.5;}
 .ixlive .dot{width:9px;height:9px;border-radius:50%;background:#3fae5a;flex:0 0 auto;
   box-shadow:0 0 6px #3fae5a;animation:ixpulse 1.6s ease-in-out infinite;}
@@ -360,9 +361,9 @@ footer {
   border:1px solid var(--line);background:var(--paper2);color:var(--ink);font-family:'Oswald',sans-serif;
   font-weight:700;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,.2);}
 /* ===== CADEADO DO MODO PALCO ===== */
-#lock{position:fixed;inset:0;z-index:1200;display:none;align-items:center;justify-content:center;
+#lock,#rolepick{position:fixed;inset:0;z-index:1200;display:none;align-items:center;justify-content:center;
   background:rgba(0,0,0,.55);padding:20px;}
-#lock.open{display:flex;}
+#lock.open,#rolepick.open{display:flex;}
 .lockbox{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:24px 22px;
   width:min(340px,100%);box-shadow:0 18px 50px rgba(0,0,0,.4);text-align:center;}
 .lockbox h4{font-family:'Anton',sans-serif;text-transform:uppercase;color:var(--garnet);
@@ -417,7 +418,7 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
 .pbitems li.on .pbt{color:var(--garnet);}
 .pba{font-size:.8rem;color:var(--muted);text-align:right;}
 .pblink{display:block;text-align:center;margin-top:18px;font-size:.84rem;color:var(--muted);}
-@media print{#lock,#publico{display:none !important;}}
+@media print{#lock,#rolepick,#publico{display:none !important;}}
 
 /* ===== BOTÃO MENU (volta ao sumário) ===== */
 #menubtn{position:fixed;right:16px;bottom:74px;z-index:600;height:44px;padding:0 16px;border-radius:22px;
@@ -480,15 +481,6 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
   </div>
 
   <div class="indexblock">
-    <div class="rolerow">
-      <span class="rolelbl">Este aparelho</span>
-      <div class="rolebtns">
-        <button type="button" class="rolebtn" data-role="maestro">Maestro</button>
-        <button type="button" class="rolebtn" data-role="seguir">Seguir</button>
-        <button type="button" class="rolebtn" data-role="livre">Livre</button>
-      </div>
-      <span class="rolehint" id="rolehint"></span>
-    </div>
     <button id="ixlive" class="ixlive" type="button"><span class="dot"></span><span id="ixlivetxt"></span></button>
     <div id="songindex"></div>
   </div>
@@ -527,7 +519,19 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
 </div>
 
 <button id="menubtn" onclick="goToIndex()" aria-label="voltar ao sumário">☰ Menu</button>
-<button id="stagebtn" onclick="openStage()">▶ Modo Palco</button>
+<div id="rolepick" aria-hidden="true">
+  <div class="lockbox">
+    <h4>Modo Palco</h4>
+    <p>O que este aparelho faz no show?</p>
+    <div class="roleopts">
+      <button type="button" class="rolebtn" data-role="maestro"><b>Maestro</b><span class="roledesc"></span></button>
+      <button type="button" class="rolebtn" data-role="seguir"><b>Seguir</b><span class="roledesc"></span></button>
+      <button type="button" class="rolebtn" data-role="livre"><b>Livre</b><span class="roledesc"></span></button>
+    </div>
+    <div class="lockrow"><button onclick="closeRolePick()">Cancelar</button></div>
+  </div>
+</div>
+<button id="stagebtn" onclick="startStage()">▶ Modo Palco</button>
 <button id="themebtn" onclick="toggleTheme()" aria-label="alternar tema"><span class="themeicon">☾</span></button>
 <button id="printbtn" onclick="printSongs()" aria-label="imprimir / PDF">🖨 Imprimir</button>
 <div id="stage" aria-hidden="true">
@@ -562,7 +566,7 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
 <script>
 let SONGS = [], SONGS_ORDER = [];
 
-const APP_VERSION='2026-11-04 · 14:37 EST';
+const APP_VERSION='2026-11-04 · 14:49 EST';
 // ---- "tocando agora" em tempo real (opcional) ----
 // Cole aqui a URL do Realtime Database do Firebase + um caminho, por exemplo:
 //   'https://sambaky-ab12c-default-rtdb.firebaseio.com/live'
@@ -643,12 +647,27 @@ function closeLock(){var l=document.getElementById('lock');l.classList.remove('o
   l.setAttribute('aria-hidden','true');}
 function tryUnlock(){var i=document.getElementById('lockinput');
   if(i.value.trim()===PALCO_PIN){try{localStorage.setItem('sb_palco','1');}catch(e){}
-    closeLock();openStage();return;}
+    closeLock();openRolePick();return;}
   document.getElementById('lockerr').classList.add('on');i.value='';i.focus();}
 document.addEventListener('keydown',function(e){
   var l=document.getElementById('lock');if(!l||!l.classList.contains('open'))return;
   if(e.key==='Enter'){e.preventDefault();tryUnlock();}
   else if(e.key==='Escape'){closeLock();}});
+
+// ---- escolha do papel, na entrada do Modo Palco ----
+// Fica aqui e nao no sumario porque e decisao de hora do show, e porque
+// assim quem abre o palco sempre ve, em letras grandes, se vai transmitir.
+function startStage(){
+  if(!isUnlocked()){openLock();return;}
+  openRolePick();
+}
+function openRolePick(){paintRole();
+  var e=document.getElementById('rolepick');e.classList.add('open');e.setAttribute('aria-hidden','false');}
+function closeRolePick(){
+  var e=document.getElementById('rolepick');e.classList.remove('open');e.setAttribute('aria-hidden','true');}
+document.addEventListener('keydown',function(e){
+  var p=document.getElementById('rolepick');
+  if(p&&p.classList.contains('open')&&e.key==='Escape')closeRolePick();});
 
 // ---- avisa a tela do público em que música estamos ----
 // manda o título (e não o id), que não muda quando os blocos são renumerados
@@ -780,15 +799,20 @@ function setRole(r){
 function paintRole(){
   var r=role();
   var bs=document.querySelectorAll('.rolebtn');
-  for(var i=0;i<bs.length;i++)bs[i].classList.toggle('on', bs[i].getAttribute('data-role')===r);
-  var h=document.getElementById('rolehint'); if(h)h.textContent=ROLES[r];
+  for(var i=0;i<bs.length;i++){
+    var k=bs[i].getAttribute('data-role');
+    bs[i].classList.toggle('on', k===r);
+    var d=bs[i].querySelector('.roledesc'); if(d)d.textContent=ROLES[k];   // uma fonte so pros textos
+  }
   var ind=document.getElementById('roleind'), it=document.getElementById('roleindtxt');
   if(ind&&it){ ind.classList.toggle('manda', r==='maestro');
     it.textContent = r==='maestro' ? 'transmitindo' : (r==='seguir' ? 'seguindo o maestro' : 's\u00f3 este aparelho'); }
 }
 document.addEventListener('click',function(ev){
   var b=ev.target.closest && ev.target.closest('.rolebtn');
-  if(b)setRole(b.getAttribute('data-role'));
+  if(!b)return;
+  setRole(b.getAttribute('data-role'));
+  closeRolePick(); openStage();
 });
 
 // ---- seguir o maestro ----
