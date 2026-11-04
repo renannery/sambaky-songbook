@@ -298,6 +298,15 @@ footer {
 #printbtn{position:fixed;left:74px;bottom:16px;z-index:600;height:48px;padding:0 16px;border-radius:24px;
   border:1px solid var(--line);background:var(--paper2);color:var(--ink);font-family:'Oswald',sans-serif;
   font-weight:700;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,.2);}
+/* ===== BOTÃO MENU (volta ao sumário) ===== */
+#menubtn{position:fixed;right:16px;bottom:74px;z-index:600;height:44px;padding:0 16px;border-radius:22px;
+  border:1px solid var(--line);background:var(--paper2);color:var(--ink);font-family:'Oswald',sans-serif;
+  font-weight:700;text-transform:uppercase;letter-spacing:.04em;cursor:pointer;
+  box-shadow:0 4px 12px rgba(0,0,0,.2);
+  opacity:0;pointer-events:none;transition:opacity .18s ease;}
+#menubtn.show{opacity:1;pointer-events:auto;}   /* só aparece depois que o sumário sai da tela */
+@media print{#menubtn{display:none !important;}}
+
 #printroot{position:fixed;left:-10000px;top:0;width:733px;}
 .printpage{box-sizing:border-box;overflow:hidden;background:var(--paper);color:var(--ink);}
 .pcard{width:100%;font-size:calc(16px * var(--pk,1));}
@@ -360,6 +369,7 @@ footer {
 
 </div>
 
+<button id="menubtn" onclick="goToIndex()" aria-label="voltar ao sumário">☰ Menu</button>
 <button id="stagebtn" onclick="openStage()">▶ Modo Palco</button>
 <button id="themebtn" onclick="toggleTheme()" aria-label="alternar tema"><span class="themeicon">☾</span></button>
 <button id="printbtn" onclick="printSongs()" aria-label="imprimir / PDF">🖨 Imprimir</button>
@@ -393,7 +403,7 @@ footer {
 <script>
 let SONGS = [], SONGS_ORDER = [];
 
-const APP_VERSION='2026-11-04 · 11:32 EST';
+const APP_VERSION='2026-11-04 · 11:49 EST';
 const stage=document.getElementById('stage');
 const scard=document.getElementById('scard');
 let wrap, idx=0, swiped=false, tx=0, slideDir=0;
@@ -528,11 +538,22 @@ function printSongs(){
   requestAnimationFrame(function(){window.print();});
 }
 
+// ---- botão Menu: volta ao sumário (aparece só quando ele já saiu da tela) ----
+// salto instantâneo: a distância até o sumário passa de 10.000px e o scroll suave
+// levaria segundos pra chegar
+function goToIndex(){var ix=document.querySelector('.indexblock');
+  if(ix)ix.scrollIntoView({behavior:'instant',block:'start'});}
+function updateMenuBtn(){var b=document.getElementById('menubtn'),ix=document.querySelector('.indexblock');
+  if(!b||!ix)return;b.classList.toggle('show', ix.getBoundingClientRect().bottom < 0);}
+window.addEventListener('scroll',updateMenuBtn,{passive:true});
+window.addEventListener('resize',updateMenuBtn);
+
 // ---- render a partir do songs.json ----
 function renderAll(){
   document.getElementById('songindex').innerHTML = SB.renderIndexBlocks(SONGS);
   document.getElementById('songsarea').innerHTML = SB.renderSongsArea(SONGS);
   SONGS_ORDER = SB.buildOrder(SONGS);
+  updateMenuBtn();
   var sub=document.getElementById('coversub');
   if(sub) sub.textContent='BonnyMoon 2 · 2 Blocos + Extras · '+SONGS.length+' números';
   wrapChords();

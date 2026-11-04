@@ -281,6 +281,161 @@
       "id": "b1-4",
       "num": 4,
       "bloco": 1,
+      "title": "Do Jeito Que a Vida Quer",
+      "artist": "Grupo Revelação",
+      "tom": "F",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": "⚑ Forma: intro · 1ª parte · 2ª parte · repete as duas (a 2ª fecha em D7) · 3ª parte (2 letras) · refrão (2x).",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Dm → A7 → Dm → A7"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Ninguém sabe a mágoa que trago no",
+              "chords": "Dm"
+            },
+            {
+              "cue": "Peito, quem me vê sorrindo desse jei…",
+              "chords": "Gm"
+            },
+            {
+              "cue": "…to, nem sequer",
+              "chords": "C7"
+            },
+            {
+              "cue": "Sabe a minha",
+              "chords": "C7(9)"
+            },
+            {
+              "cue": "Solidão",
+              "chords": "F → D7"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "cue": "É que o meu samba me",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Ajuda na",
+              "chords": "A7"
+            },
+            {
+              "cue": "Vida, minha dor vai passando",
+              "chords": "Dm"
+            },
+            {
+              "cue": "Esqueci…",
+              "chords": "C7"
+            },
+            {
+              "cue": "…da, vou vivendo essa",
+              "chords": "F"
+            },
+            {
+              "cue": "Vida do",
+              "chords": "Bb"
+            },
+            {
+              "cue": "Jeito que ela me levar",
+              "chords": "A7   (2ª vez: → D7)"
+            }
+          ]
+        },
+        {
+          "label": "3ª Parte",
+          "lines": [
+            {
+              "cue": "Vamos falar da",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Mulher, da morena e",
+              "chords": "C7"
+            },
+            {
+              "cue": "Dinheiro, do batuque do",
+              "chords": "F"
+            },
+            {
+              "cue": "Surdo e até do pandeiro",
+              "chords": "Bb"
+            },
+            {
+              "cue": "Mas não fale",
+              "chords": "Em7(5-)"
+            },
+            {
+              "cue": "Da vida, por que você não",
+              "chords": "A7"
+            },
+            {
+              "cue": "Sabe o que eu já",
+              "chords": "Am7(5-)"
+            },
+            {
+              "cue": "Passei",
+              "chords": "D7"
+            },
+            {
+              "cue": "(2ª letra: “Moço, aumente esse samba…” / “Batuque mais forte e tristeza se cala” / “Eu levo essa vida…” — mesma volta, com Bb7 no “vida do”)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão (2x)",
+          "lines": [
+            {
+              "cue": "Éeeee…",
+              "chords": "Gm7 → C7(9)"
+            },
+            {
+              "cue": "Do jeito que a vida",
+              "chords": "F"
+            },
+            {
+              "cue": "Quer",
+              "chords": "Dm"
+            },
+            {
+              "cue": "É…",
+              "chords": "Em7(5-) → A7"
+            },
+            {
+              "cue": "Desse jei…",
+              "chords": "Am7(5-)"
+            },
+            {
+              "cue": "…to",
+              "chords": "D7   (2ª vez: Dm → A7)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-5",
+      "num": 5,
+      "bloco": 1,
       "title": "A Batucada dos Nossos Tantãs",
       "artist": "Fundo de Quintal",
       "tom": "F",
@@ -324,8 +479,8 @@
       ]
     },
     {
-      "id": "b1-5",
-      "num": 5,
+      "id": "b1-6",
+      "num": 6,
       "bloco": 1,
       "title": "O Show Tem Que Continuar",
       "artist": "Fundo de Quintal",
@@ -476,8 +631,8 @@
       ]
     },
     {
-      "id": "b1-6",
-      "num": 6,
+      "id": "b1-7",
+      "num": 7,
       "bloco": 1,
       "title": "Sina",
       "artist": "Djavan (vers. Grupo Revelação)",
@@ -583,8 +738,8 @@
       ]
     },
     {
-      "id": "b1-7",
-      "num": 7,
+      "id": "b1-8",
+      "num": 8,
       "bloco": 1,
       "title": "Não Deixe o Samba Morrer",
       "artist": "Alcione",
@@ -667,8 +822,8 @@
       ]
     },
     {
-      "id": "b1-8",
-      "num": 8,
+      "id": "b1-9",
+      "num": 9,
       "bloco": 1,
       "title": "Mel na Boca",
       "artist": "Almir Guineto",
@@ -782,8 +937,8 @@
       ]
     },
     {
-      "id": "b1-9",
-      "num": 9,
+      "id": "b1-10",
+      "num": 10,
       "bloco": 1,
       "title": "Flor de Lis",
       "artist": "Djavan  ·  simplificado",
@@ -869,8 +1024,8 @@
       ]
     },
     {
-      "id": "b1-10",
-      "num": 10,
+      "id": "b1-11",
+      "num": 11,
       "bloco": 1,
       "title": "Depois do Prazer",
       "artist": "Só Pra Contrariar",
@@ -952,8 +1107,8 @@
       ]
     },
     {
-      "id": "b1-11",
-      "num": 11,
+      "id": "b1-12",
+      "num": 12,
       "bloco": 1,
       "title": "Brilho no Olhar",
       "artist": "Reinaldo",
@@ -1027,8 +1182,8 @@
       ]
     },
     {
-      "id": "b1-12",
-      "num": 12,
+      "id": "b1-13",
+      "num": 13,
       "bloco": 1,
       "title": "Se",
       "artist": "Djavan",
@@ -1106,8 +1261,8 @@
       ]
     },
     {
-      "id": "b1-13",
-      "num": 13,
+      "id": "b1-14",
+      "num": 14,
       "bloco": 1,
       "title": "Já É",
       "artist": "Jorge Aragão  ·  simplificado",
@@ -1193,8 +1348,8 @@
       ]
     },
     {
-      "id": "b1-14",
-      "num": 14,
+      "id": "b1-15",
+      "num": 15,
       "bloco": 1,
       "title": "Pot-Pourri 1",
       "artist": "Exalta · SPC · Os Morenos",
@@ -1330,8 +1485,8 @@
       ]
     },
     {
-      "id": "b1-15",
-      "num": 15,
+      "id": "b1-16",
+      "num": 16,
       "bloco": 1,
       "title": "Gamei",
       "artist": "Exaltasamba",
@@ -1482,8 +1637,8 @@
       ]
     },
     {
-      "id": "b1-16",
-      "num": 16,
+      "id": "b1-17",
+      "num": 17,
       "bloco": 1,
       "title": "Eu Nunca Amei Assim",
       "artist": "Jeito Moleque",
@@ -1643,8 +1798,8 @@
       ]
     },
     {
-      "id": "b1-17",
-      "num": 17,
+      "id": "b1-18",
+      "num": 18,
       "bloco": 1,
       "title": "Insegurança",
       "artist": "Pixote",
@@ -1833,8 +1988,8 @@
       ]
     },
     {
-      "id": "b1-18",
-      "num": 18,
+      "id": "b1-19",
+      "num": 19,
       "bloco": 1,
       "title": "Morango do Nordeste",
       "artist": "Karametade",
@@ -1900,8 +2055,8 @@
       ]
     },
     {
-      "id": "b1-19",
-      "num": 19,
+      "id": "b1-20",
+      "num": 20,
       "bloco": 1,
       "title": "Domingo",
       "artist": "Só Pra Contrariar",
@@ -2040,8 +2195,8 @@
       ]
     },
     {
-      "id": "b1-20",
-      "num": 20,
+      "id": "b1-21",
+      "num": 21,
       "bloco": 1,
       "title": "Deixa Acontecer",
       "artist": "Grupo Revelação",
@@ -2107,8 +2262,8 @@
       ]
     },
     {
-      "id": "b1-21",
-      "num": 21,
+      "id": "b1-22",
+      "num": 22,
       "bloco": 1,
       "title": "O Mar Serenou / Faixa Amarela / Deixa a Vida Me Levar",
       "artist": "Clara Nunes · Zeca Pagodinho",
@@ -2249,8 +2404,8 @@
       ]
     },
     {
-      "id": "b1-22",
-      "num": 22,
+      "id": "b1-23",
+      "num": 23,
       "bloco": 1,
       "title": "Berimbau / Canto de Ossanha",
       "artist": "Vinicius de Moraes · Baden Powell",
@@ -3012,6 +3167,192 @@
       "id": "b2-7",
       "num": 7,
       "bloco": 2,
+      "title": "Sem Abuso",
+      "artist": "Art Popular",
+      "tom": "Am → Bm",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": "⚑ 1ª parte + pré + refrão em Am (2x). No 2º refrão modula pra Bm e não volta mais; refrão final 5x.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Um dia, você diz pra mim que ama",
+              "chords": "Am"
+            },
+            {
+              "cue": "Me adora",
+              "chords": "Dm"
+            },
+            {
+              "cue": "Que não se interessa",
+              "chords": "G7"
+            },
+            {
+              "cue": "Por ninguém lá fora",
+              "chords": "C7M"
+            },
+            {
+              "cue": "Pura armação",
+              "chords": "F7M"
+            },
+            {
+              "cue": "Pressão da cabeça",
+              "chords": "Bm7(5-)"
+            },
+            {
+              "cue": "De quem um dia",
+              "chords": "E7 → Am"
+            },
+            {
+              "cue": "Bagdá chorando e você na calçada",
+              "chords": "Dm   (na “calçada”)"
+            },
+            {
+              "cue": "Eu no meu orgulho e você não diz nada",
+              "chords": "G7 → C7M → F7M"
+            },
+            {
+              "cue": "Tanta gente no veneno e eu sem você",
+              "chords": "Bm7(5-) → E7"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão",
+          "lines": [
+            {
+              "cue": "Senta aqui",
+              "chords": "Am"
+            },
+            {
+              "cue": "Pensa bem",
+              "chords": "Am/G#"
+            },
+            {
+              "cue": "Pode crê",
+              "chords": "Gm"
+            },
+            {
+              "cue": "Que o amor é maior que tudo",
+              "chords": "C7 → F7M   (2ª vez: F7M → F6)"
+            },
+            {
+              "cue": "Do que eu e você, você e eu",
+              "chords": "Bm7(5-) → E7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão (Am)",
+          "lines": [
+            {
+              "cue": "Sem abuso, sem abuso",
+              "chords": "Am"
+            },
+            {
+              "cue": "Sem abuso",
+              "chords": "Gm → C7"
+            },
+            {
+              "cue": "Se eu tô com você, não sou de ninguém",
+              "chords": "F7M → Bm7(5-)"
+            },
+            {
+              "cue": "Eu sou o seu bem",
+              "chords": "E7 → Am"
+            }
+          ]
+        },
+        {
+          "label": "Refrão (Bm) — modulação",
+          "lines": [
+            {
+              "cue": "Sem abuso, sem",
+              "chords": "Bm"
+            },
+            {
+              "cue": "Abuso",
+              "chords": "Bbm"
+            },
+            {
+              "cue": "Sem abuso",
+              "chords": "Am → D7"
+            },
+            {
+              "cue": "Se eu tô com você, não sou de ninguém",
+              "chords": "G7M → G6 → C#m7(5-)"
+            },
+            {
+              "cue": "Eu sou o seu bem",
+              "chords": "F#7 → Bm"
+            }
+          ]
+        },
+        {
+          "label": "Parte (Bm)",
+          "lines": [
+            {
+              "cue": "Tanta gente no",
+              "chords": "Em7"
+            },
+            {
+              "cue": "Veneno do",
+              "chords": "F#m7"
+            },
+            {
+              "cue": "Mundo",
+              "chords": "G7M → G6"
+            },
+            {
+              "cue": "Quem a gente escolhe",
+              "chords": "C#m7(5-)"
+            },
+            {
+              "cue": "Não é feliz aqui",
+              "chords": "F#7"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão (Bm)",
+          "lines": [
+            {
+              "cue": "Senta aqui",
+              "chords": "Bm"
+            },
+            {
+              "cue": "Pensa bem, pode crê",
+              "chords": "Bm7M → Am7"
+            },
+            {
+              "cue": "Que o amor é maior",
+              "chords": "D7"
+            },
+            {
+              "cue": "Que tudo",
+              "chords": "G7M"
+            },
+            {
+              "cue": "Do que eu e você, você e eu",
+              "chords": "C#m7(5-) → F#7   (volta pro refrão em Bm, 5x)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-8",
+      "num": 8,
+      "bloco": 2,
       "title": "Água de Chuva no Mar",
       "artist": "Beth Carvalho",
       "tom": "C",
@@ -3117,8 +3458,8 @@
       ]
     },
     {
-      "id": "b2-8",
-      "num": 8,
+      "id": "b2-9",
+      "num": 9,
       "bloco": 2,
       "title": "Reinventar",
       "artist": "Belo",
@@ -3243,8 +3584,8 @@
       ]
     },
     {
-      "id": "b2-9",
-      "num": 9,
+      "id": "b2-10",
+      "num": 10,
       "bloco": 2,
       "title": "Nem de Graça",
       "artist": "Pixote",
@@ -3341,8 +3682,8 @@
       ]
     },
     {
-      "id": "b2-10",
-      "num": 10,
+      "id": "b2-11",
+      "num": 11,
       "bloco": 2,
       "title": "Lancinho",
       "artist": "Turma do Pagode",
@@ -3440,8 +3781,8 @@
       ]
     },
     {
-      "id": "b2-11",
-      "num": 11,
+      "id": "b2-12",
+      "num": 12,
       "bloco": 2,
       "title": "Falta Você",
       "artist": "Thiaguinho",
@@ -3551,8 +3892,8 @@
       ]
     },
     {
-      "id": "b2-12",
-      "num": 12,
+      "id": "b2-13",
+      "num": 13,
       "bloco": 2,
       "title": "Compasso do Amor",
       "artist": "Grupo Revelação",
@@ -3642,8 +3983,8 @@
       ]
     },
     {
-      "id": "b2-13",
-      "num": 13,
+      "id": "b2-14",
+      "num": 14,
       "bloco": 2,
       "title": "Jogo de Sedução",
       "artist": "Exaltasamba",
@@ -3720,8 +4061,8 @@
       ]
     },
     {
-      "id": "b2-14",
-      "num": 14,
+      "id": "b2-15",
+      "num": 15,
       "bloco": 2,
       "title": "Tá Escrito",
       "artist": "Grupo Revelação",
@@ -3852,8 +4193,8 @@
       ]
     },
     {
-      "id": "b2-15",
-      "num": 15,
+      "id": "b2-16",
+      "num": 16,
       "bloco": 2,
       "title": "Curtindo a Vida",
       "artist": "Grupo Bom Gosto",
@@ -3936,8 +4277,8 @@
       ]
     },
     {
-      "id": "b2-16",
-      "num": 16,
+      "id": "b2-17",
+      "num": 17,
       "bloco": 2,
       "title": "Conselho",
       "artist": "Grupo Revelação",
@@ -3992,8 +4333,8 @@
       ]
     },
     {
-      "id": "b2-17",
-      "num": 17,
+      "id": "b2-18",
+      "num": 18,
       "bloco": 2,
       "title": "Hoje Eu Vou Pagodear",
       "artist": "Dilsinho",
@@ -4104,8 +4445,154 @@
       ]
     },
     {
-      "id": "b2-18",
-      "num": 18,
+      "id": "b2-19",
+      "num": 19,
+      "bloco": 2,
+      "title": "Quem É Ela?",
+      "artist": "Zeca Pagodinho",
+      "tom": "G",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "gabriel",
+          "name": "Gabriel"
+        }
+      ],
+      "note": "⚑ Forma: intro · 1ª parte · 2ª parte (2 letras) · “ela vai…” · 2ª parte (mais 2 letras) · final “Quem é ela” no D7.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "G → D7"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Quem é ela que vai todo",
+              "chords": "G"
+            },
+            {
+              "cue": "Dia na Ca…",
+              "chords": "E7"
+            },
+            {
+              "cue": "…pela, fazer oração acender",
+              "chords": "Am"
+            },
+            {
+              "cue": "Vela, dizem que ela zela por",
+              "chords": "D7"
+            },
+            {
+              "cue": "Mim",
+              "chords": "G → D7"
+            },
+            {
+              "cue": "Me contaram que a menina",
+              "chords": "G"
+            },
+            {
+              "cue": "Moça é don…",
+              "chords": "E7"
+            },
+            {
+              "cue": "…zela, mas quando ela está na jan…",
+              "chords": "Am"
+            },
+            {
+              "cue": "…ela, sempre joga beijos pra",
+              "chords": "D7"
+            },
+            {
+              "cue": "Mim",
+              "chords": "G → G7"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "cue": "Me contaram que ela tem por",
+              "chords": "C#m7(5-)"
+            },
+            {
+              "cue": "Mim um cham…",
+              "chords": "F#7"
+            },
+            {
+              "cue": "…ego, que todo lu…",
+              "chords": "Bm7(5-)"
+            },
+            {
+              "cue": "…gar onde eu",
+              "chords": "E7"
+            },
+            {
+              "cue": "Chego, depois ela",
+              "chords": "Am"
+            },
+            {
+              "cue": "Chega tam…",
+              "chords": "D7"
+            },
+            {
+              "cue": "…bém",
+              "chords": "G → G7"
+            },
+            {
+              "cue": "(mesma volta: “E me olha com jeito de quem quer carinho…” · “Qualquer dia me invoco e tomo coragem…” · “Meu Senhor por favor vem ouvir minha prece…”)"
+            }
+          ]
+        },
+        {
+          "label": "3ª Parte · “ela vai…”",
+          "lines": [
+            {
+              "cue": "Se eu vou na",
+              "chords": "G"
+            },
+            {
+              "cue": "Mangueira",
+              "chords": "E7"
+            },
+            {
+              "cue": "Ela vai, se vou na",
+              "chords": "Am"
+            },
+            {
+              "cue": "Portela",
+              "chords": "D7"
+            },
+            {
+              "cue": "Ela está",
+              "chords": "G"
+            },
+            {
+              "cue": "(mesma volta: Cacique de Ramos / Estácio de Sá · pagode em Xerém / pagode em Irajá)"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "cue": "Quem é ela",
+              "chords": "D7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-20",
+      "num": 20,
       "bloco": 2,
       "title": "Pot-Pourri Final",
       "artist": "Roda · de ouvido",
@@ -4689,192 +5176,6 @@
       "id": "b3-5",
       "num": 5,
       "bloco": 3,
-      "title": "Sem Abuso",
-      "artist": "Art Popular",
-      "tom": "Am → Bm",
-      "levada": "Pagode",
-      "singers": [
-        {
-          "key": "nery",
-          "name": "Nery"
-        }
-      ],
-      "note": "⚑ 1ª parte + pré + refrão em Am (2x). No 2º refrão modula pra Bm e não volta mais; refrão final 5x.",
-      "cols2": true,
-      "chordsTop": true,
-      "sections": [
-        {
-          "label": "1ª Parte",
-          "lines": [
-            {
-              "cue": "Um dia, você diz pra mim que ama",
-              "chords": "Am"
-            },
-            {
-              "cue": "Me adora",
-              "chords": "Dm"
-            },
-            {
-              "cue": "Que não se interessa",
-              "chords": "G7"
-            },
-            {
-              "cue": "Por ninguém lá fora",
-              "chords": "C7M"
-            },
-            {
-              "cue": "Pura armação",
-              "chords": "F7M"
-            },
-            {
-              "cue": "Pressão da cabeça",
-              "chords": "Bm7(5-)"
-            },
-            {
-              "cue": "De quem um dia",
-              "chords": "E7 → Am"
-            },
-            {
-              "cue": "Bagdá chorando e você na calçada",
-              "chords": "Dm   (na “calçada”)"
-            },
-            {
-              "cue": "Eu no meu orgulho e você não diz nada",
-              "chords": "G7 → C7M → F7M"
-            },
-            {
-              "cue": "Tanta gente no veneno e eu sem você",
-              "chords": "Bm7(5-) → E7"
-            }
-          ]
-        },
-        {
-          "label": "Pré-Refrão",
-          "lines": [
-            {
-              "cue": "Senta aqui",
-              "chords": "Am"
-            },
-            {
-              "cue": "Pensa bem",
-              "chords": "Am/G#"
-            },
-            {
-              "cue": "Pode crê",
-              "chords": "Gm"
-            },
-            {
-              "cue": "Que o amor é maior que tudo",
-              "chords": "C7 → F7M   (2ª vez: F7M → F6)"
-            },
-            {
-              "cue": "Do que eu e você, você e eu",
-              "chords": "Bm7(5-) → E7"
-            }
-          ]
-        },
-        {
-          "label": "Refrão (Am)",
-          "lines": [
-            {
-              "cue": "Sem abuso, sem abuso",
-              "chords": "Am"
-            },
-            {
-              "cue": "Sem abuso",
-              "chords": "Gm → C7"
-            },
-            {
-              "cue": "Se eu tô com você, não sou de ninguém",
-              "chords": "F7M → Bm7(5-)"
-            },
-            {
-              "cue": "Eu sou o seu bem",
-              "chords": "E7 → Am"
-            }
-          ]
-        },
-        {
-          "label": "Refrão (Bm) — modulação",
-          "lines": [
-            {
-              "cue": "Sem abuso, sem",
-              "chords": "Bm"
-            },
-            {
-              "cue": "Abuso",
-              "chords": "Bbm"
-            },
-            {
-              "cue": "Sem abuso",
-              "chords": "Am → D7"
-            },
-            {
-              "cue": "Se eu tô com você, não sou de ninguém",
-              "chords": "G7M → G6 → C#m7(5-)"
-            },
-            {
-              "cue": "Eu sou o seu bem",
-              "chords": "F#7 → Bm"
-            }
-          ]
-        },
-        {
-          "label": "Parte (Bm)",
-          "lines": [
-            {
-              "cue": "Tanta gente no",
-              "chords": "Em7"
-            },
-            {
-              "cue": "Veneno do",
-              "chords": "F#m7"
-            },
-            {
-              "cue": "Mundo",
-              "chords": "G7M → G6"
-            },
-            {
-              "cue": "Quem a gente escolhe",
-              "chords": "C#m7(5-)"
-            },
-            {
-              "cue": "Não é feliz aqui",
-              "chords": "F#7"
-            }
-          ]
-        },
-        {
-          "label": "Pré-Refrão (Bm)",
-          "lines": [
-            {
-              "cue": "Senta aqui",
-              "chords": "Bm"
-            },
-            {
-              "cue": "Pensa bem, pode crê",
-              "chords": "Bm7M → Am7"
-            },
-            {
-              "cue": "Que o amor é maior",
-              "chords": "D7"
-            },
-            {
-              "cue": "Que tudo",
-              "chords": "G7M"
-            },
-            {
-              "cue": "Do que eu e você, você e eu",
-              "chords": "C#m7(5-) → F#7   (volta pro refrão em Bm, 5x)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b3-6",
-      "num": 6,
-      "bloco": 3,
       "title": "Vou Festejar",
       "artist": "Beth Carvalho",
       "tom": "Bm",
@@ -4991,309 +5292,8 @@
       ]
     },
     {
-      "id": "b3-7",
-      "num": 7,
-      "bloco": 3,
-      "title": "Quem É Ela?",
-      "artist": "Zeca Pagodinho",
-      "tom": "G",
-      "levada": "Samba",
-      "singers": [
-        {
-          "key": "gabriel",
-          "name": "Gabriel"
-        }
-      ],
-      "note": "⚑ Forma: intro · 1ª parte · 2ª parte (2 letras) · “ela vai…” · 2ª parte (mais 2 letras) · final “Quem é ela” no D7.",
-      "cols2": true,
-      "chordsTop": true,
-      "sections": [
-        {
-          "label": "Intro",
-          "lines": [
-            {
-              "chords": "G → D7"
-            }
-          ]
-        },
-        {
-          "label": "1ª Parte",
-          "lines": [
-            {
-              "cue": "Quem é ela que vai todo",
-              "chords": "G"
-            },
-            {
-              "cue": "Dia na Ca…",
-              "chords": "E7"
-            },
-            {
-              "cue": "…pela, fazer oração acender",
-              "chords": "Am"
-            },
-            {
-              "cue": "Vela, dizem que ela zela por",
-              "chords": "D7"
-            },
-            {
-              "cue": "Mim",
-              "chords": "G → D7"
-            },
-            {
-              "cue": "Me contaram que a menina",
-              "chords": "G"
-            },
-            {
-              "cue": "Moça é don…",
-              "chords": "E7"
-            },
-            {
-              "cue": "…zela, mas quando ela está na jan…",
-              "chords": "Am"
-            },
-            {
-              "cue": "…ela, sempre joga beijos pra",
-              "chords": "D7"
-            },
-            {
-              "cue": "Mim",
-              "chords": "G → G7"
-            }
-          ]
-        },
-        {
-          "label": "2ª Parte",
-          "lines": [
-            {
-              "cue": "Me contaram que ela tem por",
-              "chords": "C#m7(5-)"
-            },
-            {
-              "cue": "Mim um cham…",
-              "chords": "F#7"
-            },
-            {
-              "cue": "…ego, que todo lu…",
-              "chords": "Bm7(5-)"
-            },
-            {
-              "cue": "…gar onde eu",
-              "chords": "E7"
-            },
-            {
-              "cue": "Chego, depois ela",
-              "chords": "Am"
-            },
-            {
-              "cue": "Chega tam…",
-              "chords": "D7"
-            },
-            {
-              "cue": "…bém",
-              "chords": "G → G7"
-            },
-            {
-              "cue": "(mesma volta: “E me olha com jeito de quem quer carinho…” · “Qualquer dia me invoco e tomo coragem…” · “Meu Senhor por favor vem ouvir minha prece…”)"
-            }
-          ]
-        },
-        {
-          "label": "3ª Parte · “ela vai…”",
-          "lines": [
-            {
-              "cue": "Se eu vou na",
-              "chords": "G"
-            },
-            {
-              "cue": "Mangueira",
-              "chords": "E7"
-            },
-            {
-              "cue": "Ela vai, se vou na",
-              "chords": "Am"
-            },
-            {
-              "cue": "Portela",
-              "chords": "D7"
-            },
-            {
-              "cue": "Ela está",
-              "chords": "G"
-            },
-            {
-              "cue": "(mesma volta: Cacique de Ramos / Estácio de Sá · pagode em Xerém / pagode em Irajá)"
-            }
-          ]
-        },
-        {
-          "label": "Final",
-          "lines": [
-            {
-              "cue": "Quem é ela",
-              "chords": "D7"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b3-8",
-      "num": 8,
-      "bloco": 3,
-      "title": "Do Jeito Que a Vida Quer",
-      "artist": "Grupo Revelação",
-      "tom": "F",
-      "levada": "Samba",
-      "singers": [
-        {
-          "key": "mosquitao",
-          "name": "Mosquitão"
-        }
-      ],
-      "note": "⚑ Forma: intro · 1ª parte · 2ª parte · repete as duas (a 2ª fecha em D7) · 3ª parte (2 letras) · refrão (2x).",
-      "cols2": true,
-      "chordsTop": true,
-      "sections": [
-        {
-          "label": "Intro",
-          "lines": [
-            {
-              "chords": "Dm → A7 → Dm → A7"
-            }
-          ]
-        },
-        {
-          "label": "1ª Parte",
-          "lines": [
-            {
-              "cue": "Ninguém sabe a mágoa que trago no",
-              "chords": "Dm"
-            },
-            {
-              "cue": "Peito, quem me vê sorrindo desse jei…",
-              "chords": "Gm"
-            },
-            {
-              "cue": "…to, nem sequer",
-              "chords": "C7"
-            },
-            {
-              "cue": "Sabe a minha",
-              "chords": "C7(9)"
-            },
-            {
-              "cue": "Solidão",
-              "chords": "F → D7"
-            }
-          ]
-        },
-        {
-          "label": "2ª Parte",
-          "lines": [
-            {
-              "cue": "É que o meu samba me",
-              "chords": "Gm7"
-            },
-            {
-              "cue": "Ajuda na",
-              "chords": "A7"
-            },
-            {
-              "cue": "Vida, minha dor vai passando",
-              "chords": "Dm"
-            },
-            {
-              "cue": "Esqueci…",
-              "chords": "C7"
-            },
-            {
-              "cue": "…da, vou vivendo essa",
-              "chords": "F"
-            },
-            {
-              "cue": "Vida do",
-              "chords": "Bb"
-            },
-            {
-              "cue": "Jeito que ela me levar",
-              "chords": "A7   (2ª vez: → D7)"
-            }
-          ]
-        },
-        {
-          "label": "3ª Parte",
-          "lines": [
-            {
-              "cue": "Vamos falar da",
-              "chords": "Gm7"
-            },
-            {
-              "cue": "Mulher, da morena e",
-              "chords": "C7"
-            },
-            {
-              "cue": "Dinheiro, do batuque do",
-              "chords": "F"
-            },
-            {
-              "cue": "Surdo e até do pandeiro",
-              "chords": "Bb"
-            },
-            {
-              "cue": "Mas não fale",
-              "chords": "Em7(5-)"
-            },
-            {
-              "cue": "Da vida, por que você não",
-              "chords": "A7"
-            },
-            {
-              "cue": "Sabe o que eu já",
-              "chords": "Am7(5-)"
-            },
-            {
-              "cue": "Passei",
-              "chords": "D7"
-            },
-            {
-              "cue": "(2ª letra: “Moço, aumente esse samba…” / “Batuque mais forte e tristeza se cala” / “Eu levo essa vida…” — mesma volta, com Bb7 no “vida do”)"
-            }
-          ]
-        },
-        {
-          "label": "Refrão (2x)",
-          "lines": [
-            {
-              "cue": "Éeeee…",
-              "chords": "Gm7 → C7(9)"
-            },
-            {
-              "cue": "Do jeito que a vida",
-              "chords": "F"
-            },
-            {
-              "cue": "Quer",
-              "chords": "Dm"
-            },
-            {
-              "cue": "É…",
-              "chords": "Em7(5-) → A7"
-            },
-            {
-              "cue": "Desse jei…",
-              "chords": "Am7(5-)"
-            },
-            {
-              "cue": "…to",
-              "chords": "D7   (2ª vez: Dm → A7)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b3-9",
-      "num": 9,
+      "id": "b3-6",
+      "num": 6,
       "bloco": 3,
       "title": "Coração Partido",
       "artist": "Menos é Mais  ·  simplificado",
@@ -5373,8 +5373,8 @@
       ]
     },
     {
-      "id": "b3-10",
-      "num": 10,
+      "id": "b3-7",
+      "num": 7,
       "bloco": 3,
       "title": "Clareou",
       "artist": "Diogo Nogueira",
@@ -5522,8 +5522,8 @@
       ]
     },
     {
-      "id": "b3-11",
-      "num": 11,
+      "id": "b3-8",
+      "num": 8,
       "bloco": 3,
       "title": "Alguém Me Avisou",
       "artist": "Dona Ivone Lara",
@@ -5588,8 +5588,8 @@
       ]
     },
     {
-      "id": "b3-12",
-      "num": 12,
+      "id": "b3-9",
+      "num": 9,
       "bloco": 3,
       "title": "Dança do Bole-Bole / Desafio / Onda",
       "artist": "Exaltasamba · Harmonia do Samba · Tchakabum",
@@ -5782,8 +5782,8 @@
       ]
     },
     {
-      "id": "b3-13",
-      "num": 13,
+      "id": "b3-10",
+      "num": 10,
       "bloco": 3,
       "title": "Pé na Areia",
       "artist": "Diogo Nogueira",
