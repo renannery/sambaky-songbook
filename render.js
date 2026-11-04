@@ -12,8 +12,26 @@
     }).join('');
   }
 
+  // Letra: texto puro, uma estrofe por linha em branco, [Rotulo] vira cabecalho.
+  function lyricsHTML(txt) {
+    if (!txt) return '';
+    var h = '<div class="lyrics">';
+    String(txt).replace(/\r/g, '').split(/\n{2,}/).forEach(function (bloco) {
+      var linhas = bloco.split('\n').filter(function (l) { return l.trim() !== ''; });
+      if (!linhas.length) return;
+      h += '<div class="lyblock">';
+      linhas.forEach(function (l) {
+        var m = /^\s*\[(.+)\]\s*$/.exec(l);
+        h += m ? '<div class="lylabel">' + esc(m[1].trim()) + '</div>'
+               : '<div class="lyline">' + esc(l.trim()) + '</div>';
+      });
+      h += '</div>';
+    });
+    return h + '</div>';
+  }
+
   function renderSongSection(s) {
-    var cls = 'song b' + s.bloco + (s.chordsTop ? ' chords-top' : '');
+    var cls = 'song b' + s.bloco + (s.chordsTop ? ' chords-top' : '') + (s.lyrics ? ' has-lyrics' : '');
     var h = '<section class="' + cls + '" id="' + s.id + '">';
     h += '<header class="songhead"><div class="songnum">' + esc(s.num) + '</div>';
     h += '<div class="songtitlewrap"><h2 class="songtitle">' + esc(s.title) + '</h2>';
@@ -37,7 +55,12 @@
       });
       h += '</div>';
     });
-    h += '</div></section>';
+    h += '</div>';
+    if (s.lyrics) {
+      h += '<div class="songtools"><button class="lybtn" type="button">Ver letra</button></div>';
+      h += lyricsHTML(s.lyrics);
+    }
+    h += '</section>';
     return h;
   }
 
@@ -108,6 +131,7 @@
         tom: s.tom || null, levada: s.levada || null,
         singers: (s.singers || []).map(function (g) { return { key: g.key, name: g.name }; }),
         note: (s.note && String(s.note).trim()) ? s.note : null,
+        lyrics: (s.lyrics && String(s.lyrics).trim()) ? String(s.lyrics).replace(/\r/g, '').trim() : null,
         cols2: !!s.cols2, chordsTop: !!s.chordsTop,
         sections: (s.sections || []).map(function (sec) {
           return {
@@ -190,6 +214,7 @@
   g.SB = {
     esc: esc,
     renderSongSection: renderSongSection,
+    lyricsHTML: lyricsHTML,
     renderIndexBlocks: renderIndexBlocks,
     blocoLabel: blocoLabel,
     renderSongsArea: renderSongsArea,
