@@ -5,6 +5,217 @@
       "id": "b1-1",
       "num": 1,
       "bloco": 1,
+      "title": "Preciso Me Encontrar",
+      "artist": "Cartola",
+      "tom": "Dm",
+      "levada": "Samba-canção",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": "⚑ Forma: intro (solo de fagote) · 1ª parte · 2ª parte (2x) · 1ª parte com “Se alguém por mim perguntar” · 2ª parte · final (3x). No final o G#° vira G° e entra o riff 2.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro (solo de fagote)",
+          "lines": [
+            {
+              "chords": "Dm → Dm/C → Gm6/Bb → A7(13-) → A7  /  Dm → Dm/C → Gm6/Bb → Gm → G#° → A7 → A7/G"
+            },
+            {
+              "chords": "Dm → Dm/C → B° → Gm6/Bb → A7 → A/C#  /  Dm → Dm/C → Gm6/Bb → Gm → G#° → A7 → A/C#"
+            },
+            {
+              "chords": "Dm → Eb° → D7 → D/C → Gm/Bb → Gm/A → Gm → Gm/Gb"
+            },
+            {
+              "chords": "Gm/F → Gm → Gm/F → C7/E → C7 → F → Gm6/Bb → A7"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Deixe-me ir",
+              "chords": "Dm → Dm/C   (2ª vez: Dm/F → Dm/C)"
+            },
+            {
+              "cue": "Preciso andar",
+              "chords": "Gm6/Bb"
+            },
+            {
+              "cue": "Vou por aí a procurar",
+              "chords": "Gm → G#°"
+            },
+            {
+              "cue": "Rir pra não chorar",
+              "chords": "A7 → riff 1   (2ª vez: A7 → Dm6(9))"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte",
+          "lines": [
+            {
+              "cue": "Quero assistir",
+              "chords": "Eb° → D7"
+            },
+            {
+              "cue": "Ao sol nascer",
+              "chords": "D7/C → Gm/Bb → Gm/A → Gm"
+            },
+            {
+              "cue": "Ver as águas dos rios correr",
+              "chords": "Gm/Gb → Gm/F → Gm → Gm/F → C7/E"
+            },
+            {
+              "cue": "Ouvir os pássaros cantar",
+              "chords": "C/Bb → F"
+            },
+            {
+              "cue": "Eu quero nascer",
+              "chords": "Gm"
+            },
+            {
+              "cue": "Quero viver",
+              "chords": "A7 → Dm"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte (2ª letra)",
+          "lines": [
+            {
+              "cue": "Se alguém por mim perguntar",
+              "chords": "Dm/F → Dm/C → Gm6/Bb"
+            },
+            {
+              "cue": "Diga que eu só vou voltar",
+              "chords": "Gm → G#°"
+            },
+            {
+              "cue": "Depois que me encontrar",
+              "chords": "A7 → Dm6(9)"
+            }
+          ]
+        },
+        {
+          "label": "Final (3x)",
+          "lines": [
+            {
+              "cue": "Deixe-me ir, preciso andar",
+              "chords": "Dm → Dm/C → Gm/Bb"
+            },
+            {
+              "cue": "Vou por aí a procurar",
+              "chords": "Gm → G°"
+            },
+            {
+              "cue": "Rir pra não chorar",
+              "chords": "A7 → riff 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-2",
+      "num": 2,
+      "bloco": 1,
+      "title": "Retrato Cantado de Um Amor",
+      "artist": "Reinaldo",
+      "tom": "Dm",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Dm → Gm7 → C7 → F → A7 → Dm → Bb7 → A7"
+            }
+          ]
+        },
+        {
+          "label": "Verso",
+          "lines": [
+            {
+              "cue": "Veja bem, nosso amor é perfeito…",
+              "chords": "Dm → Gm  /  A7 → D → A7"
+            },
+            {
+              "cue": "Lembro sim, maus momentos…",
+              "chords": "Dm → Gm  /  A7 → D7"
+            },
+            {
+              "cue": "Toda vez que converso…",
+              "chords": "Gm → C7  /  F → A7 → Dm"
+            },
+            {
+              "cue": "Me sinto como um pecador…",
+              "chords": "Dm → Bb7  /  A7 → D7"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "Este amor frutifica…",
+              "chords": "Gm7 → C7  /  F → A7 → Dm"
+            },
+            {
+              "cue": "Me dando a certeza…",
+              "chords": "Dm → Bb7  /  A7 → D → A7"
+            },
+            {
+              "cue": "É que o teu calor…",
+              "chords": "D → F#m7 → Am7  /  D7 → G"
+            },
+            {
+              "cue": "Tem lampejos de inspiração…",
+              "chords": "Gm → C7 → Dm  /  Bb7 → A7"
+            },
+            {
+              "cue": "E além do mais me julgo incapaz…",
+              "chords": "D → F#m7 → Am7  /  D7 → G"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "cue": "Pra finalizar, resumindo…",
+              "chords": "Gm6 → G#° → D → C7 → B7"
+            },
+            {
+              "cue": "Este é o retrato cantado…",
+              "chords": "E7(9) → Gm6 → A7 → D → D5+ → D6 → D7  (repetição)"
+            },
+            {
+              "chords": "Gm6 → G#° → D → C7 → B7  /  E7(9) → Gm6 → A7 → D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-3",
+      "num": 3,
+      "bloco": 1,
       "title": "Retalhos de Cetim",
       "artist": "Benito Di Paula",
       "tom": "Am",
@@ -67,8 +278,8 @@
       ]
     },
     {
-      "id": "b1-2",
-      "num": 2,
+      "id": "b1-4",
+      "num": 4,
       "bloco": 1,
       "title": "A Batucada dos Nossos Tantãs",
       "artist": "Fundo de Quintal",
@@ -113,8 +324,8 @@
       ]
     },
     {
-      "id": "b1-3",
-      "num": 3,
+      "id": "b1-5",
+      "num": 5,
       "bloco": 1,
       "title": "O Show Tem Que Continuar",
       "artist": "Fundo de Quintal",
@@ -265,8 +476,8 @@
       ]
     },
     {
-      "id": "b1-4",
-      "num": 4,
+      "id": "b1-6",
+      "num": 6,
       "bloco": 1,
       "title": "Sina",
       "artist": "Djavan (vers. Grupo Revelação)",
@@ -372,8 +583,8 @@
       ]
     },
     {
-      "id": "b1-5",
-      "num": 5,
+      "id": "b1-7",
+      "num": 7,
       "bloco": 1,
       "title": "Não Deixe o Samba Morrer",
       "artist": "Alcione",
@@ -456,8 +667,8 @@
       ]
     },
     {
-      "id": "b1-6",
-      "num": 6,
+      "id": "b1-8",
+      "num": 8,
       "bloco": 1,
       "title": "Mel na Boca",
       "artist": "Almir Guineto",
@@ -571,8 +782,8 @@
       ]
     },
     {
-      "id": "b1-7",
-      "num": 7,
+      "id": "b1-9",
+      "num": 9,
       "bloco": 1,
       "title": "Flor de Lis",
       "artist": "Djavan  ·  simplificado",
@@ -658,8 +869,8 @@
       ]
     },
     {
-      "id": "b1-8",
-      "num": 8,
+      "id": "b1-10",
+      "num": 10,
       "bloco": 1,
       "title": "Depois do Prazer",
       "artist": "Só Pra Contrariar",
@@ -741,8 +952,8 @@
       ]
     },
     {
-      "id": "b1-9",
-      "num": 9,
+      "id": "b1-11",
+      "num": 11,
       "bloco": 1,
       "title": "Brilho no Olhar",
       "artist": "Reinaldo",
@@ -816,8 +1027,8 @@
       ]
     },
     {
-      "id": "b1-10",
-      "num": 10,
+      "id": "b1-12",
+      "num": 12,
       "bloco": 1,
       "title": "Se",
       "artist": "Djavan",
@@ -895,8 +1106,8 @@
       ]
     },
     {
-      "id": "b1-11",
-      "num": 11,
+      "id": "b1-13",
+      "num": 13,
       "bloco": 1,
       "title": "Já É",
       "artist": "Jorge Aragão  ·  simplificado",
@@ -982,8 +1193,8 @@
       ]
     },
     {
-      "id": "b1-12",
-      "num": 12,
+      "id": "b1-14",
+      "num": 14,
       "bloco": 1,
       "title": "Pot-Pourri 1",
       "artist": "Exalta · SPC · Os Morenos",
@@ -1119,8 +1330,8 @@
       ]
     },
     {
-      "id": "b1-13",
-      "num": 13,
+      "id": "b1-15",
+      "num": 15,
       "bloco": 1,
       "title": "Gamei",
       "artist": "Exaltasamba",
@@ -1271,8 +1482,8 @@
       ]
     },
     {
-      "id": "b1-14",
-      "num": 14,
+      "id": "b1-16",
+      "num": 16,
       "bloco": 1,
       "title": "Eu Nunca Amei Assim",
       "artist": "Jeito Moleque",
@@ -1432,8 +1643,8 @@
       ]
     },
     {
-      "id": "b1-15",
-      "num": 15,
+      "id": "b1-17",
+      "num": 17,
       "bloco": 1,
       "title": "Insegurança",
       "artist": "Pixote",
@@ -1622,8 +1833,8 @@
       ]
     },
     {
-      "id": "b1-16",
-      "num": 16,
+      "id": "b1-18",
+      "num": 18,
       "bloco": 1,
       "title": "Morango do Nordeste",
       "artist": "Karametade",
@@ -1689,98 +1900,8 @@
       ]
     },
     {
-      "id": "b1-17",
-      "num": 17,
-      "bloco": 1,
-      "title": "Retrato Cantado de Um Amor",
-      "artist": "Reinaldo",
-      "tom": "Dm",
-      "levada": "Samba",
-      "singers": [
-        {
-          "key": "nery",
-          "name": "Nery"
-        }
-      ],
-      "note": null,
-      "cols2": true,
-      "chordsTop": true,
-      "sections": [
-        {
-          "label": "Intro",
-          "lines": [
-            {
-              "chords": "Dm → Gm7 → C7 → F → A7 → Dm → Bb7 → A7"
-            }
-          ]
-        },
-        {
-          "label": "Verso",
-          "lines": [
-            {
-              "cue": "Veja bem, nosso amor é perfeito…",
-              "chords": "Dm → Gm  /  A7 → D → A7"
-            },
-            {
-              "cue": "Lembro sim, maus momentos…",
-              "chords": "Dm → Gm  /  A7 → D7"
-            },
-            {
-              "cue": "Toda vez que converso…",
-              "chords": "Gm → C7  /  F → A7 → Dm"
-            },
-            {
-              "cue": "Me sinto como um pecador…",
-              "chords": "Dm → Bb7  /  A7 → D7"
-            }
-          ]
-        },
-        {
-          "label": "Parte",
-          "lines": [
-            {
-              "cue": "Este amor frutifica…",
-              "chords": "Gm7 → C7  /  F → A7 → Dm"
-            },
-            {
-              "cue": "Me dando a certeza…",
-              "chords": "Dm → Bb7  /  A7 → D → A7"
-            },
-            {
-              "cue": "É que o teu calor…",
-              "chords": "D → F#m7 → Am7  /  D7 → G"
-            },
-            {
-              "cue": "Tem lampejos de inspiração…",
-              "chords": "Gm → C7 → Dm  /  Bb7 → A7"
-            },
-            {
-              "cue": "E além do mais me julgo incapaz…",
-              "chords": "D → F#m7 → Am7  /  D7 → G"
-            }
-          ]
-        },
-        {
-          "label": "Final",
-          "lines": [
-            {
-              "cue": "Pra finalizar, resumindo…",
-              "chords": "Gm6 → G#° → D → C7 → B7"
-            },
-            {
-              "cue": "Este é o retrato cantado…",
-              "chords": "E7(9) → Gm6 → A7 → D → D5+ → D6 → D7  (repetição)"
-            },
-            {
-              "chords": "Gm6 → G#° → D → C7 → B7  /  E7(9) → Gm6 → A7 → D"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b1-18",
-      "num": 18,
+      "id": "b1-19",
+      "num": 19,
       "bloco": 1,
       "title": "Domingo",
       "artist": "Só Pra Contrariar",
@@ -1919,8 +2040,8 @@
       ]
     },
     {
-      "id": "b1-19",
-      "num": 19,
+      "id": "b1-20",
+      "num": 20,
       "bloco": 1,
       "title": "Deixa Acontecer",
       "artist": "Grupo Revelação",
@@ -1986,8 +2107,8 @@
       ]
     },
     {
-      "id": "b1-20",
-      "num": 20,
+      "id": "b1-21",
+      "num": 21,
       "bloco": 1,
       "title": "O Mar Serenou / Faixa Amarela / Deixa a Vida Me Levar",
       "artist": "Clara Nunes · Zeca Pagodinho",
@@ -2128,8 +2249,8 @@
       ]
     },
     {
-      "id": "b1-21",
-      "num": 21,
+      "id": "b1-22",
+      "num": 22,
       "bloco": 1,
       "title": "Berimbau / Canto de Ossanha",
       "artist": "Vinicius de Moraes · Baden Powell",
@@ -4873,127 +4994,6 @@
       "id": "b3-7",
       "num": 7,
       "bloco": 3,
-      "title": "Preciso Me Encontrar",
-      "artist": "Cartola",
-      "tom": "Dm",
-      "levada": "Samba-canção",
-      "singers": [
-        {
-          "key": "mosquitao",
-          "name": "Mosquitão"
-        }
-      ],
-      "note": "⚑ Forma: intro (solo de fagote) · 1ª parte · 2ª parte (2x) · 1ª parte com “Se alguém por mim perguntar” · 2ª parte · final (3x). No final o G#° vira G° e entra o riff 2.",
-      "cols2": true,
-      "chordsTop": true,
-      "sections": [
-        {
-          "label": "Intro (solo de fagote)",
-          "lines": [
-            {
-              "chords": "Dm → Dm/C → Gm6/Bb → A7(13-) → A7  /  Dm → Dm/C → Gm6/Bb → Gm → G#° → A7 → A7/G"
-            },
-            {
-              "chords": "Dm → Dm/C → B° → Gm6/Bb → A7 → A/C#  /  Dm → Dm/C → Gm6/Bb → Gm → G#° → A7 → A/C#"
-            },
-            {
-              "chords": "Dm → Eb° → D7 → D/C → Gm/Bb → Gm/A → Gm → Gm/Gb"
-            },
-            {
-              "chords": "Gm/F → Gm → Gm/F → C7/E → C7 → F → Gm6/Bb → A7"
-            }
-          ]
-        },
-        {
-          "label": "1ª Parte",
-          "lines": [
-            {
-              "cue": "Deixe-me ir",
-              "chords": "Dm → Dm/C   (2ª vez: Dm/F → Dm/C)"
-            },
-            {
-              "cue": "Preciso andar",
-              "chords": "Gm6/Bb"
-            },
-            {
-              "cue": "Vou por aí a procurar",
-              "chords": "Gm → G#°"
-            },
-            {
-              "cue": "Rir pra não chorar",
-              "chords": "A7 → riff 1   (2ª vez: A7 → Dm6(9))"
-            }
-          ]
-        },
-        {
-          "label": "2ª Parte",
-          "lines": [
-            {
-              "cue": "Quero assistir",
-              "chords": "Eb° → D7"
-            },
-            {
-              "cue": "Ao sol nascer",
-              "chords": "D7/C → Gm/Bb → Gm/A → Gm"
-            },
-            {
-              "cue": "Ver as águas dos rios correr",
-              "chords": "Gm/Gb → Gm/F → Gm → Gm/F → C7/E"
-            },
-            {
-              "cue": "Ouvir os pássaros cantar",
-              "chords": "C/Bb → F"
-            },
-            {
-              "cue": "Eu quero nascer",
-              "chords": "Gm"
-            },
-            {
-              "cue": "Quero viver",
-              "chords": "A7 → Dm"
-            }
-          ]
-        },
-        {
-          "label": "1ª Parte (2ª letra)",
-          "lines": [
-            {
-              "cue": "Se alguém por mim perguntar",
-              "chords": "Dm/F → Dm/C → Gm6/Bb"
-            },
-            {
-              "cue": "Diga que eu só vou voltar",
-              "chords": "Gm → G#°"
-            },
-            {
-              "cue": "Depois que me encontrar",
-              "chords": "A7 → Dm6(9)"
-            }
-          ]
-        },
-        {
-          "label": "Final (3x)",
-          "lines": [
-            {
-              "cue": "Deixe-me ir, preciso andar",
-              "chords": "Dm → Dm/C → Gm/Bb"
-            },
-            {
-              "cue": "Vou por aí a procurar",
-              "chords": "Gm → G°"
-            },
-            {
-              "cue": "Rir pra não chorar",
-              "chords": "A7 → riff 2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b3-8",
-      "num": 8,
-      "bloco": 3,
       "title": "Quem É Ela?",
       "artist": "Zeca Pagodinho",
       "tom": "G",
@@ -5137,8 +5137,8 @@
       ]
     },
     {
-      "id": "b3-9",
-      "num": 9,
+      "id": "b3-8",
+      "num": 8,
       "bloco": 3,
       "title": "Do Jeito Que a Vida Quer",
       "artist": "Grupo Revelação",
@@ -5292,8 +5292,8 @@
       ]
     },
     {
-      "id": "b3-10",
-      "num": 10,
+      "id": "b3-9",
+      "num": 9,
       "bloco": 3,
       "title": "Coração Partido",
       "artist": "Menos é Mais  ·  simplificado",
@@ -5373,8 +5373,8 @@
       ]
     },
     {
-      "id": "b3-11",
-      "num": 11,
+      "id": "b3-10",
+      "num": 10,
       "bloco": 3,
       "title": "Clareou",
       "artist": "Diogo Nogueira",
@@ -5522,8 +5522,8 @@
       ]
     },
     {
-      "id": "b3-12",
-      "num": 12,
+      "id": "b3-11",
+      "num": 11,
       "bloco": 3,
       "title": "Alguém Me Avisou",
       "artist": "Dona Ivone Lara",
@@ -5588,8 +5588,8 @@
       ]
     },
     {
-      "id": "b3-13",
-      "num": 13,
+      "id": "b3-12",
+      "num": 12,
       "bloco": 3,
       "title": "Dança do Bole-Bole / Desafio / Onda",
       "artist": "Exaltasamba · Harmonia do Samba · Tchakabum",
@@ -5782,8 +5782,8 @@
       ]
     },
     {
-      "id": "b3-14",
-      "num": 14,
+      "id": "b3-13",
+      "num": 13,
       "bloco": 3,
       "title": "Pé na Areia",
       "artist": "Diogo Nogueira",
