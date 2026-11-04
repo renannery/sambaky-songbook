@@ -5,6 +5,71 @@
       "id": "b1-1",
       "num": 1,
       "bloco": 1,
+      "title": "Retalhos de Cetim",
+      "artist": "Benito Di Paula",
+      "tom": "Am",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": "⚑ Forma: intro · 1ª parte (as duas letras fazem a mesma volta) · refrão.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Am7"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Ensaiei meu samba o ano inteiro…",
+              "chords": "Am7 → Em7"
+            },
+            {
+              "chords": "Am7 → Em7"
+            },
+            {
+              "chords": "Am7 → F → F#° → Bm7(5-) → E7"
+            },
+            {
+              "cue": "(mesma volta: “Minha escola estava tão bonita…”)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Mas chegou o carnaval…",
+              "chords": "A7M → E → C#m7(5-) → F#7"
+            },
+            {
+              "chords": "Bm → Bm7M → Bm7 → E7"
+            },
+            {
+              "cue": "Eu chorei na avenida…",
+              "chords": "Am7 → C7 → F7M"
+            },
+            {
+              "chords": "Bm7(5-) → E7 → Am7 → E7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-2",
+      "num": 2,
+      "bloco": 1,
       "title": "A Batucada dos Nossos Tantãs",
       "artist": "Fundo de Quintal",
       "tom": "F",
@@ -48,8 +113,8 @@
       ]
     },
     {
-      "id": "b1-2",
-      "num": 2,
+      "id": "b1-3",
+      "num": 3,
       "bloco": 1,
       "title": "O Show Tem Que Continuar",
       "artist": "Fundo de Quintal",
@@ -200,8 +265,8 @@
       ]
     },
     {
-      "id": "b1-3",
-      "num": 3,
+      "id": "b1-4",
+      "num": 4,
       "bloco": 1,
       "title": "Sina",
       "artist": "Djavan (vers. Grupo Revelação)",
@@ -307,8 +372,8 @@
       ]
     },
     {
-      "id": "b1-4",
-      "num": 4,
+      "id": "b1-5",
+      "num": 5,
       "bloco": 1,
       "title": "Não Deixe o Samba Morrer",
       "artist": "Alcione",
@@ -391,8 +456,8 @@
       ]
     },
     {
-      "id": "b1-5",
-      "num": 5,
+      "id": "b1-6",
+      "num": 6,
       "bloco": 1,
       "title": "Mel na Boca",
       "artist": "Almir Guineto",
@@ -506,8 +571,8 @@
       ]
     },
     {
-      "id": "b1-6",
-      "num": 6,
+      "id": "b1-7",
+      "num": 7,
       "bloco": 1,
       "title": "Flor de Lis",
       "artist": "Djavan  ·  simplificado",
@@ -593,8 +658,8 @@
       ]
     },
     {
-      "id": "b1-7",
-      "num": 7,
+      "id": "b1-8",
+      "num": 8,
       "bloco": 1,
       "title": "Depois do Prazer",
       "artist": "Só Pra Contrariar",
@@ -676,8 +741,8 @@
       ]
     },
     {
-      "id": "b1-8",
-      "num": 8,
+      "id": "b1-9",
+      "num": 9,
       "bloco": 1,
       "title": "Brilho no Olhar",
       "artist": "Reinaldo",
@@ -751,8 +816,8 @@
       ]
     },
     {
-      "id": "b1-9",
-      "num": 9,
+      "id": "b1-10",
+      "num": 10,
       "bloco": 1,
       "title": "Se",
       "artist": "Djavan",
@@ -830,8 +895,8 @@
       ]
     },
     {
-      "id": "b1-10",
-      "num": 10,
+      "id": "b1-11",
+      "num": 11,
       "bloco": 1,
       "title": "Já É",
       "artist": "Jorge Aragão  ·  simplificado",
@@ -917,8 +982,8 @@
       ]
     },
     {
-      "id": "b1-11",
-      "num": 11,
+      "id": "b1-12",
+      "num": 12,
       "bloco": 1,
       "title": "Pot-Pourri 1",
       "artist": "Exalta · SPC · Os Morenos",
@@ -1054,8 +1119,8 @@
       ]
     },
     {
-      "id": "b1-12",
-      "num": 12,
+      "id": "b1-13",
+      "num": 13,
       "bloco": 1,
       "title": "Gamei",
       "artist": "Exaltasamba",
@@ -1206,8 +1271,359 @@
       ]
     },
     {
-      "id": "b1-13",
-      "num": 13,
+      "id": "b1-14",
+      "num": 14,
+      "bloco": 1,
+      "title": "Eu Nunca Amei Assim",
+      "artist": "Jeito Moleque",
+      "tom": "Gm",
+      "levada": "Pagode romântico",
+      "singers": [
+        {
+          "key": "camila",
+          "name": "Camila"
+        }
+      ],
+      "note": "⚑ Forma: intro · 1ª parte (2 letras) · ponte · refrão · 1ª parte (mais 2 letras) · ponte · refrão. As quatro letras da 1ª parte fazem a mesma volta.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Cm7 → Dm7 → Eb7M → Eb7M"
+            },
+            {
+              "chords": "Cm7 → Dm7 → Eb7M → Eb7M → F7(9/11)"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Melhor",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "A gente se",
+              "chords": "Gm7M"
+            },
+            {
+              "cue": "Entender, e o que tiver que",
+              "chords": "D/F#"
+            },
+            {
+              "cue": "Acontecer, que",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Dessa vez seja, pra",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Sempre",
+              "chords": "Cm7 → F7(9/11) → D7(9-)"
+            },
+            {
+              "cue": "(mesma volta: “Pra que brincar de se esconder…”, “Vem cá, me deixa te tocar…”, “Deixa o ciúme pra depois…” — sem o D7(9-) na última)"
+            }
+          ]
+        },
+        {
+          "label": "Ponte",
+          "lines": [
+            {
+              "cue": "Porque você não fica",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Comigo",
+              "chords": "Dm7 → Gm7 → Bb7(13)"
+            },
+            {
+              "cue": "E deixa o meu amor te",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Levar",
+              "chords": "Dm7 → D7"
+            },
+            {
+              "cue": "Solidão a dois é um",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Castigo",
+              "chords": "Dm7 → Gm7 → Bb7(13)"
+            },
+            {
+              "cue": "Sem essa de querer",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Complicar",
+              "chords": "F7(9/11)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Nosso amor é tão",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Lindo, e eu só",
+              "chords": "F/Eb"
+            },
+            {
+              "cue": "Penso em você",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Nossa paixão",
+              "chords": "Gm7 → Gm7/F"
+            },
+            {
+              "cue": "Mas o que eu tô",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Sentindo, você finge",
+              "chords": "F/Eb"
+            },
+            {
+              "cue": "Que não vê, a",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Solidão",
+              "chords": "Gm7 → Gm7/F"
+            },
+            {
+              "cue": "Nosso amor é tão",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Lindo",
+              "chords": "F/Eb"
+            },
+            {
+              "cue": "E você longe de",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Mim",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Eu nunca amei",
+              "chords": "Cm7 → Dm7"
+            },
+            {
+              "cue": "Assim",
+              "chords": "Eb7M   (2ª vez: → F7(9/11) · no fim: → Gm7)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-15",
+      "num": 15,
+      "bloco": 1,
+      "title": "Insegurança",
+      "artist": "Pixote",
+      "tom": "Bb",
+      "levada": "Pagode romântico",
+      "singers": [
+        {
+          "key": "camila",
+          "name": "Camila"
+        }
+      ],
+      "note": "⚑ Forma: intro (riff) · 1ª parte · pré · refrão · passagem · 1ª parte · pré · refrão (2x). Fecha em Bb7M.",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "Bb7M → F4(7/9) → Bb7M → Ab7M"
+            },
+            {
+              "chords": "Db7M → Cm7 → Cm7(5-)   (riff no violão)"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Essa noite eu notei que",
+              "chords": "Bb7M"
+            },
+            {
+              "cue": "Você demorou pra",
+              "chords": "F/A"
+            },
+            {
+              "cue": "Dormir, caminhou pela casa",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Ligou a tv eu",
+              "chords": "Bb7"
+            },
+            {
+              "cue": "Ouvi",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Você sussurrando",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Chorando baixinho",
+              "chords": "Cm7"
+            },
+            {
+              "cue": "Pra não me acordar",
+              "chords": "F4(7/9)"
+            },
+            {
+              "cue": "Se tiver precisando de",
+              "chords": "Bb7M"
+            },
+            {
+              "cue": "Amigo pra",
+              "chords": "F/A"
+            },
+            {
+              "cue": "Desabafar, se for alguma coisa",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Comigo vamos",
+              "chords": "Bb4(7/9)"
+            },
+            {
+              "cue": "Conversar",
+              "chords": "Bb7 → Eb7M"
+            },
+            {
+              "cue": "Eu não quero correr o perigo",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "De um dia você me deixar",
+              "chords": "Cm7"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão",
+          "lines": [
+            {
+              "cue": "Escolhi você pra ser minha mulher",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "E sou tão fiel a nossa relação",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Pelo amor de Deus se for",
+              "chords": "Ab7M"
+            },
+            {
+              "cue": "Insegurança tira do teu",
+              "chords": "F4(7/9)"
+            },
+            {
+              "cue": "Coração",
+              "chords": "Bb7M → F4(7/9)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Já é tarde vamos nos",
+              "chords": "Bb7M"
+            },
+            {
+              "cue": "Deitar",
+              "chords": "Bb7"
+            },
+            {
+              "cue": "Se quiser conversar",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Na nossa cama",
+              "chords": "Dm7"
+            },
+            {
+              "cue": "Porque sei que tudo isso",
+              "chords": "Cm7"
+            },
+            {
+              "cue": "Passa",
+              "chords": "Gm7"
+            },
+            {
+              "cue": "Você me abraça e a gente se",
+              "chords": "Gb7M"
+            },
+            {
+              "cue": "Ama",
+              "chords": "F4(7/9)"
+            },
+            {
+              "cue": "Eu não vou te trair com",
+              "chords": "Bb7M"
+            },
+            {
+              "cue": "Ninguém",
+              "chords": "Bb7"
+            },
+            {
+              "cue": "Meu amor você tem minha palavra",
+              "chords": "Eb7M → Dm7"
+            },
+            {
+              "cue": "Porque tudo que um homem",
+              "chords": "Cm7"
+            },
+            {
+              "cue": "Precisa",
+              "chords": "F4(7/9)"
+            },
+            {
+              "cue": "Eu tenho em casa",
+              "chords": "Bb7M → F4(7/9)   (no fim: → Bb7M)"
+            }
+          ]
+        },
+        {
+          "label": "Passagem",
+          "lines": [
+            {
+              "chords": "Eb7M → Dm7 → Cm7 → F4(7/9)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-16",
+      "num": 16,
       "bloco": 1,
       "title": "Morango do Nordeste",
       "artist": "Karametade",
@@ -1273,8 +1689,8 @@
       ]
     },
     {
-      "id": "b1-14",
-      "num": 14,
+      "id": "b1-17",
+      "num": 17,
       "bloco": 1,
       "title": "Retrato Cantado de Um Amor",
       "artist": "Reinaldo",
@@ -1363,8 +1779,8 @@
       ]
     },
     {
-      "id": "b1-15",
-      "num": 15,
+      "id": "b1-18",
+      "num": 18,
       "bloco": 1,
       "title": "Domingo",
       "artist": "Só Pra Contrariar",
@@ -1503,8 +1919,8 @@
       ]
     },
     {
-      "id": "b1-16",
-      "num": 16,
+      "id": "b1-19",
+      "num": 19,
       "bloco": 1,
       "title": "Deixa Acontecer",
       "artist": "Grupo Revelação",
@@ -1570,8 +1986,8 @@
       ]
     },
     {
-      "id": "b1-17",
-      "num": 17,
+      "id": "b1-20",
+      "num": 20,
       "bloco": 1,
       "title": "O Mar Serenou / Faixa Amarela / Deixa a Vida Me Levar",
       "artist": "Clara Nunes · Zeca Pagodinho",
@@ -1706,6 +2122,218 @@
           "lines": [
             {
               "chords": "(repete o refrão até o fim)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-21",
+      "num": 21,
+      "bloco": 1,
+      "title": "Berimbau / Canto de Ossanha",
+      "artist": "Vinicius de Moraes · Baden Powell",
+      "tom": "Dm",
+      "levada": "Medley · afro-samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": "⚑ Medley: Berimbau emenda direto no Canto de Ossanha (as duas em Dm). No Ossanha, 1ª e 2ª partes fazem a MESMA volta de 4 acordes. Ordem: parte · “vai, vai” · refrão · 2ª parte · “vai, vai” · refrão · passagem · final (“Vai… viver”).",
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Berimbau · Intro",
+          "lines": [
+            {
+              "chords": "Dm7 → G/D  /  Dm → Am7"
+            }
+          ]
+        },
+        {
+          "label": "Berimbau · Verso",
+          "lines": [
+            {
+              "cue": "Quem é homem de bem não",
+              "chords": "Dm"
+            },
+            {
+              "cue": "Trai, o amor que lhe quer seu",
+              "chords": "Am7"
+            },
+            {
+              "cue": "Bem, quem diz muito que vai, não",
+              "chords": "Dm"
+            },
+            {
+              "cue": "(segue alternando — a troca cai sempre na última palavra: vai · vem · sai · ninguém · dá · tem · cai)",
+              "chords": "Am7 ↔ Dm"
+            },
+            {
+              "cue": "E se um dia ele cai, cai bem",
+              "chords": "Dm7 → G/D"
+            }
+          ]
+        },
+        {
+          "label": "Berimbau · Refrão (2x)",
+          "lines": [
+            {
+              "cue": "Capoeira me",
+              "chords": "Gm7 → C7(9)"
+            },
+            {
+              "cue": "Mandou",
+              "chords": "F7M"
+            },
+            {
+              "cue": "Dizer que já",
+              "chords": "Bb7(9)"
+            },
+            {
+              "cue": "Chegou",
+              "chords": "Em7(5-)"
+            },
+            {
+              "cue": "Chegou para",
+              "chords": "A7(13-)"
+            },
+            {
+              "cue": "Lutar",
+              "chords": "Dm7 → D7(9)   (2ª vez: “Berimbau me confirmou…” / “Tristeza, camará” — mesma volta, fecha em Dm7)"
+            }
+          ]
+        },
+        {
+          "label": "Ossanha · Intro",
+          "lines": [
+            {
+              "chords": "Dm → Dm/F → E7 → Eb7M   (4x)"
+            }
+          ]
+        },
+        {
+          "label": "Ossanha · Volta (todas as partes)",
+          "lines": [
+            {
+              "cue": "O homem que",
+              "chords": "Dm"
+            },
+            {
+              "cue": "Diz “dou” não",
+              "chords": "Dm/F"
+            },
+            {
+              "cue": "Dá, porque quem dá",
+              "chords": "E7"
+            },
+            {
+              "cue": "Mesmo não",
+              "chords": "Eb7M"
+            },
+            {
+              "cue": "Diz",
+              "chords": "Dm"
+            },
+            {
+              "cue": "(mesma volta em todas: “vou/não vai” · “sou/não é” · “tô/não tá” · “Coitado do homem que cai…” · “…que vai…” · “Amigo senhor, saravá…” · “Se é canto de Ossanha…” · “Pergunte ao seu Orixá…” 2x)"
+            }
+          ]
+        },
+        {
+          "label": "Ossanha · “Vai, vai, vai”",
+          "lines": [
+            {
+              "cue": "Vai, vai, vai, vai, não vou",
+              "chords": "Dm/F → E7"
+            },
+            {
+              "cue": "Vai, vai, vai, vai, não vou",
+              "chords": "Eb7M → Dm"
+            },
+            {
+              "cue": "Vai, vai, vai, vai, não vou",
+              "chords": "Dm/F → E7"
+            },
+            {
+              "cue": "Vai, vai, vai, vai, eu vou",
+              "chords": "Eb7M → D6(9)"
+            },
+            {
+              "cue": "(na 2ª parte: amar · sofrer · chorar · dizer)"
+            }
+          ]
+        },
+        {
+          "label": "Ossanha · Refrão",
+          "lines": [
+            {
+              "cue": "Que eu não sou ninguém de…",
+              "chords": "D6(9)"
+            },
+            {
+              "cue": "…ir, em conversa de esque…",
+              "chords": "Bm7/A"
+            },
+            {
+              "cue": "…cer, a tristeza de um",
+              "chords": "G7M"
+            },
+            {
+              "cue": "Amor",
+              "chords": "E7(9)"
+            },
+            {
+              "cue": "Que passou",
+              "chords": "A7(9)"
+            },
+            {
+              "cue": "Não, eu só vou se for pra…",
+              "chords": "D6(9)"
+            },
+            {
+              "cue": "…ver, uma estrela apare…",
+              "chords": "Bm7"
+            },
+            {
+              "cue": "…cer, na man…",
+              "chords": "G7M"
+            },
+            {
+              "cue": "…hã de um",
+              "chords": "Em7"
+            },
+            {
+              "cue": "Novo",
+              "chords": "A7(9)"
+            },
+            {
+              "cue": "Amor",
+              "chords": "Dm"
+            }
+          ]
+        },
+        {
+          "label": "Ossanha · Passagem",
+          "lines": [
+            {
+              "chords": "Dm → Dm/F → E7 → Eb7M   (2x)"
+            }
+          ]
+        },
+        {
+          "label": "Ossanha · Final",
+          "lines": [
+            {
+              "cue": "Vai, vai, vai, vai, amar / sofrer / chorar",
+              "chords": "Dm/F → E7  ·  Eb7M → Dm"
+            },
+            {
+              "cue": "Vai, vai, vai, vai, viver",
+              "chords": "Eb7M → D6(9)"
             }
           ]
         }
@@ -4245,218 +4873,6 @@
       "id": "b3-7",
       "num": 7,
       "bloco": 3,
-      "title": "Berimbau / Canto de Ossanha",
-      "artist": "Vinicius de Moraes · Baden Powell",
-      "tom": "Dm",
-      "levada": "Medley · afro-samba",
-      "singers": [
-        {
-          "key": "mosquitao",
-          "name": "Mosquitão"
-        }
-      ],
-      "note": "⚑ Medley: Berimbau emenda direto no Canto de Ossanha (as duas em Dm). No Ossanha, 1ª e 2ª partes fazem a MESMA volta de 4 acordes. Ordem: parte · “vai, vai” · refrão · 2ª parte · “vai, vai” · refrão · passagem · final (“Vai… viver”).",
-      "cols2": true,
-      "chordsTop": true,
-      "sections": [
-        {
-          "label": "Berimbau · Intro",
-          "lines": [
-            {
-              "chords": "Dm7 → G/D  /  Dm → Am7"
-            }
-          ]
-        },
-        {
-          "label": "Berimbau · Verso",
-          "lines": [
-            {
-              "cue": "Quem é homem de bem não",
-              "chords": "Dm"
-            },
-            {
-              "cue": "Trai, o amor que lhe quer seu",
-              "chords": "Am7"
-            },
-            {
-              "cue": "Bem, quem diz muito que vai, não",
-              "chords": "Dm"
-            },
-            {
-              "cue": "(segue alternando — a troca cai sempre na última palavra: vai · vem · sai · ninguém · dá · tem · cai)",
-              "chords": "Am7 ↔ Dm"
-            },
-            {
-              "cue": "E se um dia ele cai, cai bem",
-              "chords": "Dm7 → G/D"
-            }
-          ]
-        },
-        {
-          "label": "Berimbau · Refrão (2x)",
-          "lines": [
-            {
-              "cue": "Capoeira me",
-              "chords": "Gm7 → C7(9)"
-            },
-            {
-              "cue": "Mandou",
-              "chords": "F7M"
-            },
-            {
-              "cue": "Dizer que já",
-              "chords": "Bb7(9)"
-            },
-            {
-              "cue": "Chegou",
-              "chords": "Em7(5-)"
-            },
-            {
-              "cue": "Chegou para",
-              "chords": "A7(13-)"
-            },
-            {
-              "cue": "Lutar",
-              "chords": "Dm7 → D7(9)   (2ª vez: “Berimbau me confirmou…” / “Tristeza, camará” — mesma volta, fecha em Dm7)"
-            }
-          ]
-        },
-        {
-          "label": "Ossanha · Intro",
-          "lines": [
-            {
-              "chords": "Dm → Dm/F → E7 → Eb7M   (4x)"
-            }
-          ]
-        },
-        {
-          "label": "Ossanha · Volta (todas as partes)",
-          "lines": [
-            {
-              "cue": "O homem que",
-              "chords": "Dm"
-            },
-            {
-              "cue": "Diz “dou” não",
-              "chords": "Dm/F"
-            },
-            {
-              "cue": "Dá, porque quem dá",
-              "chords": "E7"
-            },
-            {
-              "cue": "Mesmo não",
-              "chords": "Eb7M"
-            },
-            {
-              "cue": "Diz",
-              "chords": "Dm"
-            },
-            {
-              "cue": "(mesma volta em todas: “vou/não vai” · “sou/não é” · “tô/não tá” · “Coitado do homem que cai…” · “…que vai…” · “Amigo senhor, saravá…” · “Se é canto de Ossanha…” · “Pergunte ao seu Orixá…” 2x)"
-            }
-          ]
-        },
-        {
-          "label": "Ossanha · “Vai, vai, vai”",
-          "lines": [
-            {
-              "cue": "Vai, vai, vai, vai, não vou",
-              "chords": "Dm/F → E7"
-            },
-            {
-              "cue": "Vai, vai, vai, vai, não vou",
-              "chords": "Eb7M → Dm"
-            },
-            {
-              "cue": "Vai, vai, vai, vai, não vou",
-              "chords": "Dm/F → E7"
-            },
-            {
-              "cue": "Vai, vai, vai, vai, eu vou",
-              "chords": "Eb7M → D6(9)"
-            },
-            {
-              "cue": "(na 2ª parte: amar · sofrer · chorar · dizer)"
-            }
-          ]
-        },
-        {
-          "label": "Ossanha · Refrão",
-          "lines": [
-            {
-              "cue": "Que eu não sou ninguém de…",
-              "chords": "D6(9)"
-            },
-            {
-              "cue": "…ir, em conversa de esque…",
-              "chords": "Bm7/A"
-            },
-            {
-              "cue": "…cer, a tristeza de um",
-              "chords": "G7M"
-            },
-            {
-              "cue": "Amor",
-              "chords": "E7(9)"
-            },
-            {
-              "cue": "Que passou",
-              "chords": "A7(9)"
-            },
-            {
-              "cue": "Não, eu só vou se for pra…",
-              "chords": "D6(9)"
-            },
-            {
-              "cue": "…ver, uma estrela apare…",
-              "chords": "Bm7"
-            },
-            {
-              "cue": "…cer, na man…",
-              "chords": "G7M"
-            },
-            {
-              "cue": "…hã de um",
-              "chords": "Em7"
-            },
-            {
-              "cue": "Novo",
-              "chords": "A7(9)"
-            },
-            {
-              "cue": "Amor",
-              "chords": "Dm"
-            }
-          ]
-        },
-        {
-          "label": "Ossanha · Passagem",
-          "lines": [
-            {
-              "chords": "Dm → Dm/F → E7 → Eb7M   (2x)"
-            }
-          ]
-        },
-        {
-          "label": "Ossanha · Final",
-          "lines": [
-            {
-              "cue": "Vai, vai, vai, vai, amar / sofrer / chorar",
-              "chords": "Dm/F → E7  ·  Eb7M → Dm"
-            },
-            {
-              "cue": "Vai, vai, vai, vai, viver",
-              "chords": "Eb7M → D6(9)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b3-8",
-      "num": 8,
-      "bloco": 3,
       "title": "Preciso Me Encontrar",
       "artist": "Cartola",
       "tom": "Dm",
@@ -4575,359 +4991,8 @@
       ]
     },
     {
-      "id": "b3-9",
-      "num": 9,
-      "bloco": 3,
-      "title": "Eu Nunca Amei Assim",
-      "artist": "Jeito Moleque",
-      "tom": "Gm",
-      "levada": "Pagode romântico",
-      "singers": [
-        {
-          "key": "camila",
-          "name": "Camila"
-        }
-      ],
-      "note": "⚑ Forma: intro · 1ª parte (2 letras) · ponte · refrão · 1ª parte (mais 2 letras) · ponte · refrão. As quatro letras da 1ª parte fazem a mesma volta.",
-      "cols2": true,
-      "chordsTop": true,
-      "sections": [
-        {
-          "label": "Intro",
-          "lines": [
-            {
-              "chords": "Cm7 → Dm7 → Eb7M → Eb7M"
-            },
-            {
-              "chords": "Cm7 → Dm7 → Eb7M → Eb7M → F7(9/11)"
-            }
-          ]
-        },
-        {
-          "label": "1ª Parte",
-          "lines": [
-            {
-              "cue": "Melhor",
-              "chords": "Gm7"
-            },
-            {
-              "cue": "A gente se",
-              "chords": "Gm7M"
-            },
-            {
-              "cue": "Entender, e o que tiver que",
-              "chords": "D/F#"
-            },
-            {
-              "cue": "Acontecer, que",
-              "chords": "Eb7M"
-            },
-            {
-              "cue": "Dessa vez seja, pra",
-              "chords": "Dm7"
-            },
-            {
-              "cue": "Sempre",
-              "chords": "Cm7 → F7(9/11) → D7(9-)"
-            },
-            {
-              "cue": "(mesma volta: “Pra que brincar de se esconder…”, “Vem cá, me deixa te tocar…”, “Deixa o ciúme pra depois…” — sem o D7(9-) na última)"
-            }
-          ]
-        },
-        {
-          "label": "Ponte",
-          "lines": [
-            {
-              "cue": "Porque você não fica",
-              "chords": "Eb7M"
-            },
-            {
-              "cue": "Comigo",
-              "chords": "Dm7 → Gm7 → Bb7(13)"
-            },
-            {
-              "cue": "E deixa o meu amor te",
-              "chords": "Eb7M"
-            },
-            {
-              "cue": "Levar",
-              "chords": "Dm7 → D7"
-            },
-            {
-              "cue": "Solidão a dois é um",
-              "chords": "Eb7M"
-            },
-            {
-              "cue": "Castigo",
-              "chords": "Dm7 → Gm7 → Bb7(13)"
-            },
-            {
-              "cue": "Sem essa de querer",
-              "chords": "Eb7M"
-            },
-            {
-              "cue": "Complicar",
-              "chords": "F7(9/11)"
-            }
-          ]
-        },
-        {
-          "label": "Refrão",
-          "lines": [
-            {
-              "cue": "Nosso amor é tão",
-              "chords": "Eb7M"
-            },
-            {
-              "cue": "Lindo, e eu só",
-              "chords": "F/Eb"
-            },
-            {
-              "cue": "Penso em você",
-              "chords": "Dm7"
-            },
-            {
-              "cue": "Nossa paixão",
-              "chords": "Gm7 → Gm7/F"
-            },
-            {
-              "cue": "Mas o que eu tô",
-              "chords": "Eb7M"
-            },
-            {
-              "cue": "Sentindo, você finge",
-              "chords": "F/Eb"
-            },
-            {
-              "cue": "Que não vê, a",
-              "chords": "Dm7"
-            },
-            {
-              "cue": "Solidão",
-              "chords": "Gm7 → Gm7/F"
-            },
-            {
-              "cue": "Nosso amor é tão",
-              "chords": "Eb7M"
-            },
-            {
-              "cue": "Lindo",
-              "chords": "F/Eb"
-            },
-            {
-              "cue": "E você longe de",
-              "chords": "Dm7"
-            },
-            {
-              "cue": "Mim",
-              "chords": "Gm7"
-            },
-            {
-              "cue": "Eu nunca amei",
-              "chords": "Cm7 → Dm7"
-            },
-            {
-              "cue": "Assim",
-              "chords": "Eb7M   (2ª vez: → F7(9/11) · no fim: → Gm7)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b3-10",
-      "num": 10,
-      "bloco": 3,
-      "title": "Insegurança",
-      "artist": "Pixote",
-      "tom": "Bb",
-      "levada": "Pagode romântico",
-      "singers": [
-        {
-          "key": "camila",
-          "name": "Camila"
-        }
-      ],
-      "note": "⚑ Forma: intro (riff) · 1ª parte · pré · refrão · passagem · 1ª parte · pré · refrão (2x). Fecha em Bb7M.",
-      "cols2": true,
-      "chordsTop": true,
-      "sections": [
-        {
-          "label": "Intro",
-          "lines": [
-            {
-              "chords": "Bb7M → F4(7/9) → Bb7M → Ab7M"
-            },
-            {
-              "chords": "Db7M → Cm7 → Cm7(5-)   (riff no violão)"
-            }
-          ]
-        },
-        {
-          "label": "1ª Parte",
-          "lines": [
-            {
-              "cue": "Essa noite eu notei que",
-              "chords": "Bb7M"
-            },
-            {
-              "cue": "Você demorou pra",
-              "chords": "F/A"
-            },
-            {
-              "cue": "Dormir, caminhou pela casa",
-              "chords": "Gm7"
-            },
-            {
-              "cue": "Ligou a tv eu",
-              "chords": "Bb7"
-            },
-            {
-              "cue": "Ouvi",
-              "chords": "Eb7M"
-            },
-            {
-              "cue": "Você sussurrando",
-              "chords": "Dm7"
-            },
-            {
-              "cue": "Chorando baixinho",
-              "chords": "Cm7"
-            },
-            {
-              "cue": "Pra não me acordar",
-              "chords": "F4(7/9)"
-            },
-            {
-              "cue": "Se tiver precisando de",
-              "chords": "Bb7M"
-            },
-            {
-              "cue": "Amigo pra",
-              "chords": "F/A"
-            },
-            {
-              "cue": "Desabafar, se for alguma coisa",
-              "chords": "Gm7"
-            },
-            {
-              "cue": "Comigo vamos",
-              "chords": "Bb4(7/9)"
-            },
-            {
-              "cue": "Conversar",
-              "chords": "Bb7 → Eb7M"
-            },
-            {
-              "cue": "Eu não quero correr o perigo",
-              "chords": "Dm7"
-            },
-            {
-              "cue": "De um dia você me deixar",
-              "chords": "Cm7"
-            }
-          ]
-        },
-        {
-          "label": "Pré-Refrão",
-          "lines": [
-            {
-              "cue": "Escolhi você pra ser minha mulher",
-              "chords": "Eb7M"
-            },
-            {
-              "cue": "E sou tão fiel a nossa relação",
-              "chords": "Gm7"
-            },
-            {
-              "cue": "Pelo amor de Deus se for",
-              "chords": "Ab7M"
-            },
-            {
-              "cue": "Insegurança tira do teu",
-              "chords": "F4(7/9)"
-            },
-            {
-              "cue": "Coração",
-              "chords": "Bb7M → F4(7/9)"
-            }
-          ]
-        },
-        {
-          "label": "Refrão",
-          "lines": [
-            {
-              "cue": "Já é tarde vamos nos",
-              "chords": "Bb7M"
-            },
-            {
-              "cue": "Deitar",
-              "chords": "Bb7"
-            },
-            {
-              "cue": "Se quiser conversar",
-              "chords": "Eb7M"
-            },
-            {
-              "cue": "Na nossa cama",
-              "chords": "Dm7"
-            },
-            {
-              "cue": "Porque sei que tudo isso",
-              "chords": "Cm7"
-            },
-            {
-              "cue": "Passa",
-              "chords": "Gm7"
-            },
-            {
-              "cue": "Você me abraça e a gente se",
-              "chords": "Gb7M"
-            },
-            {
-              "cue": "Ama",
-              "chords": "F4(7/9)"
-            },
-            {
-              "cue": "Eu não vou te trair com",
-              "chords": "Bb7M"
-            },
-            {
-              "cue": "Ninguém",
-              "chords": "Bb7"
-            },
-            {
-              "cue": "Meu amor você tem minha palavra",
-              "chords": "Eb7M → Dm7"
-            },
-            {
-              "cue": "Porque tudo que um homem",
-              "chords": "Cm7"
-            },
-            {
-              "cue": "Precisa",
-              "chords": "F4(7/9)"
-            },
-            {
-              "cue": "Eu tenho em casa",
-              "chords": "Bb7M → F4(7/9)   (no fim: → Bb7M)"
-            }
-          ]
-        },
-        {
-          "label": "Passagem",
-          "lines": [
-            {
-              "chords": "Eb7M → Dm7 → Cm7 → F4(7/9)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "b3-11",
-      "num": 11,
+      "id": "b3-8",
+      "num": 8,
       "bloco": 3,
       "title": "Quem É Ela?",
       "artist": "Zeca Pagodinho",
@@ -5072,8 +5137,8 @@
       ]
     },
     {
-      "id": "b3-12",
-      "num": 12,
+      "id": "b3-9",
+      "num": 9,
       "bloco": 3,
       "title": "Do Jeito Que a Vida Quer",
       "artist": "Grupo Revelação",
@@ -5227,8 +5292,8 @@
       ]
     },
     {
-      "id": "b3-13",
-      "num": 13,
+      "id": "b3-10",
+      "num": 10,
       "bloco": 3,
       "title": "Coração Partido",
       "artist": "Menos é Mais  ·  simplificado",
@@ -5308,8 +5373,8 @@
       ]
     },
     {
-      "id": "b3-14",
-      "num": 14,
+      "id": "b3-11",
+      "num": 11,
       "bloco": 3,
       "title": "Clareou",
       "artist": "Diogo Nogueira",
@@ -5457,8 +5522,8 @@
       ]
     },
     {
-      "id": "b3-15",
-      "num": 15,
+      "id": "b3-12",
+      "num": 12,
       "bloco": 3,
       "title": "Alguém Me Avisou",
       "artist": "Dona Ivone Lara",
@@ -5523,8 +5588,8 @@
       ]
     },
     {
-      "id": "b3-16",
-      "num": 16,
+      "id": "b3-13",
+      "num": 13,
       "bloco": 3,
       "title": "Dança do Bole-Bole / Desafio / Onda",
       "artist": "Exaltasamba · Harmonia do Samba · Tchakabum",
@@ -5717,8 +5782,8 @@
       ]
     },
     {
-      "id": "b3-17",
-      "num": 17,
+      "id": "b3-14",
+      "num": 14,
       "bloco": 3,
       "title": "Pé na Areia",
       "artist": "Diogo Nogueira",
