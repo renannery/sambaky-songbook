@@ -129,6 +129,17 @@ body {
   border-radius:10px;font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;
   letter-spacing:.04em;font-size:.9rem;color:var(--ink);cursor:pointer;text-align:left;}
 .ixlive.on{display:flex;}
+.rolerow{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;margin:0 0 14px;}
+.rolelbl{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.1em;
+  font-size:.68rem;color:var(--muted);}
+.rolebtns{display:flex;gap:6px;}
+.rolebtn{font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.05em;
+  font-size:.72rem;padding:5px 12px;border-radius:14px;cursor:pointer;
+  border:1px solid var(--line);background:var(--paper2);color:var(--muted);}
+.rolebtn:hover{color:var(--garnet);border-color:var(--garnet);}
+.rolebtn.on{background:var(--garnet);border-color:var(--garnet);color:#fff;}
+.rolehint{font-size:.78rem;color:var(--muted);font-style:italic;flex:1 1 100%;}
+@media print{.rolerow{display:none !important;}}
 .ixlive.off{opacity:.5;}
 .ixlive .dot{width:9px;height:9px;border-radius:50%;background:#3fae5a;flex:0 0 auto;
   box-shadow:0 0 6px #3fae5a;animation:ixpulse 1.6s ease-in-out infinite;}
@@ -275,6 +286,13 @@ footer {
   box-shadow:0 2px 8px rgba(0,0,0,.22);pointer-events:none;}
 #stage .wakeind.on{display:inline-flex;}
 #stage .wakeind .wdot{width:8px;height:8px;border-radius:50%;background:#3fae5a;box-shadow:0 0 6px #3fae5a;}
+#stage .roleind{position:absolute;top:8px;left:12px;z-index:4;display:inline-flex;align-items:center;gap:6px;
+  pointer-events:none;font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.09em;
+  font-size:.64rem;color:var(--muted);background:var(--glass);border:1px solid var(--line);
+  border-radius:12px;padding:3px 9px;}
+#stage .roleind .rdot{width:7px;height:7px;border-radius:50%;background:var(--muted);}
+#stage .roleind.manda{color:#3fae5a;}
+#stage .roleind.manda .rdot{background:#3fae5a;box-shadow:0 0 6px #3fae5a;}
 .appver{margin-top:30px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:.7rem;
   letter-spacing:.04em;color:var(--muted);opacity:.75;}
 #stage .sjump .jver{font-family:'JetBrains Mono',monospace;font-size:.72rem;color:var(--muted);
@@ -462,6 +480,15 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
   </div>
 
   <div class="indexblock">
+    <div class="rolerow">
+      <span class="rolelbl">Este aparelho</span>
+      <div class="rolebtns">
+        <button type="button" class="rolebtn" data-role="maestro">Maestro</button>
+        <button type="button" class="rolebtn" data-role="seguir">Seguir</button>
+        <button type="button" class="rolebtn" data-role="livre">Livre</button>
+      </div>
+      <span class="rolehint" id="rolehint"></span>
+    </div>
     <button id="ixlive" class="ixlive" type="button"><span class="dot"></span><span id="ixlivetxt"></span></button>
     <div id="songindex"></div>
   </div>
@@ -513,6 +540,7 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
     <div class="stimer" id="stimer">⏱ 00:00</div>
     <div class="spos" id="spos"></div>
   </div>
+  <div class="roleind" id="roleind"><span class="rdot"></span><span id="roleindtxt"></span></div>
   <div class="wakeind" id="wakeind"><span class="wdot"></span>Tela acesa</div>
   <button class="sarrow left" onclick="zoneClick(-1)" aria-label="anterior">‹</button>
   <button class="sarrow right" onclick="zoneClick(1)" aria-label="próxima">›</button>
@@ -626,6 +654,7 @@ document.addEventListener('keydown',function(e){
 // manda o título (e não o id), que não muda quando os blocos são renumerados
 function syncPush(song){
   if(!SYNC_URL)return;
+  if(role()!=='maestro')return;        // dois aparelhos mandando se sobrescrevem: so um manda
   var body = song ? {title:song.title, bloco:song.bloco, num:song.num, at:Date.now()}
                   : {title:null, at:Date.now()};
   try{fetch(SYNC_URL+'.json',{method:'PUT',body:JSON.stringify(body)}).catch(function(){});}catch(e){}
@@ -637,6 +666,10 @@ function openStage(){if(!isUnlocked()){openLock();return;}
   stage.classList.remove('lyrics');            // todo show comeca pela cifra
   let best=0,bestd=1e9;SONGS_ORDER.forEach((o,i)=>{const el=document.getElementById(o.id);
     if(el){const r=el.getBoundingClientRect();const d=Math.abs(r.top);if(r.top<window.innerHeight*0.6 && d<bestd){bestd=d;best=i;}}});
+  if(role()==='seguir'){                       // seguidor entra onde o maestro esta
+    var ls=songByTitle(liveData&&liveData.title);
+    if(ls){var li=SONGS_ORDER.findIndex(function(o){return o.id===ls.id;}); if(li>=0)best=li;}
+  }
   idx=best;stage.classList.add('open');stage.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';render();requestWakeLock();startShowTimer();}
 function closeStage(){syncPush(null);stage.classList.remove('open');stage.setAttribute('aria-hidden','true');document.body.style.overflow='';closeJump();const f=document.getElementById('sfab');if(f)f.classList.remove('open');releaseWakeLock();stopShowTimer();}
 function toggleFab(){document.getElementById('sfab').classList.toggle('open');}
@@ -718,6 +751,62 @@ function updateMenuBtn(){var b=document.getElementById('menubtn'),ix=document.qu
   if(!b||!ix)return;b.classList.toggle('show', ix.getBoundingClientRect().bottom < 0);}
 window.addEventListener('scroll',updateMenuBtn,{passive:true});
 window.addEventListener('resize',updateMenuBtn);
+
+// ======== PAPEL DO APARELHO ========
+// maestro = manda a musica atual; seguir = acompanha o maestro; livre = nenhum dos dois.
+// Maestro e seguidor se excluem, por isso e uma escolha so e nao dois interruptores.
+var ROLES = {
+  maestro: 'manda a m\u00fasica atual pro p\u00fablico e pro resto da banda',
+  seguir:  'acompanha o maestro: a p\u00e1gina anda sozinha',
+  livre:   's\u00f3 mostra qual m\u00fasica est\u00e1 tocando, sem mexer na p\u00e1gina'
+};
+function role(){
+  try{
+    var r=localStorage.getItem('sb_role');
+    if(ROLES[r])return r;
+    // quem ja tinha o Modo Palco liberado antes desta versao era quem conduzia o show
+    var legado = localStorage.getItem('sb_palco')==='1' ? 'maestro' : 'livre';
+    localStorage.setItem('sb_role',legado);
+    return legado;
+  }catch(e){return 'livre';}
+}
+function setRole(r){
+  if(!ROLES[r])return;
+  try{localStorage.setItem('sb_role',r);}catch(e){}
+  paintRole();
+  if(r==='maestro'){ if(stage.classList.contains('open'))syncCurrent(); }  // assume o comando agora
+  else if(r==='seguir'){ followLast=null; followLive(liveData); }          // alcanca o maestro agora
+}
+function paintRole(){
+  var r=role();
+  var bs=document.querySelectorAll('.rolebtn');
+  for(var i=0;i<bs.length;i++)bs[i].classList.toggle('on', bs[i].getAttribute('data-role')===r);
+  var h=document.getElementById('rolehint'); if(h)h.textContent=ROLES[r];
+  var ind=document.getElementById('roleind'), it=document.getElementById('roleindtxt');
+  if(ind&&it){ ind.classList.toggle('manda', r==='maestro');
+    it.textContent = r==='maestro' ? 'transmitindo' : (r==='seguir' ? 'seguindo o maestro' : 's\u00f3 este aparelho'); }
+}
+document.addEventListener('click',function(ev){
+  var b=ev.target.closest && ev.target.closest('.rolebtn');
+  if(b)setRole(b.getAttribute('data-role'));
+});
+
+// ---- seguir o maestro ----
+var followLast=null;
+function followLive(live){
+  var t = live && live.title;
+  if(t===followLast)return;        // mesmo estado chegando de novo (o 'at' muda): nao mexe na pagina
+  followLast=t;
+  if(role()!=='seguir'||!t)return;
+  var s=songByTitle(t); if(!s)return;
+  if(stage.classList.contains('open')){
+    var i=SONGS_ORDER.findIndex(function(o){return o.id===s.id;});
+    if(i>=0&&i!==idx){slideDir=0;idx=i;render();}
+  }else{
+    var el=document.getElementById(s.id);
+    if(el)el.scrollIntoView({behavior:'instant',block:'start'});
+  }
+}
 
 // ======== LETRA ========
 // Na pagina: um botao por musica. No palco: um botao so, que vale pro card inteiro.
@@ -877,7 +966,8 @@ async function boot(){
     return;
   }
   renderAll();
-  liveSubscribe(paintIndexNow, ixLiveStatus);   // marca no sumario quem esta tocando
+  paintRole();
+  liveSubscribe(function(d){paintIndexNow(d);followLive(d);}, ixLiveStatus);
   if(location.hash){ try{ const el=document.querySelector(location.hash); if(el) el.scrollIntoView(); }catch(_){} }
 }
 boot();
