@@ -123,6 +123,22 @@ body {
 .ix-artist { font-size: .82rem; color: var(--muted); text-align: right; }
 .ix-sing { color: var(--garnet2); font-style: italic; }
 
+/* tocando agora: marca no sumario, alimentada pelo mesmo stream da tela do publico */
+.ixlive{display:none;align-items:center;gap:9px;width:100%;margin:0 0 14px;padding:10px 14px;
+  background:var(--singbg);border:1px solid var(--singbd);border-left:5px solid var(--garnet);
+  border-radius:10px;font-family:'Oswald',sans-serif;font-weight:600;text-transform:uppercase;
+  letter-spacing:.04em;font-size:.9rem;color:var(--ink);cursor:pointer;text-align:left;}
+.ixlive.on{display:flex;}
+.ixlive.off{opacity:.5;}
+.ixlive .dot{width:9px;height:9px;border-radius:50%;background:#3fae5a;flex:0 0 auto;
+  box-shadow:0 0 6px #3fae5a;animation:ixpulse 1.6s ease-in-out infinite;}
+.ixlive.off .dot{background:var(--muted);box-shadow:none;animation:none;}
+@keyframes ixpulse{0%,100%{opacity:1;}50%{opacity:.35;}}
+.indexlist li.playing a{background:var(--singbg);border-bottom-color:transparent;border-radius:6px;}
+.indexlist li.playing .ix-title{color:var(--garnet);font-weight:600;}
+.indexlist li.playing .ix-num::after{content:' \25B8';}
+@media print{.ixlive{display:none !important;}}
+
 /* ---------- SONG ---------- */
 .song {
   margin-top: 30px; padding-top: 26px; padding-bottom: 22px; border-top: 1px solid var(--line);
@@ -414,7 +430,10 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
     <div class="appver" id="appver"></div>
   </div>
 
-  <div class="indexblock"><div id="songindex"></div></div>
+  <div class="indexblock">
+    <button id="ixlive" class="ixlive" type="button"><span class="dot"></span><span id="ixlivetxt"></span></button>
+    <div id="songindex"></div>
+  </div>
 
   <div id="songsarea"></div>
 
@@ -483,7 +502,7 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
 <script>
 let SONGS = [], SONGS_ORDER = [];
 
-const APP_VERSION='2026-11-04 · 13:57 EST';
+const APP_VERSION='2026-11-04 · 14:03 EST';
 // ---- "tocando agora" em tempo real (opcional) ----
 // Cole aqui a URL do Realtime Database do Firebase + um caminho, por exemplo:
 //   'https://sambaky-ab12c-default-rtdb.firebaseio.com/live'
@@ -723,33 +742,63 @@ function pbStatus(ok){var e=document.getElementById('pblive');if(!e)return;
   document.getElementById('pblivetxt').textContent =
     !SYNC_URL ? 'acompanhamento ao vivo desligado' : (ok?'ao vivo':'reconectando…');}
 
-function pbPoll(){
+// ---- assinatura do "tocando agora" (serve o sumario da banda E a tela do publico) ----
+var liveEs=null, liveTimer=null, liveData=null, liveOnData=null, liveOnStatus=null;
+
+function liveRead(){
   fetch(SYNC_URL+'.json?ts='+Date.now(),{cache:'no-store'})
     .then(function(r){return r.json();})
-    .then(function(d){paintNow(d);pbStatus(true);})
-    .catch(function(){pbStatus(false);});
+    .then(function(d){liveData=d;liveOnData(d);liveOnStatus(true);})
+    .catch(function(){liveOnStatus(false);});   // leitura falhou: mantem o ultimo estado na tela
 }
 
-function pbSubscribe(){
-  if(!SYNC_URL){pbStatus(false);paintNow(null);return;}
+function liveSubscribe(onData,onStatus){
+  liveOnData=onData||function(){}; liveOnStatus=onStatus||function(){};
+  if(!SYNC_URL){liveOnStatus(false);liveOnData(null);return;}
   try{
-    pbEs=new EventSource(SYNC_URL+'.json');
-    pbEs.addEventListener('put',function(ev){
+    liveEs=new EventSource(SYNC_URL+'.json');
+    liveEs.addEventListener('put',function(ev){
       try{var m=JSON.parse(ev.data);
-        if(m.path==='/')paintNow(m.data);else pbPoll();
-        pbStatus(true);
-        if(pbTimer){clearInterval(pbTimer);pbTimer=null;}  // stream voltou: dispensa o polling
+        if(m.path==='/'){liveData=m.data;liveOnData(m.data);}else liveRead();
+        liveOnStatus(true);
+        if(liveTimer){clearInterval(liveTimer);liveTimer=null;}  // stream voltou: dispensa o polling
       }catch(e){}
     });
-    pbEs.addEventListener('patch',function(){pbPoll();});
+    liveEs.addEventListener('patch',function(){liveRead();});
     // o stream pode cair (sinal ruim, proxy): cai no polling e deixa o RESULTADO da leitura
-    // definir o status — senão o erro do stream apagaria o "ao vivo" de um poll que deu certo
-    pbEs.onerror=function(){
-      if(!pbTimer)pbTimer=setInterval(pbPoll,5000);
-      pbPoll();};
-  }catch(e){pbTimer=setInterval(pbPoll,5000);}
-  pbPoll();   // primeiro estado sem esperar o stream
+    // definir o status - senao o erro do stream apagaria o "ao vivo" de um poll que deu certo
+    liveEs.onerror=function(){
+      if(!liveTimer)liveTimer=setInterval(liveRead,5000);
+      liveRead();};
+  }catch(e){liveTimer=setInterval(liveRead,5000);}
+  liveRead();   // primeiro estado sem esperar o stream
 }
+
+// ======== "TOCANDO AGORA" NO SUMARIO (visao da banda) ========
+function songByTitle(t){
+  if(!t)return null;
+  var r=SONGS.filter(function(s){return s.title===t;});
+  return r.length?r[0]:null;
+}
+function paintIndexNow(live){
+  var bar=document.getElementById('ixlive'), txt=document.getElementById('ixlivetxt');
+  var itens=document.querySelectorAll('#songindex .indexlist li');
+  for(var k=0;k<itens.length;k++)itens[k].classList.remove('playing');
+  var s=songByTitle(live&&live.title);
+  if(!s){ if(bar){bar.classList.remove('on');bar.removeAttribute('data-id');} return; }
+  var a=document.querySelector('#songindex a[href="#'+s.id+'"]');
+  if(a&&a.parentNode)a.parentNode.classList.add('playing');
+  if(bar&&txt){ txt.textContent='tocando agora: '+s.title+' \u00b7 n\u00ba '+s.num;
+    bar.setAttribute('data-id',s.id); bar.classList.add('on'); }
+}
+function ixLiveStatus(ok){var b=document.getElementById('ixlive');
+  if(b)b.classList.toggle('off',!ok);}
+var ixbar=document.getElementById('ixlive');
+if(ixbar)ixbar.addEventListener('click',function(){
+  var id=this.getAttribute('data-id'); if(!id)return;
+  var el=document.getElementById(id);
+  if(el)el.scrollIntoView({behavior:'instant',block:'start'});
+});
 
 // ---- render a partir do songs.json ----
 function renderAll(){
@@ -760,6 +809,7 @@ function renderAll(){
   var sub=document.getElementById('coversub');
   if(sub) sub.textContent='BonnyMoon 2 · 2 Blocos + Extras · '+SONGS.length+' números';
   wrapChords();
+  paintIndexNow(liveData);
 }
 async function boot(){
   try{
@@ -772,10 +822,11 @@ async function boot(){
     document.getElementById('publico').setAttribute('aria-hidden','false');
     renderPublicoList();
     paintNow(null);
-    pbSubscribe();
+    liveSubscribe(paintNow, pbStatus);
     return;
   }
   renderAll();
+  liveSubscribe(paintIndexNow, ixLiveStatus);   // marca no sumario quem esta tocando
   if(location.hash){ try{ const el=document.querySelector(location.hash); if(el) el.scrollIntoView(); }catch(_){} }
 }
 boot();
