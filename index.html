@@ -463,10 +463,10 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
 <div class="wrap">
 
   <div class="cover">
-    <div class="coverlogo"><img src="logo-src.svg" alt="SambaKY" width="512" height="512"></div>
-    <div class="kicker">SambaKY · Set List</div>
-    <h1>Songbook<span class="red">do Cavaco</span></h1>
-    <div class="sub" id="coversub">BonnyMoon 2 · 2 Blocos + Extras · 40 números</div>
+    <div class="coverlogo"><img src="logo-src.svg" alt="Band Songbook" width="512" height="512"></div>
+    <div class="kicker">Realtime Sync</div>
+    <h1>Band<span class="red">Songbook</span></h1>
+    <div class="sub" id="coversub">2 Blocos + Extras · 40 números</div>
     <div class="rule"></div>
     <p class="inst">Trecho-gatilho entre aspas, acordes logo abaixo. Você já sabe a letra —
     aqui é só pra lembrar a virada e qual acorde vem. Notação padronizada (7M, (5-), °).</p>
@@ -488,7 +488,7 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
   <div id="songsarea"></div>
 
   <footer>
-    SambaKY — Songbook do Cavaco · BonnyMoon 2 · arranjo de leitura ao vivo.<br>
+    Band Songbook - Realtime Sync · arranjo de leitura ao vivo.<br>
     Cifras conferidas contra o setlist original. Toca bonito. 🪕<br>
     <a class="pblink" href="?publico">📱 Tela do público</a>
   </footer>
@@ -497,7 +497,7 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
 
 <div id="publico" aria-hidden="true">
   <div class="pbtop">
-    <div class="kicker">SambaKY · ao vivo</div>
+    <div class="kicker">Band Songbook · ao vivo</div>
     <h1>Set List</h1>
   </div>
   <div id="pbnow"></div>
@@ -566,7 +566,7 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
 <script>
 let SONGS = [], SONGS_ORDER = [];
 
-const APP_VERSION='2026-11-04 · 14:49 EST';
+const APP_VERSION='2026-11-04 · 14:52 EST';
 // ---- "tocando agora" em tempo real (opcional) ----
 // Cole aqui a URL do Realtime Database do Firebase + um caminho, por exemplo:
 //   'https://sambaky-ab12c-default-rtdb.firebaseio.com/live'
@@ -971,7 +971,7 @@ function renderAll(){
   SONGS_ORDER = SB.buildOrder(SONGS);
   updateMenuBtn();
   var sub=document.getElementById('coversub');
-  if(sub) sub.textContent='BonnyMoon 2 · 2 Blocos + Extras · '+SONGS.length+' números';
+  if(sub) sub.textContent='2 Blocos + Extras · '+SONGS.length+' números';
   wrapChords();
   paintIndexNow(liveData);
 }
