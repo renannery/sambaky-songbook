@@ -21,6 +21,10 @@
       if (!linhas.length) return;
       h += '<div class="lyblock">';
       linhas.forEach(function (l) {
+        // '> ...' e a traducao do verso de cima; fica colada nele, entao da pra
+        // traduzir so algumas linhas sem desalinhar nada
+        var t = /^\s*>\s?(.*)$/.exec(l);
+        if (t) { h += '<div class="lytrans">' + esc(t[1].trim()) + '</div>'; return; }
         // aceita '[Refrao]' e tambem '[Refrao] (2x)', com a observacao depois do colchete
         var m = /^\s*\[(.+?)\]\s*(.*)$/.exec(l);
         h += m ? '<div class="lylabel">' + esc((m[1].trim() + ' ' + m[2].trim()).trim()) + '</div>'
