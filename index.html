@@ -309,13 +309,33 @@ footer {
 @media print{#themebtn{display:none !important;}}
 #stage .sarrow:hover{opacity:1;}
 #stage .sarrow.left{left:8px;} #stage .sarrow.right{right:8px;}
-#stage .sfab{position:absolute;right:14px;bottom:14px;z-index:6;display:flex;flex-direction:column;align-items:center;gap:9px;}
-#stage .sfabmenu{display:none;flex-direction:column;gap:9px;align-items:center;}
-#stage .sfab.open .sfabmenu{display:flex;}
-#stage .sfabmenu button{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:var(--paper);
-  color:var(--ink);font-family:'Oswald',sans-serif;font-weight:700;font-size:1rem;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.2);}
-#stage .sfabmain{width:54px;height:54px;border-radius:50%;border:none;background:var(--garnet);color:#fff;
-  font-size:1.7rem;line-height:1;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,.3);}
+/* Gaveta lateral: o gatilho mora na faixa de cima (que ja e area de controle),
+   entao nada fica por cima da cifra nem da letra. */
+#stage .sdbtn{width:30px;height:26px;border-radius:7px;border:1px solid var(--line);background:var(--glass);
+  color:var(--ink);font-size:.95rem;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;}
+#stage .sdbtn:hover{color:var(--garnet);border-color:var(--garnet);}
+#stage .sdrawer{position:absolute;inset:0;z-index:9;display:none;}
+#stage .sdrawer.open{display:block;}
+#stage .sdback{position:absolute;inset:0;background:rgba(0,0,0,.45);}
+#stage .sdpanel{position:absolute;top:0;right:0;bottom:0;width:min(290px,80vw);overflow-y:auto;
+  background:var(--paper);border-left:1px solid var(--line);box-shadow:-8px 0 28px rgba(0,0,0,.35);
+  padding:14px 12px;display:flex;flex-direction:column;gap:4px;}
+#stage .sdtitle{font-family:'Anton',sans-serif;text-transform:uppercase;color:var(--garnet);
+  font-size:1.05rem;letter-spacing:.03em;margin:2px 4px 10px;}
+#stage .sditem{display:flex;align-items:center;gap:12px;width:100%;padding:12px 10px;border-radius:10px;
+  border:1px solid transparent;background:none;color:var(--ink);cursor:pointer;text-align:left;
+  font-family:'Oswald',sans-serif;font-size:1rem;}
+#stage .sditem:hover{background:var(--paper2);border-color:var(--line);}
+#stage .sditem .sdico{width:1.5em;text-align:center;font-size:1.1rem;flex:0 0 auto;}
+#stage .sditem.on{background:var(--garnet);color:#fff;border-color:var(--garnet);}
+#stage .sditem.sair{color:var(--garnet);margin-top:6px;border-top:1px dotted var(--line);border-radius:0 0 10px 10px;}
+#stage .sdrow{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px;
+  font-family:'Oswald',sans-serif;font-size:1rem;}
+#stage .sdrow .sdbtns{display:flex;gap:6px;}
+#stage .sdrow button{width:42px;height:38px;border-radius:9px;border:1px solid var(--line);
+  background:var(--paper2);color:var(--ink);font-family:'Oswald',sans-serif;font-weight:700;cursor:pointer;}
+#stage .sdrow button:hover{border-color:var(--garnet);color:var(--garnet);}
+#stage .sdsep{height:1px;background:var(--line);margin:8px 4px;opacity:.6;}
 #stage .scardwrap{position:absolute;inset:0;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:36px 10px 32px;}
 #stage.scroll .scardwrap{overflow-y:auto;align-items:flex-start;}
 #stage .szone{position:absolute;top:0;bottom:0;width:24%;z-index:2;cursor:pointer;}
@@ -345,7 +365,6 @@ footer {
 /* musica sem letra cadastrada continua mostrando a cifra, mesmo no modo letra */
 #stage.lyrics .scard .song.has-lyrics .sections{display:none;}
 #stage.lyrics .scard .song.has-lyrics .lyrics{display:block;}
-#stage.lyrics .sfabmenu .lyfab{background:var(--garnet);color:#fff;border-color:var(--garnet);}
 #stage .snav{display:flex;justify-content:space-between;gap:10px;padding:7px 10px;background:var(--paper2);border-top:1px solid var(--line);z-index:3;}
 #stage .snav button{flex:1;font-size:1.9rem;line-height:1;font-family:'Oswald',sans-serif;font-weight:700;
   border:1px solid var(--line);background:var(--paper);border-radius:10px;padding:6px;cursor:pointer;color:var(--garnet);}
@@ -543,21 +562,25 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
   <div class="stoprow">
     <div class="stimer" id="stimer">⏱ 00:00</div>
     <div class="spos" id="spos"></div>
+    <button class="sdbtn" onclick="toggleDrawer()" aria-label="menu do palco">☰</button>
   </div>
   <div class="roleind" id="roleind"><span class="rdot"></span><span id="roleindtxt"></span></div>
   <div class="wakeind" id="wakeind"><span class="wdot"></span>Tela acesa</div>
   <button class="sarrow left" onclick="zoneClick(-1)" aria-label="anterior">‹</button>
   <button class="sarrow right" onclick="zoneClick(1)" aria-label="próxima">›</button>
-  <div class="sfab" id="sfab">
-    <div class="sfabmenu">
-      <button onclick="toggleTheme()" aria-label="tema"><span class="themeicon">☾</span></button>
-      <button onclick="bumpFont(1)" aria-label="aumentar">A+</button>
-      <button onclick="bumpFont(-1)" aria-label="diminuir">A−</button>
-      <button class="lyfab" onclick="toggleStageLyrics()" aria-label="letra">🎤</button>
-      <button onclick="toggleJump()" aria-label="lista">≡</button>
-      <button onclick="closeStage()" aria-label="sair">✕</button>
-    </div>
-    <button class="sfabmain" onclick="toggleFab()" aria-label="comandos">⋯</button>
+  <div class="sdrawer" id="sdrawer" aria-hidden="true">
+    <div class="sdback" onclick="closeDrawer()"></div>
+    <nav class="sdpanel" role="menu">
+      <div class="sdtitle">Modo Palco</div>
+      <button class="sditem" id="sdlyr" onclick="toggleStageLyrics()"><span class="sdico">🎤</span><span id="sdlyrlab">Ver letra</span></button>
+      <div class="sdrow"><span>Tamanho</span>
+        <div class="sdbtns"><button onclick="bumpFont(-1)" aria-label="diminuir">A−</button><button onclick="bumpFont(1)" aria-label="aumentar">A+</button></div>
+      </div>
+      <button class="sditem" onclick="toggleTheme()"><span class="sdico themeicon">☾</span><span>Tema</span></button>
+      <button class="sditem" onclick="toggleJump()"><span class="sdico">≡</span><span>Lista de músicas</span></button>
+      <div class="sdsep"></div>
+      <button class="sditem sair" onclick="closeDrawer();closeStage();"><span class="sdico">✕</span><span>Sair do Modo Palco</span></button>
+    </nav>
   </div>
   <div class="sjump" id="sjump"></div>
 </div>
@@ -566,7 +589,7 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
 <script>
 let SONGS = [], SONGS_ORDER = [];
 
-const APP_VERSION='2026-11-04 · 15:17 EST';
+const APP_VERSION='2026-11-04 · 15:23 EST';
 // ---- "tocando agora" em tempo real (opcional) ----
 // Cole aqui a URL do Realtime Database do Firebase + um caminho, por exemplo:
 //   'https://sambaky-ab12c-default-rtdb.firebaseio.com/live'
@@ -604,6 +627,7 @@ function render(){const o=SONGS_ORDER[idx];const src=document.getElementById(o.i
   document.getElementById('spos').textContent=o.label;
   if(!wrap)wrap=stage.querySelector('.scardwrap');wrap.scrollTop=0;
   applyFit();                                    // ajusta a escala ANTES de exibir
+  paintDrawer();                                 // a musica nova pode nao ter letra
   syncCurrent();                                 // avisa a tela do público
   requestAnimationFrame(()=>{                    // anima: desliza ao centro + fade
     scard.style.transition='';                   // volta pra transição do CSS
@@ -690,8 +714,24 @@ function openStage(){if(!isUnlocked()){openLock();return;}
     if(ls){var li=SONGS_ORDER.findIndex(function(o){return o.id===ls.id;}); if(li>=0)best=li;}
   }
   idx=best;stage.classList.add('open');stage.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';render();requestWakeLock();startShowTimer();}
-function closeStage(){syncPush(null);stage.classList.remove('open');stage.setAttribute('aria-hidden','true');document.body.style.overflow='';closeJump();const f=document.getElementById('sfab');if(f)f.classList.remove('open');releaseWakeLock();stopShowTimer();}
-function toggleFab(){document.getElementById('sfab').classList.toggle('open');}
+function closeStage(){syncPush(null);stage.classList.remove('open');stage.setAttribute('aria-hidden','true');document.body.style.overflow='';closeJump();closeDrawer();releaseWakeLock();stopShowTimer();}
+function toggleDrawer(){var g=document.getElementById('sdrawer');
+  if(g.classList.contains('open')){closeDrawer();return;}
+  paintDrawer(); g.classList.add('open'); g.setAttribute('aria-hidden','false');}
+function closeDrawer(){var g=document.getElementById('sdrawer');
+  g.classList.remove('open'); g.setAttribute('aria-hidden','true');}
+// o item de letra so existe quando a musica tem letra cadastrada
+function paintDrawer(){
+  var o=SONGS_ORDER[idx]||{}, m=SONGS.filter(function(s){return s.id===o.id;})[0];
+  var b=document.getElementById('sdlyr'), lab=document.getElementById('sdlyrlab');
+  if(!b)return;
+  var tem = !!(m && m.lyrics);
+  b.style.display = tem ? '' : 'none';
+  if(tem){var naLetra=stage.classList.contains('lyrics');
+    b.classList.toggle('on',naLetra); lab.textContent = naLetra ? 'Ver cifra' : 'Ver letra';}}
+document.addEventListener('keydown',function(e){
+  var g=document.getElementById('sdrawer');
+  if(g&&g.classList.contains('open')&&e.key==='Escape')closeDrawer();});
 function currentDark(){var h=document.documentElement;
   if(h.classList.contains('theme-dark'))return true;
   if(h.classList.contains('theme-light'))return false;
@@ -718,7 +758,7 @@ function nextSong(){if(idx<SONGS_ORDER.length-1){idx++;slideDir=1;render();}}
 function prevSong(){if(idx>0){idx--;slideDir=-1;render();}}
 function zoneClick(d){if(swiped)return;d<0?prevSong():nextSong();}
 function bumpFont(d){var k=curKey();if(!k)return;var b=Math.min(2.4,Math.max(0.6,curBoost()+d*0.12));boostMap[k]=b;saveBoostMap();applyFit();}
-function toggleJump(){const p=document.getElementById('sjump');document.getElementById('sfab').classList.remove('open');if(p.classList.contains('open')){closeJump();return;}
+function toggleJump(){const p=document.getElementById('sjump');closeDrawer();if(p.classList.contains('open')){closeJump();return;}
   let h='<div class="jver">versão '+APP_VERSION+'</div>';let lastBloco=null;SONGS_ORDER.forEach((o,i)=>{if(o.bloco!==lastBloco){h+='<h4>'+SB.blocoLabel(o.bloco)+'</h4>';lastBloco=o.bloco;}
     const num=(o.label.split('· ')[1]||'').split('/')[0];
     h+='<a href="#" onclick="jumpTo('+i+');return false;"><b>'+num+'</b>'+o.title+'</a>';});
@@ -845,6 +885,7 @@ document.addEventListener('click',function(ev){
 function toggleStageLyrics(){
   stage.classList.toggle('lyrics');
   applyFit();                                  // a letra ocupa outra altura: refaz o encaixe
+  paintDrawer();                               // "Ver letra" <-> "Ver cifra"
 }
 
 // ======== TELA DO PÚBLICO (?publico) ========
