@@ -4318,7 +4318,7 @@
       "bloco": 2,
       "title": "Quem É Ela?",
       "artist": "Zeca Pagodinho",
-      "tom": "G",
+      "tom": "F",
       "levada": "Samba",
       "singers": [
         {
@@ -4326,7 +4326,7 @@
           "name": "Gabriel"
         }
       ],
-      "note": "⚑ Forma: intro · 1ª parte · 2ª parte (2 letras) · “ela vai…” · 2ª parte (mais 2 letras) · final “Quem é ela” no D7.",
+      "note": "⚑ Forma: intro · 1ª parte · 2ª parte (2 letras) · “ela vai…” · 2ª parte (mais 2 letras) · final “Quem é ela” no C7.",
       "cols2": true,
       "chordsTop": true,
       "sections": [
@@ -4334,7 +4334,7 @@
           "label": "Intro",
           "lines": [
             {
-              "chords": "G → D7"
+              "chords": "F → C7"
             }
           ]
         },
@@ -4343,43 +4343,43 @@
           "lines": [
             {
               "cue": "Quem é ela que vai todo",
-              "chords": "G"
+              "chords": "F"
             },
             {
               "cue": "Dia na Ca…",
-              "chords": "E7"
+              "chords": "D7"
             },
             {
               "cue": "…pela, fazer oração acender",
-              "chords": "Am"
+              "chords": "Gm"
             },
             {
               "cue": "Vela, dizem que ela zela por",
-              "chords": "D7"
+              "chords": "C7"
             },
             {
               "cue": "Mim",
-              "chords": "G → D7"
+              "chords": "F → C7"
             },
             {
               "cue": "Me contaram que a menina",
-              "chords": "G"
+              "chords": "F"
             },
             {
               "cue": "Moça é don…",
-              "chords": "E7"
-            },
-            {
-              "cue": "…zela, mas quando ela está na jan…",
-              "chords": "Am"
-            },
-            {
-              "cue": "…ela, sempre joga beijos pra",
               "chords": "D7"
             },
             {
+              "cue": "…zela, mas quando ela está na jan…",
+              "chords": "Gm"
+            },
+            {
+              "cue": "…ela, sempre joga beijos pra",
+              "chords": "C7"
+            },
+            {
               "cue": "Mim",
-              "chords": "G → G7"
+              "chords": "F → F7"
             }
           ]
         },
@@ -4388,31 +4388,31 @@
           "lines": [
             {
               "cue": "Me contaram que ela tem por",
-              "chords": "C#m7(5-)"
-            },
-            {
-              "cue": "Mim um cham…",
-              "chords": "F#7"
-            },
-            {
-              "cue": "…ego, que todo lu…",
               "chords": "Bm7(5-)"
             },
             {
-              "cue": "…gar onde eu",
+              "cue": "Mim um cham…",
               "chords": "E7"
             },
             {
-              "cue": "Chego, depois ela",
-              "chords": "Am"
+              "cue": "…ego, que todo lu…",
+              "chords": "Am7(5-)"
             },
             {
-              "cue": "Chega tam…",
+              "cue": "…gar onde eu",
               "chords": "D7"
             },
             {
+              "cue": "Chego, depois ela",
+              "chords": "Gm"
+            },
+            {
+              "cue": "Chega tam…",
+              "chords": "C7"
+            },
+            {
               "cue": "…bém",
-              "chords": "G → G7"
+              "chords": "F → F7"
             },
             {
               "cue": "(mesma volta: “E me olha com jeito de quem quer carinho…” · “Qualquer dia me invoco e tomo coragem…” · “Meu Senhor por favor vem ouvir minha prece…”)"
@@ -4424,23 +4424,23 @@
           "lines": [
             {
               "cue": "Se eu vou na",
-              "chords": "G"
+              "chords": "F"
             },
             {
               "cue": "Mangueira",
-              "chords": "E7"
-            },
-            {
-              "cue": "Ela vai, se vou na",
-              "chords": "Am"
-            },
-            {
-              "cue": "Portela",
               "chords": "D7"
             },
             {
+              "cue": "Ela vai, se vou na",
+              "chords": "Gm"
+            },
+            {
+              "cue": "Portela",
+              "chords": "C7"
+            },
+            {
               "cue": "Ela está",
-              "chords": "G"
+              "chords": "F"
             },
             {
               "cue": "(mesma volta: Cacique de Ramos / Estácio de Sá · pagode em Xerém / pagode em Irajá)"
@@ -4452,7 +4452,7 @@
           "lines": [
             {
               "cue": "Quem é ela",
-              "chords": "D7"
+              "chords": "C7"
             }
           ]
         }
