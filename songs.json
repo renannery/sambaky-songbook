@@ -4061,261 +4061,6 @@
       "id": "b2-16",
       "num": 16,
       "bloco": 2,
-      "title": "Curtindo a Vida",
-      "artist": "Grupo Bom Gosto",
-      "tom": "Em",
-      "levada": "Pagode",
-      "singers": [
-        {
-          "key": "nery",
-          "name": "Nery"
-        }
-      ],
-      "note": null,
-      "cols2": true,
-      "chordsTop": true,
-      "sections": [
-        {
-          "label": "Intro",
-          "lines": [
-            {
-              "cue": "Guere guerê, guere guerê…",
-              "chords": "Em7(9) → B7(4/9) → F#m7(5-) → B7(9-)   (repetir)"
-            }
-          ]
-        },
-        {
-          "label": "Parte",
-          "lines": [
-            {
-              "cue": "Quer saber? Tudo tem um porquê…",
-              "chords": "A7(4/9) → B7(4/9)  /  A7(4/9) → B7(4/9)"
-            },
-            {
-              "cue": "Antes só do que ser infeliz",
-              "chords": "Bb7(4/9) → A7(4/9) → B7(4/9)"
-            },
-            {
-              "cue": "Sei que vou encontrar diretriz…",
-              "chords": "A7(4/9) → B7(4/9)  /  F#m7(5-) → B7(9-)"
-            }
-          ]
-        },
-        {
-          "label": "Refrão",
-          "lines": [
-            {
-              "cue": "Enquanto eu não encontro eu vou curtindo a vida",
-              "chords": "Em7(9) → B7(4/9)"
-            },
-            {
-              "cue": "…eu vou beijando em boca",
-              "chords": "F#m7(5-) → B7(9-)"
-            },
-            {
-              "cue": "…vou badalando / pagodeando",
-              "chords": "Em7(9) → B7(4/9)"
-            },
-            {
-              "cue": "Eu sou da boemia, da Lua",
-              "chords": "F#m7(5-) → B7(9-)"
-            }
-          ]
-        },
-        {
-          "label": "Ponte",
-          "lines": [
-            {
-              "cue": "Guere guerê…",
-              "chords": "Em7(9) → B7(4/9) → F#m7(5-) → B7(9-)"
-            }
-          ]
-        },
-        {
-          "label": "Final",
-          "lines": [
-            {
-              "chords": "Em7(9)"
-            }
-          ]
-        }
-      ],
-      "lyrics": "[Intro] (2×)\nGuereguerê, guereguerê, guereguerê, guereguerê\nDa Lua!\n\n[Parte]\nQuer saber tudo tem um porquê\nTô legal, quero mais é viver\nAntes só, do que ser infeliz\nSei que vou encontrar diretriz\nPro meu coração\n\n[Refrão]\nEnquanto eu não encontro\nEu vou curtindo a vida\nEnquanto eu não encontro\nEu vou tirando onda\nEnquanto eu não encontro\nEu vou beijando em boca\n\n[Ponte]\nEnquanto eu não encontro\nEu vou badalando\nEnquanto eu não encontro\nEu vou pagodeando\n\n[Final]\nEnquanto eu não encontro\nEu sou da boemia, da Lua"
-    },
-    {
-      "id": "b2-17",
-      "num": 17,
-      "bloco": 2,
-      "title": "Conselho",
-      "artist": "Grupo Revelação",
-      "tom": "G",
-      "levada": "Samba",
-      "singers": [
-        {
-          "key": "mosquitao",
-          "name": "Mosquitão"
-        }
-      ],
-      "note": null,
-      "cols2": false,
-      "chordsTop": true,
-      "sections": [
-        {
-          "label": "1ª Parte",
-          "lines": [
-            {
-              "cue": "Deixe de lado esse baixo astral…",
-              "chords": "G → Bm  /  Dm → G7 → C"
-            },
-            {
-              "chords": "Cm → Bm → F7 → E7  /  Am → A7 → D7 → D"
-            }
-          ]
-        },
-        {
-          "label": "Ponte",
-          "lines": [
-            {
-              "cue": "Pra que se lamentar…",
-              "chords": "G → Bm  /  Dm → G7 → C"
-            },
-            {
-              "chords": "Cm → Bm → E7  /  Am → D#7 → D7 → G → D7"
-            }
-          ]
-        },
-        {
-          "label": "Refrão",
-          "lines": [
-            {
-              "cue": "Tem que lutar, não se abater…",
-              "chords": "G → Bm  /  Dm → G7 → C"
-            },
-            {
-              "chords": "Cm → Bm → F7 → E7  /  Am → D7 → G → D7"
-            }
-          ]
-        }
-      ],
-      "lyrics": "[1ª Parte]\nDeixe de lado esse baixo astral\nErga a cabeça, enfrente o mal\nQue agindo assim será vital para o seu coração\nÉ que em cada experiência\nSe aprende uma lição\nEu já sofri por amar assim, me dediquei mas foi tudo em vão\n\n[Ponte]\nPra que se lamentar\nSe em sua vida pode encontrar\nQuem te ame com toda força e ardor\nAssim sucumbirá a dor (tem que lutar)\n\n[Refrão] (2×)\nTem que lutar, não se abater\nSó se entregar a quem te merecer\nNão estou dando, nem vendendo, como o ditado diz\nO meu conselho é pra te ver feliz\n\n[Repete tudo — depois o Lararaia / Laia laia e o Refrão até acabar]"
-    },
-    {
-      "id": "b2-18",
-      "num": 18,
-      "bloco": 2,
-      "title": "Hoje Eu Vou Pagodear",
-      "artist": "Dilsinho",
-      "tom": "F",
-      "levada": "Pagode",
-      "singers": [
-        {
-          "key": "gabriel",
-          "name": "Gabriel"
-        }
-      ],
-      "note": null,
-      "cols2": true,
-      "chordsTop": true,
-      "sections": [
-        {
-          "label": "Intro",
-          "lines": [
-            {
-              "chords": "F → Gm7 → Am7 → D7 → G7 → Gm7 → C7"
-            }
-          ]
-        },
-        {
-          "label": "1ª Parte",
-          "lines": [
-            {
-              "cue": "A lua ilumina o terreiro…",
-              "chords": "F"
-            },
-            {
-              "cue": "Pagodeando até o sol raiar",
-              "chords": "Bb → C7 → F → C7/6 → C7"
-            },
-            {
-              "cue": "Ao som do cavaquinho…",
-              "chords": "F"
-            },
-            {
-              "cue": "No samba hoje eu vou me acabar",
-              "chords": "Bb → C7 → F → Cm → F7"
-            }
-          ]
-        },
-        {
-          "label": "2ª Parte (2x)",
-          "lines": [
-            {
-              "cue": "Beber uma cerveja bem gelada…",
-              "chords": "Bb"
-            },
-            {
-              "cue": "Na loira, na pretinha…",
-              "chords": "Am → C/D → D7"
-            },
-            {
-              "cue": "Pode até chover e relampejar",
-              "chords": "Gm7 → Am"
-            },
-            {
-              "cue": "Hoje eu vou pagodear…",
-              "chords": "Gm7 → C7 → F → C → Cm → F7   (2ª vez: → F → F7)"
-            }
-          ]
-        },
-        {
-          "label": "Pré-Refrão (2x)",
-          "lines": [
-            {
-              "cue": "Como é gostoso cair no samba…",
-              "chords": "Bb"
-            },
-            {
-              "cue": "Você também pode ir pro samba…",
-              "chords": "F → F7 → Eb7 → D7"
-            },
-            {
-              "cue": "Bom é na palma da mão…",
-              "chords": "G7 → Gm7"
-            },
-            {
-              "cue": "Venha comigo sambar…",
-              "chords": "C7 → F → C → Cm → F7   (2ª vez: → C7)"
-            }
-          ]
-        },
-        {
-          "label": "Refrão",
-          "lines": [
-            {
-              "cue": "Abra a roda que o pagode…",
-              "chords": "F → D7 → Gm7"
-            },
-            {
-              "cue": "Se você me escutar…",
-              "chords": "C7 → F"
-            },
-            {
-              "cue": "Vem sambar o miudinho…",
-              "chords": "D7 → Gm7"
-            },
-            {
-              "cue": "Que o samba tem feitiço…",
-              "chords": "C7 → F"
-            }
-          ]
-        }
-      ],
-      "lyrics": "[1ª Parte]\nA lua ilumina o terreiro\nConvidando o partideiro pra cantar a noite inteira\nPagodeando até o sol raiar\nAo som do cavaquinho, violão\nDo repique, do tantã, do banjo e do pandeiro\nNo samba hoje eu vou me acabar\n\n[2ª Parte] (2×)\nBeber uma cerveja bem gelada\nDar aquela paquerada junto com a rapaziada\nNa loira, na pretinha, na morena\nNa gracinha, no design da bundinha da mulata\nPode até chover e relampejar\n\n[Pré-Refrão] (2×)\nHoje eu vou pagodear, hoje eu vou pagodear\n(hoje eu vou pagodear)\nComo é gostoso cair no samba, no samba\nVocê também pode ir pro samba, sambar\nBom é na palma da mão na roda de samba\nVenha comigo sambar (100% vem sambar)\n\n[Refrão]\nAbra a roda que o pagode agora vai ferver\nSe você me escutar não vai se arrepender\nVem sambar o miudinho que você vai ver\nQue o samba tem feitiço faz enlouquecer"
-    },
-    {
-      "id": "b2-19",
-      "num": 19,
-      "bloco": 2,
       "title": "Quem É Ela?",
       "artist": "Zeca Pagodinho",
       "tom": "F",
@@ -4458,6 +4203,261 @@
         }
       ],
       "lyrics": "[1ª Parte] (2×)\nQuem é ela?\nQue vai todo dia na capela\nFazer oração, acender vela\nDizem que ela zela por mim\nMe contaram\nQue a menina moça é donzela\nMas quando ela está na janela\nSempre joga beijos pra mim\n\n[2ª Parte]\nMe contaram\nQue ela tem por mim um chamego\nEm todo lugar onde eu chego\nDepois ela chega também\nE me olha\nCom jeito de quem quer carinho\nEu fico pensando sozinho\nSerá que ela quer ser meu bem?\n\n[3ª Parte · \"ela vai...\"] (2×)\nSe eu vou na Mangueira, ela vai\nSe eu vou na Portela, ela está\nEla vai no Cacique de Ramos\nEla vai no Estácio de Sá\nEla vai no pagode em Xerém\nEla vai no pagode em Irajá\n\n[Final]\nQualquer dia\nMe invoco e tomo coragem\nE rezo em frente a imagem\nDo bom Jesus de Nazaré\nMeu Senhor, por favor\nVem ouvir minha prece\nPois só tem a paz quem merece\nSó tem amor quem tem fé\n\n[Repete tudo — e a 3ª Parte vai repetindo até acabar, com os ganchos falados]"
+    },
+    {
+      "id": "b2-17",
+      "num": 17,
+      "bloco": 2,
+      "title": "Curtindo a Vida",
+      "artist": "Grupo Bom Gosto",
+      "tom": "Em",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "nery",
+          "name": "Nery"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "cue": "Guere guerê, guere guerê…",
+              "chords": "Em7(9) → B7(4/9) → F#m7(5-) → B7(9-)   (repetir)"
+            }
+          ]
+        },
+        {
+          "label": "Parte",
+          "lines": [
+            {
+              "cue": "Quer saber? Tudo tem um porquê…",
+              "chords": "A7(4/9) → B7(4/9)  /  A7(4/9) → B7(4/9)"
+            },
+            {
+              "cue": "Antes só do que ser infeliz",
+              "chords": "Bb7(4/9) → A7(4/9) → B7(4/9)"
+            },
+            {
+              "cue": "Sei que vou encontrar diretriz…",
+              "chords": "A7(4/9) → B7(4/9)  /  F#m7(5-) → B7(9-)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Enquanto eu não encontro eu vou curtindo a vida",
+              "chords": "Em7(9) → B7(4/9)"
+            },
+            {
+              "cue": "…eu vou beijando em boca",
+              "chords": "F#m7(5-) → B7(9-)"
+            },
+            {
+              "cue": "…vou badalando / pagodeando",
+              "chords": "Em7(9) → B7(4/9)"
+            },
+            {
+              "cue": "Eu sou da boemia, da Lua",
+              "chords": "F#m7(5-) → B7(9-)"
+            }
+          ]
+        },
+        {
+          "label": "Ponte",
+          "lines": [
+            {
+              "cue": "Guere guerê…",
+              "chords": "Em7(9) → B7(4/9) → F#m7(5-) → B7(9-)"
+            }
+          ]
+        },
+        {
+          "label": "Final",
+          "lines": [
+            {
+              "chords": "Em7(9)"
+            }
+          ]
+        }
+      ],
+      "lyrics": "[Intro] (2×)\nGuereguerê, guereguerê, guereguerê, guereguerê\nDa Lua!\n\n[Parte]\nQuer saber tudo tem um porquê\nTô legal, quero mais é viver\nAntes só, do que ser infeliz\nSei que vou encontrar diretriz\nPro meu coração\n\n[Refrão]\nEnquanto eu não encontro\nEu vou curtindo a vida\nEnquanto eu não encontro\nEu vou tirando onda\nEnquanto eu não encontro\nEu vou beijando em boca\n\n[Ponte]\nEnquanto eu não encontro\nEu vou badalando\nEnquanto eu não encontro\nEu vou pagodeando\n\n[Final]\nEnquanto eu não encontro\nEu sou da boemia, da Lua"
+    },
+    {
+      "id": "b2-18",
+      "num": 18,
+      "bloco": 2,
+      "title": "Conselho",
+      "artist": "Grupo Revelação",
+      "tom": "G",
+      "levada": "Samba",
+      "singers": [
+        {
+          "key": "mosquitao",
+          "name": "Mosquitão"
+        }
+      ],
+      "note": null,
+      "cols2": false,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "Deixe de lado esse baixo astral…",
+              "chords": "G → Bm  /  Dm → G7 → C"
+            },
+            {
+              "chords": "Cm → Bm → F7 → E7  /  Am → A7 → D7 → D"
+            }
+          ]
+        },
+        {
+          "label": "Ponte",
+          "lines": [
+            {
+              "cue": "Pra que se lamentar…",
+              "chords": "G → Bm  /  Dm → G7 → C"
+            },
+            {
+              "chords": "Cm → Bm → E7  /  Am → D#7 → D7 → G → D7"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Tem que lutar, não se abater…",
+              "chords": "G → Bm  /  Dm → G7 → C"
+            },
+            {
+              "chords": "Cm → Bm → F7 → E7  /  Am → D7 → G → D7"
+            }
+          ]
+        }
+      ],
+      "lyrics": "[1ª Parte]\nDeixe de lado esse baixo astral\nErga a cabeça, enfrente o mal\nQue agindo assim será vital para o seu coração\nÉ que em cada experiência\nSe aprende uma lição\nEu já sofri por amar assim, me dediquei mas foi tudo em vão\n\n[Ponte]\nPra que se lamentar\nSe em sua vida pode encontrar\nQuem te ame com toda força e ardor\nAssim sucumbirá a dor (tem que lutar)\n\n[Refrão] (2×)\nTem que lutar, não se abater\nSó se entregar a quem te merecer\nNão estou dando, nem vendendo, como o ditado diz\nO meu conselho é pra te ver feliz\n\n[Repete tudo — depois o Lararaia / Laia laia e o Refrão até acabar]"
+    },
+    {
+      "id": "b2-19",
+      "num": 19,
+      "bloco": 2,
+      "title": "Hoje Eu Vou Pagodear",
+      "artist": "Dilsinho",
+      "tom": "F",
+      "levada": "Pagode",
+      "singers": [
+        {
+          "key": "gabriel",
+          "name": "Gabriel"
+        }
+      ],
+      "note": null,
+      "cols2": true,
+      "chordsTop": true,
+      "sections": [
+        {
+          "label": "Intro",
+          "lines": [
+            {
+              "chords": "F → Gm7 → Am7 → D7 → G7 → Gm7 → C7"
+            }
+          ]
+        },
+        {
+          "label": "1ª Parte",
+          "lines": [
+            {
+              "cue": "A lua ilumina o terreiro…",
+              "chords": "F"
+            },
+            {
+              "cue": "Pagodeando até o sol raiar",
+              "chords": "Bb → C7 → F → C7/6 → C7"
+            },
+            {
+              "cue": "Ao som do cavaquinho…",
+              "chords": "F"
+            },
+            {
+              "cue": "No samba hoje eu vou me acabar",
+              "chords": "Bb → C7 → F → Cm → F7"
+            }
+          ]
+        },
+        {
+          "label": "2ª Parte (2x)",
+          "lines": [
+            {
+              "cue": "Beber uma cerveja bem gelada…",
+              "chords": "Bb"
+            },
+            {
+              "cue": "Na loira, na pretinha…",
+              "chords": "Am → C/D → D7"
+            },
+            {
+              "cue": "Pode até chover e relampejar",
+              "chords": "Gm7 → Am"
+            },
+            {
+              "cue": "Hoje eu vou pagodear…",
+              "chords": "Gm7 → C7 → F → C → Cm → F7   (2ª vez: → F → F7)"
+            }
+          ]
+        },
+        {
+          "label": "Pré-Refrão (2x)",
+          "lines": [
+            {
+              "cue": "Como é gostoso cair no samba…",
+              "chords": "Bb"
+            },
+            {
+              "cue": "Você também pode ir pro samba…",
+              "chords": "F → F7 → Eb7 → D7"
+            },
+            {
+              "cue": "Bom é na palma da mão…",
+              "chords": "G7 → Gm7"
+            },
+            {
+              "cue": "Venha comigo sambar…",
+              "chords": "C7 → F → C → Cm → F7   (2ª vez: → C7)"
+            }
+          ]
+        },
+        {
+          "label": "Refrão",
+          "lines": [
+            {
+              "cue": "Abra a roda que o pagode…",
+              "chords": "F → D7 → Gm7"
+            },
+            {
+              "cue": "Se você me escutar…",
+              "chords": "C7 → F"
+            },
+            {
+              "cue": "Vem sambar o miudinho…",
+              "chords": "D7 → Gm7"
+            },
+            {
+              "cue": "Que o samba tem feitiço…",
+              "chords": "C7 → F"
+            }
+          ]
+        }
+      ],
+      "lyrics": "[1ª Parte]\nA lua ilumina o terreiro\nConvidando o partideiro pra cantar a noite inteira\nPagodeando até o sol raiar\nAo som do cavaquinho, violão\nDo repique, do tantã, do banjo e do pandeiro\nNo samba hoje eu vou me acabar\n\n[2ª Parte] (2×)\nBeber uma cerveja bem gelada\nDar aquela paquerada junto com a rapaziada\nNa loira, na pretinha, na morena\nNa gracinha, no design da bundinha da mulata\nPode até chover e relampejar\n\n[Pré-Refrão] (2×)\nHoje eu vou pagodear, hoje eu vou pagodear\n(hoje eu vou pagodear)\nComo é gostoso cair no samba, no samba\nVocê também pode ir pro samba, sambar\nBom é na palma da mão na roda de samba\nVenha comigo sambar (100% vem sambar)\n\n[Refrão]\nAbra a roda que o pagode agora vai ferver\nSe você me escutar não vai se arrepender\nVem sambar o miudinho que você vai ver\nQue o samba tem feitiço faz enlouquecer"
     },
     {
       "id": "b2-20",
