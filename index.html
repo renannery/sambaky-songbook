@@ -279,6 +279,15 @@ footer {
 #stage{position:fixed;inset:0;z-index:1000;background:var(--paper);display:none;}
 #stage.open{display:block;}
 #stage .stoprow{position:absolute;top:8px;right:12px;z-index:4;display:flex;align-items:center;gap:8px;}
+/* "a seguir": fica na mesma linha do contador pra nao roubar altura do card.
+   Encolhe antes dos outros (min-width:0) e corta com reticencias. */
+#stage .snext{font-family:'Oswald',sans-serif;font-size:.8rem;color:var(--muted);
+  background:var(--glass);border:1px solid var(--line);border-radius:20px;padding:3px 12px;
+  display:none;align-items:center;gap:6px;min-width:0;max-width:min(38vw,340px);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+#stage .snext.on{display:inline-flex;}
+#stage .snext b{color:var(--ink);font-weight:600;overflow:hidden;text-overflow:ellipsis;}
+#stage .snext .seta{color:var(--garnet);flex:0 0 auto;}
 #stage .spos{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--garnet);font-size:.85rem;
   background:var(--glass);border:1px solid var(--line);border-radius:20px;padding:3px 12px;}
 #stage .stimer{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--ink);font-size:.85rem;
@@ -377,6 +386,13 @@ footer {
 #stage .sjump h4{font-family:'Anton',sans-serif;color:var(--garnet);margin:14px 0 6px;text-transform:uppercase;font-weight:400;}
 #stage .sjump a{display:flex;gap:10px;padding:11px 6px;border-bottom:1px dotted var(--line);text-decoration:none;color:var(--ink);font-family:'Oswald',sans-serif;font-size:1.1rem;}
 #stage .sjump a b{color:var(--garnet);min-width:2.4em;}
+/* Em tela estreita nao cabe na mesma linha: cortava o titulo em 143px e
+   ainda invadia o card. Entao ganha uma linha so dele, e o card desce. */
+@media (max-width:700px){
+  #stage .stoprow{left:12px;flex-wrap:wrap;justify-content:flex-end;}
+  #stage .snext{flex:1 0 100%;max-width:100%;justify-content:flex-end;margin-top:2px;}
+  #stage .scardwrap{padding-top:74px;}
+}
 @media print{#stagebtn,#stage{display:none !important;}}
 
 /* ===== IMPRESSÃO / PDF (1 música por página, estilo Modo Palco) ===== */
@@ -567,6 +583,7 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
   <div class="stoprow">
     <div class="stimer" id="stimer">⏱ 00:00</div>
     <div class="spos" id="spos"></div>
+    <div class="snext" id="snext"></div>
     <button class="sdbtn" onclick="toggleDrawer()" aria-label="menu do palco">☰</button>
   </div>
   <div class="roleind" id="roleind"><span class="rdot"></span><span id="roleindtxt"></span></div>
@@ -594,7 +611,7 @@ body.publico .wrap,body.publico #stagebtn,body.publico #printbtn,body.publico #m
 <script>
 let SONGS = [], SONGS_ORDER = [];
 
-const APP_VERSION='2026-11-07 · 10:11 EST';
+const APP_VERSION='2026-11-07 · 10:21 EST';
 // ---- "tocando agora" em tempo real (opcional) ----
 // Cole aqui a URL do Realtime Database do Firebase + um caminho, por exemplo:
 //   'https://sambaky-ab12c-default-rtdb.firebaseio.com/live'
@@ -633,6 +650,7 @@ function render(){const o=SONGS_ORDER[idx];const src=document.getElementById(o.i
   if(!wrap)wrap=stage.querySelector('.scardwrap');wrap.scrollTop=0;
   applyFit();                                    // ajusta a escala ANTES de exibir
   paintDrawer();                                 // a musica nova pode nao ter letra
+  paintNext();                                   // avisa a banda o que vem depois
   syncCurrent();                                 // avisa a tela do público
   requestAnimationFrame(()=>{                    // anima: desliza ao centro + fade
     scard.style.transition='';                   // volta pra transição do CSS
@@ -726,6 +744,17 @@ function toggleDrawer(){var g=document.getElementById('sdrawer');
 function closeDrawer(){var g=document.getElementById('sdrawer');
   g.classList.remove('open'); g.setAttribute('aria-hidden','true');}
 // o item de letra so existe quando a musica tem letra cadastrada
+// quem nao esta com o songbook na mao precisa saber o que vem pra ja pegar o instrumento
+function paintNext(){
+  var el=document.getElementById('snext'); if(!el)return;
+  var prox=SONGS_ORDER[idx+1];
+  if(!prox){el.classList.remove('on');el.innerHTML='';return;}
+  var m=SONGS.filter(function(s){return s.id===prox.id;})[0];
+  var quem = (m&&m.singers&&m.singers.length)
+    ? ' \u00b7 ' + m.singers.map(function(g){return g.name;}).join(', ') : '';
+  el.innerHTML='<span class="seta">\u2192</span><b>'+SB.esc(prox.title)+'</b>'+SB.esc(quem);
+  el.classList.add('on');
+}
 function paintDrawer(){
   var o=SONGS_ORDER[idx]||{}, m=SONGS.filter(function(s){return s.id===o.id;})[0];
   var b=document.getElementById('sdlyr'), lab=document.getElementById('sdlyrlab');
